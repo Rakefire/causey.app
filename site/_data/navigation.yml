@@ -17,5 +17,5 @@ navigation_items:
     link_url: https://app.missionmet.center/sign_in
     link_type: Text
   - label: Sign up
-    link_url: /pricing/
+    link_url: https://app.missionmet.center/sign_ups/new
     link_type: Button
