@@ -57,5 +57,4 @@ link_columns:
         icon_image: /images/svg/rss.svg
         open_in_new_tab: false
 lower_text_html: >-
-  <p>© 2021 MyApp Ltd. • <a href="#">Terms</a> &amp; <a href="#">Privacy</a> •
-  <a href="https://cloudcannon.com/community/">Template by CloudCannon</a></p>
+  <p>© 2023 Mission Met LLC. • <a href="/terms">Terms</a> &amp; <a href="/privacy">Privacy</a>
