@@ -22,7 +22,7 @@ link_columns:
     heading:
     links:
       - link_label: Login
-        link_url: '#'
+        link_url: https://app.missionmet.center/sign_in
         icon_image:
         open_in_new_tab: false
       - link_label: Sign Up
@@ -57,4 +57,5 @@ link_columns:
         icon_image: /images/svg/rss.svg
         open_in_new_tab: false
 lower_text_html: >-
-  <p>© 2023 Mission Met LLC. • <a href="/terms">Terms</a> &amp; <a href="/privacy">Privacy</a>
+  <p>© 2023 Mission Met LLC. • <a href="/terms">Terms</a> &amp; <a
+  href="/privacy">Privacy</a></p>
