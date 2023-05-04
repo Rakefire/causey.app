@@ -1,9 +1,9 @@
 website_theme: Hydra
-website_name: Hydra
-live_domain_url:
-website_description_text:
+website_name: Causey
+live_domain_url: https://www.causey.app
+website_description_text: Strategic Planning Software for mission-driven organizations.
 social_media_share_image:
-twitter_handle:
+twitter_handle: '@causeystrat'
 icons:
   small_bookmark_icon_image: /images/icons/favicon-16.jpg
   large_bookmark_icon_image: /images/icons/favicon-32.jpg
