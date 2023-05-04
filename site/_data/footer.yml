@@ -30,11 +30,11 @@ link_columns:
         icon_image:
         open_in_new_tab: false
       - link_label: Docs
-        link_url: '#'
+        link_url: https://help.causey.app/
         icon_image:
         open_in_new_tab: false
       - link_label: Status
-        link_url: '#'
+        link_url: https://status.causey.app/
         icon_image:
         open_in_new_tab: false
   - label: Social
