@@ -9,3 +9,5 @@ bookshop-dev.js
 assets/js/site.js
 __BOOKSHOP_VENDOR__
 .DS_Store
+
+site/.bundle
