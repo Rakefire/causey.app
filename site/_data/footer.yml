@@ -22,7 +22,7 @@ link_columns:
     heading:
     links:
       - link_label: Login
-        link_url: https://app.missionmet.center/sign_in
+        link_url: https://us.causey.app/sign_in
         icon_image:
         open_in_new_tab: false
       - link_label: Sign Up
