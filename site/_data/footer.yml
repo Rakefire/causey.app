@@ -26,7 +26,7 @@ link_columns:
         icon_image:
         open_in_new_tab: false
       - link_label: Sign Up
-        link_url: '/pricing/'
+        link_url: /pricing/
         icon_image:
         open_in_new_tab: false
       - link_label: Docs
@@ -41,21 +41,21 @@ link_columns:
     heading:
     links:
       - link_label: Facebook
-        link_url: 'https://facebook.com/cloudcannon/'
+        link_url: https://facebook.com/cloudcannon/
         icon_image: /images/svg/facebook.svg
         open_in_new_tab: false
       - link_label: Twitter
-        link_url: 'https://twitter.com/cloudcannon/'
+        link_url: https://twitter.com/cloudcannon/
         icon_image: /images/svg/twitter.svg
         open_in_new_tab: false
       - link_label: Youtube
-        link_url: 'https://youtube.com/cloudcannon/'
+        link_url: https://youtube.com/cloudcannon/
         icon_image: /images/svg/youtube.svg
         open_in_new_tab: false
       - link_label: RSS
-        link_url: '/feed.xml'
+        link_url: /feed.xml
         icon_image: /images/svg/rss.svg
         open_in_new_tab: false
-
 lower_text_html: >-
-  <p>© 2021 MyApp Ltd. • <a href="#">Terms</a> & <a href="#">Privacy</a> • <a href="https://cloudcannon.com/community/">Template by CloudCannon</a></p>
+  <p>© 2021 MyApp Ltd. • <a href="#">Terms</a> &amp; <a href="#">Privacy</a> •
+  <a href="https://cloudcannon.com/community/">Template by CloudCannon</a></p>
