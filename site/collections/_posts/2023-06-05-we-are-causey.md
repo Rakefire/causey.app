@@ -1,5 +1,5 @@
 ---
-date: 2023-06-05 00:00:00
+date: 2023-05-19 00:00:00
 title: We are Causey
 categories:
   - features
@@ -10,9 +10,10 @@ SEO_options:
   image:
   prevent_indexing: false
 blurb: >-
-  Introducing Causey: rebranded strategic planning software to unite teams, drive data-based decisions, streamline goals & boost collaboration for mission-driven organizations. Try now!
+  Introducing Causey: rebranded strategic planning software to unite teams,
+  drive data-based decisions, streamline goals & boost collaboration for
+  mission-driven organizations. Try now!
 ---
-
 # We are Causey
 
 We are thrilled to announce the rebrand of our strategic planning software, Mission Met Center, now called "Causey"! This powerful tool has been redesigned and upgraded to better serve the needs of mission-driven organizations and nonprofits. Causey embodies our commitment to empower organizations in their quest to make a meaningful impact, bringing you even more features and benefits to support your strategic planning journey.
