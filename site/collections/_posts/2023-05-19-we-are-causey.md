@@ -5,12 +5,12 @@ categories:
   - features
 author_staff_member: 6ab925e3-9897-4b5d-84a5-19146f8b9c46
 SEO_options:
-  title:
-  description:
+  title: "We are Causey"
+  description: "Introducing Causey: strategic planning software to unite teams."
   image:
   prevent_indexing: false
 blurb: >-
-  Introducing Causey: rebranded strategic planning software to unite teams,
+  Introducing Causey: strategic planning software to unite teams,
   drive data-based decisions, streamline goals & boost collaboration for
   mission-driven organizations. Try now!
 ---

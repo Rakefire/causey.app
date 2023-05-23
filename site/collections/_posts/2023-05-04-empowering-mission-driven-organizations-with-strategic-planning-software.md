@@ -7,7 +7,7 @@ categories:
 author_staff_member: 6ab925e3-9897-4b5d-84a5-19146f8b9c46
 SEO_options:
   title: Empowering Mission-Driven Organizations with Strategic Planning Software
-  description: Boost nonprofit success with strategic planning software: align teams, make data-driven decisions, streamline goals & enhance collaboration for long-term impact.
+  description: "Boost nonprofit success with strategic planning software: align teams, make data-driven decisions, streamline goals & enhance collaboration for long-term impact."
   image:
   prevent_indexing: false
 blurb: "Boost nonprofit success with strategic planning software: align teams, make data-driven decisions, streamline goals & enhance collaboration for long-term impact."
