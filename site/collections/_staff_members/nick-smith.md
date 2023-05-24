@@ -4,6 +4,7 @@ name: Nick Smith
 position: Software Developer
 image:
 twitter:
+linkedin:
 blurb:
 phone:
 phone_extension:

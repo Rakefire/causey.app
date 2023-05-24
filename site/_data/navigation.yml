@@ -14,8 +14,8 @@ navigation_items:
     link_url: /contact/
     link_type: Text
   - label: Login
-    link_url: https://us.causey.app/sign_in
+    link_url: https://app.causey.app/sign_in
     link_type: Text
   - label: Sign up
-    link_url: https://us.causey.app/sign_ups/new
+    link_url: https://app.causey.app/sign_ups/new
     link_type: Button

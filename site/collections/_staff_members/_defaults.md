@@ -4,6 +4,7 @@ name:
 position:
 image:
 twitter:
+linkedin:
 blurb:
 phone:
 phone_extension:

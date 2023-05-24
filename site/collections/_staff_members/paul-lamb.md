@@ -4,6 +4,7 @@ name: Paul Lamb
 position: Consultant
 image:
 twitter:
+linkedin:
 blurb:
 phone:
 phone_extension:

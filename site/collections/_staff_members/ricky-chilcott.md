@@ -4,6 +4,7 @@ name: Ricky Chilcott
 position: Co-Founder, Developer
 image:
 twitter:
+linkedin:
 blurb:
 phone:
 phone_extension:

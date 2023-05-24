@@ -4,6 +4,7 @@ name: Eric Ryan
 position: Co-Founder, Lead Consultant
 image:
 twitter:
+linkedin:
 blurb:
 phone:
 phone_extension:

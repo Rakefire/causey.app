@@ -4,6 +4,7 @@ name: Megan Drapcho
 position: Head of Support
 image: /uploads/n02a0033.jpg
 twitter:
+linkedin:
 blurb:
 phone:
 phone_extension:

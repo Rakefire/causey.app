@@ -4,6 +4,7 @@ name: Glyn Donesa
 position: Office Ops
 image:
 twitter:
+linkedin:
 blurb:
 phone:
 phone_extension:
