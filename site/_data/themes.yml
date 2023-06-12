@@ -3,17 +3,17 @@ hydra:
     page_color: "#ffffff"
     light_component_color: "#ffffff"
     dark_component_color: "#f5f5f5"
-    brand_color: "#4182e4"
+    brand_color: "#cb3727"
     headings_color: "#000000"
     text_color: "#666666"
     light_text_color: "#ffffff"
     link_color: "#00a4ca"
-    button_fill_color: "#4182e4"
+    button_fill_color: "#cb3727"
     button_fill_text_color: "#ffffff"
     tag_color: '#eeeeee'
     border_color: '#dfdfdf'
     shadows_color: '#f7f7f7'
-    navigation_color: '#4182e4'
+    navigation_color: '#cb3727'
     footer_color: '#2b2b40'
     footer_link_color: '#999999'
     footer_link_hover_color: '#ffffff'

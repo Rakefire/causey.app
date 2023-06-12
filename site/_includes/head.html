@@ -21,24 +21,34 @@
     <link rel="stylesheet" href="/assets/main.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-    <link rel="shortcut icon" href="{{ site.data.general_settings.icons.large_bookmark_icon_image }}">
-    <link rel="icon" type="image/png" href="{{ site.data.general_settings.icons.large_bookmark_icon_image }}" sizes="32x32" />
-    <link rel="icon" type="image/png" href="{{ site.data.general_settings.icons.small_bookmark_icon_image }}" sizes="16x16" />
 
-    <link rel="apple-touch-icon" sizes="128x128" href="{{ site.data.general_settings.icons.small_mobile_icon_image }}">
-    <link rel="apple-touch-icon" sizes="256x256" href="{{ site.data.general_settings.icons.large_mobile_icon_image }}">
-    <link rel="icon" sizes="128x128" href="{{ site.data.general_settings.icons.small_mobile_icon_image }}" />
-    <link rel="icon" sizes="256x256" href="{{ site.data.general_settings.icons.large_mobile_icon_image }}" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/icons/favicon-16x16.png">
+    <link rel="manifest" href="/images/icons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 
     {% if theme_data.headings_font or theme_data.body_font %}
-        {% assign heading_fonts = theme_data.headings_font | replace: ', ', '|' 
-                                               | replace: ',', '|' 
+        {% assign heading_fonts = theme_data.headings_font | replace: ', ', '|'
+                                               | replace: ',', '|'
                                                | replace: ' ', '+' %}
-        {% assign body_fonts = theme_data.body_font | replace: ', ', '|' 
-                                               | replace: ',', '|' 
+        {% assign body_fonts = theme_data.body_font | replace: ', ', '|'
+                                               | replace: ',', '|'
                                                | replace: ' ', '+' %}
-        <link rel="stylesheet" 
+        <link rel="stylesheet"
               href="//fonts.googleapis.com/css?family={% if heading_fonts %}{{ heading_fonts }}{% if body_fonts %}|{% endif %}{% endif %}{{ body_fonts }}:400,400i,700,700i">
-        
+
     {% endif %}
 </head>
