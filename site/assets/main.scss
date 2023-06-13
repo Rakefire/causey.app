@@ -51,6 +51,20 @@
 	--headings-font: {{ theme_data.headings_font }};
 	--body-font: {{ theme_data.body_font }};
 	--content-font-size: {{ theme_data.content_font_size_number }}em;
+
+
+  /* Shoelace styles */
+  --sl-color-primary-50: {{ theme_data.light_theme_settings.brand_color }} !important;
+  --sl-color-primary-100: {{ theme_data.light_theme_settings.brand_color }} !important;
+  --sl-color-primary-200: {{ theme_data.light_theme_settings.brand_color }} !important;
+  --sl-color-primary-300: {{ theme_data.light_theme_settings.brand_color }} !important;
+  --sl-color-primary-400: {{ theme_data.light_theme_settings.brand_color }} !important;
+  --sl-color-primary-500: {{ theme_data.light_theme_settings.brand_color }} !important;
+  --sl-color-primary-600: {{ theme_data.light_theme_settings.brand_color }} !important;
+  --sl-color-primary-700: {{ theme_data.light_theme_settings.brand_color }} !important;
+  --sl-color-primary-800: {{ theme_data.light_theme_settings.brand_color }} !important;
+  --sl-color-primary-900: {{ theme_data.light_theme_settings.brand_color }} !important;
+  --sl-color-primary-950: {{ theme_data.light_theme_settings.brand_color }} !important;
 }
 
 

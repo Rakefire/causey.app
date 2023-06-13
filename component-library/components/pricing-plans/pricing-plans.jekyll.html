@@ -2,21 +2,61 @@
 			component">
 	<h2 class="{{c}}__heading">{{ include.heading }}</h2>
 	<p class="{{c}}__subheading">{{ include.subheading }}</p>
-	<div class="{{c}}__plans">
-		{% for plan in include.plans %}
-			<div class="{{c}}__card">
-				<h3 class="{{c}}__title"
-					style="background-color: {{ plan.card_color }}">{{ plan.title }}</h3>
-				<ul class="{{c}}__features">
-					<li>{{ plan.price }}</li>
-					{% for item in plan.features %}
-						<li>{{ item.feature }}</li>
-					{% endfor %}
-				</ul>
-				<a class="{{c}}__button"
-				   href="{{ plan.button_url }}"
-				   style="background-color: {{ plan.card_color }}">Get started →</a>
-			</div>
-		{% endfor %}
-	</div>
+	<p class="{{c}}__subheading_2">{{ include.subheading_2 }}</p>
+
+  <div data-controller="show-hide" style="padding-top: 30px;">
+    <div style="display: flex; justify-content: center; align-items: center;">
+      <div style="padding: 10px">Monthly</div>
+      <sl-switch style="--width: 80px; --height: 40px; --thumb-size: 36px;" data-action="sl-change->show-hide#toggle"></sl-switch>
+      <div style="padding: 10px">Yearly</div>
+    </div>
+
+    <div class="{{c}}__plans">
+      {% for plan in include.plans %}
+        <div class="{{c}}__card">
+          <div class="{{c}}__card-inner">
+            <h3 class="{{c}}__title"
+              style="background-color: {{ plan.card_color }}">{{ plan.title }}</h3>
+            <ul class="{{c}}__features">
+              <li>
+                <div data-show-hide-target="on">{{ plan.price.month }}</div>
+                <div data-show-hide-target="off">{{ plan.price.year }}</div>
+              </li>
+
+              {% for item in plan.features %}
+                <li>
+                  {% if item.name %}
+                    <span style="{%if item.font_bold%}font-weight: bold;{%endif%}">{{ item.name }}</span><br />
+                    <span class="{{c}}__subtext">{{ item.subtext }}</span>
+                  {% else %}
+                    {{ item.feature }}
+                  {% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+
+            <ul class="{{c}}__features">
+              {% for item in plan.future_features %}
+                {% if forloop.index == 1 %}
+                  <h4>Coming Soon</h4>
+                  <hr />
+                {% endif %}
+                <li>
+                  {% if item.name %}
+                    <span style="{%if item.font_bold%}font-weight: bold;{%endif%}">{{ item.name }}</span><br />
+                    <span class="{{c}}__subtext">{{ item.subtext }}</span>
+                  {% else %}
+                    {{ item.feature }}
+                  {% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+            <a class="{{c}}__button"
+              href="{{ plan.button_url }}"
+              style="background-color: {{ plan.card_color }}">Get started →</a>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
 </div>

@@ -36,6 +36,46 @@
             </a>
         </div>
         <script type="text/javascript" src="/assets/js/dark-mode.js"></script>
+
+        <!-- shoelace -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.4.0/dist/themes/light.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.4.0/dist/themes/dark.css" />
+        <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.4.0/dist/shoelace-autoloader.js"></script>
+
+        <!-- stimulus -->
+        <script type="module">
+          import { Application, Controller } from "https://unpkg.com/@hotwired/stimulus/dist/stimulus.js"
+          window.Stimulus = Application.start()
+
+          Stimulus.register("show-hide", class extends Controller {
+            static targets = [ "on", "off" ]
+
+            connect() {
+              this._on = true
+
+              this._originalDisplayValues = {}
+              this.offTargets.forEach(e => this._originalDisplayValues[e] = e.style.display)
+              this.onTargets.forEach(e => this._originalDisplayValues[e] = e.style.display)
+
+              this.offTargets.forEach(e => e.style.display = "none")
+            }
+
+            toggle() {
+              if (this._on) {
+                this.onTargets.forEach(e => e.style.display = "none")
+                this.offTargets.forEach(e => e.style.display = this._originalDisplayValues[e])
+
+                this._on = false
+              } else {
+                this.offTargets.forEach(e => e.style.display = "none")
+                this.onTargets.forEach(e => e.style.display = this._originalDisplayValues[e])
+
+                this._on = true
+              }
+              console.log(this._on)
+            }
+          })
+        </script>
     </div>
 </body>
 </html>
