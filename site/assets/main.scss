@@ -8,45 +8,45 @@
 	// Breakpoints
     --breakpoint-max: 1180px;
     --breakpoint-min: 900px;
-    
+
     --s-design-min: 375;
     --s-design-max: 900;
 	// Light
-	--page-color: {{ theme_data.light_theme_settings.page_color | default: "#ffffff" }};
-	--component-color: {{ theme_data.light_theme_settings.light_component_color | default: "#f5f5f5" }};
-	--dark-component-color: {{ theme_data.light_theme_settings.dark_component_color | default: "#f5f5f5" }};
-	--brand-color: {{ theme_data.light_theme_settings.brand_color | default: "#4182e4" }};
-	--headings-color: {{ theme_data.light_theme_settings.headings_color | default: "#000000" }};
-	--text-color: {{ theme_data.light_theme_settings.text_color | default: "#666666" }};
-	--light-text-color: {{ theme_data.light_theme_settings.light_text_color | default: "#ffffff" }};
-	--link-color: {{ theme_data.light_theme_settings.link_color | default: "#00a4ca" }};
-	--button-fill: {{ theme_data.light_theme_settings.button_fill_color | default: "#4182e4" }};
-	--button-fill-text: {{ theme_data.light_theme_settings.button_fill_text_color | default: "#4182e4" }};
-	--tag-color: {{ theme_data.light_theme_settings.tag_color | default: "#eeeeee" }};
-	--border-color: {{ theme_data.light_theme_settings.border_color | default: "#dfdfdf" }};
-	--shadows-color: {{ theme_data.light_theme_settings.shadows_color | default: "#2b2b40" }};
-	--navigation-color: {{ theme_data.light_theme_settings.navigation_color | default: "#fefefe" }};
-	--footer-color: {{ theme_data.light_theme_settings.footer_color | default: "#2b2b40" }};
-	--footer-link-color: {{ theme_data.light_theme_settings.footer_link_color | default: "#999999" }};
-	--footer-link-hover-color: {{ theme_data.light_theme_settings.footer_link_hover_color | default: "#ffffff" }};
+	--page-color: {{ theme_data.light_theme_settings.page_color }};
+	--component-color: {{ theme_data.light_theme_settings.light_component_color }};
+	--dark-component-color: {{ theme_data.light_theme_settings.dark_component_color }};
+	--brand-color: {{ theme_data.light_theme_settings.brand_color }};
+	--headings-color: {{ theme_data.light_theme_settings.headings_color }};
+	--text-color: {{ theme_data.light_theme_settings.text_color }};
+	--light-text-color: {{ theme_data.light_theme_settings.light_text_color }};
+	--link-color: {{ theme_data.light_theme_settings.link_color }};
+	--button-fill: {{ theme_data.light_theme_settings.button_fill_color }};
+	--button-fill-text: {{ theme_data.light_theme_settings.button_fill_text_color }};
+	--tag-color: {{ theme_data.light_theme_settings.tag_color }};
+	--border-color: {{ theme_data.light_theme_settings.border_color }};
+	--shadows-color: {{ theme_data.light_theme_settings.shadows_color }};
+	--navigation-color: {{ theme_data.light_theme_settings.navigation_color }};
+	--footer-color: {{ theme_data.light_theme_settings.footer_color }};
+	--footer-link-color: {{ theme_data.light_theme_settings.footer_link_color }};
+	--footer-link-hover-color: {{ theme_data.light_theme_settings.footer_link_hover_color }};
 	// Dark
-	--dark-page-color: {{ theme_data.dark_theme_settings.page_color | default: "#ffffff" }};
-	--dark-light-component-color: {{ theme_data.dark_theme_settings.light_component_color | default: "#f5f5f5" }};
-	--dark-dark-component-color: {{ theme_data.dark_theme_settings.dark_component_color | default: "#f5f5f5" }};
-	--dark-brand-color: {{ theme_data.dark_theme_settings.brand_color | default: "#4182e4" }};
-	--dark-headings-color: {{ theme_data.dark_theme_settings.headings_color | default: "#000000" }};
-	--dark-text-color: {{ theme_data.dark_theme_settings.text_color | default: "#666666" }};
-	--dark-light-text-color: {{ theme_data.light_theme_settings.light_text_color | default: "#ffffff" }};
-	--dark-link-color: {{ theme_data.dark_theme_settings.link_color | default: "#00a4ca" }};
-	--dark-button-fill: {{ theme_data.dark_theme_settings.button_fill_color | default: "#4182e4" }};
-	--dark-button-fill-text: {{ theme_data.dark_theme_settings.button_fill_text_color | default: "#4182e4" }};
-	--dark-tag-color: {{ theme_data.dark_theme_settings.tag_color | default: "#444444" }};
-	--dark-border-color: {{ theme_data.dark_theme_settings.border_color | default: "#dfdfdf" }};
-	--dark-shadows-color: {{ theme_data.dark_theme_settings.shadows_color | default: "#2b2b40" }};
-	--dark-navigation-color: {{ theme_data.dark_theme_settings.navigation_color | default: "#202020" }};
-	--dark-footer-color: {{ theme_data.dark_theme_settings.footer_color | default: "#2b2b40" }};
-	--dark-footer-link-color: {{ theme_data.dark_theme_settings.footer_link_color | default: "#999999" }};
-	--dark-footer-link-hover-color: {{ theme_data.dark_theme_settings.footer_link_hover_color | default: "#ffffff" }};
+	--dark-page-color: {{ theme_data.dark_theme_settings.page_color }};
+	--dark-light-component-color: {{ theme_data.dark_theme_settings.light_component_color }};
+	--dark-dark-component-color: {{ theme_data.dark_theme_settings.dark_component_color }};
+	--dark-brand-color: {{ theme_data.dark_theme_settings.brand_color }};
+	--dark-headings-color: {{ theme_data.dark_theme_settings.headings_color }};
+	--dark-text-color: {{ theme_data.dark_theme_settings.text_color }};
+	--dark-light-text-color: {{ theme_data.light_theme_settings.light_text_color }};
+	--dark-link-color: {{ theme_data.dark_theme_settings.link_color }};
+	--dark-button-fill: {{ theme_data.dark_theme_settings.button_fill_color }};
+	--dark-button-fill-text: {{ theme_data.dark_theme_settings.button_fill_text_color }};
+	--dark-tag-color: {{ theme_data.dark_theme_settings.tag_color }};
+	--dark-border-color: {{ theme_data.dark_theme_settings.border_color }};
+	--dark-shadows-color: {{ theme_data.dark_theme_settings.shadows_color }};
+	--dark-navigation-color: {{ theme_data.dark_theme_settings.navigation_color }};
+	--dark-footer-color: {{ theme_data.dark_theme_settings.footer_color }};
+	--dark-footer-link-color: {{ theme_data.dark_theme_settings.footer_link_color }};
+	--dark-footer-link-hover-color: {{ theme_data.dark_theme_settings.footer_link_hover_color }};
 
 	--headings-font: {{ theme_data.headings_font }};
 	--body-font: {{ theme_data.body_font }};
@@ -60,7 +60,7 @@
 {% include sass/footer.scss %}
 {% include sass/archive-layout.scss %}
 
-// This is required for CloudCannon Themes. Users can create their own themes, but CloudCannon 
+// This is required for CloudCannon Themes. Users can create their own themes, but CloudCannon
 // themes are structurally different so these files are necessary.
 
 {% case theme_name %}
