@@ -11,6 +11,8 @@
 				<p class="{{c}}__name">
 					{% if author.twitter %}
 						<a href="https://twitter.com/{{ author.twitter }}">{{ author.name }}</a>
+					{% elsif author.linkedin %}
+						<a href="https://www.linkedin.com/in/{{ author.linkedin }}/">{{ author.name }}</a>
 					{% else %}
 						{{ author.name }}
 					{% endif %}

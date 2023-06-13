@@ -4,13 +4,19 @@
 		<h2 class="{{c}}__heading">{{ include.heading }}</h2>
 		<p class="{{c}}__subheading">{{ include.subheading }}</p>
 		<div class="{{c}}__staff">
-			{% for member in site.staff_members %}
+			{% for member in site.staff_members | sort: "number" %}
 				<div class="{{c}}__staff-card">
-					<img class="{{c}}__staff-image" 
+					<img class="{{c}}__staff-image"
 						 src="{{ member.image }}"
 						 alt="{{ member.name }}" />
 					<h4 class="{{c}}__name">
-						<a href="https://twitter.com/{{ member.twitter }}">{{ member.name }}</a>
+            {% if member.twitter %}
+              <a href="https://twitter.com/{{ member.twitter }}">{{ member.name }}</a>
+            {% elsif member.linkedin %}
+              <a href="https://www.linkedin.com/in/{{ member.linkedin }}/">{{ member.name }}</a>
+            {% else %}
+              {{ member.name }}
+            {% endif %}
 					</h4>
 					<p class="{{c}}__position">{{ member.position }}</p>
 				</div>
