@@ -19,15 +19,27 @@
               style="background-color: {{ plan.card_color }}">{{ plan.title }}</h3>
             <ul class="{{c}}__features">
               <li>
-                <div data-show-hide-target="on">{{ plan.price.month }}</div>
-                <div data-show-hide-target="off">{{ plan.price.year }}</div>
+                <div data-show-hide-target="on">
+                  {{ plan.price.month.price }}
+                  {% if plan.price.month.extra_text %}
+                    <br />
+                    <span class="{{c}}__extra-text">{{ plan.price.month.extra_text }}</span>
+                  {% endif %}
+                </div>
+                <div data-show-hide-target="off">
+                  {{ plan.price.year.price }}
+                  {% if plan.price.year.extra_text %}
+                    <br />
+                    <span class="{{c}}__extra-text">{{ plan.price.year.extra_text }}</span>
+                  {% endif %}
+                </div>
               </li>
 
               {% for item in plan.features %}
                 <li>
                   {% if item.name %}
                     <span style="{%if item.font_bold%}font-weight: bold;{%endif%}">{{ item.name }}</span><br />
-                    <span class="{{c}}__subtext">{{ item.subtext }}</span>
+                    <span class="{{c}}__extra-text">{{ item.extra_text }}</span>
                   {% else %}
                     {{ item.feature }}
                   {% endif %}
@@ -44,7 +56,7 @@
                 <li>
                   {% if item.name %}
                     <span style="{%if item.font_bold%}font-weight: bold;{%endif%}">{{ item.name }}</span><br />
-                    <span class="{{c}}__subtext">{{ item.subtext }}</span>
+                    <span class="{{c}}__extra-text">{{ item.extra_text }}</span>
                   {% else %}
                     {{ item.feature }}
                   {% endif %}
