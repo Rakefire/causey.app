@@ -12,7 +12,7 @@ spec:
 blueprint:
   heading: ""
   lower_text: ""
-  form_submission_email: ""
+  form_submission_email: "info@missionmet.com"
   component_theme: ""
   company_details:
     address: ""
@@ -26,7 +26,7 @@ preview:
   lower_text: "Come see us in person, give us a call, or send us a message with
     your details and we'll be in contact shortly after. No obligations and your
     first meeting is free. "
-  form_submission_email: admin@example.com
+  form_submission_email: ricky@missionmet.com
   component_theme: Light
   company_details:
     address: 1 Bond Street, Dunedin, New Zealand
