@@ -12,7 +12,7 @@ spec:
 blueprint:
   heading_html: ""
   button_label: ""
-  Button_link_url: ""
+  button_link_url: ""
   button_variant: Transparent
   component_theme: ""
 
@@ -20,7 +20,7 @@ blueprint:
 preview:
   heading_html: <h2><strong>Improve</strong> your sales process today</h2>
   button_label: Get Started Free
-  Button_link_url: "#"
+  button_link_url: "#"
   component_theme: Light
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
