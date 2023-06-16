@@ -47,7 +47,7 @@ link_columns:
       # - link_label: Twitter
       #   link_url: https://twitter.com/causeystrategy/
       #   icon_image: /images/svg/twitter.svg
-        open_in_new_tab: true
+      #   open_in_new_tab: true
       - link_label: Youtube
         link_url: https://www.youtube.com/channel/UCc0TPygbO6h0yuVOZUWiafw
         icon_image: /images/svg/youtube.svg
