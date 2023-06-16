@@ -29,7 +29,7 @@ link_columns:
         link_url: /pricing/
         icon_image:
         open_in_new_tab: false
-      - link_label: Docs
+      - link_label: Support
         link_url: https://help.causey.app/
         icon_image:
         open_in_new_tab: false
@@ -40,13 +40,13 @@ link_columns:
   - label: Social
     heading:
     links:
-      - link_label: Facebook
-        link_url: https://facebook.com/causeystrategy/
-        icon_image: /images/svg/facebook.svg
-        open_in_new_tab: true
-      - link_label: Twitter
-        link_url: https://twitter.com/causeystrategy/
-        icon_image: /images/svg/twitter.svg
+      # - link_label: Facebook
+      #   link_url: https://facebook.com/causeystrategy/
+      #   icon_image: /images/svg/facebook.svg
+      #   open_in_new_tab: true
+      # - link_label: Twitter
+      #   link_url: https://twitter.com/causeystrategy/
+      #   icon_image: /images/svg/twitter.svg
         open_in_new_tab: true
       - link_label: Youtube
         link_url: https://www.youtube.com/channel/UCc0TPygbO6h0yuVOZUWiafw

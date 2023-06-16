@@ -18,7 +18,7 @@ blueprint:
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
-  heading: Join us
+  heading: Join Us
   lower_text: Sign up to hear the latest news and progress in our fight for the sheep vote.
   form_submission_email: "ricky@missionmet.com"
   submit_success_url: /contact-success/

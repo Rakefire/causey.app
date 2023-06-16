@@ -17,9 +17,8 @@ blueprint:
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
-  heading: Our team
-  subheading: We've built an amazing, fantastic team of developers, marketers,
-    designers and sales people.
+  heading: Our Team
+  subheading: We've built an amazing, fantastic team of developers, designers, support, marketers, and sales people.
   component_theme: Light
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
