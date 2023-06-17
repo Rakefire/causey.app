@@ -10,6 +10,8 @@ SEO_options:
   description:
   image:
   prevent_indexing: false
+blurb: >-
+  We've got some new goodies for your holiday. You now have the ability to add your organization's logo to your plan, PDF outputs, and emails,  option to add more than one action item owner, and capability to add metrics to focus areas and goals in addition to the Compass.
 ---
 Your strategic planning software, Mission Met Center, has released some new features recently, and we’re excited to officially share them with you.&nbsp;
 

@@ -10,6 +10,9 @@ SEO_options:
   description:
   image:
   prevent_indexing: false
+blurb: >-
+  In this feature annoucement, we touch on Organization Launch Status, Changes to Automated Emails, Plan Lock Feature
+  Enhanced Presentation View, Report Generation, and Cloning Focus Areas
 ---
 Here is all the news on our latest features and updates to Mission Met Center.
 

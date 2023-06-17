@@ -10,6 +10,8 @@ SEO_options:
   description:
   image:
   prevent_indexing: false
+blurb: >-
+  New features? We've got them. We announce Presentation View for direct plan presentations, expansion of Timeline View to include action items, launch of START Lite, a free slimmed-down version of the START course, and we add an activity feed on the home screen.
 ---
 We’ve added some cool new functionality to Mission Met Center over the last few months. Read on for quick summaries and check them out in MMC for yourself.&nbsp;
 
