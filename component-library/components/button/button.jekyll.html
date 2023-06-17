@@ -7,7 +7,8 @@ items below
 
 {% unless include.submit %}
 	<a class="{{n}}
-			  {{n}}--{{ include.variant | slugify | default: 'filled' }}"
+			  {{n}}--{{ include.variant | slugify | default: 'filled' }}
+        {{n}}--{{ include.align | slugify | default: 'left' }}"
 		href="{{ include.link_url }}"
 		{% if include.open_in_new_tab %}
 			target="_blank"
@@ -21,9 +22,10 @@ items below
 		{% assign label = "Send Message" %}
 	{% endif %}
 	<div class="{{n}}
-				{{n}}--{{ include.variant | slugify | default: 'filled' }}">
+				{{n}}--{{ include.variant | slugify | default: 'filled' }}
+				{{n}}--{{ include.align | slugify | default: 'left' }}">
 		<input class="{{n}}__label"
-			   type="submit" 
+			   type="submit"
 			   value="{{ label }}" />
 	</div>
 {% endunless %}

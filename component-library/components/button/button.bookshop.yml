@@ -29,3 +29,10 @@ _inputs:
         - Transparent
         - Filled
         - Plain Text
+  align:
+    type: select
+    options:
+      values:
+        - Left
+        - Center
+        - Right
