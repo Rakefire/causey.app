@@ -3,7 +3,7 @@ title: '🎉Introducing: Timeline View! 🎉'
 categories:
   - features
 author_staff_member: 6ab925e3-9897-4b5d-84a5-19146f8b9c46
-date: 2023-09-04 00:00:00
+date: 2020-09-04 00:00:00
 content_blocks:
 SEO_options:
   title:
