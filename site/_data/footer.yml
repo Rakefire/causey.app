@@ -26,7 +26,7 @@ link_columns:
         icon_image:
         open_in_new_tab: false
       - link_label: Sign Up
-        link_url: /pricing/
+        link_url: https://app.causey.app/sign_ups/new
         icon_image:
         open_in_new_tab: false
       - link_label: Support
