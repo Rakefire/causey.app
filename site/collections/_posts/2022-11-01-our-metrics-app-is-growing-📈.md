@@ -23,7 +23,7 @@ If you know anything about us, it’s that we sing the praises of the champion r
 
 We apply this term to all aspects of a strategic plan and now you can add up to two people to champion your metrics. Designating a metric champion is one of the best ways to ensure that the metric gets regularly measured.&nbsp;
 
-[Read more about how to add a metric champion](https://help.missionmet.com/articles/157-metrics-team-and-content/){: target="_blank"}&nbsp;
+[Read more about how to add a metric champion](https://help.causey.app/articles/157-metrics-team-and-content/){: target="_blank"}&nbsp;
 
 ### **Baselines**
 
@@ -31,7 +31,7 @@ We apply this term to all aspects of a strategic plan and now you can add up to 
 
 Baselines are a comparison number for an individual metric. Often these are sector/industry baselines or past data from your own organization. Enter a baseline for your metric so you can easily compare your data.
 
-[Read more about baselines&nbsp;](https://help.missionmet.com/articles/158-metrics-targets-and-baselines/){: target="_blank"}
+[Read more about baselines&nbsp;](https://help.causey.app/articles/158-metrics-targets-and-baselines/){: target="_blank"}
 
 ### **Delta/Snapshot**
 
@@ -43,7 +43,7 @@ For example, maybe you’re tracking program participation and your metric is to
 
 Alternatively, you might be tracking program participation to see the total participation across all events, and not necessarily looking at individual events. If that’s the case, you can select the delta entry option, which allows you to simply add to the previous measurement.
 
-[Read more about snapshot and delta measurements&nbsp;](https://help.missionmet.com/articles/159-metrics-advanced/){: target="_blank"}
+[Read more about snapshot and delta measurements&nbsp;](https://help.causey.app/articles/159-metrics-advanced/){: target="_blank"}
 
 ###
 
@@ -55,7 +55,7 @@ We want to help make sure your measurements happen so we send automated emails t
 
 
 
-[Read more about setting a measurement reminder](https://help.missionmet.com/articles/157-metrics-team-and-content/){: target="_blank"}&nbsp;
+[Read more about setting a measurement reminder](https://help.causey.app/articles/157-metrics-team-and-content/){: target="_blank"}&nbsp;
 
 ### **Edit Measurements**
 
@@ -71,8 +71,8 @@ No need to delete and start again. Simply select the Edit Measurement button and
 
 You can download all of your metrics (or just individual ones) to a csv file which includes the metric, unit, measurement, date of measurement, status and notes. You can also import a file with measurements for a metric to be included in your metrics list.
 
-[Read more about exporting and importing metrics](https://help.missionmet.com/articles/160-import-export-metrics?auth=true){: target="_blank"}&nbsp;
+[Read more about exporting and importing metrics](https://help.causey.app/articles/160-import-export-metrics?auth=true){: target="_blank"}&nbsp;
 
-The expanded [Metrics](https://help.missionmet.com/articles/86-metrics?auth=true){: target="_blank"} app offers something for all kinds of nonprofits – a simple way to track and measure progress for beginners, and advanced options for data experts.&nbsp;
+The expanded [Metrics](https://help.causey.app/articles/86-metrics?auth=true){: target="_blank"} app offers something for all kinds of nonprofits – a simple way to track and measure progress for beginners, and advanced options for data experts.&nbsp;
 
 And remember, if you’re just starting out with data reporting, don’t worry about whether your metrics are spot on. Work toward creating a regular process of measuring, reporting, and analyzing them. Over time you can revise your metrics so that they better reflect your organization’s impact.&nbsp;

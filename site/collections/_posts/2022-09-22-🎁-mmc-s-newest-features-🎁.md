@@ -21,7 +21,7 @@ Over the years, users have provided feedback or asked questions about best pract
 
 Simply select Presentation View in the top tab navigation of your plan to get started.&nbsp;
 
-Read more about&nbsp;[Presentation View](https://help.missionmet.com/articles/154-presentation-view/?auth=true){: target="_blank"}.
+Read more about&nbsp;[Presentation View](https://help.causey.app/articles/154-presentation-view/?auth=true){: target="_blank"}.
 
 ### Timeline View
 
@@ -29,13 +29,13 @@ Read more about&nbsp;[Presentation View](https://help.missionmet.com/articles/15
 
 When Timeline View was rolled out, it allowed you to quickly see all of your goals within a specific time frame. We’ve expanded this feature and it now includes action items. Filter the view by showing goals and action items assigned to you or see an organization-wide timeline.&nbsp;
 
-Read more about&nbsp;[Timeline View](https://help.missionmet.com/articles/89-timeline-view/){: target="_blank"}.
+Read more about&nbsp;[Timeline View](https://help.causey.app/articles/89-timeline-view/){: target="_blank"}.
 
 ### **START Lite**
 
 **New to strategic planning? Review this free guide to get started!**
 
-Mission Met’s&nbsp;[START course](https://www.missionmet.com/start){: target="_blank"}&nbsp;helps transform nonprofits by providing information about creating and implementing an actionable strategic plan and process. We’ve adapted some of the information from that paid course and turned it into a free, slimmed-down version called START Lite. You can find it in&nbsp;[Toolbox](https://help.missionmet.com/articles/125-toolbox/){: target="_blank"}.
+Mission Met’s&nbsp;[START course](https://www.missionmet.com/start){: target="_blank"}&nbsp;helps transform nonprofits by providing information about creating and implementing an actionable strategic plan and process. We’ve adapted some of the information from that paid course and turned it into a free, slimmed-down version called START Lite. You can find it in&nbsp;[Toolbox](https://help.causey.app/articles/125-toolbox/){: target="_blank"}.
 
 As a Mission Met Center user, you’ll have lifelong access to START Lite, which gives you strategic planning guidance in the same software you use to document, measure, and update your strategic plan.&nbsp;
 

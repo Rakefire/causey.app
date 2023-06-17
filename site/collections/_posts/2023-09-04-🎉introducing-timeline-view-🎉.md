@@ -17,6 +17,6 @@ Access this view by selecting the Timeline View tab at the top of your plan in t
 
 You'll be taken to a timeline that shows the estimated completion time frame for your goals based on your selected start and due dates. It's a great visual representation of the time it will take to complete your goals.&nbsp;
 
-[Learn more about Timeline View](https://help.missionmet.com/article/89-timeline-view){: target="_blank"}
+[Learn more about Timeline View](https://help.causey.app/article/89-timeline-view){: target="_blank"}
 
 Your feedback helped us develop this feature and we hope you find it a helpful tool in laying out your plan.
