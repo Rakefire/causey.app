@@ -1,5 +1,5 @@
 ---
-date: 2023-05-04 00:00:00
+date: 2023-06-18 00:00:00
 title: Empowering Mission-Driven Organizations with Strategic Planning Software
 categories:
   - why
