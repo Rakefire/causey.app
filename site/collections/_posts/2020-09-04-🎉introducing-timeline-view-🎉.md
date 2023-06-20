@@ -10,6 +10,8 @@ SEO_options:
   description:
   image:
   prevent_indexing: false
+blurb: >-
+  Mission Met Center has launched a new feature, Timeline View, which allows users to visually see all their goals within a specific timeframe, enhancing productivity and strategic planning, developed based on user feedback.
 ---
 We're excited to provide you with a significant new feature in Mission Met Center that will help make your work more productive: Timeline View. This view of your plan allows you to quickly see all of your goals within a specific time frame on a timeline.
 
