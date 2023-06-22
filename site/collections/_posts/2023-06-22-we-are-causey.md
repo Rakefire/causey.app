@@ -108,9 +108,9 @@ Learn how to change your pricing tier [here](https://help.missionmet.com/article
 
 Our marketing site is available with more information at https:///www.causey.app.
 
-More importantly—the domains and URLs for customer logins are transitioning from https://app.missionmet.center/sign\_in to [https://app.causey/sign\_in](https://app.causey/sign_in).&nbsp; Bookmarks to Mission Met Center will continue to work through 2023, but to minimize any disruption to you down the road, please update as soon as possible with the new login URL.
+More importantly—the domains and URLs for customer logins are transitioning from https://app.missionmet.center/sign\_in to [<u>https://app.causey.app/sign_in</u>](https://app.causey.app/sign_in).&nbsp; Bookmarks to Mission Met Center will continue to work through 2023, but to minimize any disruption to you down the road, please update as soon as possible with the new login URL.
 
-As of now, you can start using this new URL structure, even if you've previously signed up on Mission Met Center. Your Mission Met Center login will work when you log in on [app.causey/](https://app.clarityflow.com/login)sign\_in. Please share the new login with all members of your team.
+As of now, you can start using this new URL structure, even if you've previously signed up on Mission Met Center. Your Mission Met Center login will work when you log in on [<u>https://app.causey.app/sign_in</u>](https://app.causey.app/sign_in). Please share the new login with all members of your team.
 
 ## **We’re just getting started!**
 
