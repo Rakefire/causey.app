@@ -28,7 +28,7 @@ Today we're announcing three new pricing tier options to provide your organizati
 
 ![](/uploads/causey-pricing-summary-1-1.png){: width="1280" height="800"}
 
-### The Lite tier is a great starting point for any organization’s strategic plan.&nbsp;
+### The Lite tier is a great starting point for any organization’s strategic plan. &nbsp;
 
 * You’ll have access to the two-section plan format to draft, store, and track your plan.&nbsp;
 * You can also view your plan in other formats such as the timeline view and presentation view.
@@ -38,7 +38,7 @@ Today we're announcing three new pricing tier options to provide your organizati
 * Run any standard report including progress toward goals and metrics.
 * Access expert guidance in a variety of ways while using the software, including access to a strategic planning course, built-in help articles with plan suggestions, and email and chat-based support.&nbsp;
 
-### The Core tier is for organizations that are ready to take the next step in their strategic planning process by using more advanced features.
+### The Core tier is for organizations who want to advance their strategic planning process.
 
 * You’ll have access to the two-section plan format to draft, store, and track your plan.&nbsp;
 * You can also view your plan in other formats such as the timeline view and presentation view.
@@ -49,7 +49,7 @@ Today we're announcing three new pricing tier options to provide your organizati
 * Run any standard report including progress toward goals and metrics.
 * Access expert guidance in a variety of ways while using the software, including access to a strategic planning course, built-in help articles with plan suggestions, and email and chat-based support.
 
-### The Solid tier is for our most advanced customers who are looking for sophisticated features to stay at the front of their strategic planning process.
+### The Solid tier is for those looking to get the most of of their strategic plan.
 
 * You’ll have access to the two-section plan format to draft, store, and track your plan.&nbsp;
 * You can also view your plan in other formats such as the timeline view and presentation view.
