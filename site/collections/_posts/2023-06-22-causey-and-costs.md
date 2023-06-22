@@ -105,4 +105,4 @@ We are also putting plans in place for future feature introductions and improvem
 
 ## **Get in touch**
 
-We're grateful to all past, present, and future customers. We're dedicated to providing the best product and service possible. Your feedback has helped shape the vision for this tool. We wouldn’t be here without you. If you have questions about any of these changes, please [reach out](http://help@causey.app).&nbsp;&nbsp;
+We're grateful to all past, present, and future customers. We're dedicated to providing the best product and service possible. Your feedback has helped shape the vision for this tool. We wouldn’t be here without you. If you have questions about any of these changes, please [reach out](mailto:help@causey.app?subject=Pricing).&nbsp;&nbsp;
