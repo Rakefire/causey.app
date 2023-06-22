@@ -20,7 +20,7 @@ Today, we made a significant change in our business by rebranding Mission Met Ce
 
 As part of this change, we will be implementing new pricing tiers for the first time since launching in 2015. The change in pricing is intended to better align our business with the success of our customers.
 
-[Check out this blog for more about this](https://www.causey.app/why/features/2023/06/22/we-are-causey/){: target="_blank" rel="noopener"}.&nbsp;
+[Check out this blog for more about this](https://www.causey.app/why/features/2023/06/22/we-are-causey/){: target="_blank"}.&nbsp;
 
 ## **We're changing our pricing**
 
@@ -78,7 +78,7 @@ We are incredibly grateful to our customers. We love helping you advance your mi
 
 * You will continue to pay your current rate until August 31, 2023.
 * Since we are switching to three tiers for pricing, you will be notified of the selected tier you’ll be placed in by our team that most closely matches your current plan and needs.
-* If you want to change the tier that has been selected for you, you can up until August 31. After that date, you will be billed at the updated rates based on your selection (monthly or annually). Instructions on how to change your tier can be found [here](https://help.missionmet.com/articles/172-change-pricing-tier?auth=true&amp;preview=649353d8c371d73187fa3b95){: target="_blank" rel="noopener"}.
+* If you want to change the tier that has been selected for you, you can up until August 31. After that date, you will be billed at the updated rates based on your selection (monthly or annually). Instructions on how to change your tier can be found [here](https://help.missionmet.com/articles/172-change-pricing-tier?auth=true&amp;preview=649353d8c371d73187fa3b95){: target="_blank"}.
 * You can always change your tier based on your billing cycle (monthly or annually).
 * You will retain all features in the software as you are currently using them (for example, if you have more metrics than your tier allows, you will retain the amount you currently have.)
 
