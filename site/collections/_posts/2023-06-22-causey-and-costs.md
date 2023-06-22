@@ -1,6 +1,8 @@
 ---
 title: Causey and Costs
 categories:
+  - pricing
+  - features
 author_staff_member: 825fc98b-2c58-4f02-9c1f-4792cb6963e6
 date: 2023-06-22 09:30:00
 content_blocks:
