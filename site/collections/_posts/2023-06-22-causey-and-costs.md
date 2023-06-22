@@ -2,11 +2,15 @@
 title: Causey and Costs
 categories:
 author_staff_member: 825fc98b-2c58-4f02-9c1f-4792cb6963e6
-date:
+date: 2023-06-22 09:00:00
 content_blocks:
 SEO_options:
-  title:
-  description:
+  title: Causey and Costs
+  description: >-
+    As part of our rebrand, we will be implementing new pricing tiers for the
+    first time since launching in 2015. The change in pricing is intended to
+    better align our business with the success of our customers. This article
+    provides more information behind the pricing changes.
   image:
   prevent_indexing: false
 ---
