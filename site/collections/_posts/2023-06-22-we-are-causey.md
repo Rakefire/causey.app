@@ -1,13 +1,16 @@
 ---
 title: We are Causey
 categories:
-author_staff_member: 825fc98b-2c58-4f02-9c1f-4792cb6963e6
+author_staff_member: 6ab925e3-9897-4b5d-84a5-19146f8b9c46
 date: 2023-06-22 09:00:00
 content_blocks:
 SEO_options:
-  title:
-  description:
-  image:
+  title: We are Causey
+  description: >-
+    This post will answer some questions about the rebrand including more about
+    the name, the changes that have been / are being made to the software,
+    pricing, and timing.
+  image: /uploads/causey-tagline.png
   prevent_indexing: false
 ---
 We've got some exciting news to share with you…
@@ -108,8 +111,6 @@ More importantly—the domains and URLs for customer logins are transitioning fr
 As of now, you can start using this new URL structure, even if you've previously signed up on Mission Met Center. Your Mission Met Center login will work when you log in on [app.causey/](https://app.clarityflow.com/login)sign\_in. Please share the new login with all members of your team.
 
 ## **We’re just getting started!**
-
-
 
 Our first 8 years as Mission Met Center got us off to a great start. We couldn’t be more excited to see our product and vision fully come into its own as Causey.
 
