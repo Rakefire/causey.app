@@ -15,6 +15,8 @@ SEO_options:
     provides more information behind the pricing changes.
   image:
   prevent_indexing: false
+blurb:
+  With changes to Causey, we're introducing new pricing tiers and adding features like tags and super focus mode, with customer transitions to the new pricing happening on August 31, 2023, and more enhancements planned for the future.
 ---
 Today, we made a significant change in our business by rebranding Mission Met Center to Causey –&nbsp; a standalone, strategic planning software that can serve any mission-driven team regardless of method, experience level, or relationship with Mission Met.
 
