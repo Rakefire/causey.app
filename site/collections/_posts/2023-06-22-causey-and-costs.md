@@ -1,5 +1,5 @@
 ---
-title: Causey and Costs
+title: Causey Pricing and Tiers
 categories:
   - pricing
   - features
@@ -18,9 +18,9 @@ SEO_options:
 ---
 Today, we made a significant change in our business by rebranding Mission Met Center to Causey –&nbsp; a standalone, strategic planning software that can serve any mission-driven team regardless of method, experience level, or relationship with Mission Met.
 
-As part of this change, we will be implementing new pricing tiers for the first time since launching in 2015. The change in pricing is intended to better align our business with the success of our customers.
+As part of this change, are implementing new pricing tiers for the first time since launching in 2015. The change in pricing is intended to better align our business with the success of our customers.
 
-[Check out this blog for more about this](https://www.causey.app/why/features/2023/06/22/we-are-causey/){: target="_blank"}.&nbsp;
+Learn more&nbsp;[about our rebranding](https://www.causey.app/why/features/2023/06/22/we-are-causey/).
 
 ## **We're changing our pricing**
 
@@ -31,12 +31,12 @@ Today we're announcing three new pricing tier options to provide your organizati
 ### The Lite tier is a great starting point for any organization’s strategic plan. &nbsp;
 
 * You’ll have access to the two-section plan format to draft, store, and track your plan.&nbsp;
-* You can also view your plan in other formats such as the timeline view and presentation view.
+* You can also view your plan in other formats, such as the timeline view and presentation view.
 * Select focus mode and view the sections that need your attention.
 * You can add up to four key metrics by linking data that corresponds with your plan.&nbsp;
 * Your tier allows 500 MB of space to store documents related to your plan.
-* Run any standard report including progress toward goals and metrics.
-* Access expert guidance in a variety of ways while using the software, including access to a strategic planning course, built-in help articles with plan suggestions, and email and chat-based support.&nbsp;
+* Run any standard report, including progress toward goals and metrics.
+* Access expert guidance in various ways while using the software, including access to a strategic planning course, built-in help articles with plan suggestions, and email and chat-based support.&nbsp;
 
 ### The Core tier is for organizations who want to advance their strategic planning process.
 
@@ -49,36 +49,36 @@ Today we're announcing three new pricing tier options to provide your organizati
 * Run any standard report including progress toward goals and metrics.
 * Access expert guidance in a variety of ways while using the software, including access to a strategic planning course, built-in help articles with plan suggestions, and email and chat-based support.
 
-### The Solid tier is for those looking to get the most of of their strategic plan.
+### The Solid tier is for those looking to get the most out of their strategic plan.
 
 * You’ll have access to the two-section plan format to draft, store, and track your plan.&nbsp;
-* You can also view your plan in other formats such as the timeline view and presentation view.
+* You can also view your plan in other formats, such as the timeline view and presentation view.
 * Select focus mode and view the sections that need your attention.
 * Add tags to organize aspects of your plan and make them easily searchable.
 * Super focus mode filters the actions of your plan by team member, tag, and progress status.
 * You can add and place unlimited metrics in the related section of your plan (key metric, focus area metric, and goal metric).
 * Your tier allows 5 GB of space to store documents related to your plan.
-* Run any report including progress toward goals and metrics.
-* Access expert guidance in a variety of ways while using the software, including access to a strategic planning course, built-in help articles with plan suggestions, and email and chat-based support.&nbsp;
+* Run any report, including progress toward goals and metrics.
+* Access expert guidance in various ways while using the software, including access to a strategic planning course, built-in help articles with plan suggestions, and email and chat-based support.&nbsp;
 * Premium onboarding and customer success support through a series of virtual sessions with a Mission Met team member who will customize and calibrate Causey’s settings and configurations to the customer’s needs.
 
 ## **Here's why**
 
-We love working side by side with our customers, mission-driven leaders like you. The interest and growth we’re seeing in customers who are looking for more advanced features, or who just need the software and not consulting through Mission Met, has driven this decision.&nbsp;
+We love working side by side with our customers, mission-driven leaders like you. The interest and growth we’re seeing in customers who are looking for more advanced features or who just need the software and not consulting through Mission Met has driven this decision.&nbsp;
 
 We want our customers to have options when it comes to working with Mission Met. This change in pricing allows us to build our software and our team in a way that provides all customers with the tools they need to advance their mission through their strategic planning efforts.&nbsp;
 
-These changes are intended to make our customers more successful by maintaining current features of our software and developing new and exciting features.
+These changes are intended to make our customers more successful by maintaining the current features of our software and developing new and exciting features.
 
 ## **No impact on existing customers until August 31,&nbsp; 2023**
 
-We are incredibly grateful to our customers. We love helping you advance your mission and partner with you on your strategic plan. We know that summer is a time of reflection before many dive into strategies for the fall season. We also want to provide you time to get in touch with us if you have questions.&nbsp; That's why we don’t want pricing to change until August 31.
+We are incredibly grateful to our customers. We love helping you advance your mission and partnering with you on your strategic plan. We know that summer is a time of reflection before many dive into strategies for the fall season. We also want to provide you with time to get in touch with us if you have questions.&nbsp; That's why we don’t want pricing to change until August 31.
 
 ### **For existing customers:**
 
 * You will continue to pay your current rate until August 31, 2023.
 * Since we are switching to three tiers for pricing, you will be notified of the selected tier you’ll be placed in by our team that most closely matches your current plan and needs.
-* If you want to change the tier that has been selected for you, you can up until August 31. After that date, you will be billed at the updated rates based on your selection (monthly or annually). Instructions on how to change your tier can be found [here](https://help.missionmet.com/articles/172-change-pricing-tier?auth=true&amp;preview=649353d8c371d73187fa3b95){: target="_blank"}.
+* If you want to change the tier that has been selected for you, you can do so up until August 31. After that date, you will be billed at the updated rates based on your selection (monthly or annually). Instructions on how to change your tier can be found [in our knowledge base](https://help.missionmet.com/articles/172-change-pricing-tier?auth=true&amp;preview=649353d8c371d73187fa3b95){: target="_blank"}.
 * You can always change your tier based on your billing cycle (monthly or annually).
 * You will retain all features in the software as you are currently using them (for example, if you have more metrics than your tier allows, you will retain the amount you currently have.)
 
@@ -90,9 +90,9 @@ We hope you have experienced value with Mission Met Center and will continue to 
 
 This begins today with the announcement of two new features – tags and super focus mode.
 
-We’ve expanded focus mode for core and solid tier subscribers. Focus mode for lite subscribers allows users to populate the actions of the plan for items that are only assigned to them. When super focus mode is on, users have the ability to populate the actions section by any person on your team, by tag and by progress update status. Super focus mode is available in both the Strategy and Metrics apps.
+We’ve expanded focus mode for Core and Solid tier subscribers. Focus mode for Lite subscribers allows users to populate the actions of the plan for items that are only assigned to them. When super focus mode is on, users have the ability to populate the actions section by any person on your team, by tag and by progress update status. Super focus mode is available in both the Strategy and Metrics apps.
 
-Additionally, core and solid subscribers can create and add tags to most aspects of their plan. This makes your content easily searchable using filters and can help you find information across your plan that relates to a specific topic.
+Additionally, Core and Solid subscribers can create and add tags to most aspects of their plan. This makes your content easily searchable using filters and can help you find information across your plan that relates to a specific topic.
 
 ## **Product improvements on the horizon**
 
@@ -104,6 +104,8 @@ We are also putting plans in place for future feature introductions and improvem
 * Customize sending schedules and gain control of when emails are sent
 * Advanced reporting
 * API Access for metrics and measurements, plans, etc.
+
+Have a different idea, [share with us](https://form.asana.com/?k=MUQfWwjcRu6dJO6Xt-yEDg&amp;d=108115602347316){: target="_blank" rel="noopener noreferrer nofollow"}.
 
 ## **Get in touch**
 
