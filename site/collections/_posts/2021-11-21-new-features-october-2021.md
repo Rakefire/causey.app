@@ -13,6 +13,9 @@ SEO_options:
 blurb: >-
   In this feature annoucement, we share Redesigned forms with strategic planning guidance built into the software. Ability to add notes, links, or attachments to goals within redesigned action item section. Expansion of document rearrangement and sorting capabilities.
   Translation of the software into Hindi, Māori, and both UK and American English. Feature to set default language and date/time format for Plan View Links. And an updated privacy policy.
+redirect_from:
+  - /features/2021/11/21/new-features-october-2021/
+  - /features/2021/11/21/new-features-october-2021
 ---
 Mission Met Center (MMC), your strategic planning software, has some new features and an updated look! We’re excited to tell you more about what we’ve been working on.
 

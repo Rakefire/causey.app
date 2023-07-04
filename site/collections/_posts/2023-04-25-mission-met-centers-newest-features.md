@@ -13,10 +13,13 @@ SEO_options:
 blurb: >-
   In this feature annoucement, we touch on Organization Launch Status, Changes to Automated Emails, Plan Lock Feature
   Enhanced Presentation View, Report Generation, and Cloning Focus Areas
+redirect_from:
+  - /features/2023/04/25/mission-met-center-s-newest-features/
+  - /features/2023/04/25/mission-met-center-s-newest-features
 ---
 Here is all the news on our latest features and updates to Mission Met Center.
 
-### **Launch your organization&nbsp;****🚀**
+### **Launch your organization** 🚀
 
 **Meeting your needs when building and executing your plan**
 
@@ -36,7 +39,7 @@ Additionally, we’ve made the language more clear in the look-ahead email to in
 
 [Learn about automated emails and how to subscribe](https://help.causey.app/articles/85-subscribe-to-emails/){: target="_blank"}
 
-### Lock your plan&nbsp;****🔒****
+### Lock your plan** 🔒
 
 In plan settings, you can now “lock” a plan, which means a plan cannot be edited by anyone, including administrators. We recommend using this feature for all past plans. This will help stop the possibility of someone erroneously working on the wrong plan, regardless of if it is active or inactive.&nbsp;
 

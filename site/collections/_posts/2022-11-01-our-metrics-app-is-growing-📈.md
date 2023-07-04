@@ -12,6 +12,9 @@ SEO_options:
   prevent_indexing: false
 blurb: >-
   Mission Met Center has enhanced its Metrics app, introducing the Metric Champion feature, Baselines for comparisons, Delta/Snapshot data entry options, automated Email Reminders for metrics updates, an Edit Measurements function, and improved export/import capabilities, all aimed at emphasizing the importance of regular metrics processing.
+redirect_from:
+  - /features/2022/11/01/our-metrics-app-is-growing/
+  - /features/2022/11/01/our-metrics-app-is-growing
 ---
 **We’re thrilled about the interest and engagement level of MMC users in the Metrics app!&nbsp;**
 
