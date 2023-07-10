@@ -12,6 +12,7 @@ SEO_options:
   prevent_indexing: false
 blurb: "Boost nonprofit success with strategic planning software: align teams, make data-driven decisions, streamline goals & enhance collaboration for long-term impact."
 redirect_from:
+  - /why/thought-leadership/2023/05/04/empowering-mission-driven-organizations-with-strategic-planning-software/
   - /why/thought-leadership/2023/06/18/empowering-mission-driven-organizations-with-strategic-planning-software/
   - /why/thought-leadership/2023/06/18/empowering-mission-driven-organizations-with-strategic-planning-software
 ---
