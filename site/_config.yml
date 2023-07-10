@@ -5,7 +5,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
-url: "https://www.causey.app/"
+url: "https://www.causey.app"
 
 jekyll-archives:
   enabled:
