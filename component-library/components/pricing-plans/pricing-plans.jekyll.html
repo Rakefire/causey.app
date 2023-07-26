@@ -64,11 +64,20 @@
                 </li>
               {% endfor %}
             </ul>
-            <a class="{{c}}__button"
-              href="{{ plan.button_url }}"
-              style="background-color: {{ plan.card_color }}">
-              Start your 30-day trial →
-            </a>
+            <div data-show-hide-target="on">
+              <a class="{{c}}__button"
+                href="{{ plan.price.month.button_url }}"
+                style="background-color: {{ plan.card_color }}">
+                Start your 30-day trial →
+              </a>
+            </div>
+            <div data-show-hide-target="off">
+              <a class="{{c}}__button"
+                href="{{ plan.price.year.button_url }}"
+                style="background-color: {{ plan.card_color }}">
+                Start your 30-day trial →
+              </a>
+            </div>
           </div>
         </div>
       {% endfor %}
