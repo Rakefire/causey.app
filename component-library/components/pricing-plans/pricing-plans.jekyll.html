@@ -16,7 +16,8 @@
         <div class="{{c}}__card">
           <div class="{{c}}__card-inner">
             <h3 class="{{c}}__title"
-              style="background-color: {{ plan.card_color }}">{{ plan.title }}</h3>
+                id="{{ plan.title | slugify}}"
+                style="background-color: {{ plan.card_color }}">{{ plan.title }}</h3>
             <ul class="{{c}}__features">
               <li>
                 <div data-show-hide-target="on">
