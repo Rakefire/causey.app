@@ -19,6 +19,6 @@ navigation_items:
   - label: Schedule a Demo
     link_url: https://calendly.com/mission-met/causey-demo
     link_type: Button
-  - label: Sign up
-    link_url: https://app.causey.app/sign_ups/new
-    link_type: Button
+  # - label: Sign up
+  #   link_url: https://app.causey.app/sign_ups/new
+  #   link_type: Button
