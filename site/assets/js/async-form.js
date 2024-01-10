@@ -29,6 +29,9 @@ const setupAsyncForms = () => {
         var request = new XMLHttpRequest();
 
         request.addEventListener("load", () => {
+          console.log("request.status")
+          console.log(request.status)
+
           if (request.status === 302 || request.status === 303 || request.status === 200) { // CloudCannon redirects on success
             const successMessage = form.querySelector("[name='_success_message']")?.value || "Success! Please check your email for the resource!";
 
