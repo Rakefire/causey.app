@@ -4,7 +4,7 @@ const setupAsyncForms = () => {
     .forEach(form => {
       // Override the submit event
       form.addEventListener("submit", event => {
-        event.preventDefault();
+        event.preventDefault()
 
         // TODO add Goolge Captcha
         // if (grecaptcha) {
@@ -14,7 +14,7 @@ const setupAsyncForms = () => {
         //   }
         // }
 
-        const formData = new FormData(form);
+        const formData = new FormData(form)
 
         fetch(form.action, {
           method: form.method,
@@ -22,26 +22,22 @@ const setupAsyncForms = () => {
           body: formData // directly pass the FormData object
         })
           .then(response => {
-            debugger
-            console.log("response.status");
-            console.log(response.status);
-
-            if ([302, 303, 200].includes(response.status)) {
-              return response.text();
+            if (response.type == "opaqueredirect" && response.url.endsWith(form.action)) {
+              return response.text()
             } else {
-              throw new Error(`Request failed with status: ${response.status}`);
+              throw new Error(`Request failed with status: ${response.status}`)
             }
           })
           .then(_ => {
-            const successMessage = form.querySelector("[name='_success_message']")?.value || "Success! Please check your email for the resource!";
-            form.innerHTML = `<p>${successMessage}</p>`;
+            const successMessage = form.querySelector("[name='_success_message']")?.value || "Success! Please check your email for the resource!"
+            form.innerHTML = `<p>${successMessage}</p>`
           })
           .catch(_ => {
-            const failureMessage = form.querySelector("[name='_failure_message']")?.value || "I'm sorry, something didn't work. Please refresh and try again.";
-            form.innerHTML = `<p>${failureMessage}</p>`;
-          });
-      });
-    });
-};
+            const failureMessage = form.querySelector("[name='_failure_message']")?.value || "I'm sorry, something didn't work. Please refresh and try again."
+            form.innerHTML = `<p>${failureMessage}</p>`
+          })
+      })
+    })
+}
 
-document.addEventListener("DOMContentLoaded", setupAsyncForms);
+document.addEventListener("DOMContentLoaded", setupAsyncForms)
