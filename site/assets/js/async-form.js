@@ -22,6 +22,7 @@ const setupAsyncForms = () => {
           body: formData // directly pass the FormData object
         })
           .then(response => {
+            debugger
             console.log("response.status");
             console.log(response.status);
 
