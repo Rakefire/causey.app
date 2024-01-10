@@ -2,16 +2,16 @@ source "https://rubygems.org"
 
 ruby File.read("#{__dir__}/../.ruby-version").strip
 
-gem 'jekyll', '4.3.2'
+gem "jekyll", "4.3.2"
 
 group :jekyll_plugins do
   gem "jekyll-bookshop", "3.3.0"
-  gem 'jekyll-watch', :git => "https://github.com/CloudCannon/jekyll-watch"
-  gem 'jekyll-postcss-v2'
-  gem 'jekyll-archives', '~> 2.2.1'
-  gem 'jekyll-feed', '~> 0.15.1'
-  gem 'jekyll-redirect-from'
-  gem 'jekyll-sitemap'
+  gem "jekyll-watch", :git => "https://github.com/CloudCannon/jekyll-watch"
+  gem "jekyll-postcss-v2"
+  gem "jekyll-archives", "~> 2.2.1"
+  gem "jekyll-feed", "~> 0.15.1"
+  gem "jekyll-redirect-from"
+  gem "jekyll-sitemap"
 end
 
 gem "webrick"
