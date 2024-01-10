@@ -63,6 +63,60 @@ This guide is packed with valuable insights, including:
 * fail-proof email templates
 * ingenious ways to keep those connections alive over time.
 
+<style>
+  form {
+    border: 1px solid #243746;
+    border-radius: 0.25em;
+    padding: 2em;
+  }
+
+  label {
+    width: 100%;
+    font-size: 1.5em;
+  }
+
+  textarea, input[type=text] {
+    font-size: 1.5em;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 100%;
+  }
+
+  input[type=submit] {
+    display: block;
+    background-color: #243746;
+    border: none;
+    color: white;
+    font-size: 1.25em;
+    padding: 1em 2em;
+    margin: 10px auto;
+  }
+</style>
+
+<form method="post" action="/form-success" data-type="async-form">
+  <label>First Name</label>
+  <input type="text" name="first_name" required><!-- first_name - required -->
+
+  <label>Email Address</label>
+  <input type="text" name="email" required><!-- email - required -->
+
+  <input type="hidden" name="_subject" value="Strategic Networking Cheatsheet">
+
+  <input type="hidden" name="inbox_key" value="zapier-inbox"><!-- required -->
+  <input type="hidden" name="_to" value="ricky@missionmet.com"><!-- _to - send the full content to - strongly recommended -->
+
+  <input type="text" name="_gotcha" style="display: none;"><!-- poor man's captcha - required -->
+
+  <input type="hidden" name="_add_to_sendgrid_list" value="Strategic Networking Cheatsheet"><!-- _to - send the full content to - strongly recommended -->
+  <input type="hidden" name="_success_message" value="Thank you! Check your email for the cheatsheet!"> <!-- optional - there are sensible defaults -->
+  <input type="hidden" name="_failure_message" value="I'm sorry, but something didn't work. Can you refresh and try again?"> <!-- optional - there are sensible defaults -->
+
+  <input type="submit" value="Get The Cheatsheet!">
+</form>
+
 No more wondering if your networking game is on point – with this cheatsheet, you'll be weaving connections like a pro in no time.
 
 Elevate your professional journey and empower your nonprofit to thrive by mastering the art of strategic networking. Download now and unlock a wealth of opportunities for growth, collaboration, and success.
