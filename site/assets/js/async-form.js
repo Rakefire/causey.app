@@ -1,15 +1,3 @@
-// Helper function to get form data in the supported format
-const getFormDataString = formEl => {
-  let formData = new FormData(formEl);
-  let data = [];
-
-  for (var keyValue of formData) {
-    data.push(encodeURIComponent(keyValue[0]) + "=" + encodeURIComponent(keyValue[1]));
-  }
-
-  return data.join("&");
-};
-
 const setupAsyncForms = () => {
   Array
     .from(document.querySelectorAll("form[data-type='async-form']"))
@@ -26,25 +14,31 @@ const setupAsyncForms = () => {
         //   }
         // }
 
-        var request = new XMLHttpRequest();
+        const formData = new FormData(form);
 
-        request.addEventListener("load", () => {
-          console.log("request.status")
-          console.log(request.status)
+        fetch(form.action, {
+          method: form.method,
+          redirect: 'manual', // this is to not follow redirects
+          body: formData // directly pass the FormData object
+        })
+          .then(response => {
+            console.log("response.status");
+            console.log(response.status);
 
-          if (request.status === 302 || request.status === 303 || request.status === 200) { // CloudCannon redirects on success
+            if ([302, 303, 200].includes(response.status)) {
+              return response.text();
+            } else {
+              throw new Error(`Request failed with status: ${response.status}`);
+            }
+          })
+          .then(_ => {
             const successMessage = form.querySelector("[name='_success_message']")?.value || "Success! Please check your email for the resource!";
-
             form.innerHTML = `<p>${successMessage}</p>`;
-          } else {
+          })
+          .catch(_ => {
             const failureMessage = form.querySelector("[name='_failure_message']")?.value || "I'm sorry, something didn't work. Please refresh and try again.";
             form.innerHTML = `<p>${failureMessage}</p>`;
-          }
-        });
-
-        request.open(form.method, form.action);
-        request.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-        request.send(getFormDataString(form));
+          });
       });
     });
 };

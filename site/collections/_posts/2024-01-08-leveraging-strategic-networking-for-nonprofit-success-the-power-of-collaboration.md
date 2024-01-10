@@ -91,9 +91,9 @@ This guide is packed with valuable insights, including:
     background-color: #243746;
     border: none;
     color: white;
-    font-size: calc(var(--content-font-size) * 1.25);
+    font-size: calc(var(--content-font-size) * 1.1);
     font-family: var(--headings-fonts);
-    padding: 1em 2em;
+    padding: 0.75em 1.25em;
     margin: 10px auto;
   }
 </style>
