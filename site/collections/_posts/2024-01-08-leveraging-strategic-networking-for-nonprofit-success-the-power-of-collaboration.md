@@ -68,15 +68,16 @@ This guide is packed with valuable insights, including:
     border: 1px solid #243746;
     border-radius: 0.25em;
     padding: 2em;
+    margin: 4em 0em;
   }
 
   label {
     width: 100%;
-    font-size: 1.5em;
+    font-size: var(--content-font-size);
   }
 
   textarea, input[type=text] {
-    font-size: 1.5em;
+    font-size: var(--content-font-size);
     padding: 0.5em;
     margin-top: 0.5em;
     margin-bottom: 1.5em;
@@ -90,7 +91,8 @@ This guide is packed with valuable insights, including:
     background-color: #243746;
     border: none;
     color: white;
-    font-size: 1.25em;
+    font-size: calc(var(--content-font-size) * 1.25);
+    font-family: var(--headings-fonts);
     padding: 1em 2em;
     margin: 10px auto;
   }
