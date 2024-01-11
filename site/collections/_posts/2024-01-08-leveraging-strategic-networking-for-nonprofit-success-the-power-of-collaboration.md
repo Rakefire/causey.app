@@ -21,6 +21,8 @@ blurb: >-
 ---
 As a nonprofit professional, you likely face numerous challenges in achieving your mission. However, a powerful tool lies at your disposal: strategic networking.&nbsp;
 
+**TL;DR Grab the [Strategic Networking Cheatsheet](#navigating-networking) now**
+
 ​​Business professionals have long recognized the power of strategic networking. It's been a cornerstone for professional success. Networking opens doors, allows you to gain insight, and collaborate to drive their businesses forward.&nbsp;
 
 Similarly, nonprofit professionals can harness the same principles to advance their organizational missions. By building and nurturing strategic networks, you can access vital resources, tap into others' knowledge, and build partnerships that amplify your impact.&nbsp;
@@ -51,17 +53,17 @@ You stand to gain a multitude of benefits through strategic networking, each con
 
 In the nonprofit sector, building meaningful connections is not just a valuable skill – it's a strategic necessity. We’ve reviewed *why* networking is beneficial. But do you know *how* to network?
 
-We’ve developed the Strategic Networking Cheatsheet to quickly equip you with the essentials to get you strategically networking.
+We’ve developed the **Strategic Networking Cheatsheet** to quickly equip you with the essentials to get you strategically networking.
 
 This guide is packed with valuable insights, including:
 
-* an action plan
-* insider tips
-* do's and don'ts
-* conversation starters
-* sample questions
-* fail-proof email templates
-* ingenious ways to keep those connections alive over time.
+- an action plan
+- insider tips
+- do's and don'ts
+- conversation starters
+- sample questions
+- fail-proof email templates
+- ingenious ways to keep those connections alive over time.
 
 <style>
   form {
