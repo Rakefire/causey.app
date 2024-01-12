@@ -36,8 +36,8 @@
                   type="{{field.type}}"
                   name="{{field.name}}"
                   {% if field.placeholder %}placeholder="{{field.placeholder}}"{% endif %}
-                  {% if field.required %}required{% endif %}
-                  >
+                  {% if field.required %} required {% endif %}
+                  />
               {% endfor %}
               <input type="submit" value="{{form.submit}}">
             </form>
