@@ -83,7 +83,7 @@ This guide is packed with valuable insights, including:
     padding: 0.5em;
     margin-top: 0.5em;
     margin-bottom: 1.5em;
-    border: 2px solid black;
+    border: 1px solid #ced4da;
     border-radius: 4px;
     width: 100%;
   }

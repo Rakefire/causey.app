@@ -22,10 +22,7 @@
 
   &__column {
     h4 {
-      font-size: 2.5em;
-      margin: 15px auto;
-      max-width: 150px;
-      color: var(--text-color);
+      font-size: 1.75em;
       font-weight: 600;
     }
 
@@ -53,6 +50,23 @@
       &:hover {
         color: var(--footer-link-hover-color);
       }
+    }
+
+    input[type=text] {
+      font-size: var(--content-font-size);
+      border: 1px solid #ced4da;
+      border-radius: 4px;
+      padding: 0.25em;
+    }
+
+    input[type=submit] {
+      display: block;
+      background-color: #243746;
+      border: none;
+      color: white;
+      font-size: calc(var(--content-font-size) * 0.8);
+      padding: 0.5em 1em;
+      margin-top: 0.5em;
     }
   }
 

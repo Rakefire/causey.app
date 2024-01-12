@@ -25,13 +25,30 @@
 							{% endif %}
 						</li>
 					{% endfor %}
+
+          {% for form in column.forms %}
+            <form method="post" action="{{ form.action }}" {% if form.async %}data-type="async-form"{% endif %}>
+              {% for field in form.fields %}
+                {% if field.label %}
+                  <label>{{field.label}}</label>
+                {% endif %}
+                <input
+                  type="{{field.type}}"
+                  name="{{field.name}}"
+                  {% if field.placeholder %}placeholder="{{field.placeholder}}"{% endif %}
+                  {% if field.required %}required{% endif %}
+                  >
+              {% endfor %}
+              <input type="submit" value="{{form.submit}}">
+            </form>
+          {% endfor %}
 				</ul>
 			</div>
 		{% endfor %}
 	</div>
 	<div class="{{c}}__lower-text" class="editable">
     <p>
-      © {{ site.time | date: '%Y' }} Mission Met LLC. •
+      © {{ site.time | date: '%Yg' }} Mission Met LLC. •
       <a href="/terms">Terms</a> &amp; <a href="/privacy">Privacy</a>
     </p>
 	</div>

@@ -37,6 +37,30 @@ link_columns:
         link_url: https://status.causey.app/
         icon_image:
         open_in_new_tab: false
+  - label: Newsletter
+    heading: Sign up for our Newsletter
+    forms:
+      - submit: Sign Up
+        async: true
+        action: /newsletter
+        fields:
+        - type: text
+          name: email
+          placeholder: email address
+        - type: hidden
+          name: inbox_key
+          value: zapier-inbox
+        - type: hidden
+          name: _add_to_sendgrid_list
+          value: Causey Newsletter
+        - type: hidden
+          name: _success_message
+          value: You're signed up!
+        - type: hidden
+          name: _failure_message
+          value: There was a problem. Try again? 🤷🏼
+
+
   - label: Social
     heading:
     links:
