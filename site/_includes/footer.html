@@ -29,7 +29,10 @@
 			</div>
 		{% endfor %}
 	</div>
-	<div class="{{c}}__lower-text">
-		{{ footer.lower_text_html }}
+	<div class="{{c}}__lower-text" class="editable">
+    <p>
+      © {{ site.time | date: '%Y' }} Mission Met LLC. •
+      <a href="/terms">Terms</a> &amp; <a href="/privacy">Privacy</a>
+    </p>
 	</div>
 </div>
