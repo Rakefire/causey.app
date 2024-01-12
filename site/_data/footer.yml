@@ -52,7 +52,7 @@ link_columns:
           value: zapier-inbox
         - type: hidden
           name: _add_to_sendgrid_list
-          value: Causey Newsletter
+          value: Causey Newsletter Subscribers
         - type: hidden
           name: _success_message
           value: You're signed up!
