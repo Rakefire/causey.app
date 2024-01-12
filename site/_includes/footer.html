@@ -32,12 +32,19 @@
                 {% if field.label %}
                   <label>{{field.label}}</label>
                 {% endif %}
-                <input
-                  type="{{field.type}}"
-                  name="{{field.name}}"
-                  {% if field.placeholder %}placeholder="{{field.placeholder}}"{% endif %}
-                  {% if field.required %} required {% endif %}
-                  />
+                {% if field.required %}
+                  <input
+                    type="{{field.type}}"
+                    name="{{field.name}}"
+                    placeholder="{{field.placeholder}}"
+                    required>
+                {% else %}
+                  <input
+                    type="{{field.type}}"
+                    name="{{field.name}}"
+                    placeholder="{{field.placeholder}}"
+                    required>
+                {% endif %}
               {% endfor %}
               <input type="submit" value="{{form.submit}}">
             </form>
