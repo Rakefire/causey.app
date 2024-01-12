@@ -44,7 +44,7 @@ link_columns:
         async: true
         action: /newsletter
         fields:
-        - type: text
+        - type: email
           name: email
           placeholder: email address
         - type: hidden
