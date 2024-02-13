@@ -18,4 +18,4 @@ Check out [Mission Met’s blog about specific barriers to partnerships](https:/
 
 We’d like to offer a suggestion of our own to help partnerships succeed — use technology tools where you can. Causey can help you define the Mission, Vision, and Values of a partnership, as well as define your goals and track progress. Having one consistent place to provide updates will help the partnership teams communicate efficiently and effectively.
 
-Overcoming barriers to nonprofit partnerships requires commitment, communication, and collaboration.&nbsp;
+Overcoming barriers to nonprofit partnerships requires commitment, communication, and collaboration. Causey can help with those three elements and can help partnerships run smoothly.
