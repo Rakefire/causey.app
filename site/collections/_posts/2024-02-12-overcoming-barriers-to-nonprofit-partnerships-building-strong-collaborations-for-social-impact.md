@@ -10,7 +10,16 @@ SEO_options:
   description:
   image:
   prevent_indexing: false
-blurb:
+blurb: >-
+  Strategic partnerships enable nonprofits to pool strengths, resources, and
+  expertise to tackle complex social issues and achieve greater collective
+  success, driving lasting positive change.
+
+
+  Check out Mission Met’s blog about specific barriers to partnerships that we
+  hear about from mission-driven leaders, including limited resources,
+  communication issues, and inadequate planning. The article also offers
+  suggestions for how to overcome each barrier.
 ---
 Strategic partnerships enable nonprofits to pool strengths, resources, and expertise to tackle complex social issues and achieve greater collective success, driving lasting positive change.
 
