@@ -16,7 +16,9 @@
     <meta name="twitter:image:alt" content="{{ site.data.general_settings.social_media_share_image }}">
     <meta property="twitter:title" content="{{ page.title }}">
     <meta name="twitter:site" content="{{ site.data.general_settings.twitter_handle }}">
-    <link rel="canonical" href="{{ site.data.general_settings.live_domain_url }}/">
+    {% if page.SEO_options.canonical %}
+      <link rel="canonical" href="{{ site.data.general_settings.live_domain_url }}/{{ page.SEO_options.canonical }}">
+    {% end %}
 
     <link rel="stylesheet" href="/assets/main.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
