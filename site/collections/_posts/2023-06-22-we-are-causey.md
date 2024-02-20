@@ -54,7 +54,7 @@ First, I think it speaks to the essence of what you all do – working tirelessl
 
 Did you know that “causey” is an abbreviated form of “causeway,” which is a raised way across wet ground or water? What a great visual interpretation of this strategic planning tool. Our software is a resource that helps you advance your strategic plan and gets you from one point to another. Just like a causeway.
 
-Plus, we were able to get the domain, [causey.app](http://www.causey.app) ;)
+Plus, we were able to get the domain, [causey.app](https://www.causey.app) ;)
 
 # **How Causey builds on Mission Met Center**
 
