@@ -11,13 +11,9 @@ spec:
 # Defines the structure of this component, as well as the default values
 blueprint:
   details:
-    - show_details: true
-      heading: ""
-      subheading: ""
-      text_color: ""
-      button_label: ""
-      button_link_url: ""
-      button_variant: Transparent
+    show_details: true
+    heading: ""
+    subheading: ""
   content_arrangement: Left
   image_borders: true
   component_theme: ""
@@ -30,12 +26,9 @@ blueprint:
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
   details:
-    - heading: Some of our work
-      subheading: We take pride in our previous work and our happy customers. We cater
-        to any sector to boost business and increase exposure.
-      text_color: "#ffffff"
-      button_label: View Full Portfolio →
-      button_link_url: /portfolio/
+    heading: Some of our work
+    subheading: We take pride in our previous work and our happy customers. We cater
+      to any sector to boost business and increase exposure.
   component_theme: Dark
   gallery_items:
     - image: //placekitten.com/440/440?a=.png
@@ -45,12 +38,6 @@ preview:
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
-  button_variant:
-    type: select
-    options:
-      values:
-        - Transparent
-        - Filled
   content_arrangement:
     type: select
     options:
