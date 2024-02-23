@@ -2,7 +2,7 @@
 spec:
   structures:
     - content_blocks
-  label: Header With Image
+  label: Header With Video
   description: Page header with headings, a button and an image
   icon: wysiwyg
   tags:
