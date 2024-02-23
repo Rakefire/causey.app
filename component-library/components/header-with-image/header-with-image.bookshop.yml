@@ -17,7 +17,9 @@ blueprint:
   button_label: ""
   button_link_url: ""
   button_variant: Transparent
-  image: ""
+  image:
+    url: ""
+    in_window: true
   component_theme: ""
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
@@ -28,7 +30,9 @@ preview:
   content_alignment: Center
   button_label: Get Started Free
   button_link_url: /sign-up/
-  image: /images/dashboard.png
+  image:
+    url: /images/dashboard.png
+    in_window: true
   component_theme: Light
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint

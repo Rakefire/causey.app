@@ -7,15 +7,15 @@
 		<div class="{{c}}__subheading"
 			 style="color: {{ include.text_color }}">{{ include.subheading_html }}</div>
 		{% if include.button_link_url %}
-			{% bookshop button 
+			{% bookshop button
 						label=include.button_label
 						variant=include.button_variant
 						link_url=include.button_link_url %}
 		{% endif %}
 	</div>
-	{% if include.image %}
-		<div class="{{c}}__image-wrapper">
-			<img src="{{ include.image }}" alt="{{ include.heading }}" />
+	{% if include.image.url %}
+		<div class="{% if include.image.in_window %}{{c}}__image-window-wrapper{% endif %}">
+			<img src="{{ include.image.url }}" alt="{{ include.heading }}" />
 		</div>
 	{% endif %}
 </div>
