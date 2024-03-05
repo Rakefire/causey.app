@@ -1,0 +1,1 @@
+web: cd site; bundle exec jekyll serve
