@@ -21,7 +21,7 @@ body {
   --font: var(--body-font), "Helvetica Neue", "Helvetica", "Arial";
   --headings-fonts: var(--headings-font), "Helvetica Neue", "Helvetica", "Arial";
   --component-padding: 70px;
-  --navigation-offset: 70px;
+  // --navigation-offset: 70px;
   position: relative;
   margin: 0;
   font-family: var(--font);
@@ -126,7 +126,7 @@ body {
 // Layouts
 
 .body-wrapper {
-  padding-top: var(--navigation-offset);
+  // padding-top: var(--navigation-offset);
   background-color: var(--page-color);
 }
 

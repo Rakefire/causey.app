@@ -69,6 +69,7 @@
 
 
 {% bookshop_scss %}
+{% include sass/banner.scss %}
 {% include sass/navigation.scss %}
 {% include sass/site.scss %}
 {% include sass/footer.scss %}

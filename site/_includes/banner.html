@@ -1,0 +1,12 @@
+{% assign c = "c-banner" %}
+{% assign banner = site.data.banner %}
+
+<div class="{{c}}">
+  {% if banner.url %}
+    <a href="{{ banner.url }}">
+      {{ banner.text }}
+    </a>
+  {% else %}
+    {{ banner.text }}
+  {% endif %}
+</div>

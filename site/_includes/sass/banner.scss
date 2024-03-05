@@ -1,0 +1,27 @@
+.c-banner {
+  $c: &;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  margin: 20px 0px 10px 0px;
+
+  p {
+    color: var(--footer-link-color);
+    font-size: 1.6em;
+    font-weight: 400;
+
+    a {
+      font-size: 1.6em;
+      color: var(--footer-link-color);
+      text-decoration: none;
+      font-weight: 600;
+
+      &:hover {
+        color: var(--footer-link-hover-color);
+      }
+    }
+  }
+}
