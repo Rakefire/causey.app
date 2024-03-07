@@ -1,5 +1,5 @@
 ---
-title: 'Maximizing Revenue in 2024: Four Strategies for Strategic Consultants'
+title: 'Maximizing Revenue in 2024: Four Strategies for Strategy Consultants'
 categories:
   - consulting
 author_staff_member: 6ab925e3-9897-4b5d-84a5-19146f8b9c46
@@ -12,7 +12,7 @@ content_blocks:
     submit_success_url: ''
     component_theme: Light
 SEO_options:
-  title: 'Maximizing Revenue in 2024: Four Strategies for Strategic Consultants'
+  title: 'Maximizing Revenue in 2024: Four Strategies for Strategy Consultants'
   description: >-
     To enhance revenue while maintaining a strong commitment to client service,
     mission-driven strategy consultants are encouraged to adopt four key
