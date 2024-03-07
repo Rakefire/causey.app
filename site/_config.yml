@@ -87,6 +87,7 @@ defaults:
       type: posts
     values:
       layout: post
+      dont_render_bookshop_components: true
   -
     scope:
       type: clients

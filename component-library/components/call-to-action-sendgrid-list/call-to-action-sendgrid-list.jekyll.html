@@ -1,5 +1,7 @@
 <div class="{{c}}__inner-wrapper
-			component">
+			component"
+      {% if include.id %}id="{{include.id}}"{% endif %}
+      >
 	<h2 class="{{c}}__heading">{{ include.heading }}</h2>
   {% if include.lower_text %}
 	<p class="{{c}}__content">
@@ -16,12 +18,6 @@
            <input type="hidden"
            name="_to"
            value="ricky@missionmet.com" />
-    <label>First Name</label>
-    <input class="{{c}}__first-name-input"
-           type="text"
-           name="first_name"
-           required=""
-           placeholder="First name" />
 		<input class="{{c}}__email-input"
 			   type="email"
 			   name="email"
@@ -51,4 +47,9 @@
 	</form>
 </div>
 
+    <input class="{{c}}__first-name-input"
+           type="text"
+           name="first_name"
+           required=""
+           placeholder="First name" />
 
