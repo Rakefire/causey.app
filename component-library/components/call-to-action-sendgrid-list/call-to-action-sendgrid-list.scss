@@ -37,22 +37,26 @@
 
   form {
     display: flex;
+    flex-direction: column; // for mobile
+
     align-items: center;
     max-width: 500px;
     margin: 30px auto 0 auto;
     padding-bottom: 50px;
   }
 
+
+  &__first-name-input,
   &__email-input {
     flex-grow: 1;
     flex-shrink: 1;
     width: 100%;
     padding: 16px 40px;
     border: 1px solid #ddd;
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
     box-sizing: content-box;
     font-size: 1.6em;
     font-weight: 100;
+    margin-bottom: 10px;
+    border-radius: 30px;
   }
 }
