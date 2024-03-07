@@ -3,7 +3,7 @@ title: 'Maximizing Revenue in 2024: Four Strategies for Strategic Consultants'
 categories:
   - consulting
 author_staff_member: 6ab925e3-9897-4b5d-84a5-19146f8b9c46
-date:
+date: 2024-08-08
 content_blocks:
 SEO_options:
   title:
