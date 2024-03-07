@@ -1,0 +1,34 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: CTA Sendgrid list
+  description: CTA block with a subscribe to Sendgrid list option
+  icon: wysiwyg
+  tags:
+    - Content
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  heading: ""
+  lower_text: ""
+  sendgrid_list_name: "202X Resource Name"
+  success_message: "Thank you! Check your email for the cheatsheet!"
+  failure_message: "I'm sorry, but something didn't work. Can you refresh and try again?"
+  submit_button: "Get the Resource"
+  inbox_key: "zapier-inbox"
+  component_theme: ""
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+  heading: Join Us
+  lower_text: Sign up to hear the latest news and progress in our fight for the sheep vote.
+  sendgrid_list_name: "Strategic Networking Cheatsheet"
+  success_message: "Thank you! Check your email for the cheatsheet!"
+  failure_message: "I'm sorry, but something didn't work. Can you refresh and try again?"
+  submit_button: "Get the Cheatsheet!"
+  inbox_key: "zapier-inbox"
+  component_theme: Light
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs: {}

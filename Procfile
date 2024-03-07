@@ -1,1 +1,1 @@
-web: cd site; bundle exec jekyll serve
+web: cd site; bundle exec jekyll serve --drafts

@@ -1,0 +1,54 @@
+<div class="{{c}}__inner-wrapper
+			component">
+	<h2 class="{{c}}__heading">{{ include.heading }}</h2>
+  {% if include.lower_text %}
+	<p class="{{c}}__content">
+    {{ include.lower_text }}
+	</p>
+  {% endif %}
+	<form class="{{c}}__mailing-list"
+		  action="/form-success"
+      data-type="async-form"
+		  method="post">
+    <input type="hidden"
+           name="_subject"
+           value="{{ include.heading }}" />
+           <input type="hidden"
+           name="_to"
+           value="ricky@missionmet.com" />
+    <label>First Name</label>
+    <input class="{{c}}__first-name-input"
+           type="text"
+           name="first_name"
+           required=""
+           placeholder="First name" />
+		<input class="{{c}}__email-input"
+			   type="email"
+			   name="email"
+			   id="email"
+			   placeholder="Email"
+			   required />
+  <input type="hidden"
+         name="inbox_key"
+         value="{{ include.inbox_key }}" />
+	<input type="text"
+			   name="_gotcha"
+			   style="display: none;">
+  <input type="hidden"
+         name="_add_to_sendgrid_list"
+         value="{{ include.sendgrid_list_name }}" />
+  <input type="hidden"
+         name="_success_message"
+         value="{{ include.success_message }}" />
+  <input type="hidden"
+         name="_failure_message"
+         value="{{ include.failure_message }}" />
+
+		{% bookshop button
+					label=include.submit_button
+					variant='Filled'
+					submit=true %}
+	</form>
+</div>
+
+

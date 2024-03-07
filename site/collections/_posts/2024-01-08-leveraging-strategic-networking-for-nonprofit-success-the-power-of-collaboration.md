@@ -85,7 +85,7 @@ This guide is packed with valuable insights, including:
   <input type="text" name="first_name" required="" /><!--base32-EBTGS4TTORPW4YLNMUQC2IDSMVYXK2LSMVSCA===-base32-->
 
   <label>Email Address</label>
-  <input type="text" name="email" required="" /><!--base32-EBSW2YLJNQQC2IDSMVYXK2LSMVSCA===-base32-->
+  <input type="email" name="email" required="" /><!--base32-EBSW2YLJNQQC2IDSMVYXK2LSMVSCA===-base32-->
 
   <input type="hidden" name="_subject" value="Strategic Networking Cheatsheet" />
 

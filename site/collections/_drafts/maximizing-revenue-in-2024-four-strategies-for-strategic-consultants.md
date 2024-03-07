@@ -3,13 +3,15 @@ title: 'Maximizing Revenue in 2024: Four Strategies for Strategic Consultants'
 categories:
   - consulting
 author_staff_member: 6ab925e3-9897-4b5d-84a5-19146f8b9c46
-date: 2024-03-08 00:00:00
+date: 2024-03-07 00:00:00
 content_blocks:
-  - _bookshop_name: call-to-action-mailing-list
+  - _bookshop_name: call-to-action-sendgrid-list
     heading: Get the Customer Lifecycle Roadmap
-    lower_text: ''
-    form_submission_email: info@missionmet.com
-    submit_success_url: ''
+    lower_text: 'And start nurturing your best customers for more revenue.'
+    sendgrid_list_name: "2024 Causey Customer Lifecycle Roadmap"
+    success_message: "Thank you! Check your email for the roadmap!"
+    failure_message: "I'm sorry, but something didn't work. Can you refresh and try again?"
+    submit_button: "Send it to me!"
     component_theme: Light
 SEO_options:
   title:
