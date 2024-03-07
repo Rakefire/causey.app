@@ -1,9 +1,9 @@
 ---
-title: 'Maximizing Revenue in 2024: Four Strategies for Strategy Consultants'
+title: "Maximizing Revenue in 2024: Four Strategies for Strategy Consultants"
 categories:
   - consulting
 author_staff_member: 6ab925e3-9897-4b5d-84a5-19146f8b9c46
-date: 2024-03-06 00:00:00
+date: 2024-03-05 00:00:00
 content_blocks:
   - _bookshop_name: call-to-action-sendgrid-list
     id: get-the-roadmap
