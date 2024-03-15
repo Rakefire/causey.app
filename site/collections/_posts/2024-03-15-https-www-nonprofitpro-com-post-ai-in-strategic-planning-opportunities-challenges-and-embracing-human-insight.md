@@ -12,7 +12,11 @@ SEO_options:
   description:
   image:
   prevent_indexing: false
-blurb:
+blurb: >-
+  After asking ChatGPT to create a strategic plan, it made me realize that while
+  having a plan matters, there are many challenges that AI will never solve
+  completely. Here’s what I see as the good parts and the challenges of using AI
+  in strategic planning.
 ---
 *This post was originally written and appeared on* [*Nonprofit Pro*](https://www.nonprofitpro.com/post/ai-in-strategic-planning-opportunities-challenges-and-embracing-human-insight/){: target="_blank" rel="noopener"}*.*
 
