@@ -1,6 +1,7 @@
 ---
 title: >-
-  https://www.nonprofitpro.com/post/ai-in-strategic-planning-opportunities-challenges-and-embracing-human-insight/
+  AI in Strategic Planning: Opportunities, Challenges and Embracing Human
+  Insight
 categories:
   - thought-leadership
 author_staff_member: 171c91e1-2e04-443c-8c5c-ea8c68a3f596
