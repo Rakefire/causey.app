@@ -20,7 +20,7 @@ blurb: >-
 ---
 Amid all the talk about artificial intelligence (AI), I tried an experiment, asking ChatGPT to create a strategic plan for a made-up nonprofit. The result, generated in just 15 seconds, impressed me. Try it yourself using this prompt:
 
-Please write an engaging and formal {{start year}}\-{{end year}} strategic plan for {{organization name}}, a nonprofit with {{number of staff}} staff members and an annual budget of {{annual budget}}.
+Please write an engaging and formal (start year)-(end year) strategic plan for (organization name), a nonprofit with (number of staff) staff members and an annual budget of (annual budget).
 
 Each goal statement should be specific, attainable, relevant, and time-bound.
 
@@ -28,15 +28,15 @@ Each goal should suggest two measures.
 
 Each goal should suggest several action items.
 
-Mission Statement: {{mission statement}}
+Mission Statement: (Enter mission statement)
 
-Vision Statement: {{vision statement}}
+Vision Statement: (Enter vision statement)
 
-Values: {{list of key values}}
+Values: (Enter list of key values)
 
-Programs: {{brief summary of programs}}
+Programs: (Enter brief summary of programs)
 
-Partners: {{brief summary of partners}}
+Partners: (Enter brief summary of partners)
 
 The results are generally pretty impressive, but it makes you realize that while having a plan matters, there are many challenges that AI will never solve completely. Here's what I see as the good parts and the challenges of using AI in strategic planning.
 
