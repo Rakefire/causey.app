@@ -50,7 +50,7 @@
 
 	--headings-font: {{ theme_data.headings_font }};
 	--body-font: {{ theme_data.body_font }};
-	--content-font-size: {{ theme_data.content_font_size_number }}em;
+	--content-font-size: {{ theme_data.content_font_size_number }}rem;
 
 
   /* Shoelace styles */
