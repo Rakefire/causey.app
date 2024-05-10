@@ -47,8 +47,8 @@ As we expand user account settings and preferences, we recognize that you might 
 
 **Update Privacy Policy**
 
-All companies have paperwork and administrative tasks and we’re no exception! Read our updated&nbsp;[privacy policy](https://www.missionmet.com/privacy){: target="_blank"}&nbsp;and view our&nbsp;[terms of service](https://www.missionmet.com/terms){: target="_blank"}.
+All companies have paperwork and administrative tasks and we’re no exception! Read our updated [privacy policy](https://www.causey.app/privacy){: target="_blank"} and view our [terms of service](https://www.causey.app/terms){: target="_blank"}.
 
 [Learn more about how we secure your data.](https://help.causey.app/article/109-how-secure-and-safe-is-my-data?auth=true){: target="_blank"}
 
-Have feedback? Want to tell us about how we’re helping your organization develop and execute your strategic plans? Just hit reply and let us know.&nbsp;
+Have feedback? Want to tell us about how we’re helping your organization develop and execute your strategic plans? Just hit reply and let us know.
