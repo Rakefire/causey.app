@@ -3,7 +3,7 @@ title: Causey to Attend Pennsylvania Library Association 2024 Annual Conference
 categories:
   - news
 author_staff_member: 6ab925e3-9897-4b5d-84a5-19146f8b9c46
-date:
+date: 2024-09-11 00:00:00
 content_blocks:
 SEO_options:
   title:
