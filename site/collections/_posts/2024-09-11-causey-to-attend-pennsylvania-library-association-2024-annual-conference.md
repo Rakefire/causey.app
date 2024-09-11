@@ -15,8 +15,8 @@ blurb: >-
   2024 Conference in Harrisburg, PA, from October 6-9. Learn how to connect with
   us at the conference and find out how our strategic planning software can
   benefit your library. We've also included a quick survey to gather your
-  feedback strategy challenges you've experienced. We look forward to connecting
-  with you and empowering libraries to make a greater impact!
+  feedback about strategy challenges you've experienced. We look forward to
+  connecting with you!
 ---
 We are excited to announce that [Causey](www.causey.app){: target="_blank" rel="noopener"} will be attending the [Pennsylvania Library Association (PaLA) 2024 Conference](https://www.palibraries.org/page/2024ConferencePrelim) in Harrisburg, PA, from October 6-9. The PaLA Conference offers the most comprehensive opportunity for members of the Pennsylvania library community to learn from leaders in the profession, experts in related fields, as well as from each other.
 
