@@ -84,4 +84,4 @@ Excuse our bias, but this is one of our favorite features to date! Collaborate w
 
 Thank you for being a valued Causey user. We can’t wait to hear how these new features make your strategic planning process even better!
 
-All the best as we head into a new year,<br>Megan and the Causey team
+All the best as we head into a new year,<br>
