@@ -9,4 +9,5 @@ linkedin: megan-drapcho-86ba40159
 blurb:
 phone:
 phone_extension:
+hide_on_staff_page: true
 ---
