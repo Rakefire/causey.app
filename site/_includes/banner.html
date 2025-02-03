@@ -1,7 +1,7 @@
 {% assign c = "c-banner" %}
 {% assign banner = site.data.banner %}
 
-{% if banner.text %}
+{% if banner.text != '' %}
 <div class="{{c}}">
   <p>
     <a href="{{ banner.url }}">
