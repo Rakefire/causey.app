@@ -11,7 +11,7 @@ SEO_options:
   title:
   description:
   image:
-  prevent_indexing: true
+  prevent_indexing: false
 blurb: >-
   Strategic networking is crucial for nonprofit professionals, offering benefits
   like resource mobilization, knowledge exchange, and collaboration for greater
