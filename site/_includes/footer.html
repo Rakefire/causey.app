@@ -1,63 +1,74 @@
-{% assign c = "c-footer" %}
-{% assign footer = site.data.footer %}
+{% assign c = "c-footer" %} {% assign footer = site.data.footer %}
 <div class="{{c}}">
-	<div class="{{c}}__columns">
-		{% for column in footer.link_columns %}
-			<div class="{{c}}__column">
-				{% if column.heading %}
-					<h4>{{ column.heading }}</h4>
-				{% endif %}
-				<ul>
-					{% for link in column.links %}
-						<li>
-							{% if link.link_url %}
-								<a class="{{c}}__link"
-								   href="{{ link.link_url }}"
-								   {% if link.open_in_new_tab %}
-								   	   target="_blank"
-								   {% endif %}>
-								   {% include footer-link.html %}
-								</a>
-							{% else %}
-								<div class="{{c}}__link">
-								   {% include footer-link.html %}
-								</div>
-							{% endif %}
-						</li>
-					{% endfor %}
-
-          {% for form in column.forms %}
-            <form method="post" action="{{ form.action }}" {% if form.async %}data-type="async-form"{% endif %}>
-              {% for field in form.fields %}
-                {% if field.label %}
-                  <label>{{field.label}}</label>
-                {% endif %}
-                {% if field.required %}
-                  <input
-                    type="{{field.type}}"
-                    name="{{field.name}}"
-                    value="{{field.value}}"
-                    placeholder="{{field.placeholder}}"
-                    required>
-                {% else %}
-                  <input
-                    type="{{field.type}}"
-                    name="{{field.name}}"
-                    value="{{field.value}}"
-                    placeholder="{{field.placeholder}}">
-                {% endif %}
-              {% endfor %}
-              <input type="submit" value="{{form.submit}}">
-            </form>
-          {% endfor %}
-				</ul>
-			</div>
-		{% endfor %}
-	</div>
-	<div class="{{c}}__lower-text" class="editable">
+  <div class="{{c}}__columns">
+    {% for column in footer.link_columns %}
+    <div class="{{c}}__column">
+      {% if column.heading %}
+      <h4>{{ column.heading }}</h4>
+      {% endif %}
+      <ul>
+        {% for link in column.links %}
+        <li>
+          {% if link.link_url %}
+          <a
+            class="{{c}}__link"
+            href="{{ link.link_url }}"
+            {%
+            if
+            link.open_in_new_tab
+            %}
+            target="_blank"
+            {%
+            endif
+            %}
+          >
+            {% include footer-link.html %}
+          </a>
+          {% else %}
+          <div class="{{c}}__link">{% include footer-link.html %}</div>
+          {% endif %}
+        </li>
+        {% endfor %} {% for form in column.forms %}
+        <form
+          method="post"
+          action="{{ form.action }}"
+          {%
+          if
+          form.async
+          %}data-type="async-form"
+          {%
+          endif
+          %}
+        >
+          {% for field in form.fields %} {% if field.label %}
+          <label>{{field.label}}</label>
+          {% endif %} {% if field.required %}
+          <input
+            type="{{field.type}}"
+            name="{{field.name}}"
+            value="{{field.value}}"
+            placeholder="{{field.placeholder}}"
+            required
+          />
+          {% else %}
+          <input
+            type="{{field.type}}"
+            name="{{field.name}}"
+            value="{{field.value}}"
+            placeholder="{{field.placeholder}}"
+          />
+          {% endif %} {% endfor %}
+          <input type="submit" value="{{form.submit}}" />
+        </form>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </div>
+  <div class="{{c}}__lower-text" class="editable">
     <p>
-      © {{ site.time | date: '%Y' }} Mission Met LLC. •
+      © {{ site.time | date: '%Y' }} Causey •
       <a href="/terms/">Terms</a> &amp; <a href="/privacy/">Privacy</a>
     </p>
-	</div>
+  </div>
 </div>
