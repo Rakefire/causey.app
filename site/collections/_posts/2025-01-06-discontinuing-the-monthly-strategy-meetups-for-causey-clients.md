@@ -16,16 +16,17 @@ blurb: >-
   support and enhancing our free or low cost online resources. Here's more
   information.
 ---
+
 As you may know, each month for the last few years we’ve offered a free one-hour “Strategy Meetup” over Zoom for our Causey software clients to connect with our consultants and address strategic questions. We've enjoyed these sessions—hearing your challenges, sharing insights, and building relationships with you.
 
 After much reflection, we've decided to discontinue these sessions. The sessions were sparsely attended, with no clients showing up for around half of the sessions. Further, we believe we can provide even better support in other ways.
 
 Going forward, you can reach out to us for individual support as follows:
 
-* Causey-related Technical Questions and Support: email [help@causey.app](mailto:help@causey.app)
-* Strategic planning-related Questions and Support: email or call your consultant or email [admin@missionmet.com](mailto:admin@missionmet.com) to get connected with a consultant
+- Causey-related Technical Questions and Support: email [help@causey.app](mailto:help@causey.app)
+- Strategic planning-related Questions and Support: email or call your consultant or email [admin@missionmet.com](mailto:admin@missionmet.com) to get connected with a consultant
 
-In addition, we plan on strengthening our suite of free or low cost resources for you on our [Causey](https://www.causey.app) and [Mission Met](https://www.missionmet.com) websites.
+In addition, we plan on strengthening our suite of free or low cost resources for you on our [Causey](https://www.causey.app) website.
 
 **Thank You!**
 
