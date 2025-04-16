@@ -13,11 +13,14 @@ SEO_options:
     to implement and sustain your library’s goals.
   image:
   prevent_indexing: false
-blurb:
+blurb: >-
+  Discover how libraries can move from strategic planning to real-world impact
+  using the CAPE Cycle and digital tools like websites. Learn practical steps to
+  implement and sustain your library’s goals.
 ---
 Strategic plans shouldn’t gather dust. They should guide action.
 
-That was the core message of a[recent webinar hosted](https://www.youtube.com/watch?v=kVaXbSqmKUU){: target="_blank" rel="noopener"} by [Mugo Web’s](https://www.mugo.ca){: target="_blank" rel="noopener"} Bethany Morse, featuring Ricky Chilcott, co-founder of [Causey](https://www.causey.app), strategic planning software built for nonprofits and libraries. Together, they tackled one of the biggest issues facing libraries today: moving from good ideas to meaningful implementation.
+That was the core message of a [recent webinar hosted](https://www.youtube.com/watch?v=kVaXbSqmKUU){: target="_blank" rel="noopener"} by [Mugo Web’s](https://www.mugo.ca){: target="_blank" rel="noopener"} Bethany Morse, featuring Ricky Chilcott, co-founder of [Causey](https://www.causey.app), strategic planning software built for nonprofits and libraries. Together, they tackled one of the biggest issues facing libraries today: moving from good ideas to meaningful implementation.
 
 ### The Hidden Killer of Strategic Plans
 
@@ -45,7 +48,7 @@ Effective plans contain two key components:
 1. **The Compass** – Mission, vision, values, and top-level priorities that guide decisions when resources are tight.
 2. **The Actions** – Focus areas (like outreach or tech access), goals, and specific tasks—with champions assigned for each.
 
-Short-term goals are often more practical than long-term initiatives, especially for smaller libraries. “Don't get stuck trying to predict the future,” Ricky noted. “Set a goal for the next six months and start making progress.”
+Short-term goals are often more practical than long-term initiatives, especially for smaller libraries. “Don’t get stuck trying to predict the future,” Ricky noted. “Set a goal for the next six months and start making progress.”
 
 ### Your Website: A Powerful Strategic Tool
 
@@ -77,4 +80,4 @@ Strategic planning is only valuable if it leads to action. The CAPE Cycle gives 
 
 Whether you use [Causey](https://www.causey.app/) or a spreadsheet, what matters most is adopting a mindset of **ongoing execution**.
 
-The end goal? A library that doesn't just talk about impact—but achieves it.
+The end goal? A library that doesn’t just talk about impact—but achieves it.
