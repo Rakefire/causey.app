@@ -16,7 +16,7 @@ content_blocks:
     inbox_key: zapier-inbox
     component_theme: Light
 SEO_options:
-  title: 'Maximizing Revenue in 2024: Four Strategies for Strategy Consultants'
+  title: "Maximizing Revenue in 2024: Four Strategies for Strategy Consultants"
   description: >-
     To enhance revenue while maintaining a strong commitment to client service,
     mission-driven strategy consultants are encouraged to adopt four key
@@ -46,6 +46,7 @@ blurb: >-
   clients, ensuring sustainable growth and a deeper impact in the communities
   they serve.
 ---
+
 As a mission-driven strategy consultant, the pursuit of revenue growth is often intertwined with your commitment to serving causes and clients effectively. Whether you work with nonprofits, libraries, public health departments, associations, chambers of commerce, or other organizations, you have a lot on your plate, and you and your consulting team need to find ways to continually add revenue and serve your clients better. Each year brings new challenges, but it is important to pause and explore innovative approaches to increase revenue while maintaining your dedication to serving your clients.
 
 Here are four strategies to consider to maximize your revenue: **Don’t miss the [Customer Lifecycle Roadmap](#get-the-roadmap) below!**
@@ -78,11 +79,11 @@ Innovation is key to sustained growth. Take the time to assess your current serv
 
 We recommend offering a service that moves you from a one-to-one engagement to a one-to-many engagement. For example, consider creating a course that showcases your knowledge about one or many aspects of your work. A course can help you in many ways, both with existing and potential customers:
 
-* You can give away the course to potential customers as a form of “proof of knowledge.” If they like the content, they may be more likely to sign a contract with you. Ever heard of a lead magnet? This is a lead magnet on steroids.
-* You can provide the course to all signed contracts as a way to prepare for your engagement. This way, they enter with a baseline level of knowledge and saves you time from having to catch them up to speed.
-* Build your community by including features that foster collaboration among learners. Nonprofit consultants can create forums, discussion boards, or Q&A sessions to facilitate knowledge sharing, networking, and peer support among course participants.
+- You can give away the course to potential customers as a form of “proof of knowledge.” If they like the content, they may be more likely to sign a contract with you. Ever heard of a lead magnet? This is a lead magnet on steroids.
+- You can provide the course to all signed contracts as a way to prepare for your engagement. This way, they enter with a baseline level of knowledge and saves you time from having to catch them up to speed.
+- Build your community by including features that foster collaboration among learners. Nonprofit consultants can create forums, discussion boards, or Q&A sessions to facilitate knowledge sharing, networking, and peer support among course participants.
 
-Mission Met created a nonprofit strategic planning course, called [START](https://www.missionmet.com/start), currently hosted in a “Toolbox” (a simplified learning management system) in Causey.  If that would be valuable to your team, we’d be [happy to discuss how we can collaborate](https://calendly.com/mission-met/consultant-discovery) with you to host your course, save you time, and provide your clients value.
+Mission Met created a nonprofit strategic planning course, called [START](https://www.missionmet.com/start), currently hosted in a “Toolbox” (a simplified learning management system) in Causey.  If that would be valuable to your team, we’d be [happy to discuss how we can collaborate](https://calendly.com/ricky-causey/demo) with you to host your course, save you time, and provide your clients value.
 
 ## Nurture Client Relationships for Repeat Business
 
@@ -94,11 +95,11 @@ We’ve adapted our customer lifecycle for others to use and are happy to share 
 
 This lifecycle will help you communicate with customers and streamline your operations through multiple phases of an engagement, including the following:
 
-* Onboarding (kickoff and early engagement phases): Establish clear communication channels, set expectations, and gather the necessary information to kickstart the engagement.
-* Engagement (early and mid-engagement phases): Execute the consulting project with diligence, professionalism, and a focus on delivering value.
-* Feedback (mid, late, to post-engagement phases): Solicit feedback from clients to assess satisfaction levels and identify areas for improvement.
-* Follow-up (late to post-engagement phases): Stay connected with clients offering continued support, resources, and additional services as needed.
-* Referral (post-engagement phase): Encourage satisfied clients to refer new business opportunities, expanding your client base organically.
+- Onboarding (kickoff and early engagement phases): Establish clear communication channels, set expectations, and gather the necessary information to kickstart the engagement.
+- Engagement (early and mid-engagement phases): Execute the consulting project with diligence, professionalism, and a focus on delivering value.
+- Feedback (mid, late, to post-engagement phases): Solicit feedback from clients to assess satisfaction levels and identify areas for improvement.
+- Follow-up (late to post-engagement phases): Stay connected with clients offering continued support, resources, and additional services as needed.
+- Referral (post-engagement phase): Encourage satisfied clients to refer new business opportunities, expanding your client base organically.
 
 We’ve also included templates for email and social media communications. Edit them as you see fit!
 
