@@ -19,6 +19,7 @@ blurb: >-
   Cheatsheet," providing practical tools and tips to enhance networking skills
   and leverage relationships for organizational success.
 ---
+
 As a nonprofit professional, you likely face numerous challenges in achieving your mission. However, a powerful tool lies at your disposal: strategic networking.&nbsp;
 
 ​​Business professionals have long recognized the power of strategic networking. It's been a cornerstone for professional success. Networking opens doors, allows you to gain insight, and collaborate to drive business forward.&nbsp;
@@ -31,19 +32,19 @@ Check out the [full article on Mission Met](https://www.missionmet.com/blog/leve
 
 ## **Navigating Networking**
 
-In the nonprofit sector, building meaningful connections is not just a valuable skill – it's a strategic necessity. We’ve reviewed *why* networking is beneficial. But do you know *how* to network?
+In the nonprofit sector, building meaningful connections is not just a valuable skill – it's a strategic necessity. We’ve reviewed _why_ networking is beneficial. But do you know _how_ to network?
 
 We’ve developed the **Strategic Networking Cheatsheet** to quickly equip you with the essentials to get you strategically networking.
 
 This guide is packed with valuable insights, including:
 
-* an action plan
-* insider tips
-* do's and don'ts
-* conversation starters
-* sample questions
-* fail-proof email templates
-* ingenious ways to keep those connections alive over time.
+- an action plan
+- insider tips
+- do's and don'ts
+- conversation starters
+- sample questions
+- fail-proof email templates
+- ingenious ways to keep those connections alive over time.
 
 <style>
   form {
@@ -82,21 +83,21 @@ This guide is packed with valuable insights, including:
 
 <form method="post" action="/form-success" data-type="async-form">
   <label>First Name</label>
-  <input type="text" name="first_name" required="" /><!--base32-EBTGS4TTORPW4YLNMUQC2IDSMVYXK2LSMVSCA===-base32-->
+  <input type="text" name="first_name" required="" />
 
-  <label>Email Address</label>
-  <input type="email" name="email" required="" /><!--base32-EBSW2YLJNQQC2IDSMVYXK2LSMVSCA===-base32-->
+<label>Email Address</label>
+<input type="email" name="email" required="" />
 
   <input type="hidden" name="_subject" value="Strategic Networking Cheatsheet" />
 
-  <input type="hidden" name="inbox_key" value="zapier-inbox" /><!--base32-EBZGK4LVNFZGKZBA-base32-->
-  <input type="hidden" name="_to" value="ricky@missionmet.com" /><!--base32-EBPXI3ZAFUQHGZLOMQQHI2DFEBTHK3DMEBRW63TUMVXHIIDUN4QC2IDTORZG63THNR4SA4TFMNXW23LFNZSGKZBA-base32-->
+  <input type="hidden" name="inbox_key" value="zapier-inbox" />
+  <input type="hidden" name="_to" value="ricky@causey.app" />
 
-  <input type="text" name="_gotcha" style="display: none;" /><!--base32-EBYG633SEBWWC3RHOMQGGYLQORRWQYJAFUQHEZLROVUXEZLEEA======-base32-->
+  <input type="text" name="_gotcha" style="display: none;" />
 
-  <input type="hidden" name="_add_to_sendgrid_list" value="Strategic Networking Cheatsheet" /><!--base32-EBPXI3ZAFUQHGZLOMQQHI2DFEBTHK3DMEBRW63TUMVXHIIDUN4QC2IDTORZG63THNR4SA4TFMNXW23LFNZSGKZBA-base32-->
-  <input type="hidden" name="_success_message" value="Thank you! Check your email for the cheatsheet!" /> <!--base32-EBXXA5DJN5XGC3BAFUQHI2DFOJSSAYLSMUQHGZLOONUWE3DFEBSGKZTBOVWHI4ZA-base32-->
-  <input type="hidden" name="_failure_message" value="I'm sorry, but something didn't work. Can you refresh and try again?" /> <!--base32-EBXXA5DJN5XGC3BAFUQHI2DFOJSSAYLSMUQHGZLOONUWE3DFEBSGKZTBOVWHI4ZA-base32-->
+  <input type="hidden" name="_add_to_sendgrid_list" value="Strategic Networking Cheatsheet V2" />
+  <input type="hidden" name="_success_message" value="Thank you! Check your email for the cheatsheet!" />
+  <input type="hidden" name="_failure_message" value="I'm sorry, but something didn't work. Can you refresh and try again?" />
 
   <input type="submit" value="Get The Cheatsheet!" />
 </form>

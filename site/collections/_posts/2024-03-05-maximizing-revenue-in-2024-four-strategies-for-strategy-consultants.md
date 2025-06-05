@@ -9,7 +9,7 @@ content_blocks:
     id: get-the-roadmap
     heading: Get the Customer Lifecycle Roadmap
     lower_text: ...and start nurturing your best customers for more revenue.
-    sendgrid_list_name: 2024 Causey Customer Lifecycle Roadmap
+    sendgrid_list_name: 2024 Causey Customer Lifecycle Roadmap V2
     success_message: Thank you! Check your email for the roadmap!
     failure_message: I'm sorry, but something didn't work. Can you refresh and try again?
     submit_button: Get the Roadmap
