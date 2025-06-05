@@ -96,6 +96,7 @@ This guide is packed with valuable insights, including:
   <input type="text" name="_gotcha" style="display: none;" />
 
   <input type="hidden" name="_add_to_sendgrid_list" value="Strategic Networking Cheatsheet V2" />
+  <input type="hidden" name="_add_to_sendgrid_list_id" value="73d03cb4-6cc6-4fc7-8870-7469709db069" />
   <input type="hidden" name="_success_message" value="Thank you! Check your email for the cheatsheet!" />
   <input type="hidden" name="_failure_message" value="I'm sorry, but something didn't work. Can you refresh and try again?" />
 

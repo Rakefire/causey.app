@@ -54,6 +54,9 @@ link_columns:
           name: _add_to_sendgrid_list
           value: Causey Newsletter Subscribers
         - type: hidden
+          name: _add_to_sendgrid_list_id
+          value: c5b86e22-471e-4d86-91c0-46695b3e8b99
+        - type: hidden
           name: _success_message
           value: You're signed up!
         - type: hidden
