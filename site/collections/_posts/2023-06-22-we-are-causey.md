@@ -14,13 +14,13 @@ SEO_options:
     pricing, and timing.
   image: /uploads/causey-tagline.png
   prevent_indexing: false
-blurb:
-  Mission Met Center is now Causey, a rebrand reflecting our differentiation from consulting services and our evolution into a robust strategic planning software platform. While retaining all previous features, Causey adds enhancements, introduces new pricing tiers, and transitions to a new URL. We remain committed to serving you and look forward to an exciting future of product development.
+blurb: Mission Met Center is now Causey, a rebrand reflecting our differentiation from consulting services and our evolution into a robust strategic planning software platform. While retaining all previous features, Causey adds enhancements, introduces new pricing tiers, and transitions to a new URL. We remain committed to serving you and look forward to an exciting future of product development.
 redirect_from:
   - /features/2023/05/19/we-are-causey/
   - /why/features/2023/06/22/we-are-causey/
   - /why/features/2023/06/22/we-are-causey
 ---
+
 We've got some exciting news to share with you…
 
 Mission Met Center has changed its name to Causey.
@@ -31,10 +31,10 @@ Mission Met Center has changed its name to Causey.
 
 In the rest of this post, I'll answer some questions you may have:
 
-* Why did we change names? And why Causey?
-* What changes have been / are being made to the software?
-* Will Causey be priced differently?
-* When are these changes going into effect?
+- Why did we change names? And why Causey?
+- What changes have been / are being made to the software?
+- Will Causey be priced differently?
+- When are these changes going into effect?
 
 ## **Why change names?**
 
@@ -60,29 +60,29 @@ Plus, we were able to get the domain, [causey.app](https://www.causey.app) ;)
 
 In regards to the software, let us be clear:
 
-* We have not rebuilt the product from scratch.
-* Everything you can do with Mission Met Center today will continue in Causey.
-* Mission Met is still here and encompasses our business. Causey is a product of Mission Met.
+- We have not rebuilt the product from scratch.
+- Everything you can do with Mission Met Center today will continue in Causey.
+- Mission Met is still here and encompasses our business. Causey is a product of Mission Met.
 
 This vision for the product brings together all aspects of the strategic planning cycle we have spent a lifetime trialing and refining – leadership, assessments, planning, and executing. We also focus a lot of attention to develop features that advance aspects of a plan that are&nbsp; important to its success such as communicating, tracking, measuring. Here are a few highlights of features we’ve added or expanded since launching in 2015:
 
-* New form redesign includes strategic planning guidance embedded in forms (example: suggestions based on common focus areas/goals)
-* Ability to add notes, links, and attachments to goals (includes the ability to drag and drop these items in preferred order)
-* Expanded translations for software includes Hindi, Maori, and English (UK and US)
-* Ability to select the language and date/time format for a person receiving the plan via the view-only link
-* Customize your plan by adding organization logo to plan, PDF outputs, and emails from software
-* Add more than one action item owner
-* Add metrics to focus areas and goals
-* Presentation view
-* Expanded timeline view now includes action items and allows for a user to filter by goals and items assigned to them or see all for organization
-* START Lite added to Toolbox
-* Activity feed
-* Metric champions
-* Expanded Metrics now includes baselines, delta/snapshot measurements
-* Automated measurement reminder emails
-* Ability to edit measurements instead of deleting and adding
-* Export/import measurements and metrics
-* If you missed it, check out the most recent [features announcement](https://www.causey.app/features/2023/04/25/mission-met-center-s-newest-features/)
+- New form redesign includes strategic planning guidance embedded in forms (example: suggestions based on common focus areas/goals)
+- Ability to add notes, links, and attachments to goals (includes the ability to drag and drop these items in preferred order)
+- Expanded translations for software includes Hindi, Maori, and English (UK and US)
+- Ability to select the language and date/time format for a person receiving the plan via the view-only link
+- Customize your plan by adding organization logo to plan, PDF outputs, and emails from software
+- Add more than one action item owner
+- Add metrics to focus areas and goals
+- Presentation view
+- Expanded timeline view now includes action items and allows for a user to filter by goals and items assigned to them or see all for organization
+- START Lite added to Toolbox
+- Activity feed
+- Metric champions
+- Expanded Metrics now includes baselines, delta/snapshot measurements
+- Automated measurement reminder emails
+- Ability to edit measurements instead of deleting and adding
+- Export/import measurements and metrics
+- If you missed it, check out the most recent [features announcement](https://www.causey.app/features/2023/04/25/mission-met-center-s-newest-features/)
 
 So much of our vision is already in the product now and ready to put to use! We’re also excited to continue developing even more features for you. Our most recent features to introduce today are super focus mode and tagging.&nbsp;
 
@@ -106,7 +106,7 @@ Your organization will be automatically enrolled in the tier that best aligns wi
 
 You can use Causey for its standard rate until August 31. After that, you can always change your tier as it corresponds to your billing cycle (on a monthly or annual basis.)
 
-Learn how to change your pricing tier [here](https://help.missionmet.com/articles/172-change-pricing-tier?auth=true&amp;preview=649353d8c371d73187fa3b95).
+Learn how to change your pricing tier [here](https://help.missionmet.com/articles/172-change-pricing-tier?auth=true&preview=649353d8c371d73187fa3b95).
 
 **As an existing customer, your plan will not change based on the limits of certain features in the new tiered pricing model**. You will retain all features as they are being used in your plan as of today. For example, the new pricing tiers cap organizations in the lite tier to 4 key metrics. If you are placed into the lite tier and have 10 key metrics, you will retain 10 metrics. We will not ask you to limit to 4, however, you will be not be able to add any additional metrics.
 
@@ -114,9 +114,9 @@ Learn how to change your pricing tier [here](https://help.missionmet.com/article
 
 Our marketing site is available with more information at https:///www.causey.app.
 
-More importantly—the domains and URLs for customer logins are transitioning from https://app.missionmet.center/sign\_in to [<u>https://app.causey.app/sign_in</u>](https://app.causey.app/sign_in).&nbsp; Bookmarks to Mission Met Center will continue to work through 2023, but to minimize any disruption to you down the road, please update as soon as possible with the new login URL.
+More importantly—the domains and URLs for customer logins are transitioning from https://app.missionmet.center/sign\_in to [<u>https://my.causey.app/sign_in</u>](https://my.causey.app/sign_in).&nbsp; Bookmarks to Mission Met Center will continue to work through 2023, but to minimize any disruption to you down the road, please update as soon as possible with the new login URL.
 
-As of now, you can start using this new URL structure, even if you've previously signed up on Mission Met Center. Your Mission Met Center login will work when you log in on [<u>https://app.causey.app/sign_in</u>](https://app.causey.app/sign_in). Please share the new login with all members of your team.
+As of now, you can start using this new URL structure, even if you've previously signed up on Mission Met Center. Your Mission Met Center login will work when you log in on [<u>https://my.causey.app/sign_in</u>](https://my.causey.app/sign_in). Please share the new login with all members of your team.
 
 ## **We’re just getting started!**
 

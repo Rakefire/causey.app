@@ -22,11 +22,11 @@ link_columns:
     heading:
     links:
       - link_label: Login
-        link_url: https://app.causey.app/sign_in
+        link_url: https://my.causey.app/sign_in
         icon_image:
         open_in_new_tab: false
       - link_label: Sign Up
-        link_url: https://app.causey.app/sign_ups/new
+        link_url: https://my.causey.app/sign_ups/new
         icon_image:
         open_in_new_tab: false
       - link_label: Support
@@ -44,25 +44,24 @@ link_columns:
         async: true
         action: /newsletter
         fields:
-        - type: email
-          name: email
-          placeholder: email address
-        - type: hidden
-          name: inbox_key
-          value: zapier-inbox
-        - type: hidden
-          name: _add_to_sendgrid_list
-          value: Causey Newsletter Subscribers
-        - type: hidden
-          name: _add_to_sendgrid_list_id
-          value: c5b86e22-471e-4d86-91c0-46695b3e8b99
-        - type: hidden
-          name: _success_message
-          value: You're signed up!
-        - type: hidden
-          name: _failure_message
-          value: There was a problem. Try again? 🤷🏼
-
+          - type: email
+            name: email
+            placeholder: email address
+          - type: hidden
+            name: inbox_key
+            value: zapier-inbox
+          - type: hidden
+            name: _add_to_sendgrid_list
+            value: Causey Newsletter Subscribers
+          - type: hidden
+            name: _add_to_sendgrid_list_id
+            value: c5b86e22-471e-4d86-91c0-46695b3e8b99
+          - type: hidden
+            name: _success_message
+            value: You're signed up!
+          - type: hidden
+            name: _failure_message
+            value: There was a problem. Try again? 🤷🏼
 
   - label: Social
     heading:

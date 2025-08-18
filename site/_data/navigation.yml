@@ -14,11 +14,11 @@ navigation_items:
     link_url: /contact/
     link_type: Text
   - label: Login
-    link_url: https://app.causey.app/sign_in
+    link_url: https://my.causey.app/sign_in
     link_type: Text
   - label: Schedule a Demo
     link_url: https://calendly.com/ricky-causey/demo
     link_type: Button
   # - label: Sign up
-  #   link_url: https://app.causey.app/sign_ups/new
+  #   link_url: https://my.causey.app/sign_ups/new
   #   link_type: Button
