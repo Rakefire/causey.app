@@ -6,6 +6,6 @@ image:
 twitter:
 linkedin: https://www.linkedin.com/in/joana-marie-gamutan-constantino/
 blurb:
-phone:
+phone: (740) 561-1361
 phone_extension:
 ---
