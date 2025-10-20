@@ -2,7 +2,7 @@
 _id: cfcf24d9-efd0-4146-9779-34573db33e4e
 name: Joana Constantino
 position: '2'
-image: /uploads/329013835-799760621591585-7574692560123459583-n-1.jpeg
+image: /uploads/1.png
 twitter:
 linkedin: https://www.linkedin.com/in/joana-marie-gamutan-constantino/
 blurb: >-
