@@ -4,7 +4,7 @@ title: >-
   Use Causey to Drive Social Impact
 categories:
   - consulting
-author_staff_member: 171c91e1-2e04-443c-8c5c-ea8c68a3f596
+author_staff_member: cfcf24d9-efd0-4146-9779-34573db33e4e
 date: 2025-10-17 12:00:00
 content_blocks:
 SEO_options:
