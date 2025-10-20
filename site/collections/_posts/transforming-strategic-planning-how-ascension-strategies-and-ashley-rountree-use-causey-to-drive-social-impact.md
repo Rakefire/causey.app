@@ -5,7 +5,7 @@ title: >-
 categories:
   - consulting
 author_staff_member: 171c91e1-2e04-443c-8c5c-ea8c68a3f596
-date: 2025-10-22 12:00:00
+date: 2025-10-17 12:00:00
 content_blocks:
 SEO_options:
   title: >-
@@ -97,7 +97,7 @@ Ascension Strategies and Ashley\|Rountree are transforming the way organizations
 
 ## **Ready to Create Strategic Clarity and Lasting Impact?**
 
-If you're a nonprofit leader seeking a trusted partner to help you navigate change, scale impact, or redefine your strategy—Ascension Strategies is ready to guide the way.
+If you’re a nonprofit leader seeking a trusted partner to help you navigate change, scale impact, or redefine your strategy—Ascension Strategies is ready to guide the way.
 
 Connect with [Ascension Strategies](https://www.ascensionstrat.com/) or [Ashley\|Rountree and Associates](https://ashleyrountree.com/) to explore a tailored approach to strategic planning.
 
