@@ -1,8 +1,8 @@
 ---
-title: 'A Mission Met DEIJ Training Series: DEIJ In The News'
+title: "A Mission Met DEIJ Training Series: DEIJ In The News"
 categories:
   - thought-leadership
-author_staff_member: 6ab925e3-9897-4b5d-84a5-19146f8b9c46
+author_staff_member: cfcf24d9-efd0-4146-9779-34573db33e4e
 date: 2024-06-19 00:00:00
 content_blocks:
 SEO_options:
@@ -17,7 +17,8 @@ blurb: >-
   recent news and developments in the DEIJ landscape, highlighting their
   potential impact on our organization's efforts.
 ---
-At Mission Met, [our commitment to diversity, equity, inclusion, and justice (DEIJ)](https://www.missionmet.com/deij){: target="_blank" rel="noopener"} is demonstrated through ongoing internal workshops that explore integrating DEIJ principles into our work. Our latest workshop focused on recent news and developments in the DEIJ landscape, highlighting their potential impact on our organization's efforts.
+
+At Mission Met, [our commitment to diversity, equity, inclusion, and justice (DEIJ)](https://www.missionmet.com/deij){: target="\_blank" rel="noopener"} is demonstrated through ongoing internal workshops that explore integrating DEIJ principles into our work. Our latest workshop focused on recent news and developments in the DEIJ landscape, highlighting their potential impact on our organization's efforts.
 
 A member of the marketing and communications team led this session reviewing key news stories and court rulings that have shaped the DEIJ landscape over the past year. The discussion covered the changing approach to DEIJ in businesses, higher education, and nonprofits, noting shifts in terminology, legal challenges, and the ongoing complexities of this work.
 
@@ -31,4 +32,4 @@ Key takeaways included:
 
 The workshop sparked a thoughtful discussion among our team about the future of DEIJ efforts at Mission Met. While some expressed concern over the dilution of these initiatives, others emphasized the importance of continuing substantive work, regardless of public recognition. Our commitment to DEIJ remains strong, and we look forward to continuing this important work and sharing our progress with our community.
 
-Read the full article [here](https://www.missionmet.com/blog/deij-in-the-news-a-mission-met-deij-training-series){: target="_blank" rel="noopener"}.
+Read the full article [here](https://www.missionmet.com/blog/deij-in-the-news-a-mission-met-deij-training-series){: target="\_blank" rel="noopener"}.

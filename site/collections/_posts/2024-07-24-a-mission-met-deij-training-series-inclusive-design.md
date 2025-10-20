@@ -1,8 +1,8 @@
 ---
-title: 'A Mission Met DEIJ Training Series: Inclusive Design'
+title: "A Mission Met DEIJ Training Series: Inclusive Design"
 categories:
   - thought-leadership
-author_staff_member: 6ab925e3-9897-4b5d-84a5-19146f8b9c46
+author_staff_member: cfcf24d9-efd0-4146-9779-34573db33e4e
 date: 2024-07-24 00:00:00
 content_blocks:
 SEO_options:
@@ -17,7 +17,8 @@ blurb: >-
   accessibility—particularly web accessibility—and its importance in creating
   inclusive digital spaces.
 ---
-At Mission Met, we are committed to promoting [diversity, equity, inclusion, and justice (DEIJ)](https://www.missionmet.com/deij){: target="_blank" rel="noopener"} through internal workshops focused on integrating these principles into our work. Our latest workshop centered on accessibility—particularly web accessibility—and its importance in creating inclusive digital spaces.
+
+At Mission Met, we are committed to promoting [diversity, equity, inclusion, and justice (DEIJ)](https://www.missionmet.com/deij){: target="\_blank" rel="noopener"} through internal workshops focused on integrating these principles into our work. Our latest workshop centered on accessibility—particularly web accessibility—and its importance in creating inclusive digital spaces.
 
 A software developer at Mission Met and Causey led a discussion sharing insights from his personal and professional experiences with accessibility. His presentation emphasized the need to design web products that are perceivable, operable, understandable, and robust, aligning with the Web Content Accessibility Guidelines (WCAG). The workshop also included practical exercises that helped our team better understand the challenges faced by individuals with disabilities, such as screen reader issues, visual impairments, and the complexities of keyboard navigation.
 
@@ -25,4 +26,4 @@ We explored best practices, including involving users with disabilities in the d
 
 As we move forward, we are dedicated to integrating these accessibility principles across all aspects of our work, ensuring that our digital environments are inclusive and user-friendly for people of all abilities.
 
-Read the full article [here](https://www.missionmet.com/blog/inclusive-design-a-mission-met-deij-training-series){: target="_blank" rel="noopener"}.
+Read the full article [here](https://www.missionmet.com/blog/inclusive-design-a-mission-met-deij-training-series){: target="\_blank" rel="noopener"}.
