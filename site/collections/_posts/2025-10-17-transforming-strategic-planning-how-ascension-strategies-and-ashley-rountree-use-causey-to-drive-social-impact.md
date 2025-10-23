@@ -1,6 +1,6 @@
 ---
 title: >-
-  Transforming Strategic Planning: How Ascension Strategies and Ashley|Rountree
+  Transforming Strategic Planning: How Ashley|Rountree and Ascension Strategies
   Use Causey to Drive Social Impact
 categories:
   - consulting
@@ -31,27 +31,39 @@ blurb: >-
   collaboration, and builds long-term strategic capacity—empowering leaders to
   clarify vision, align teams, and achieve meaningful, measurable results.
 ---
-In a world where mission-driven organizations strive to turn bold visions into lasting results, [Ascension Strategies](https://www.ascensionstrat.com) and [Ashley\|Rountree and Associates](https://ashleyrountree.com/) stand out as trusted partners. Their people-first consulting approach, combined with the transformative capabilities of the [Causey](https://www.causey.app/) platform, empowers teams to cut through tactical confusion, gain clarity, and build strategies that create meaningful, lasting impact.<br>
+In a world where mission-driven organizations strive to turn bold visions into lasting results, [Ashley\|Rountree and Associates](https://ashleyrountree.com/) and [Ascension Strategies](https://www.ascensionstrat.com/) (ARAS) stand out as trusted partners. Their people-first consulting approach, combined with the transformative capabilities of the [Causey](https://www.causey.app/) platform, empowers teams to cut through tactical confusion, gain clarity, and build strategies that create meaningful, lasting impact.<br>
+
+## **A Partnership Built on Purpose, Strategy, and Results**
+
+[Ashley\|Rountree and Associates](https://ashleyrountree.com/) and [Ascension Strategies](https://www.ascensionstrat.com/), operating together as **ARAS**, have formed a strategic partnership to help organizations plan with focus and intention. Through this collaboration, Ascension Strategies leads Ashley\|Rountree’s Strategy and Planning Division, guiding nonprofits as they define their vision and move forward with confidence.
+
+By combining Ashley\|Rountree’s deep nonprofit understanding with Ascension Strategies problem solving and planning expertise, the partnership expands access to effective planning for organizations of every size. Together, they address the unique needs of nonprofits through a shared focus on clarity, leadership, and measurable results.
+
+&nbsp;
 
 ## **Helping Mission-Driven Organizations Lead with Purpose**
 
-Ascension Strategies and Ashley\|Roundtree are both on a mission to elevate the organizations that elevate others. From community-based nonprofits and philanthropic foundations to government agencies and grassroots initiatives, the firm partners with mission-driven leaders working to advance equity, empowerment, and lasting change.
+**ARAS** is on a mission to elevate the organizations that elevate others. From community-based nonprofits and philanthropic foundations to government agencies and grassroots initiatives, the firm partners with mission-driven leaders working to advance equity, empowerment, and lasting change.
 
-At the heart of their work is a simple belief: when organizations have strategic clarity, inclusive planning, and empowered leadership, real transformation happens. Whether guiding a team through growth, navigating complex change, or redefining a mission, Ascension brings the tools, mindset, and methods that help purpose-driven organizations thrive.
+At the heart of their work is a simple belief: when organizations have strategic clarity, inclusive planning, and empowered leadership, real transformation happens. Whether guiding a team through growth, navigating complex change, or redefining a mission, they bring the tools, mindset, and methods that help purpose-driven organizations thrive.
 
 *“We love working with organizations that are navigating complexity, scaling impact, or seeking to evolve their mission.”*
 
+&nbsp;
+
 ## **Turning Complex Challenges into Clear Strategy**
 
-Many nonprofits spend so much time managing daily operations that long-term strategy often takes a back seat. Ascension Strategies helps change that by guiding leaders and boards to move from tactical decisions to big-picture thinking that drives meaningful progress.
+Many nonprofits spend so much time managing daily operations that long-term strategy often takes a back seat. **ARAS** helps change that by guiding leaders and boards to move from tactical decisions to big-picture thinking that drives meaningful progress.
 
-Their “no stone unturned” approach combines critical thinking, organizational alignment, and forward-looking decision-making to uncover the root challenges that shape success. With experience across sectors and a talent for facilitating open, honest conversations, Ascension turns planning into a process that builds clarity, alignment, and lasting impact.
+Their “no stone unturned” approach combines critical thinking, organizational alignment, and forward-looking decision-making to uncover the root challenges that shape success. With experience across sectors and a talent for facilitating open, honest conversations, **ARAS** turns planning into a process that builds clarity, alignment, and enduring results.
 
 *“Our ability to shift organizational leaders and board members from tactical thinking to strategic thinking is one of our strongest differentiators.”*
 
+&nbsp;
+
 ## **Powering Collaboration Through Causey**
 
-Partnering with [Causey](https://www.causey.app/) has helped Ascension Strategies take their client work to the next level. The Causey platform strengthens every stage of the planning process by:
+Partnering with [Causey](https://www.causey.app/) has helped **ARAS** take their client work to the next level. The Causey platform strengthens every stage of the planning process by:
 
 * **Streamlining communication** through a centralized hub
 * **Enabling real-time collaboration** among stakeholders
@@ -59,20 +71,20 @@ Partnering with [Causey](https://www.causey.app/) has helped Ascension Strategie
 * **Increasing transparency and engagement** across teams
 * **Building lasting capacity** for continued planning and growth
 
-That commitment to clarity extends beyond strategy sessions. Thanks to Causey, it now defines how Ascension collaborates with every client.”
+That commitment to clarity extends beyond strategy sessions. Thanks to Causey, it now defines how **ARAS** collaborates with clients.
 
 *“Causey has streamlined communication and increased transparency during planning. It also gives clients long-term access to planning tools and templates, allowing them to revisit and revise their strategies with ease.”*
 
-## **Bringing Strategic Vision to Life: A Client Success Story**
-
 &nbsp;
 
-In one standout project, Ascension helped a nonprofit bring its strategic vision to life—all within the Causey platform. By capturing the organization’s core values and goals in Causey, the team was able to:
+## **Bringing Strategic Vision to Life: A Client Success Story**
 
-* Auto-generate branded materials that reflected their mission
-* Communicate their story with confidence
-* Attract new funders and partners
-* Align internal teams around a shared vision
+In one standout project, **ARAS** helped a nonprofit bring its strategic vision to life—all within the Causey platform. By capturing the organization’s goals, initiatives, and data in Causey, the team was able to:
+
+* **Auto-generate branded materials** that reflected their mission
+* **Communicate their story** with confidence
+* **Attract** new funders and partners
+* **Align internal teams** around a shared vision
 
 This success story shows how strategy and storytelling, when connected through Causey, can spark real growth.
 
@@ -82,23 +94,27 @@ This success story shows how strategy and storytelling, when connected through C
 
 ## **Building Lasting Change Together**
 
-Ascension Strategies and Ashley\|Rountree aren’t your typical strategic planning firms. What sets them apart is a deep commitment to people, equity, and impact. Their approach blends:
+**ARAS** isn’t your typical strategic planning firm. What sets them apart is a deep commitment to people, equity, and impact. Their approach blends:
 
-* Cross-sector expertise that connects nonprofits, government, and philanthropy
-* Human-centered design that elevates stakeholder voices
-* Equity-focused practices that ensure inclusion at every step
-* Tailored engagements shaped by each client’s culture, challenges, and goals
+* **Cross-sector expertise** that connects nonprofits, government, and philanthropy
+* **Human-centered design** that elevates stakeholder voices
+* **Equity-focused practices t**hat ensure inclusion at every step
+* **Tailored engagements** shaped by each client’s culture, challenges, and goals
 
-Rather than delivering static plans, Ascension collaborates with clients to co-create living roadmaps that guide transformation and lasting growth.
+Rather than delivering static plans, **ARAS** collaborates with clients to co-create living roadmaps that guide transformation and lasting growth.
 
 *“We don’t just write strategic plans; we co-create roadmaps for transformation, growth, and resilience.”*
 
-Ascension Strategies and Ashley\|Rountree are transforming the way organizations approach strategic planning. The goal isn’t just to create plans—it’s to help mission-driven organizations actually achieve their goals and make a real social impact. Using Causey, they’ve reimagined strategic planning as a living, collaborative process that keeps teams engaged and moving toward meaningful results.
+&nbsp;
+
+Together, [Ashley\|Rountree and Associates](https://ashleyrountree.com/) and [Ascension Strategies](https://www.ascensionstrat.com/) are redefining strategic planning. They’re not just creating plans; they’re helping mission-driven organizations achieve lasting results through clarity, collaboration, and purpose. Using Causey, they’ve **reimagined strategic planning as a living, collaborative process** that keeps teams engaged and moving toward meaningful results.
+
+&nbsp;
 
 ## **Ready to Create Strategic Clarity and Lasting Impact?**
 
-If you’re a nonprofit leader seeking a trusted partner to help you navigate change, scale impact, or redefine your strategy—Ascension Strategies is ready to guide the way.
+If you’re a nonprofit leader seeking a trusted partner to help you navigate change, scale impact, or redefine your strategy—**ARAS** is ready to guide the way.
 
-Connect with [Ascension Strategies](https://www.ascensionstrat.com/) or [Ashley\|Rountree and Associates](https://ashleyrountree.com/) to explore a tailored approach to strategic planning.
+Connect with [Ashley\|Rountree and Associates](https://ashleyrountree.com/) or [Ascension Strategies](https://www.ascensionstrat.com/) to explore a tailored approach to strategic planning.
 
 &nbsp;
