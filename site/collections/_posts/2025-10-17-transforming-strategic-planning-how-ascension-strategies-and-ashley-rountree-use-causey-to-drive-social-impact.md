@@ -31,15 +31,13 @@ blurb: >-
   collaboration, and builds long-term strategic capacity—empowering leaders to
   clarify vision, align teams, and achieve meaningful, measurable results.
 ---
-In a world where mission-driven organizations strive to turn bold visions into lasting results, [Ashley\|Rountree and Associates](https://ashleyrountree.com/) and [Ascension Strategies](https://www.ascensionstrat.com/) (ARAS) stand out as trusted partners. Their people-first consulting approach, combined with the transformative capabilities of the [Causey](https://www.causey.app/) platform, empowers teams to cut through tactical confusion, gain clarity, and build strategies that create meaningful, lasting impact.<br>
+In a world where mission-driven organizations strive to turn bold visions into lasting results, [Ashley\|Rountree and Associates](https://ashleyrountree.com/) and [Ascension Strategies](https://www.ascensionstrat.com/) (ARAS) stand out as trusted partners. Their people-first consulting approach, combined with the transformative capabilities of the [Causey](https://www.causey.app/) platform, empowers teams to cut through tactical confusion, gain clarity, and build strategies that create meaningful, lasting impact.
 
 ## **A Partnership Built on Purpose, Strategy, and Results**
 
 [Ashley\|Rountree and Associates](https://ashleyrountree.com/) and [Ascension Strategies](https://www.ascensionstrat.com/), operating together as **ARAS**, have formed a strategic partnership to help organizations plan with focus and intention. Through this collaboration, Ascension Strategies leads Ashley\|Rountree’s Strategy and Planning Division, guiding nonprofits as they define their vision and move forward with confidence.
 
 By combining Ashley\|Rountree’s deep nonprofit understanding with Ascension Strategies problem solving and planning expertise, the partnership expands access to effective planning for organizations of every size. Together, they address the unique needs of nonprofits through a shared focus on clarity, leadership, and measurable results.
-
-&nbsp;
 
 ## **Helping Mission-Driven Organizations Lead with Purpose**
 
@@ -49,8 +47,6 @@ At the heart of their work is a simple belief: when organizations have strategic
 
 *“We love working with organizations that are navigating complexity, scaling impact, or seeking to evolve their mission.”*
 
-&nbsp;
-
 ## **Turning Complex Challenges into Clear Strategy**
 
 Many nonprofits spend so much time managing daily operations that long-term strategy often takes a back seat. **ARAS** helps change that by guiding leaders and boards to move from tactical decisions to big-picture thinking that drives meaningful progress.
@@ -58,8 +54,6 @@ Many nonprofits spend so much time managing daily operations that long-term stra
 Their “no stone unturned” approach combines critical thinking, organizational alignment, and forward-looking decision-making to uncover the root challenges that shape success. With experience across sectors and a talent for facilitating open, honest conversations, **ARAS** turns planning into a process that builds clarity, alignment, and enduring results.
 
 *“Our ability to shift organizational leaders and board members from tactical thinking to strategic thinking is one of our strongest differentiators.”*
-
-&nbsp;
 
 ## **Powering Collaboration Through Causey**
 
@@ -75,8 +69,6 @@ That commitment to clarity extends beyond strategy sessions. Thanks to Causey, i
 
 *“Causey has streamlined communication and increased transparency during planning. It also gives clients long-term access to planning tools and templates, allowing them to revisit and revise their strategies with ease.”*
 
-&nbsp;
-
 ## **Bringing Strategic Vision to Life: A Client Success Story**
 
 In one standout project, **ARAS** helped a nonprofit bring its strategic vision to life—all within the Causey platform. By capturing the organization’s goals, initiatives, and data in Causey, the team was able to:
@@ -89,8 +81,6 @@ In one standout project, **ARAS** helped a nonprofit bring its strategic vision 
 This success story shows how strategy and storytelling, when connected through Causey, can spark real growth.
 
 *“That output helped us pursue new funders, expand partnerships, and align our team around a shared purpose.”*
-
-&nbsp;
 
 ## **Building Lasting Change Together**
 
@@ -105,11 +95,7 @@ Rather than delivering static plans, **ARAS** collaborates with clients to co-cr
 
 *“We don’t just write strategic plans; we co-create roadmaps for transformation, growth, and resilience.”*
 
-&nbsp;
-
 Together, [Ashley\|Rountree and Associates](https://ashleyrountree.com/) and [Ascension Strategies](https://www.ascensionstrat.com/) are redefining strategic planning. They’re not just creating plans; they’re helping mission-driven organizations achieve lasting results through clarity, collaboration, and purpose. Using Causey, they’ve **reimagined strategic planning as a living, collaborative process** that keeps teams engaged and moving toward meaningful results.
-
-&nbsp;
 
 ## **Ready to Create Strategic Clarity and Lasting Impact?**
 
