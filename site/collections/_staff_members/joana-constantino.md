@@ -1,7 +1,7 @@
 ---
 _id: cfcf24d9-efd0-4146-9779-34573db33e4e
 name: Joana Constantino
-position: Executive Assistant to Ricky Chilcott
+position: Causey Support
 image: /uploads/untitled-design-8.jpg
 twitter:
 linkedin: https://www.linkedin.com/in/joana-marie-gamutan-constantino/
