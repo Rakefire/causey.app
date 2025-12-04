@@ -1,8 +1,8 @@
 ---
-title: 'Mission Met and Causey: A Partnership Focused on Strategic Progress'
+title: "Mission Met and Causey: A Partnership Focused on Strategic Progress"
 categories:
 author_staff_member: cfcf24d9-efd0-4146-9779-34573db33e4e
-date:
+date: 2025-12-01
 content_blocks:
 SEO_options:
   title:
@@ -11,6 +11,7 @@ SEO_options:
   prevent_indexing: false
 blurb:
 ---
+
 Strategic planning is often where nonprofits start, but not always where they thrive. What separates organizations that continually advance their mission from those that struggle to move plans forward is not inspiration. It is discipline, clarity, and consistent follow-through.
 
 This is where **Mission Met** has built its reputation.
