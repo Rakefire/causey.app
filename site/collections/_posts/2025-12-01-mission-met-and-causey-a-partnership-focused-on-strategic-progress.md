@@ -83,7 +83,7 @@ Together, we help nonprofit leaders build clarity, momentum, and resilience whil
 
 ## **Ready to strengthen your strategic planning?**
 
-If your nonprofit is ready to move beyond one-off planning sessions and build a strategy execution rhythm that truly lasts, partnering with [Mission Met](https://www.missionmet.com/)and [Causey](https://www.causey.app/)can help you get there.
+If your nonprofit is ready to move beyond one-off planning sessions and build a strategy execution rhythm that truly lasts, partnering with [Mission Met](https://www.missionmet.com/) and [Causey](https://www.causey.app/) can help you get there.
 
 By combining expert guidance with a living platform that brings your plan to life, your team can stay aligned, accountable, and focused on what matters most. Explore how Mission Met supports nonprofits with practical, confidence-building strategic planning, and discover how Causey turns those plans into daily action.
 
