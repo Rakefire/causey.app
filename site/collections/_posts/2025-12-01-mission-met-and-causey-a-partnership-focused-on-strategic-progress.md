@@ -23,7 +23,7 @@ For Eric, this insight began early, long before Mission Met existed, and it rema
 
 &nbsp;
 
-## **Who Mission Met Serves and Why Their Work Matters**
+**Who Mission Met Serves and Why Their Work Matters**
 
 Mission Met focuses on small and mid-sized nonprofits that want to build a strategic foundation without overwhelming their teams. These organizations often carry big ambitions while navigating constraints in time, resources, and long-term planning capacity.
 
@@ -35,7 +35,7 @@ This mindset shift transforms strategic planning from an intimidating obligation
 
 &nbsp;
 
-## **Why Mission Met and Causey Is a High-Value Combination**
+**Why Mission Met and Causey Is a High-Value Combination**
 
 Many organizations start with strong intentions but lose momentum once the plan is written. Mission Met helps bridge that gap by embedding habits, rhythms, and practical execution tools, while Causey complements that work by keeping strategy visible and actionable across the entire organization.
 
@@ -47,7 +47,7 @@ Causey becomes the operational backbone for that mindset, ensuring clarity, alig
 
 &nbsp;
 
-## **How Technology Strengthens Strategic Habits**
+**How Technology Strengthens Strategic Habits**
 
 Nonprofits increasingly rely on technology not only to store their plans, but to activate them. Causey provides Mission Met clients with a dynamic platform where goals, metrics, and initiatives stay alive and not buried in a document.
 
@@ -59,7 +59,7 @@ With Causey, teams can monitor progress, connect day-to-day work with strategic 
 
 &nbsp;
 
-## **A Process That Builds Confidence, Not Complexity**
+**A Process That Builds Confidence, Not Complexity**
 
 Mission Met’s work is grounded in clarity and practicality. They show nonprofit leaders and boards that strategy can be straightforward and effective, and that progress comes from consistent, thoughtful action.
 
@@ -71,7 +71,7 @@ With Causey supporting that simplicity, nonprofits gain structure, transparency,
 
 &nbsp;
 
-## **Mission Met and Causey: Empowering Organizations to Achieve Their Mission**
+**Mission Met and Causey: Empowering Organizations to Achieve Their Mission**
 
 Mission Met brings the facilitation expertise, strategic frameworks, and coaching that help nonprofits build strong planning habits.
 
@@ -81,7 +81,7 @@ Together, we help nonprofit leaders build clarity, momentum, and resilience whil
 
 &nbsp;
 
-## **Ready to strengthen your strategic planning?**
+**Ready to strengthen your strategic planning?**
 
 If your nonprofit is ready to move beyond one-off planning sessions and build a strategy execution rhythm that truly lasts, partnering with Mission Met and Causey can help you get there.
 
