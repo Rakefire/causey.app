@@ -1,6 +1,9 @@
 ---
 title: 'Mission Met and Causey: A Partnership Focused on Strategic Progress'
 categories:
+  - features
+  - consulting
+  - thought-leadership
 author_staff_member: cfcf24d9-efd0-4146-9779-34573db33e4e
 date: 2025-12-01 00:00:00
 content_blocks:
