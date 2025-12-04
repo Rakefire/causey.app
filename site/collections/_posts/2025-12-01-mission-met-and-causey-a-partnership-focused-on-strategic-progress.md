@@ -12,7 +12,14 @@ SEO_options:
   description:
   image:
   prevent_indexing: false
-blurb:
+blurb: >-
+  Strategic planning is often where nonprofits start, but not always where they
+  thrive. What separates organizations that continually advance their mission
+  from those that struggle to move plans forward is not inspiration. It is
+  discipline, clarity, and consistent follow-through.
+
+
+  This is where Mission Met has built its reputation.
 ---
 Strategic planning is often where nonprofits start, but not always where they thrive. What separates organizations that continually advance their mission from those that struggle to move plans forward is not inspiration. It is discipline, clarity, and consistent follow-through.
 
