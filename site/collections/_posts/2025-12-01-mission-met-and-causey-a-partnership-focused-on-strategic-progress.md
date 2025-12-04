@@ -11,7 +11,7 @@ SEO_options:
   prevent_indexing: false
 blurb:
 ---
-Strategic planning is often where nonprofits start, but not always where they thrive. What separates organizations that continually advance their mission from those that struggle to move plans forward is not inspiration. It is discipline, clarity, and consistent follow-through.
+## Strategic planning is often where nonprofits start, but not always where they thrive. What separates organizations that continually advance their mission from those that struggle to move plans forward is not inspiration. It is discipline, clarity, and consistent follow-through.
 
 This is where **Mission Met** has built its reputation.
 
@@ -71,7 +71,7 @@ With Causey supporting that simplicity, nonprofits gain structure, transparency,
 
 &nbsp;
 
-**Mission Met and Causey: Empowering Organizations to Achieve Their Mission**
+## **Mission Met and Causey: Empowering Organizations to Achieve Their Mission**
 
 Mission Met brings the facilitation expertise, strategic frameworks, and coaching that help nonprofits build strong planning habits.
 
@@ -81,7 +81,7 @@ Together, we help nonprofit leaders build clarity, momentum, and resilience whil
 
 &nbsp;
 
-**Ready to strengthen your strategic planning?**
+## **Ready to strengthen your strategic planning?**
 
 If your nonprofit is ready to move beyond one-off planning sessions and build a strategy execution rhythm that truly lasts, partnering with Mission Met and Causey can help you get there.
 
