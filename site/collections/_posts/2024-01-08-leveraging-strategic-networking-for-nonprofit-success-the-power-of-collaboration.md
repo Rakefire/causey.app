@@ -59,7 +59,7 @@ This guide is packed with valuable insights, including:
     font-size: var(--content-font-size);
   }
 
-  textarea, input[type=text] {
+  textarea, input[type=text], input[type=email] {
     font-size: var(--content-font-size);
     padding: 0.5em;
     margin-top: 0.5em;
@@ -67,6 +67,7 @@ This guide is packed with valuable insights, including:
     border: 1px solid #ced4da;
     border-radius: 4px;
     width: 100%;
+    box-sizing: border-box;
   }
 
   input[type=submit] {
@@ -89,10 +90,8 @@ This guide is packed with valuable insights, including:
 <input type="email" name="email" required="" />
 
   <input type="hidden" name="_subject" value="Strategic Networking Cheatsheet" />
-
-  <input type="hidden" name="inbox_key" value="zapier-inbox" />
   <input type="hidden" name="_to" value="ricky@causey.app" />
-
+  <input type="hidden" name="inbox_key" value="zapier-inbox" />
   <input type="text" name="_gotcha" style="display: none;" />
 
   <input type="hidden" name="_add_to_sendgrid_list" value="Strategic Networking Cheatsheet V2" />
