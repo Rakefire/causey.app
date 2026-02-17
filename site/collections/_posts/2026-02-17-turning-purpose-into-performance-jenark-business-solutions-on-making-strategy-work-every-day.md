@@ -12,7 +12,11 @@ SEO_options:
   description:
   image:
   prevent_indexing: false
-blurb:
+blurb: >-
+  Many business and nonprofit leaders know this frustration well. The strategic
+  plan is approved, shared with the board, and celebrated. Then gradually, it
+  becomes harder to see in daily operations. The mission remains strong and the
+  commitment unwavering, but execution loses visibility.
 ---
 Many business and nonprofit leaders know this frustration well. The strategic plan is approved, shared with the board, and celebrated. Then gradually, it becomes harder to see in daily operations. The mission remains strong and the commitment unwavering, but execution loses visibility.
 
