@@ -50,7 +50,7 @@ Lasting change happens when teams are invited to help shape not only the vision,
 
 When strategy connects directly to daily actions and progress is measured in meaningful ways, change becomes embedded rather than imposed.
 
-The [Jenark VPM³⁺ Framework™](){: target="_blank" rel="noopener"} was designed to support that alignment. When integrated with Causey, strategy moves beyond static planning. It becomes a structured performance system that strengthens visibility, accountability, and execution across the organization.
+The Jenark VPM³⁺ Framework™ was designed to support that alignment. When integrated with Causey, strategy moves beyond static planning. It becomes a structured performance system that strengthens visibility, accountability, and execution across the organization.
 
 &nbsp;
 

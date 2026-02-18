@@ -13,11 +13,10 @@ SEO_options:
   image:
   prevent_indexing: false
 blurb: >-
-  Moments of change are often the most defining—and most challenging—periods in
-  a nonprofit’s life. Whether an organization is refining its strategy,
-  navigating leadership transitions, or aligning board and executive priorities,
-  success depends on clarity, trust, and disciplined execution. That’s where
-  Plan A Advisors comes in.
+  Plan A Advisors partnered with Causey to turn strategic alignment into
+  measurable action. In this conversation, we explore how shared goals,
+  disciplined execution, and practical tools help organizations move from
+  planning to results-driven progress.
 ---
 Moments of change are often the most defining—and most challenging—periods in a nonprofit’s life. Whether an organization is refining its strategy, navigating leadership transitions, or aligning board and executive priorities, success depends on clarity, trust, and disciplined execution. That’s where [**Plan A Advisors**](https://www.planaadvisors.com/) comes in.
 
