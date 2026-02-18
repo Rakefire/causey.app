@@ -34,7 +34,7 @@ Because passion alone is not enough.
 
 &nbsp;
 
-### Buy-In Is Built Through Ownership
+#### Buy-In Is Built Through Ownership
 
 Creating genuine buy-in for change remains one of the biggest challenges leaders face. Mark is clear that agreement alone does not create momentum.
 
@@ -54,7 +54,7 @@ The Jenark VPM³⁺ Framework™ was designed to support that alignment. When in
 
 &nbsp;
 
-### Strategy Is a Discipline, Not a Document
+#### Strategy Is a Discipline, Not a Document
 
 A common mindset still limits many organizations: the belief that strategy is a document created once a year and reviewed at board meetings.
 
@@ -72,7 +72,7 @@ When strategy becomes part of everyday work, culture begins to shift. Behavior b
 
 &nbsp;
 
-### Visibility Changes Performance
+#### Visibility Changes Performance
 
 When strategy moves from planning into action, one factor makes the greatest difference.
 
@@ -92,7 +92,7 @@ When everyone can see the plan and understand their role in delivering it, execu
 
 &nbsp;
 
-### The Future of Strategic Planning in the Nonprofit Sector
+#### The Future of Strategic Planning in the Nonprofit Sector
 
 Mark sees a meaningful shift taking place across the nonprofit sector.
 
@@ -116,8 +116,8 @@ It becomes a system that drives performance in service of the mission.
 
 &nbsp;
 
-### Ready to Make Strategy Work Every Day?
+#### Ready to Make Strategy Work Every Day?
 
-If your organization is ready to move strategy from document to daily discipline, Jenark Business Solutions and Causey can help you build the structure, visibility, and accountability to make it happen.
+If your organization is ready to move strategy from document to daily discipline, [**Jenark Business Solutions**](https://jenarkbusinesssolutions.com.au/) and [**Causey**](https://www.causey.app/) can help you build the structure, visibility, and accountability to make it happen.
 
 Learn more about how the Jenark VPM³⁺ Framework™ integrates with Causey to turn purpose into measurable performance.
