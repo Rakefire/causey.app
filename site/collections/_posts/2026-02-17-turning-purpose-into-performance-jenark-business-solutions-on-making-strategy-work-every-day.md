@@ -13,10 +13,10 @@ SEO_options:
   image:
   prevent_indexing: false
 blurb: >-
-  Many business and nonprofit leaders know this frustration well. The strategic
-  plan is approved, shared with the board, and celebrated. Then gradually, it
-  becomes harder to see in daily operations. The mission remains strong and the
-  commitment unwavering, but execution loses visibility.
+  What does it take to make strategy part of everyday work? Jenark Business
+  Solutions shares how a clear sense of purpose, paired with the right systems
+  and accountability, helps teams turn intentions into consistent, measurable
+  performance.
 ---
 Many business and nonprofit leaders know this frustration well. The strategic plan is approved, shared with the board, and celebrated. Then gradually, it becomes harder to see in daily operations. The mission remains strong and the commitment unwavering, but execution loses visibility.
 
