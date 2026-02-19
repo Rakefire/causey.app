@@ -120,4 +120,4 @@ It becomes a system that drives performance in service of the mission.
 
 If your organization is ready to move strategy from document to daily discipline, [**Jenark Business Solutions**](https://jenarkbusinesssolutions.com.au/) and [**Causey**](https://www.causey.app/) can help you build the structure, visibility, and accountability to make it happen.
 
-Learn more about how the Jenark VPM³⁺ Framework™ integrates with Causey to turn purpose into measurable performance.
+Learn more about how the [Jenark VPM³⁺ Framework™](/uploads/vpm3-intro-document.pdf) integrates with Causey to turn purpose into measurable performance.
