@@ -11,13 +11,19 @@
 
 	<div class="{{c}}__form-wrapper">
 		<form class="{{c}}__form"
-			  action="/contact-success/" 
+			  action="https://api.web3forms.com/submit"
 			  method="post">
-			<input type="hidden" 
-				   name="_to" 
-				   value="{{ include.form_submission_email }}" />
-			<input type="text" 
-				   name="_gotcha" 
+			<input type="hidden"
+				   name="access_key"
+				   value="f6d047b2-ea03-49a0-a33e-96bdb637ed08" />
+			<input type="hidden"
+				   name="subject"
+				   value="Causey Contact Form" />
+			<input type="hidden"
+				   name="redirect"
+				   value="https://www.causey.app/contact-success/" />
+			<input type="checkbox"
+				   name="botcheck"
 				   style="display: none;">
 
 			<label for="name">Full Name</label>

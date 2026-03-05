@@ -13,53 +13,10 @@
   {% if include.lower_text %}
   <p class="{{c}}__content">{{ include.lower_text }}</p>
   {% endif %}
-  <form
-    class="{{c}}__mailing-list"
-    action="/form-success"
-    data-type="async-form"
-    method="post"
-  >
-    <input type="hidden" name="_subject" value="{{ include.heading }}" />
-    <input type="hidden" name="_to" value="ricky@causey.app" />
-    <input
-      class="{{c}}__first-name-input"
-      type="text"
-      name="first_name"
-      required=""
-      placeholder="First name"
-    />
-    <input
-      class="{{c}}__email-input"
-      type="email"
-      name="email"
-      id="email"
-      placeholder="Email"
-      required
-    />
-    <input type="hidden" name="inbox_key" value="{{ include.inbox_key }}" />
-    <input type="text" name="_gotcha" style="display: none" />
-    <input
-      type="hidden"
-      name="_add_to_sendgrid_list"
-      value="{{ include.sendgrid_list_name }}"
-    />
-    <input
-      type="hidden"
-      name="_add_to_sendgrid_list_id"
-      value="{{ include.sendgrid_list_id }}"
-    />
-    <input
-      type="hidden"
-      name="_success_message"
-      value="{{ include.success_message }}"
-    />
-    <input
-      type="hidden"
-      name="_failure_message"
-      value="{{ include.failure_message }}"
-    />
-
-    {% bookshop button label=include.submit_button variant='Filled' submit=true
-    %}
-  </form>
+  <div class="{{c}}__mailing-list">
+    <iframe
+      src="https://cdn.forms-content-1.sg-form.com/9e76c4cb-3741-11f0-b529-2eb1d511927d"
+      style="border: none; width: 100%; min-height: 400px;"
+    ></iframe>
+  </div>
 </div>
