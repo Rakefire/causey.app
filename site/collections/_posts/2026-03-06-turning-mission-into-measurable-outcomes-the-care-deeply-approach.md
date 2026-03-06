@@ -29,7 +29,7 @@ Care Deeply’s public benefit structure is not symbolic. It informs how the fir
 
 Christopher intentionally resists rigid definitions of “mission-driven.”
 
-**“When we say that we work with ‘mission-driven’ or ‘values-driven’ organizations, that term is intentionally vague and intentionally undefined. After all, acting with a profit-first motive is also a mission and a value, but it's not the kind of value we want to support.”**
+**“When we say that we work with ‘mission-driven’ or ‘values-driven’ organizations, that term is intentionally vague and intentionally undefined. After all, acting with a profit-first motive is also a mission and a value, but it’s not the kind of value we want to support.”**
 
 Rather than drawing hard lines around qualification, Care Deeply looks for alignment and willingness. The commitment to grow matters more than a perfected identity.
 
@@ -63,11 +63,11 @@ Clarity cannot live only at the leadership level. Strategy becomes meaningful wh
 
 Christopher points to Causey as a practical bridge between strategic intent and collective execution.
 
-**“What I appreciate most about Causey is that it's intuitive and easy to use. With little training, I can engage a large number of organizational members in the Causey app.”**
+**“What I appreciate most about Causey is that it’s intuitive and easy to use. With little training, I can engage a large number of organizational members in the Causey app.”**
 
 Ease of use lowers the barrier to engagement. When more people can interact with strategy directly, participation expands and ownership deepens.
 
-**“I'm a firm believer in Dale Carnegie's words, ‘People support a world they helped to create.’ By engaging many organizational members inside the app, they are playing an active role in creating the future of their organization. This degree of buy-in is critical for turning strategy into reality.”**
+**“I’m a firm believer in Dale Carnegie’s words, ‘People support a world they helped to create.’ By engaging many organizational members inside the app, they are playing an active role in creating the future of their organization. This degree of buy-in is critical for turning strategy into reality.”**
 
 When outcomes are visible and progress is trackable, strategy moves from document to discipline. Goals become shared commitments, advanced together.
 
@@ -79,7 +79,7 @@ Care Deeply sees a broader shift underway in mission-driven consulting.
 
 The need is practical. Leaders are overwhelmed. Piecing together disconnected tools is not sustainable.
 
-**“Leaders have so much on their plates, they often don't have the time to piece together individual tools into a high-performing system for their organization. They want a values-aligned partner who has already selected the best tools and made them work together with a mission-minded approach.”**
+**“Leaders have so much on their plates, they often don’t have the time to piece together individual tools into a high-performing system for their organization. They want a values-aligned partner who has already selected the best tools and made them work together with a mission-minded approach.”**
 
 Christopher is building Care Deeply around that conviction. The goal is not to check the box on a one-time planning event, but to build a system that strengthens strategic clarity and leadership capacity year after year.
 
