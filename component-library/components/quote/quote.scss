@@ -6,7 +6,7 @@
 		justify-content: center;
 		margin: 0 auto;
 		padding: var(--component-padding) 0;
-		max-width: 750px;
+		max-width: 800px;
 
 		@media (max-width: 650px) {
 			flex-direction: column;
@@ -29,6 +29,7 @@
 			border-radius: 100%;
 			object-fit: cover;
 			object-position: center center;
+			box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 		}
 	}
 
@@ -45,7 +46,7 @@
 		font-style: italic;
 
 		&:before {
-			color: #ccc;
+			color: rgba(255,255,255,0.3);
 			content: open-quote;
 			font-size: 4em;
 			line-height: 0.1em;
@@ -57,7 +58,8 @@
 	&__quote-details {
 		margin: 10px 0 0 0;
 		font-weight: bold;
-		font-size: 1.4em;
+		font-size: 1.5em;
+		opacity: 0.85;
 		font-style: normal;
 
 		&--alternate {

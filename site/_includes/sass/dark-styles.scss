@@ -17,5 +17,13 @@ body {
     --footer-color: var(--dark-footer-color);
     --footer-link-color: var(--dark-footer-link-color);
     --footer-link-hover-color: var(--dark-footer-link-hover-color);
+
+    .c-footer__column h4 {
+      border-bottom-color: rgba(255,255,255,0.15);
+    }
+
+    .c-footer__lower-text {
+      border-top-color: rgba(255,255,255,0.1);
+    }
   }
 }

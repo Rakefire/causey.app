@@ -20,7 +20,7 @@ html,
 body {
   --font: var(--body-font), "Helvetica Neue", "Helvetica", "Arial";
   --headings-fonts: var(--headings-font), "Helvetica Neue", "Helvetica", "Arial";
-  --component-padding: 50px;
+  --component-padding: 60px;
   // --navigation-offset: 70px;
   position: relative;
   margin: 0;
@@ -40,13 +40,13 @@ body {
 
   h1 {
     margin: 0;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 4.1em;
   }
 
   h2,
   .archive-layout__heading {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 3.6em;
     margin: 0 0 30px 0;
   }
@@ -74,7 +74,7 @@ body {
   p {
     color: var(--text-color);
     margin-bottom: 20px;
-    line-height: 140%;
+    line-height: 155%;
   }
 
   img {

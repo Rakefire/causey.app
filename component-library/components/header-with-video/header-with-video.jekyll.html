@@ -14,11 +14,13 @@
 		{% endif %}
 	</div>
   {% if include.video.url %}
-    <iframe src="{{ include.video.url }}"
-            class="youtube-video"
-            title="{{ include.heading }}"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
+    <div class="{{c}}__video-wrapper">
+      <iframe src="{{ include.video.url }}"
+              class="youtube-video"
+              title="{{ include.heading }}"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe>
+    </div>
   {% endif %}
 </div>

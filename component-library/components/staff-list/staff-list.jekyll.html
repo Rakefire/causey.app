@@ -14,12 +14,13 @@
               {% if member.twitter %}
                 <a href="https://twitter.com/{{ member.twitter }}">{{ member.name }}</a>
               {% elsif member.linkedin %}
-                <a href="https://www.linkedin.com/in/{{ member.linkedin }}/">{{ member.name }}</a>
+                {% if member.linkedin contains 'http' %}<a href="{{ member.linkedin }}">{% else %}<a href="https://www.linkedin.com/in/{{ member.linkedin }}/">{% endif %}{{ member.name }}</a>
               {% else %}
                 {{ member.name }}
               {% endif %}
             </h4>
             <p class="{{c}}__position">{{ member.position }}</p>
+            {% if member.blurb %}<p class="{{c}}__staff-blurb">{{ member.blurb }}</p>{% endif %}
           </div>
         {% endunless %}
 			{% endfor %}

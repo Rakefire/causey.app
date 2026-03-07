@@ -1,6 +1,6 @@
 link_columns:
   - label: Primary
-    heading:
+    heading: Explore
     links:
       - link_label: Pricing
         link_url: /pricing/
@@ -19,7 +19,7 @@ link_columns:
         icon_image:
         open_in_new_tab: false
   - label: Secondary
-    heading:
+    heading: Account
     links:
       - link_label: Login
         link_url: https://my.causey.app/sign_in
@@ -64,7 +64,7 @@ link_columns:
             value: There was a problem. Try again? 🤷🏼
 
   - label: Social
-    heading:
+    heading: Connect
     links:
       # - link_label: Facebook
       #   link_url: https://facebook.com/causeystrategy/

@@ -4,12 +4,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: var(--component-padding) 0;
+    padding: 80px 0;
   }
 
   &__content {
-    max-width: 600px;
+    max-width: 650px;
     text-align: center;
+
+    h2 {
+      font-size: 3.2em;
+      font-weight: 500;
+    }
 
     h1,
     h2,

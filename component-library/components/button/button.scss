@@ -9,10 +9,12 @@
   padding: 16px 50px;
   background-color: rgba(255, 255, 255, 0.15);
   border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 4px;
+  border-radius: 6px;
   text-decoration: none;
   color: var(--light-text-color);
   font-size: 1.6em;
+  font-weight: 600;
+  transition: background-color 0.2s ease, transform 0.15s ease;
 
   &:hover {
     background-color: var(--page-color);
@@ -23,10 +25,13 @@
   &--filled {
     background-color: var(--button-fill);
     color: var(--button-fill-text);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
 
     &:hover {
       background-color: var(--button-fill);
       color: var(--button-fill-text);
+      transform: translateY(-1px);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
   }
 

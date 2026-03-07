@@ -2,100 +2,254 @@
   &__inner-wrapper {}
 
   &__heading {
-    margin: 0 0 30px 0;
+    margin: 0 0 20px 0;
     text-align: center;
   }
 
   &__subheading {
-    margin-bottom: 0;
+    margin: 0 auto 10px;
+    max-width: 750px;
     font-size: var(--content-font-size);
     text-align: center;
+    color: var(--text-color);
   }
 
-  &__subheading_2 {
-    margin-bottom: 0;
+  &__no-per-user {
+    margin: 40px auto 0;
     font-size: 1.8em;
     text-align: center;
+    color: var(--text-color);
+    font-weight: 500;
   }
 
-  &__plans {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  &__toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 30px 0 10px;
+  }
 
-    grid-gap: 25px;
-    justify-items: center;
-    padding: 25px 0 0 0;
-    text-align: center;
+  &__toggle-label {
+    font-size: 2em;
+  }
+
+  // Plan cards
+  &__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    padding: 20px 0 0;
+
+    @media (max-width: 800px) {
+      grid-template-columns: 1fr;
+      max-width: 400px;
+      margin: 0 auto;
+    }
   }
 
   &__card {
-    width: 100%;
-    max-width: 425px;
-    border-radius: 5px;
+    position: relative;
+    border-radius: 14px;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 2px 12px var(--shadows-color);
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    background: var(--page-color);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 
-    &:last-child {
-      margin-bottom: 0;
+    &:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 24px var(--shadows-color);
     }
   }
 
-  &__card-inner {
-    box-shadow: 0px 0px 10px var(--shadows-color);
-    border: 1px solid var(--border-color);
-    border-radius: 5px;
+  &__card-header {
+    padding: 24px 20px;
+    text-align: center;
+    border-radius: 13px 13px 0 0;
   }
 
-  &__title {
-    padding: 20px 0;
-    width: 100%;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-    color: #ffffff;
-    font-weight: 450;
-  }
-
-  &__features {
+  &__card-title {
+    color: #fff;
+    font-size: 2.4em;
+    font-weight: 600;
     margin: 0;
-    padding: 0;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  &__card-body {
+    padding: 24px 24px 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__card-price {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+
+  &__price-amount {
+    font-size: 3.6em;
+    font-weight: 700;
+    color: var(--headings-color);
+    line-height: 1.1;
+  }
+
+  &__price-period {
+    font-size: 1.6em;
+    color: #686158;
+  }
+
+  &__price-extra {
+    font-size: 1.4em;
+    color: #46b978;
+    font-weight: 600;
+    margin-top: 4px;
+  }
+
+  &__card-description {
+    text-align: center;
+    font-size: 1.5em;
+    color: #686158;
+    margin: 0 0 20px;
+    line-height: 1.4;
+  }
+
+  &__card-highlights {
     list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+    flex: 1;
 
     li {
-      padding: 15px 20px;
-      font-size: 2em;
-      font-weight: 400;
-      color: #243746;
-    }
+      padding: 10px 0;
+      font-size: 1.5em;
+      color: var(--text-color);
+      text-align: center;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.06);
 
-    li:first-child {
-      font-size: 2.4em;
-    }
-
-    hr {
-      width: 70%
+      &:last-child {
+        border-bottom: none;
+      }
     }
   }
 
-  h4 {
-    font-weight: 500;
-    font-size: 1.8em;
+  &__card-footer {
+    margin-top: auto;
   }
 
-  &__extra-text {
-    color: #686158;
-    font-size: 0.9em;
-  }
-
-  &__bold {
-    font-weight: bold;
-  }
-
-  &__button {
+  &__card-button {
     display: block;
-    padding: 20px 0;
-    width: 100%;
-    color: #ffffff;
+    padding: 20px 20px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
     text-decoration: none;
-    border-radius: 0 0 2px 2px;
-    font-weight: 450;
+    font-weight: 600;
     font-size: 1.7em;
+    transition: opacity 0.2s ease;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+
+    &:hover {
+      opacity: 0.9;
+      color: #fff;
+    }
+  }
+
+  // Comparison table
+  &__comparison {
+    margin-top: 70px;
+  }
+
+  &__comparison-table-wrapper {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 2px 12px var(--shadows-color);
+  }
+
+  &__comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+
+    thead {
+      th {
+        padding: 20px 16px;
+        font-size: 2em;
+        font-weight: 700;
+        text-align: center;
+        border-bottom: 2px solid var(--border-color);
+        background: var(--page-color);
+
+        &:first-child {
+          text-align: left;
+          width: 40%;
+        }
+      }
+    }
+
+    tbody {
+      td {
+        padding: 14px 16px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+        text-align: center;
+        font-size: 1.5em;
+        color: var(--text-color);
+
+        &:first-child {
+          text-align: left;
+          color: var(--headings-color);
+        }
+      }
+
+      tr:hover td {
+        background-color: rgba(0,0,0,0.02);
+      }
+
+      tr:last-child td {
+        border-bottom: none;
+      }
+    }
+  }
+
+  &__category-row {
+    td {
+      padding: 18px 16px 12px !important;
+      font-weight: 700 !important;
+      font-size: 1.7em !important;
+      color: var(--headings-color) !important;
+      border-bottom: 2px solid var(--border-color) !important;
+      background: rgba(0, 0, 0, 0.02);
+    }
+  }
+
+  &__check {
+    color: #46b978;
+    font-weight: 700;
+    font-size: 1.4em;
+  }
+
+  &__dash {
+    color: #ccc;
+  }
+
+  &__badge {
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--headings-color);
+    color: #fff;
+    padding: 4px 16px;
+    border-radius: 20px;
+    font-size: 1.2em;
+    font-weight: 600;
+    white-space: nowrap;
   }
 }

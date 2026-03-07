@@ -2,20 +2,20 @@
   $c: &;
   display: flex;
   align-items: center;
-  z-index: 4;
+  position: sticky;
   top: 0;
+  z-index: 100;
   left: 0;
   padding: 23px 20px;
   width: 100%;
-  height: 70px;
-  max-height: 70px;
+  height: 76px;
+  max-height: 76px;
   background-color: var(--navigation-color);
-  // box-sizing: content-box;
 
   &--open {
     @media (max-width: 700px) {
       position: relative;
-      margin-top: -70px;
+      margin-top: -76px;
       height: auto;
       max-height: 1200px;
 
@@ -86,10 +86,11 @@
     padding: 10px;
     border-bottom: 1px solid rgba(255, 255, 255, 0);
     color: rgba(255, 255, 255, 0.8);
-    transition: color .2s ease-in-out, border-bottom .2s ease-in-out;
+    transition: all 0.2s ease;
     text-decoration: none;
-    font-size: 1.3em;
+    font-size: 1.35em;
     font-weight: 500;
+    letter-spacing: 0.02em;
 
     @media (max-width: 700px) {
       margin: 0 3px;
@@ -111,8 +112,9 @@
 
     &--button {
       display: flex;
-      border: 1px #ccc solid;
-      border-radius: 5px;
+      border: 1.5px rgba(255,255,255,0.7) solid;
+      border-radius: 6px;
+      font-weight: 600;
 
       @media (max-width: 700px) {
         border: none;
@@ -155,7 +157,6 @@
   }
 
   &__label {
-    text-transform: uppercase;
   }
 
   img {

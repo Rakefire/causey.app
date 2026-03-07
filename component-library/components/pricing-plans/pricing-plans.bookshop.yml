@@ -3,7 +3,7 @@ spec:
   structures:
     - content_blocks
   label: Pricing Plans
-  description: Pricing plan cards
+  description: Pricing plan cards with feature comparison table
   icon: wysiwyg
   tags:
     - Marketing
@@ -12,32 +12,59 @@ spec:
 blueprint:
   heading: ""
   subheading: ""
+  subheading_2: ""
   component_theme: ""
   plans:
     - title: ""
       card_color: ""
-      price: ""
-      button_url: ""
+      description: ""
+      price:
+        month:
+          price: ""
+          extra_text: ""
+          button_url: ""
+        year:
+          price: ""
+          extra_text: ""
+          button_url: ""
+      highlights:
+        - ""
+  comparison_categories:
+    - name: ""
       features:
-        - feature: ""
+        - name: ""
+          lite: ""
+          core: ""
+          solid: ""
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
   heading: Find the perfect plan for your business
-  subheading: All plans include our award winning sales optimization solution to
-    track your sales in real time.
+  subheading: All plans include our award winning solution.
+  subheading_2: Never pay per-user fees!
   component_theme: Light
   plans:
     - title: Basic
       card_color: "#8e8e8e"
-      price: $25 per month
-      button_url: "#"
+      description: Get started with the basics.
+      price:
+        month:
+          price: "$25"
+          extra_text: ""
+          button_url: "#"
+        year:
+          price: "$250"
+          extra_text: "Save 16%"
+          button_url: "#"
+      highlights:
+        - Up to 5 users
+        - Basic reporting
+        - Email support
+  comparison_categories:
+    - name: Features
       features:
-        - feature: Up to 5 users
-        - feature: Basic lead scoring
-        - feature: CRM
-        - feature: Basic reporting
-        - feature: Sales map
+        - name: Users
+          basic: Up to 5
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs: {}

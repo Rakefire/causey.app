@@ -11,7 +11,7 @@ hydra:
     button_fill_color: "#cb3727"
     button_fill_text_color: "#ffffff"
     tag_color: '#eeeeee'
-    border_color: '#dfdfdf'
+    border_color: '#e5e0da'
     shadows_color: '#f7f7f7'
     navigation_color: '#cb3727'
     footer_color: '#faa21b'

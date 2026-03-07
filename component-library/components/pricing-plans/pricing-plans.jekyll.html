@@ -1,86 +1,105 @@
-<div class="{{c}}__inner-wrapper
-			component">
-	<h2 class="{{c}}__heading">{{ include.heading }}</h2>
-	<p class="{{c}}__subheading">{{ include.subheading }}</p>
-	<p class="{{c}}__subheading_2">{{ include.subheading_2 }}</p>
+<div class="{{c}}__inner-wrapper component">
+  <h2 class="{{c}}__heading">{{ include.heading }}</h2>
+  <p class="{{c}}__subheading">{{ include.subheading }}</p>
 
-  <div data-controller="show-hide" style="padding-top: 50px;">
-    <div style="display: flex; justify-content: center; align-items: center;">
-      <div style="padding: 15px; font-size: 2em;">Yearly</div>
+  <div data-controller="show-hide">
+    <div class="{{c}}__toggle">
+      <span class="{{c}}__toggle-label">Yearly</span>
       <sl-switch checked style="--width: 80px; --height: 40px; --thumb-size: 36px;" data-action="sl-change->show-hide#toggle"></sl-switch>
-      <div style="padding: 15px; font-size: 2em;">Monthly</div>
+      <span class="{{c}}__toggle-label">Monthly</span>
     </div>
 
-    <div class="{{c}}__plans">
+    <div class="{{c}}__cards">
       {% for plan in include.plans %}
         <div class="{{c}}__card">
-          <div class="{{c}}__card-inner">
-            <h3 class="{{c}}__title"
-                id="{{ plan.title | slugify}}"
-                style="background-color: {{ plan.card_color }}">{{ plan.title }}</h3>
-            <ul class="{{c}}__features">
-              <li>
-                <div data-show-hide-target="on">
-                  {{ plan.price.month.price }}
-                  {% if plan.price.month.extra_text %}
-                    <br />
-                    <span class="{{c}}__extra-text">{{ plan.price.month.extra_text }}</span>
-                  {% endif %}
-                </div>
-                <div data-show-hide-target="off">
-                  {{ plan.price.year.price }}
-                  {% if plan.price.year.extra_text %}
-                    <br />
-                    <span class="{{c}}__extra-text">{{ plan.price.year.extra_text }}</span>
-                  {% endif %}
-                </div>
-              </li>
-
-              {% for item in plan.features %}
-                <li>
-                  {% if item.name %}
-                    <span style="{%if item.font_bold%}font-weight: bold;{%endif%}">{{ item.name }}</span><br />
-                    <span class="{{c}}__extra-text">{{ item.extra_text }}</span>
-                  {% else %}
-                    {{ item.feature }}
-                  {% endif %}
-                </li>
-              {% endfor %}
-            </ul>
-
-            <ul class="{{c}}__features">
-              {% for item in plan.future_features %}
-                {% if forloop.index == 1 %}
-                  <h4>Coming Soon</h4>
-                  <hr />
+          <div class="{{c}}__card-header" style="background-color: {{ plan.card_color }}">
+            {% if plan.title == "Core" %}<span class="{{c}}__badge">Most Popular</span>{% endif %}
+            <h3 class="{{c}}__card-title">{{ plan.title }}</h3>
+          </div>
+          <div class="{{c}}__card-body">
+            <div class="{{c}}__card-price">
+              <div data-show-hide-target="on">
+                <span class="{{c}}__price-amount">{{ plan.price.month.price }}</span>
+                <span class="{{c}}__price-period">/mo</span>
+                {% if plan.price.month.extra_text %}
+                  <div class="{{c}}__price-extra">{{ plan.price.month.extra_text }}</div>
                 {% endif %}
-                <li>
-                  {% if item.name %}
-                    <span style="{%if item.font_bold%}font-weight: bold;{%endif%}">{{ item.name }}</span><br />
-                    <span class="{{c}}__extra-text">{{ item.extra_text }}</span>
-                  {% else %}
-                    {{ item.feature }}
-                  {% endif %}
-                </li>
+              </div>
+              <div data-show-hide-target="off">
+                <span class="{{c}}__price-amount">{{ plan.price.year.price }}</span>
+                <span class="{{c}}__price-period">/yr</span>
+                {% if plan.price.year.extra_text %}
+                  <div class="{{c}}__price-extra">{{ plan.price.year.extra_text }}</div>
+                {% endif %}
+              </div>
+            </div>
+            <p class="{{c}}__card-description">{{ plan.description }}</p>
+            <ul class="{{c}}__card-highlights">
+              {% for highlight in plan.highlights %}
+                <li>{{ highlight }}</li>
               {% endfor %}
             </ul>
+          </div>
+          <div class="{{c}}__card-footer">
             <div data-show-hide-target="on">
-              <a class="{{c}}__button"
-                href="{{ plan.price.month.button_url }}"
-                style="background-color: {{ plan.card_color }}">
-                Start your 30-day trial →
+              <a class="{{c}}__card-button"
+                 href="{{ plan.price.month.button_url }}"
+                 style="background-color: {{ plan.card_color }}">
+                Start your 30-day trial
               </a>
             </div>
             <div data-show-hide-target="off">
-              <a class="{{c}}__button"
-                href="{{ plan.price.year.button_url }}"
-                style="background-color: {{ plan.card_color }}">
-                Start your 30-day trial →
+              <a class="{{c}}__card-button"
+                 href="{{ plan.price.year.button_url }}"
+                 style="background-color: {{ plan.card_color }}">
+                Start your 30-day trial
               </a>
             </div>
           </div>
         </div>
       {% endfor %}
     </div>
+
+    {% if include.subheading_2 %}
+      <p class="{{c}}__no-per-user">{{ include.subheading_2 }}</p>
+    {% endif %}
   </div>
+
+  {% if include.comparison_categories.size > 0 %}
+    <div class="{{c}}__comparison">
+      <div class="{{c}}__comparison-table-wrapper">
+        <table class="{{c}}__comparison-table">
+          <thead>
+            <tr>
+              <th></th>
+              {% for plan in include.plans %}
+                <th>
+                  <span style="color: {{ plan.card_color }}">{{ plan.title }}</span>
+                </th>
+              {% endfor %}
+            </tr>
+          </thead>
+          <tbody>
+            {% for category in include.comparison_categories %}
+              <tr class="{{c}}__category-row">
+                <td colspan="{{ include.plans.size | plus: 1 }}">{{ category.name }}</td>
+              </tr>
+              {% for feature in category.features %}
+                <tr>
+                  <td class="{{c}}__feature-name">{{ feature.name }}</td>
+                  {% for plan in include.plans %}
+                    {% assign key = plan.title | downcase %}
+                    {% assign val = feature[key] %}
+                    <td class="{{c}}__feature-value">
+                      {% if val == "check" %}<span class="{{c}}__check">&#10003;</span>{% elsif val == "dash" %}<span class="{{c}}__dash">&mdash;</span>{% else %}{{ val }}{% endif %}
+                    </td>
+                  {% endfor %}
+                </tr>
+              {% endfor %}
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  {% endif %}
 </div>

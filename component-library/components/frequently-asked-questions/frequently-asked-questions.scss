@@ -6,6 +6,8 @@
   &__items {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    max-width: 900px;
+    margin: 0 auto;
   }
 
   &__heading {
@@ -16,12 +18,13 @@
   &__question {
     flex: 1 var(--s-350-390);
     padding: 25px;
+    border-bottom: 1px solid var(--border-color);
 
     dt {
       margin: 0 0 5px 0;
       font-weight: 600;
       font-size: 1.7em;
-      color: var(--text-color);
+      color: var(--headings-color);
     }
 
     dd {
@@ -29,6 +32,8 @@
       padding: 0;
       font-size: 1.6em;
       font-weight: 400;
+      line-height: 155%;
+      margin-top: 8px;
     }
   }
 }
