@@ -12,3 +12,7 @@ __BOOKSHOP_VENDOR__
 
 site/.bundle
 Procfile.dev
+
+# Playwright MCP
+.playwright-mcp/
+.screenshots/
