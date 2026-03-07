@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /causey-to-attend-pennsylvania-library-association-2024-annual-conference.html
 title: Causey to Attend Pennsylvania Library Association 2024 Annual Conference
 categories:
   - news

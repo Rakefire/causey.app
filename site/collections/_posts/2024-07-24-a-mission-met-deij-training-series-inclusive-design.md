@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /a-mission-met-deij-training-series-inclusive-design.html
 title: "A Mission Met DEIJ Training Series: Inclusive Design"
 categories:
   - thought-leadership

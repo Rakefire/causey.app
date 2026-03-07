@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /from-strategy-to-action-turning-library-goals-into-real-world-impact.html
 title: 'From Strategy to Action: Turning Library Goals into Real-World Impact'
 categories:
   - thought-leadership

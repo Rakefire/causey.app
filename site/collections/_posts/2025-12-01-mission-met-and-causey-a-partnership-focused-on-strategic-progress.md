@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /mission-met-and-causey-a-partnership-focused-on-strategic-progress.html
 title: 'Mission Met and Causey: A Partnership Focused on Strategic Progress'
 categories:
   - features

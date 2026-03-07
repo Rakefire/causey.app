@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /from-alignment-to-action-plan-a-advisors-and-causey.html
 title: 'From Alignment to Action: Plan A Advisors and Causey'
 categories:
   - Strategic Leadership

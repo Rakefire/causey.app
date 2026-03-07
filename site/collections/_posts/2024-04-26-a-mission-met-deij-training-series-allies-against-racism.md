@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /a-mission-met-deij-training-series-allies-against-racism.html
 title: "A Mission Met DEIJ Training Series: Allies Against Racism"
 categories:
   - thought-leadership

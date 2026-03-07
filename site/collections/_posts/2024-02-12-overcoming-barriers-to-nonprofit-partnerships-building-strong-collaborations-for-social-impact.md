@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /overcoming-barriers-to-nonprofit-partnerships-building-strong-collaborations-for-social-impact.html
 title: >-
   Overcoming Barriers to Nonprofit Partnerships Building Strong Collaborations
   for Social Impact

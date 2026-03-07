@@ -3,7 +3,9 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		margin: 16px 0;
+		margin: 40px 0 0;
+		padding-top: 24px;
+		border-top: 2px solid var(--border-color);
 	}
 
 	&__heading {
@@ -13,15 +15,23 @@
 	}
 
 	&__option {
-		font-size: 1.4em;
+		font-size: 1.5em;
+		font-weight: 500;
 		color: var(--link-color);
+		text-decoration: none;
+		transition: color 0.2s ease;
+		max-width: 45%;
+
+		&:hover {
+			color: var(--headings-color);
+		}
 
 		&--prev {
 
 		}
 
 		&--next {
-
+			text-align: right;
 		}
 	}
 

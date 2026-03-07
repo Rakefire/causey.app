@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /turning-purpose-into-performance-jenark-business-solutions-on-making-strategy-work-every-day.html
 title: >-
   Turning Purpose into Performance: Jenark Business Solutions on Making Strategy
   Work Every Day

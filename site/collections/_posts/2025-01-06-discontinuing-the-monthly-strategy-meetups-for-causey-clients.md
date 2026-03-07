@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /discontinuing-the-monthly-strategy-meetups-for-causey-clients.html
 title: Discontinuing  the Monthly Strategy Meetups for Causey Clients
 categories:
 author_staff_member: 825fc98b-2c58-4f02-9c1f-4792cb6963e6

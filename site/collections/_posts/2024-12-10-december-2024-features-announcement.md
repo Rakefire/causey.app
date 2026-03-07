@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /december-2024-features-announcement.html
 title: December 2024 Features Announcement
 categories:
   - features

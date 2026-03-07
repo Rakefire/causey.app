@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /a-mission-met-deij-training-series-exploring-diversity-and-project-management.html
 title: "A Mission Met DEIJ Training Series: Exploring Diversity and Project Management"
 categories:
   - thought-leadership

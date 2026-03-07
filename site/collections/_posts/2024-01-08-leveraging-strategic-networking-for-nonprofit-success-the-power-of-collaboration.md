@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /leveraging-strategic-networking-for-nonprofit-success-the-power-of-collaboration.html
 title: >-
   Leveraging Strategic Networking for Nonprofit Success: The Power of
   Collaboration

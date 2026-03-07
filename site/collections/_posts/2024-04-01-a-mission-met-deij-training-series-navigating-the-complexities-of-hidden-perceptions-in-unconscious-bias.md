@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /a-mission-met-deij-training-series-navigating-the-complexities-of-hidden-perceptions-in-unconscious-bias.html
 title: >-
   A Mission Met DEIJ Training Series: Navigating the Complexities of Hidden
   Perceptions in Unconscious Bias

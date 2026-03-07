@@ -135,16 +135,96 @@ body {
   padding: var(--component-padding) var(--s-30-50);
 
   &--post {
-    max-width: 750px;
+    max-width: 700px;
     box-sizing: content-box;
 
+    > h2 {
+      font-size: 2.8em;
+      font-weight: 600;
+      margin-top: 2.4em;
+      margin-bottom: 0.6em;
+      line-height: 1.25;
+      color: var(--headings-color);
+
+      strong {
+        font-weight: 600;
+      }
+    }
+
+    > h3 {
+      font-size: 2.2em;
+      font-weight: 600;
+      margin-top: 2em;
+      margin-bottom: 0.5em;
+      line-height: 1.3;
+
+      strong {
+        font-weight: 600;
+      }
+    }
+
     h1:not(:first-child),
-    h2:not(:first-child),
-    h3:not(:first-child),
     h4:not(:first-child),
     h5:not(:first-child),
     h6:not(:first-child) {
       margin-top: 2.2em;
+    }
+
+    > p,
+    > div > p {
+      font-size: 1.9em;
+      line-height: 1.7;
+      margin-bottom: 1.4em;
+      color: var(--text-color);
+
+      strong {
+        color: var(--headings-color);
+      }
+    }
+
+    // Styled blockquote-like bold paragraphs (used for testimonial quotes)
+    > p:has(> strong:first-child:last-child) {
+      border-left: 3px solid var(--brand-color);
+      padding-left: 24px;
+      margin: 2em 0;
+      font-style: italic;
+
+      strong {
+        font-weight: 500;
+        color: var(--headings-color);
+      }
+    }
+
+    // First paragraph after the header - slightly larger
+    .c-post-header + p {
+      font-size: 2.1em;
+      line-height: 1.65;
+      color: var(--headings-color);
+    }
+
+    blockquote {
+      border-left: 3px solid var(--brand-color);
+      background: none;
+      padding: 0 0 0 24px;
+      margin: 2em 0;
+
+      p {
+        font-style: italic;
+        color: var(--headings-color);
+        font-weight: 500;
+      }
+    }
+
+    a {
+      color: var(--link-color);
+      text-decoration: underline;
+      text-decoration-color: rgba(0, 164, 202, 0.3);
+      text-underline-offset: 2px;
+      transition: text-decoration-color 0.2s ease;
+
+      &:hover {
+        text-decoration-color: var(--link-color);
+      }
     }
 
     .n-post-preview {

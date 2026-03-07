@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /maximizing-revenue-in-2024-four-strategies-for-strategy-consultants.html
 title: "Maximizing Revenue in 2024: Four Strategies for Strategy Consultants"
 categories:
   - consulting

@@ -16,9 +16,7 @@
             >{{ author.name }}</a
           >
           {% elsif author.linkedin %}
-          <a href="https://www.linkedin.com/in/{{ author.linkedin }}/"
-            >{{ author.name }}</a
-          >
+          {% if author.linkedin contains 'http' %}<a href="{{ author.linkedin }}">{% else %}<a href="https://www.linkedin.com/in/{{ author.linkedin }}/">{% endif %}{{ author.name }}</a>
           {% else %} {{ author.name }} {% endif %}
         </p>
 

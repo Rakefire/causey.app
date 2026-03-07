@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /turning-mission-into-measurable-outcomes-the-care-deeply-approach.html
 title: 'Turning Mission Into Measurable Outcomes: The Care Deeply Approach'
 categories:
   - Consulting & Advisory

@@ -21,7 +21,7 @@ exclude:
   - postcss.config.js
   - node_modules
 
-permalink: /:title:output_ext
+permalink: /:title/
 
 collections_dir: collections
 collections:

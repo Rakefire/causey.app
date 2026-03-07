@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /streamlining-nonprofit-donation-processes.html
 title: Streamlining Nonprofit Donation Processes
 categories:
   - thought-leadership

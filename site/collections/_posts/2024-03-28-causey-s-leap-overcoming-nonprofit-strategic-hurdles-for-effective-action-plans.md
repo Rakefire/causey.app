@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /causey-s-leap-overcoming-nonprofit-strategic-hurdles-for-effective-action-plans.html
 title: >-
   Causey's Leap: Overcoming Nonprofit Strategic Hurdles for Effective Action
   Plans

@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /spreadsheets-are-better-than-a-bookshelf-but-not-by-much.html
 title: Spreadsheets Are Better Than a Bookshelf—But Not by Much!
 categories:
   - features

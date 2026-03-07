@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /a-mission-met-deij-training-series-taking-time-to-reflect.html
 title: "A Mission Met DEIJ Training Series: Taking Time to Reflect"
 categories:
   - thought-leadership

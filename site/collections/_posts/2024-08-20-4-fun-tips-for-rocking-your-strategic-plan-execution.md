@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /4-fun-tips-for-rocking-your-strategic-plan-execution.html
 title: 4 Fun Tips for Rocking Your Strategic Plan Execution
 categories:
   - thought-leadership

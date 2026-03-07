@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /strengthen-your-nonprofit-with-these-4-key-strategies-for-capacity-building.html
 title: Strengthen Your Nonprofit With These 4 Key Strategies for Capacity Building
 author_staff_member: 171c91e1-2e04-443c-8c5c-ea8c68a3f596
 date: 2024-05-13 10:00:00

@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /exciting-news-causey-to-exhibit-at-the-2024-public-library-association-conference-in-columbus-ohio.html
 title: >-
   Exciting News: Causey to Exhibit at the 2024 Public Library Association
   Conference in Columbus, Ohio!

@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /causey-s-latest-updates.html
 title: Causey’s Latest Updates
 categories:
   - features

@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /5-ways-causey-can-help-you-turn-your-strategic-plan-into-action.html
 title: 5 Ways Causey Can Help You Turn Your Strategic Plan Into Action
 categories:
   - why

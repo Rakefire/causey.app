@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /a-mission-met-deij-training-series-deij-in-the-news.html
 title: "A Mission Met DEIJ Training Series: DEIJ In The News"
 categories:
   - thought-leadership

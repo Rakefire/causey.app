@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /transforming-strategic-planning-how-ascension-strategies-and-ashley-rountree-use-causey-to-drive-social-impact.html
 title: >-
   Transforming Strategic Planning: How Ashley|Rountree and Ascension Strategies
   Use Causey to Drive Social Impact

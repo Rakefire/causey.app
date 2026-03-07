@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /ai-in-strategic-planning-opportunities-challenges-and-embracing-human-insight.html
 title: >-
   AI in Strategic Planning: Opportunities, Challenges and Embracing Human
   Insight
