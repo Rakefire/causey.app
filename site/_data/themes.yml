@@ -7,10 +7,10 @@ hydra:
     headings_color: "#243746"
     text_color: "#666666"
     light_text_color: "#ffffff"
-    link_color: "#00a4ca"
+    link_color: "#1d988c"
     button_fill_color: "#cb3727"
     button_fill_text_color: "#ffffff"
-    tag_color: '#eeeeee'
+    tag_color: '#f8f0e1'
     border_color: '#e5e0da'
     shadows_color: '#f7f7f7'
     navigation_color: '#cb3727'
@@ -35,6 +35,6 @@ hydra:
     footer_color: '#000000'
     footer_link_color: '#999999'
     footer_link_hover_color: '#ffffff'
-  headings_font: 'San Francisco'
-  body_font: 'San Francisco'
+  headings_font: 'Inter'
+  body_font: 'Inter'
   content_font_size_number: 2.2

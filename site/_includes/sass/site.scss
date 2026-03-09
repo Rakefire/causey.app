@@ -18,8 +18,8 @@ html {
 
 html,
 body {
-  --font: var(--body-font), "Helvetica Neue", "Helvetica", "Arial";
-  --headings-fonts: var(--headings-font), "Helvetica Neue", "Helvetica", "Arial";
+  --font: var(--body-font), "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  --headings-fonts: var(--headings-font), "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   --component-padding: 60px;
   // --navigation-offset: 70px;
   position: relative;
@@ -40,13 +40,13 @@ body {
 
   h1 {
     margin: 0;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 4.1em;
   }
 
   h2,
   .archive-layout__heading {
-    font-weight: 500;
+    font-weight: 600;
     font-size: 3.6em;
     margin: 0 0 30px 0;
   }
@@ -54,13 +54,13 @@ body {
   h3 {
     margin: 0;
     font-size: 1.9em;
-    font-weight: 400;
+    font-weight: 500;
   }
 
   h4 {
     margin: 20px 0 10px 0;
     font-size: 1.6em;
-    font-weight: 300;
+    font-weight: 400;
   }
 
   p,
@@ -106,7 +106,7 @@ body {
 
   pre {
     padding: 10px;
-    background: #313131;
+    background: #243746;
     border-radius: 2px;
 
     code {
@@ -118,7 +118,7 @@ body {
   li code {
     font-size: initial;
     padding: 6px 10px;
-    background: #313131;
+    background: #243746;
     border-radius: 2px;
   }
 }
@@ -218,7 +218,7 @@ body {
     a {
       color: var(--link-color);
       text-decoration: underline;
-      text-decoration-color: rgba(0, 164, 202, 0.3);
+      text-decoration-color: rgba(29, 152, 140, 0.3);
       text-underline-offset: 2px;
       transition: text-decoration-color 0.2s ease;
 

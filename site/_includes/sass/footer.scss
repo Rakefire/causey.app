@@ -28,10 +28,10 @@
 
   &__column {
     h4 {
-      font-size: 1.5em;
+      font-size: 1.7em;
       font-weight: 600;
       text-transform: uppercase;
-      letter-spacing: 0.08em;
+      letter-spacing: 0.06em;
       padding-bottom: 12px;
       border-bottom: 2px solid rgba(0,0,0,0.1);
     }
@@ -48,7 +48,7 @@
 
     li {
       margin: 10px 0;
-      font-size: 1.5em;
+      font-size: 1.65em;
 
       @media (max-width: 599px) {
         margin: 10px 0;
@@ -65,7 +65,7 @@
 
     input[type=text], input[type=email] {
       font-size: var(--content-font-size);
-      border: 1px solid #ced4da;
+      border: 1px solid var(--border-color);
       border-radius: 6px;
       padding: 0.5em;
       width: 100%;
@@ -122,7 +122,7 @@
 
     p {
       color: var(--footer-link-color);
-      font-size: 1.4em;
+      font-size: 1.5em;
       font-weight: 400;
 
       a {

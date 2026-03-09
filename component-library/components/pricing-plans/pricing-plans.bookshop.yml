@@ -29,6 +29,8 @@ blueprint:
           button_url: ""
       highlights:
         - ""
+  basic_tier_note: ""
+  basic_tier_url: ""
   comparison_categories:
     - name: ""
       features:

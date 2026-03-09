@@ -2,6 +2,10 @@
   <h2 class="{{c}}__heading">{{ include.heading }}</h2>
   <p class="{{c}}__subheading">{{ include.subheading }}</p>
 
+  {% if include.subheading_2 %}
+    <p class="{{c}}__no-per-user">{{ include.subheading_2 }}</p>
+  {% endif %}
+
   <div data-controller="show-hide">
     <div class="{{c}}__toggle">
       <span class="{{c}}__toggle-label">Yearly</span>
@@ -60,10 +64,14 @@
       {% endfor %}
     </div>
 
-    {% if include.subheading_2 %}
-      <p class="{{c}}__no-per-user">{{ include.subheading_2 }}</p>
-    {% endif %}
   </div>
+
+  {% if include.basic_tier_note and include.basic_tier_url %}
+    <p class="{{c}}__basic-tier-note">
+      {{ include.basic_tier_note }}
+      <a href="{{ include.basic_tier_url }}">See our Basic tier.</a>
+    </p>
+  {% endif %}
 
   {% if include.comparison_categories.size > 0 %}
     <div class="{{c}}__comparison">
@@ -102,4 +110,6 @@
       </div>
     </div>
   {% endif %}
+
+
 </div>
