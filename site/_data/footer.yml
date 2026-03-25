@@ -18,6 +18,18 @@ link_columns:
         link_url: /contact/
         icon_image:
         open_in_new_tab: false
+      - link_label: Timeline Generator
+        link_url: /causey-timeline/
+        icon_image:
+        open_in_new_tab: false
+      - link_label: Boost
+        link_url: /boost/
+        icon_image:
+        open_in_new_tab: false
+      - link_label: Affiliates
+        link_url: /affiliate-partner-agreement/
+        icon_image:
+        open_in_new_tab: false
   - label: Secondary
     heading: Account
     links:

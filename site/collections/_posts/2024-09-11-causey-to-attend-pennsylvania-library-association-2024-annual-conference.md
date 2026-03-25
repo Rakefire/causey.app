@@ -21,7 +21,7 @@ blurb: >-
   connecting with you!
 ---
 
-We are excited to announce that [Causey](www.causey.app){: target="\_blank" rel="noopener"} will be attending the [Pennsylvania Library Association (PaLA) 2024 Conference](https://www.palibraries.org/page/2024ConferencePrelim) in Harrisburg, PA, from October 6-9. The PaLA Conference offers the most comprehensive opportunity for members of the Pennsylvania library community to learn from leaders in the profession, experts in related fields, as well as from each other.
+We are excited to announce that [Causey](https://www.causey.app){: target="\_blank" rel="noopener"} will be attending the [Pennsylvania Library Association (PaLA) 2024 Conference](https://www.palibraries.org/page/2024ConferencePrelim) in Harrisburg, PA, from October 6-9. The PaLA Conference offers the most comprehensive opportunity for members of the Pennsylvania library community to learn from leaders in the profession, experts in related fields, as well as from each other.
 
 Causey, a leading strategic planning execution software, is designed to empower organizations to translate their visions into actionable, measurable plans. We understand the challenges libraries face, from adapting to evolving community needs to managing limited resources, and we’re here to help libraries succeed with efficient, effective planning tools.
 
