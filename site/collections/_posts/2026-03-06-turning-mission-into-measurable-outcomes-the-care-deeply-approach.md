@@ -14,12 +14,8 @@ SEO_options:
   image:
   prevent_indexing: false
 blurb: >-
-  Care Deeply Consulting partners with values-driven organizations to turn
-  mission into measurable outcomes. CEO & Founder Christopher Arnold encourages
-  leaders to define success first, then design the systems, behaviors, and
-  strategies that make those outcomes possible. With outcome-first thinking and
-  tools like Causey that engage entire teams, strategy becomes visible,
-  participatory, and capable of driving real progress.
+  Care Deeply Consulting helps values-driven organizations turn mission into
+  measurable outcomes using outcome-first thinking and tools like Causey.
 ---
 Mission-driven work often begins with passion. The challenge is turning that passion into clear outcomes, aligned systems, and measurable progress.
 

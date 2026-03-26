@@ -8,17 +8,14 @@ author_staff_member:
 date: 2024-06-18 00:00:00
 content_blocks:
 SEO_options:
-  title:
+  title: 5 Ways to Turn Your Strategic Plan Into Action
   description:
   image:
   prevent_indexing: false
 blurb: >-
-  Are you tired of spending hours crafting detailed strategic plans, only to see
-  them gather dust on the shelf? Many mission-driven organizations face this
-  challenge, struggling with the implementation phase due to common pitfalls. In
-  a recent LinkedIn Live conversation, Jamie Yazdani of Yazdani Consulting and
-  Ricky Chilcott, co-founder of Mission Met, discuss these challenges and offer
-  practical solutions.
+  Discover five ways Causey helps mission-driven organizations turn strategic
+  plans into action, based on a LinkedIn Live with Jamie Yazdani and Ricky
+  Chilcott.
 ---
 Are you tired of spending hours crafting detailed strategic plans, only to see them gather dust on the shelf? If so, you're not alone. Many mission-driven organizations struggle with the implementation phase, often due to common pitfalls. But fear not – this blog recaps a recent LinkedIn Live conversation between Jamie Yazdani of Yazdani Consulting and Ricky Chilcott, co-founder of Mission Met, in which they expose these challenges and offer solutions.
 

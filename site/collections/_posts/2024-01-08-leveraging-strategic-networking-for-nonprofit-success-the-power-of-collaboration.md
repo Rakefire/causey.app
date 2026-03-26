@@ -10,7 +10,7 @@ author_staff_member: 171c91e1-2e04-443c-8c5c-ea8c68a3f596
 date: 2024-01-08 00:00:00
 content_blocks:
 SEO_options:
-  title:
+  title: Strategic Networking for Nonprofit Success — Causey
   description:
   image:
   prevent_indexing: false

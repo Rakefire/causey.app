@@ -11,7 +11,8 @@ SEO_options:
   image:
   prevent_indexing: false
 blurb: >-
-  New features? We've got them. We announce Presentation View for direct plan presentations, expansion of Timeline View to include action items, launch of START Lite, a free slimmed-down version of the START course, and we add an activity feed on the home screen.
+  New features: Presentation View for plan presentations, Timeline View with
+  action items, free START Lite course, and a home screen activity feed.
 redirect_from:
   - /features/2022/09/22/mmc-s-newest-features/
   - /features/2022/09/22/mmc-s-newest-features

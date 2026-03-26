@@ -11,16 +11,13 @@ author_staff_member: 171c91e1-2e04-443c-8c5c-ea8c68a3f596
 date: 2024-04-02 00:00:00
 content_blocks:
 SEO_options:
-  title:
+  title: Causey at the 2024 PLA Conference — Causey
   description:
   image:
   prevent_indexing: false
 blurb: >-
-  Causey, strategic planning execution software for libraries, is excited to
-  announce our first-time participation as an exhibitor at the 2024 Public
-  Library Association (PLA) Conference in Columbus, Ohio from April 3 to 5,
-  2024. Visit us at booth #2039 to learn how Causey can help your library
-  effectively plan, execute, and track your strategic initiatives.
+  Causey is exhibiting at the 2024 Public Library Association Conference in
+  Columbus, Ohio. Visit booth #2039 to learn how Causey helps libraries.
 ---
 We are thrilled to announce that **Causey, strategic planning execution software for libraries, will be attending the** [**2024 Public Library Association (PLA) Conference**](https://www.placonference.org/){: target="_blank" rel="noopener"}as an exhibitor for the first time! The conference will take place from **April 3 to 5, 2024, in Columbus, Ohio**, and we couldn't be more excited to be part of this incredible event.
 

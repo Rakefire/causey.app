@@ -8,16 +8,13 @@ author_staff_member: cfcf24d9-efd0-4146-9779-34573db33e4e
 date: 2024-03-06 00:00:00
 content_blocks:
 SEO_options:
-  title:
+  title: "DEIJ Training: Diversity & Project Management"
   description:
   image:
   prevent_indexing: false
 blurb: >-
-  Mission Met discusses our ongoing efforts to integrate Diversity, Equity,
-  Inclusion, and Justice (DEIJ) into our organizational practices through a
-  series of workshops which is part of our broader commitment to creating a more
-  equitable and inclusive workplace. A recent workshop focused on the
-  intersection of diversity and project management.
+  Mission Met explores how integrating DEIJ principles into project management
+  fosters creativity, reduces bias, and creates more inclusive outcomes.
 ---
 
 Mission Met discusses our ongoing efforts to integrate [Diversity, Equity, Inclusion, and Justice (DEIJ) into our organizational practices](https://www.missionmet.com/deij){: target="\_blank" rel="noopener"} through a series of workshops which is part of our broader commitment to creating a more equitable and inclusive workplace.

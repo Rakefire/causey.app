@@ -21,18 +21,9 @@ content_blocks:
 SEO_options:
   title: "Maximizing Revenue in 2024: Four Strategies for Strategy Consultants"
   description: >-
-    To enhance revenue while maintaining a strong commitment to client service,
-    mission-driven strategy consultants are encouraged to adopt four key
-    strategies: leveraging software like Causey to streamline tasks and increase
-    efficiency, transitioning into roles such as a fractional director of
-    strategy to add value through close engagement in strategic plan execution,
-    diversifying and expanding service offerings through educational courses and
-    other innovative services to attract a wider client base, and nurturing
-    client relationships through a structured customer lifecycle process to
-    encourage loyalty, repeat business, and referrals. These strategies
-    collectively aim to maximize revenue opportunities without compromising the
-    quality of service to clients, ensuring sustainable growth and a deeper
-    impact in the communities they serve.
+    Four strategies for consultants to maximize revenue: leverage software,
+    offer fractional roles, diversify services, and nurture client
+    relationships.
   image:
   prevent_indexing: false
 blurb: >-

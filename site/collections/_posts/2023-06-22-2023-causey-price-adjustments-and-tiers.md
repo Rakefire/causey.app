@@ -9,10 +9,8 @@ content_blocks:
 SEO_options:
   title: Causey and Costs
   description: >-
-    As part of our rebrand, we will be implementing new pricing tiers for the
-    first time since launching in 2015. The change in pricing is intended to
-    better align our business with the success of our customers. This article
-    provides more information behind the pricing changes.
+    As part of our rebrand, we're introducing new pricing tiers for the first
+    time since 2015. Learn how the changes better align with customer success.
   image:
   prevent_indexing: false
 blurb:
@@ -31,7 +29,7 @@ Learn more&nbsp;[about our rebranding](https://www.causey.app/why/features/2023/
 
 Today we're announcing three new pricing tier options to provide your organization with options on what you need for your strategic planning efforts.
 
-![](/uploads/causey-pricing-summary-1-1.png){: width="1280" height="800"}
+![Causey pricing tiers summary](/uploads/causey-pricing-summary-1-1.png){: width="1280" height="800"}
 
 ### The Lite tier is a great starting point for any organization’s strategic plan. &nbsp;
 

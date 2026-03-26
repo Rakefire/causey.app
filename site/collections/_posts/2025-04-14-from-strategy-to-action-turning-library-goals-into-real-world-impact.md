@@ -10,15 +10,13 @@ content_blocks:
 SEO_options:
   title: 'From Strategy to Action: Turning Library Goals into Real-World Impact'
   description: >-
-    Discover how libraries can move from strategic planning to real-world impact
-    using the CAPE Cycle and digital tools like websites. Learn practical steps
-    to implement and sustain your library’s goals.
+    Discover how libraries can move from strategic planning to real-world
+    impact using the CAPE Cycle. Learn practical steps to sustain your goals.
   image:
   prevent_indexing: false
 blurb: >-
-  Discover how libraries can move from strategic planning to real-world impact
-  using the CAPE Cycle and digital tools like websites. Learn practical steps to
-  implement and sustain your library’s goals.
+  Discover how libraries can move from strategic planning to real-world
+  impact using the CAPE Cycle. Learn practical steps to sustain your goals.
 ---
 Strategic plans shouldn’t gather dust. They should guide action.
 

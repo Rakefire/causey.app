@@ -6,11 +6,11 @@ categories:
   - thought-leadership
 author_staff_member: cfcf24d9-efd0-4146-9779-34573db33e4e
 SEO_options:
-  title: Empowering Mission-Driven Organizations with Strategic Planning Software
-  description: "Boost nonprofit success with strategic planning software: align teams, make data-driven decisions, streamline goals & enhance collaboration for long-term impact."
+  title: Strategic Planning Software for Nonprofits
+  description: "Boost nonprofit success with strategic planning software: align teams, make data-driven decisions, streamline goals & enhance collaboration."
   image:
   prevent_indexing: false
-blurb: "Boost nonprofit success with strategic planning software: align teams, make data-driven decisions, streamline goals & enhance collaboration for long-term impact."
+blurb: "Boost nonprofit success with strategic planning software: align teams, make data-driven decisions, streamline goals & enhance collaboration."
 redirect_from:
   - /why/thought-leadership/2023/05/04/empowering-mission-driven-organizations-with-strategic-planning-software/
   - /why/thought-leadership/2023/06/18/empowering-mission-driven-organizations-with-strategic-planning-software/

@@ -28,17 +28,17 @@ More and more Causey users are turning to [Action Items](https://url4586.causey.
 
 Tired of scrolling through tons of text? We think this option will help. Simply select "Fully Display" when adding or editing a Compass element to truncate the text of this section so you can get to your Focus Areas quickly.
 
-![](/uploads/screenshot-2024-07-11-at-10-38-20-am.png)
+![Compass element with Fully Display toggle to truncate text](/uploads/screenshot-2024-07-11-at-10-38-20-am.png)
 
 **New Filtering Options**
 
 New filter options in Section 2 of your plan allow you more options when filtering goals. Select to filter goals by time frame and the options are to see past, current, and future goals, as well as goals with no end date.
 
-![](/uploads/screenshot-2024-08-05-at-1-08-23-pm.png)
+![Filter goals by time frame showing past, current, and future options](/uploads/screenshot-2024-08-05-at-1-08-23-pm.png)
 
 You can also select to filter by time since the last goal progress update.
 
-![](/uploads/screenshot-2024-08-05-at-1-08-15-pm.png)
+![Filter goals by time since last progress update](/uploads/screenshot-2024-08-05-at-1-08-15-pm.png)
 
 **More Options to Customize**
 
@@ -46,7 +46,7 @@ We continue to add more customization options in Causey.
 
 The first new option is in Presentation View. You can now [download your plan as a PowerPoint](https://url4586.causey.app/ls/click?upn=u001.-2F2hMqMOnIZobZsaRuE2fvVS6rYLh3KI92E1qzzW6jKU9hLzGZqUtzjGsrxQBzQpTquKYxKeAsUlJxLlU-2B2ja2lYK7giMgwZqPFv7Y9bgKb4-3Du6sP_MiGo-2BFOm8U6-2BhAc1V7dIS0qyg-2BteFpU-2FMagpEH5r95H0yqHccKtTRx9GqcUEdZCtTuAXzCPImJjpFlca7auUFwIbLHVklz7SkBUkP3NGXAnNs21A-2BjJB6Pd-2B2aiMuPqnwnh4pa7V16UsyRnZkRaLrd1PJON6nyvfR0ssj7f-2Fwdaxa648UHZaMRDBxqJlGOHs6ric4sHh9vDa0K6Y4kjc7CNuQXeY7krq4XOwRFfPSx52ZISbuiBA-2BHLgvoQsY-2BkHrzM-2FyGzDG7MR5C-2BaCEsqwzLbBq2CCeUSFBa75YdgA4DPiar6d3EicoRlv3SGj0zkX-2BIY3pWgKN6fbtsI-2BNCecBffKsFhjgvP-2FAqWirahzSmTxAf0e4vdvh5kVyLOJviATdsifkzU4tJ7Q8YaYu5SrnFceczLnCdRLR8M-2FcT1GVo1dTQJUppxZ1sVUvCpQJ07kO9df8xpf6eqll-2BER-2BF8Tf5IM163VtA5D7eQ5vjzXWw1vypcQJyLCH4UPzqo81SE1zUYiQ7l8xijiLSKuegJnJ698ANTWOngKRyb0LnvQ5FRwSi3iBD7N-2BAWkw-2BWVIiNiRBBzzY3oL4yjPlTKh-2Fgi45vYXnVy4kmeklNgrfVj55DxGlIdwcfyeKj99oIQnmkduQqyY5DXWPQQmQV3qQ0z8eOo0ajjYdItb3eXBwsSlPp5rrhIR6vM-2BJGcX5Gze8v9XJyS2rl98wlyPwEkIZiyQthDasGXNsH9BAlZ-2BNQZb6ei4I2PDR-2BUlPnL2HCHYIhMgs-2BqorhiizKXarlAmFFrw5ZgBLzZ6iN-2BKVMIY5o2cSoeZSSh2wbKQ2upNRidkSqh8JnSxaSqESuJGiHRcrsQ3RYM-2BQqQ4-2FRjGqVvcZq4uhG9Y5S4XdNozny3caHVjxK74Ha4Wppf-2BOs6go0RwTETxCv-2BOJQvz88eaHcSSQyMc-2FxvSTeqwYCZMduY6fnp9hFCFfwjQ7Pc5kJ6QV34IUSDHjcIn4E5fBXojOm6CXyRf1-2FnYKQiGv5QDnrKYInQlYyqdnyoDoduPdOcSro1qoK0Q-3D-3D){: target="\_blank" rel="noopener"} so you can customize it the way you’d like. Remember to use the filters to select the information you’d like and Causey will create the presentation for you before you download it for further customization.
 
-![](/uploads/screenshot-2024-07-11-at-10-42-32-am.png)
+![Download plan as PowerPoint from Presentation View](/uploads/screenshot-2024-07-11-at-10-42-32-am.png)
 
 The second customization option is for Solid tier members of Causey. You can now create custom fields for numbers and text. This option allows your team to create fields for your plan that are totally unique to your organization.
 
@@ -60,7 +60,7 @@ Check out Dashboard View, a new view of the plan that allows you to quickly see 
 
 [Learn more about Dashboard View](https://url4586.causey.app/ls/click?upn=u001.-2F2hMqMOnIZobZsaRuE2fvVS6rYLh3KI92E1qzzW6jKVOMO4oYKwgkgc5wcB95rNFEgzJZAs3kHX5Qkd9enz-2FToYvSLtoL9Yv0d1Hc3mlz1E-3Db0nl_MiGo-2BFOm8U6-2BhAc1V7dIS0qyg-2BteFpU-2FMagpEH5r95H0yqHccKtTRx9GqcUEdZCtTuAXzCPImJjpFlca7auUFwIbLHVklz7SkBUkP3NGXAnNs21A-2BjJB6Pd-2B2aiMuPqnwnh4pa7V16UsyRnZkRaLrd1PJON6nyvfR0ssj7f-2Fwdaxa648UHZaMRDBxqJlGOHs6ric4sHh9vDa0K6Y4kjc7CNuQXeY7krq4XOwRFfPSx52ZISbuiBA-2BHLgvoQsY-2BkHrzM-2FyGzDG7MR5C-2BaCEsqwzLbBq2CCeUSFBa75YdgA4DPiar6d3EicoRlv3SGj0zkX-2BIY3pWgKN6fbtsI-2BNCecBffKsFhjgvP-2FAqWirahzSmTxAf0e4vdvh5kVyLOJviATdsifkzU4tJ7Q8YaYu5SrnFceczLnCdRLR8M-2FcT1GVo1dTQJUppxZ1sVUvCpQJ07kO9df8xpf6eqll-2BER-2BF8Tf5IM163VtA5D7eQ5vjzXWw1vypcQJyLCH4UPzqo81SE1zUYiQ7l8xijiLSKuegJnJ698ANTWOngKRyb0LnvQ5FRwSi3iBD7N-2BAWkw-2BWVIiNiRBBzzY3oL4yjPlTKh-2Fgi45vYXnVy4kmeklNgrfVj55DxGlIdwcfyeKj99oIQnmkduQqyY5DXWPQQmQV3qQ0z8eOo0ajjYdItb3eXBwsSlPp5rrhIR6vM-2BJGcX5Gze8v9XJyS2rl98wlyPwEkIZiyQthDasGXNsH9BAlZ-2BNQZb6ei4I2PDR-2BUlPnL2HCHYIhMgs-2BqorhiizKXarlAmFFrw5ZgBLzZ6iN-2BKVMIY5o2cSoeZSSh2wbKQ2upNRidkSqh8JnSxaSqESuJGiHRcrsQ3mOOh7uxhriL1Uw7HrfDLzAFZvDBpUCmemDFFJHZMtYb0lfvaAE6J3tunOmSeRRGSzmlNQcnj6F8q1yLH7EODON-2FOlmVdtKjksU3GTYYgMN-2B4t-2FpN4s3x4VTTUGiPFr6M-2BgYvD1S031yXYDHvPwa9gt5rvy92C-2FVsXqL0BVXxOW-2FBHe01geufPJg-2BIwGMKQtQ-3D-3D){: target="\_blank" rel="noopener"}
 
-![](/uploads/screenshot-2024-08-05-at-12-50-27-pm.png)
+![Dashboard View showing key metrics and focus area metrics](/uploads/screenshot-2024-08-05-at-12-50-27-pm.png)
 
 Looking ahead, we’ll soon have a new way to view your plan for when you’re in “get stuff done” mode. This Execution View will help you stay focused by displaying your to-do list. While it’s not quite ready for release just yet, we’re excited and wanted to let you know about it now!
 

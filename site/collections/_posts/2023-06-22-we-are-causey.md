@@ -9,9 +9,8 @@ content_blocks:
 SEO_options:
   title: We are Causey
   description: >-
-    This post will answer some questions about the rebrand including more about
-    the name, the changes that have been / are being made to the software,
-    pricing, and timing.
+    Learn about the rebrand from Mission Met Center to Causey, including the
+    new name, software changes, pricing updates, and timing.
   image: /uploads/causey-tagline.png
   prevent_indexing: false
 blurb: Mission Met Center is now Causey, a rebrand reflecting our differentiation from consulting services and our evolution into a robust strategic planning software platform. While retaining all previous features, Causey adds enhancements, introduces new pricing tiers, and transitions to a new URL. We remain committed to serving you and look forward to an exciting future of product development.
@@ -25,7 +24,7 @@ We've got some exciting news to share with you…
 
 Mission Met Center has changed its name to Causey.
 
-![](/uploads/causey-tagline.png){: width="4000" height="1090"}
+![Causey logo with tagline](/uploads/causey-tagline.png){: width="4000" height="1090"}
 
 ## **Here’s the rest of the story…**
 
@@ -100,7 +99,7 @@ We must continue to evolve to meet the needs of our customers and their strategi
 
 The tiered plans offer variety so you can pick the one that best fits your strategic planning needs for your team.&nbsp;
 
-![](/uploads/causey-pricing-summary-1.png){: width="1280" height="800"}
+![Causey pricing tiers summary](/uploads/causey-pricing-summary-1.png){: width="1280" height="800"}
 
 Your organization will be automatically enrolled in the tier that best aligns with your current subscription and needs. If you’re a billing contact for your organization(s), you can switch your tier anytime before August 31, 2023.&nbsp;
 

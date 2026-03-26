@@ -10,9 +10,7 @@ author_staff_member: cfcf24d9-efd0-4146-9779-34573db33e4e
 date: 2025-10-17 12:00:00
 content_blocks:
 SEO_options:
-  title: >-
-    Transforming Strategic Planning: How Ascension Strategies and
-    Ashley|Rountree Use Causey to Drive Social Impact
+  title: How ARAS Uses Causey to Drive Social Impact
   description: >-
     Discover how Ascension Strategies and Ashley|Rountree are transforming
     strategic planning for mission-driven organizations using Causey. Their

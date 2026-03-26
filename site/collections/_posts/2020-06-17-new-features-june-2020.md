@@ -11,7 +11,8 @@ SEO_options:
   image:
   prevent_indexing: false
 blurb: >-
-  Mission Met Center has updated its features to improve strategic plan tracking and implementation, including a Calendar Feed for syncing with Google or iCal, a Progress Tracker for action items, a Weekly Look-ahead Email for due and completed tasks, and the ability to add Key Team Members to Focus Areas, all developed based on user feedback.
+  New features: Calendar Feed for Google/iCal sync, action item Progress
+  Tracker, Weekly Look-ahead Email, and Key Team Members for Focus Areas.
 redirect_from:
   - /features/2020/06/17/new-features-june-2020/
   - /features/2020/06/17/new-features-june-2020

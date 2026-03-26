@@ -8,20 +8,14 @@ author_staff_member: 171c91e1-2e04-443c-8c5c-ea8c68a3f596
 date: 2024-02-12 00:00:00
 content_blocks:
 SEO_options:
-  title:
+  title: Overcoming Nonprofit Partnership Barriers — Causey
   description:
   image:
   prevent_indexing: false
 blurb: >-
-  Strategic partnerships enable nonprofits to pool strengths, resources, and
-  expertise to tackle complex social issues and achieve greater collective
-  success, driving lasting positive change.
-
-
-  We're sharing an article about specific barriers to partnerships that we hear
-  about from mission-driven leaders, including limited resources, communication
-  issues, and inadequate planning. The article also offers suggestions for how
-  to overcome each barrier.
+  Learn how nonprofits can overcome common partnership barriers like limited
+  resources, communication gaps, and inadequate planning to drive collective
+  impact.
 ---
 Strategic partnerships enable nonprofits to pool strengths, resources, and expertise to tackle complex social issues and achieve greater collective success, driving lasting positive change.
 

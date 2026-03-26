@@ -11,8 +11,9 @@ SEO_options:
   image:
   prevent_indexing: false
 blurb: >-
-  In this feature annoucement, we touch on Organization Launch Status, Changes to Automated Emails, Plan Lock Feature
-  Enhanced Presentation View, Report Generation, and Cloning Focus Areas
+  New features: Organization Launch Status, automated email updates, Plan
+  Lock, enhanced Presentation View, report generation, and Focus Area
+  cloning.
 redirect_from:
   - /features/2023/04/25/mission-met-center-s-newest-features/
   - /features/2023/04/25/mission-met-center-s-newest-features

@@ -13,9 +13,8 @@ SEO_options:
   image:
   prevent_indexing: false
 blurb: >-
-  Spreadsheets and generic tools may handle the basics, but they fall short when
-  it comes to elevating your strategic planning. Read on to discover how Causey
-  can revolutionize the way you plan and execute your strategies. 
+  Spreadsheets fall short for strategic planning. Discover how Causey helps
+  nonprofits plan, execute, and track strategies more effectively.
 ---
 We’ve all seen it: that shiny new strategic plan sitting on the shelf, collecting dust. You know the one—the plan that everyone was excited about when it was created but somehow never gets executed. It's easy to get caught up in the excitement of planning, but without the right tools, even the best strategy can end up gathering cobwebs.
 

@@ -12,11 +12,8 @@ SEO_options:
   image:
   prevent_indexing: false
 blurb: >-
-  After several years of hosting free monthly “Strategy Meetups” on Zoom for
-  Causey software clients, we’ve decided to discontinue these sessions due to
-  low attendance. Moving forward, we’re focusing on offering individualized
-  support and enhancing our free or low cost online resources. Here's more
-  information.
+  We’re discontinuing monthly Strategy Meetups for Causey clients. Learn about
+  the individualized support and enhanced resources available going forward.
 ---
 
 As you may know, each month for the last few years we’ve offered a free one-hour “Strategy Meetup” over Zoom for our Causey software clients to connect with our consultants and address strategic questions. We've enjoyed these sessions—hearing your challenges, sharing insights, and building relationships with you.

@@ -8,7 +8,7 @@ author_staff_member: cfcf24d9-efd0-4146-9779-34573db33e4e
 date: 2024-09-11 00:00:00
 content_blocks:
 SEO_options:
-  title:
+  title: Causey at PaLA 2024 Annual Conference — Causey
   description:
   image:
   prevent_indexing: false

@@ -10,18 +10,14 @@ author_staff_member: cfcf24d9-efd0-4146-9779-34573db33e4e
 date: 2025-12-01 00:00:00
 content_blocks:
 SEO_options:
-  title:
+  title: Mission Met & Causey Partnership — Causey
   description:
   image:
   prevent_indexing: false
 blurb: >-
-  Strategic planning is often where nonprofits start, but not always where they
-  thrive. What separates organizations that continually advance their mission
-  from those that struggle to move plans forward is not inspiration. It is
-  discipline, clarity, and consistent follow-through.
-
-
-  This is where Mission Met has built its reputation.
+  Mission Met helps nonprofits move from planning to execution with
+  discipline and follow-through. See how their Causey partnership drives
+  progress.
 ---
 Strategic planning is often where nonprofits start, but not always where they thrive. What separates organizations that continually advance their mission from those that struggle to move plans forward is not inspiration. It is discipline, clarity, and consistent follow-through.
 
