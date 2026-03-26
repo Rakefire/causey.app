@@ -4,7 +4,7 @@ redirect_from:
 title: 5 Ways Causey Can Help You Turn Your Strategic Plan Into Action
 categories:
   - why
-author_staff_member:
+author_staff_member: 171c91e1-2e04-443c-8c5c-ea8c68a3f596
 date: 2024-06-18 00:00:00
 content_blocks:
 SEO_options:
