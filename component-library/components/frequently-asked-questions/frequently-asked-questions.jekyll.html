@@ -3,8 +3,11 @@
 	<h2 class="{{c}}__heading">{{ include.heading }}</h2>
 	<div class="{{c}}__items">
 		{% for item in include.questions %}
-			<div class="{{c}}__question">
-				<dt>{{ item.question_text }}</dt>
+			{% assign question_id = item.question_text | slugify %}
+			<div class="{{c}}__question" id="{{ question_id }}">
+				<dt>
+					{{ item.question_text }}<a href="#{{ question_id }}" class="{{c}}__anchor-link" aria-label="Copy link to this question" onclick="navigator.clipboard.writeText(window.location.origin + window.location.pathname + '#{{ question_id }}'); this.classList.add('copied'); setTimeout(() => this.classList.remove('copied'), 2000); return false;">#<span class="{{c}}__anchor-tooltip">Copied!</span></a>
+				</dt>
 				<dd>{{ item.answer_text }}</dd>
 			</div>
 		{% endfor %}
