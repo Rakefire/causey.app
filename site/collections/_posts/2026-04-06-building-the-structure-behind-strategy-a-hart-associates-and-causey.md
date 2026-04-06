@@ -33,11 +33,11 @@ A. Hart Associates partners with leaders to strengthen governance, build alignme
 
 ## **Start with people, not the plan**
 
-> **“Strategy only works when the people responsible for it are aligned. Otherwise, it stays on paper.”**
+**“Strategy only works when the people responsible for it are aligned. Otherwise, it stays on paper.”**
 
 Before building a strategic plan, the focus is on leadership — especially the relationship between boards and executive directors. Clarity around roles, responsibilities, and decision-making is essential.
 
-> **“We spend a lot of time helping boards and executive directors understand where their roles begin and end, and guiding those conversations toward shared clarity.”**
+**“We spend a lot of time helping boards and executive directors understand where their roles begin and end, and guiding those conversations toward shared clarity.”**
 
 This isn’t a preliminary step. It’s the foundation.
 
@@ -63,7 +63,7 @@ That approach is reflected in the work with the Lexington Community Development 
 
 Community leaders came together with a shared goal: improve quality of life in Lexington and the surrounding area. Turning that vision into something sustainable required more than alignment — it required structure.
 
-> **“We weren’t just creating a plan. We were building the structure to actually carry it out.”**
+**“We weren’t just creating a plan. We were building the structure to actually carry it out.”**
 
 That work included board recruitment, governance development, strategic planning, and a detailed implementation roadmap supported by quarterly reviews.
 
@@ -83,7 +83,7 @@ Many organizations have clearly defined mission, vision, and values — but stru
 
 A. Hart Associates closes that gap.
 
-> **“Leaders need to deeply understand vision, mission and values, and also have a system that helps them act on them every day.”**
+**“Leaders need to deeply understand vision, mission and values, and also have a system that helps them act on them every day.”**
 
 That system translates values into action through:
 
@@ -100,7 +100,7 @@ Without that structure, values remain aspirational. With it, they become part of
 
 ## **Keeping strategy alive**
 
-> **“One of the biggest challenges isn’t building the strategic plan. It’s keeping it alive.”**
+**“One of the biggest challenges isn’t building the strategic plan. It’s keeping it alive.”**
 
 That’s where many organizations lose momentum.
 
@@ -110,7 +110,7 @@ Causey plays a key role in that process.
 
 By turning strategy into a living system, Causey helps teams track initiatives, assign ownership, monitor progress, and stay aligned.
 
-> **“It creates visibility and accountability in a way that’s hard to maintain otherwise.”**
+**“It creates visibility and accountability in a way that’s hard to maintain otherwise.”**
 
 &nbsp;
 
@@ -120,7 +120,7 @@ At the center of all this work is leadership.
 
 A thriving nonprofit leader understands both the strategic and relational sides of the role — balancing long-term vision with day-to-day realities, while working across boards, partners, and communities.
 
-> **“When leaders are aligned and clear on where they’re going, everything else starts to fall into place.”**
+**“When leaders are aligned and clear on where they’re going, everything else starts to fall into place.”**
 
 Alignment isn’t a one-time exercise. It’s what makes strategy work over time.
 
