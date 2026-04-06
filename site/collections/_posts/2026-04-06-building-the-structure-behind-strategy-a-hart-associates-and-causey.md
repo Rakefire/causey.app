@@ -33,7 +33,7 @@ A. Hart Associates partners with leaders to strengthen governance, build alignme
 
 ## **Start with people, not the plan**
 
-> “Strategy only works when the people responsible for it are aligned. Otherwise, it stays on paper.”
+> **“Strategy only works when the people responsible for it are aligned. Otherwise, it stays on paper.”**
 
 Before building a strategic plan, the focus is on leadership — especially the relationship between boards and executive directors. Clarity around roles, responsibilities, and decision-making is essential.
 
