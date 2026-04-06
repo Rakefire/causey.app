@@ -21,7 +21,7 @@ Most strategic plans don’t fail because of impractical ideas. They fail becaus
 
 That’s the problem [A. Hart Associates](https://www.ahartassociates.com/) is built to solve.
 
-Founded by Alison Hart, Founder and Chief Strategist of A. Hart Associates, the firm brings more than 30 years of experience in leadership, strategic planning, and facilitation across nonprofit, association, and business sectors.
+Founded by **Alison Hart, Founder and Chief Strategist of A. Hart Associates**, the firm brings more than 30 years of experience in leadership, strategic planning, and facilitation across nonprofit, association, and business sectors.
 
 A former nonprofit CEO, Alison works closely with boards and executive leaders to guide conversations, build consensus, and align stakeholders around a shared direction. Her work spans nonprofits, economic development organizations, chambers of commerce, and business alliances — all with a focus on helping leaders sharpen their focus and create lasting change.
 
