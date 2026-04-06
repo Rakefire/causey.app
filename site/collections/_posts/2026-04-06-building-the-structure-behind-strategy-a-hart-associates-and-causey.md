@@ -21,7 +21,7 @@ Most strategic plans don’t fail because of impractical ideas. They fail becaus
 
 That’s the problem [A. Hart Associates](https://www.ahartassociates.com/) is built to solve.
 
-Founded by Alison Hart, Founder and Chief Strategist of A. Hart Associates, the firm brings more than 30 years of experience in leadership, strategic planning, and facilitation across nonprofit, association, and business sectors.
+Founded by **Alison Hart, Founder and Chief Strategist of A. Hart Associates**, the firm brings more than 30 years of experience in leadership, strategic planning, and facilitation across nonprofit, association, and business sectors.
 
 A former nonprofit CEO, Alison works closely with boards and executive leaders to guide conversations, build consensus, and align stakeholders around a shared direction. Her work spans nonprofits, economic development organizations, chambers of commerce, and business alliances — all with a focus on helping leaders sharpen their focus and create lasting change.
 
@@ -31,13 +31,13 @@ A. Hart Associates partners with leaders to strengthen governance, build alignme
 
 &nbsp;
 
-### **Start with people, not the plan**
+## **Start with people, not the plan**
 
-> “Strategy only works when the people responsible for it are aligned. Otherwise, it stays on paper.”
+> **“Strategy only works when the people responsible for it are aligned. Otherwise, it stays on paper.”**
 
 Before building a strategic plan, the focus is on leadership — especially the relationship between boards and executive directors. Clarity around roles, responsibilities, and decision-making is essential.
 
-“We spend a lot of time helping boards and executive directors understand where their roles begin and end, and guiding those conversations toward shared clarity.”
+> **“We spend a lot of time helping boards and executive directors understand where their roles begin and end, and guiding those conversations toward shared clarity.”**
 
 This isn’t a preliminary step. It’s the foundation.
 
@@ -45,7 +45,7 @@ Without alignment at the leadership level, even strong strategies struggle to ta
 
 &nbsp;
 
-### **Alignment as an ongoing discipline**
+## **Alignment as an ongoing discipline**
 
 For A. Hart Associates, alignment isn’t a one-time outcome. It’s something that must be built and sustained.
 
@@ -57,7 +57,7 @@ It also ensures that strategy is owned across leadership, not just approved.
 
 &nbsp;
 
-### **From vision to structure: Lexington Community Development Group**
+## **From vision to structure: Lexington Community Development Group**
 
 That approach is reflected in the work with the Lexington Community Development Group.
 
@@ -77,7 +77,7 @@ With leadership aligned and systems in place, the organization is now preparing 
 
 &nbsp;
 
-### **Making values operational**
+## **Making values operational**
 
 Many organizations have clearly defined mission, vision, and values — but struggle to connect them to daily work.
 
@@ -98,7 +98,7 @@ Without that structure, values remain aspirational. With it, they become part of
 
 &nbsp;
 
-### **Keeping strategy alive**
+## **Keeping strategy alive**
 
 > **“One of the biggest challenges isn’t building the strategic plan. It’s keeping it alive.”**
 
@@ -114,7 +114,7 @@ By turning strategy into a living system, Causey helps teams track initiatives, 
 
 &nbsp;
 
-### **What it takes to lead well**
+## **What it takes to lead well**
 
 At the center of all this work is leadership.
 
