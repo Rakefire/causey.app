@@ -17,17 +17,17 @@ blurb: >-
   visibility, and accountability needed to keep strategy alive and moving
   forward.
 ---
-> Most strategic plans don’t fail because of impractical ideas. They fail because leadership isn’t aligned to execute them.
->
-> That’s the problem [A. Hart Associates](https://www.ahartassociates.com/) is built to solve.
->
-> Founded by Alison Hart, Founder and Chief Strategist of A. Hart Associates, the firm brings more than 30 years of experience in leadership, strategic planning, and facilitation across nonprofit, association, and business sectors.
->
-> A former nonprofit CEO, Alison works closely with boards and executive leaders to guide conversations, build consensus, and align stakeholders around a shared direction. Her work spans nonprofits, economic development organizations, chambers of commerce, and business alliances — all with a focus on helping leaders sharpen their focus and create lasting change.
->
-> At the center of the work is a simple idea: strategy only works when people are aligned around it.
->
-> A. Hart Associates partners with leaders to strengthen governance, build alignment, and create strategies that guide real decisions and behavior over time — not just planning conversations.
+Most strategic plans don’t fail because of impractical ideas. They fail because leadership isn’t aligned to execute them.
+
+That’s the problem [A. Hart Associates](https://www.ahartassociates.com/) is built to solve.
+
+Founded by Alison Hart, Founder and Chief Strategist of A. Hart Associates, the firm brings more than 30 years of experience in leadership, strategic planning, and facilitation across nonprofit, association, and business sectors.
+
+A former nonprofit CEO, Alison works closely with boards and executive leaders to guide conversations, build consensus, and align stakeholders around a shared direction. Her work spans nonprofits, economic development organizations, chambers of commerce, and business alliances — all with a focus on helping leaders sharpen their focus and create lasting change.
+
+At the center of the work is a simple idea: strategy only works when people are aligned around it.
+
+A. Hart Associates partners with leaders to strengthen governance, build alignment, and create strategies that guide real decisions and behavior over time — not just planning conversations.
 
 &nbsp;
 
