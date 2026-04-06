@@ -13,13 +13,9 @@ SEO_options:
   prevent_indexing: false
 blurb: >-
   A. Hart Associates helps organizations turn strategy into action by aligning
-  leadership first. Founded by Alison Hart, the firm brings over 30 years of
-  experience guiding boards and executives to build clarity, strengthen
-  governance, and create strategies that drive real decisions. By focusing on
-  alignment as an ongoing discipline, A. Hart Associates ensures plans don’t
-  just sit on paper; they shape how organizations operate. With support from
-  Causey, teams gain the structure, visibility, and accountability needed to
-  keep strategy alive and moving forward.
+  leadership first. With support from Causey, teams gain the structure,
+  visibility, and accountability needed to keep strategy alive and moving
+  forward.
 ---
 Most strategic plans don’t fail because of impractical ideas. They fail because leadership isn’t aligned to execute them.
 
