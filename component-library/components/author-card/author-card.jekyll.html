@@ -25,8 +25,7 @@
         {% endif %} {% if author.phone %}
         <p class="{{c}}__phone">
           <a href="tel:{{ author.phone }}">{{ author.phone }}</a>
-          {% if author.phone_extension != empty %} ext {{author.phone_extension
-          }} {% endif %}
+          {% if author.phone_extension %} ext {{ author.phone_extension }} {% endif %}
         </p>
         {% endif %}
       </div>
