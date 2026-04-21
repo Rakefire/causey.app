@@ -3,6 +3,8 @@ title: >-
   Strengthening the Work Behind the Mission: Alexander|Carrillo Consulting and
   Causey
 categories:
+  - Consulting & Advisory
+  - Nonprofit Strategy
 author_staff_member: cfcf24d9-efd0-4146-9779-34573db33e4e
 date: 2026-04-21 00:00:00
 content_blocks:
