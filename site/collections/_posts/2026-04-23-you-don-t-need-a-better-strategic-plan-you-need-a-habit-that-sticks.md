@@ -37,8 +37,6 @@ The fix isn’t a better plan. It’s a small, repeatable habit that keeps the p
 
 This isn’t about overhauling your process. It’s about adding one consistent behavior to meetings you’re already having.
 
-&nbsp;
-
 ### **1\. Bring your strategy into the meeting**
 
 Open your plan together, not as a report, but as a working session.
@@ -52,8 +50,6 @@ Ask:
 These conversations are simple when progress is visible. Not something you reconstruct before the meeting, but something you review together.
 
 > **Causey Pro Tip:** Before or during your meeting, you can quickly see what needs attention by filtering goals by status using the [Filter Goals & Metrics](https://help.causey.app/article/171-filtering) feature.
-
-&nbsp;
 
 ### **2\. Capture updates in real time**
 
@@ -70,9 +66,7 @@ This is where momentum starts.
 
 You stop “planning” and start using the plan.
 
-> **Causey Pro Tip:** If you track metrics alongside your goals, those updates become even clearer, because you’re not relying on gut feel, you’re looking at real data. ** ** If you’re not using metrics yet, here’s [how to get started]().
-
-&nbsp;
+> **Causey Pro Tip:** If you track metrics alongside your goals, those updates become even clearer, because you’re not relying on gut feel, you’re looking at real data. If you’re not using metrics yet, here’s [how to get started]().
 
 ### **3\. Keep ownership clear and visible**
 
@@ -82,15 +76,11 @@ When ownership is clear, follow-through becomes easier. When people see how thei
 
 > **Causey Pro Tip:** Ready to assign the person responsible for moving the goal forward but sure how? We’ve got you. Here’s how to [assign your goal champion](https://help.causey.app/article/15-populate-the-goals).
 
-&nbsp;
-
 ### **4\. Stop rebuilding context every time**
 
 If your updates live in emails, spreadsheets, and separate documents, you’re doing the same work over and over.
 
 When everything lives in one place, you stop asking, “Where did we leave off?” and start continuing the conversation.
-
-&nbsp;
 
 ### **5\. Reduce the need to chase people**
 
@@ -118,15 +108,11 @@ When your plan lives in a shared, active space, something subtle happens.
 
 People stop treating it like a document and start treating it like a source of truth.
 
-&nbsp;
-
 ## **You Don’t Have to Roll It Out All at Once**
 
 If you’re the only one actively using the system right now, that’s completely normal.
 
 Most organizations start with one or two people carrying the habit. Over time, others begin to plug in, not because they were forced to, but because the system is already working.
-
-&nbsp;
 
 ## **Start Here**
 
