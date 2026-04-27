@@ -1,0 +1,14 @@
+{
+  "name": "causey-verification",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "capture": "node capture.js",
+    "diff": "node diff.js"
+  },
+  "dependencies": {
+    "playwright": "^1.49.0",
+    "pixelmatch": "^7.1.0",
+    "pngjs": "^7.0.0"
+  }
+}
