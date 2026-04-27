@@ -21,6 +21,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 # and then run `bundle update bridgetown`
 gem "bridgetown", "~> 2.1"
 
+gem "htmlcompressor", "~> 0.4"
+
 # Puma is the Rack-compatible web server used by Bridgetown
 gem "puma", "< 7"
 

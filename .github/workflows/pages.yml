@@ -24,20 +24,20 @@ jobs:
 
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.4.4"
+          ruby-version: "4.0.3"
           bundler-cache: true
 
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
 
-      - name: Build with Bridgetown
-        run: bundle exec bridgetown build
+      - name: Build site
+        run: bundle exec rake deploy
         env:
           BRIDGETOWN_ENV: production
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: output
 
