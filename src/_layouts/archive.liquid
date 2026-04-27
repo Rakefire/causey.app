@@ -2,14 +2,15 @@
 layout: default
 ---
 {% assign l = "archive-layout" %}
+{% assign archive_filter_tag = page.original_title | default: page.title %}
 <div class="{{l}}">
 	<h1 class="{{l}}__heading">Blog</h1>
 
 	<div class="{{l}}__tags">
-		<span class="{{l}}__tag"><a href="/blog/">{{ page.title | capitalize }} &#215;</a></span>
+		<span class="{{l}}__tag"><a href="/blog/">{{ page.title }} &#215;</a></span>
 	</div>
 
-	{% bookshop posts-list 
-		show_posts=true 
-		tag=page.title %}
+	{% bookshop posts-list
+		show_posts=true
+		tag=archive_filter_tag %}
 </div>

@@ -55,7 +55,7 @@ Did you know that “causey” is an abbreviated form of “causeway,” which i
 
 Plus, we were able to get the domain, [causey.app](https://www.causey.app) ;)
 
-# **How Causey builds on Mission Met Center**
+## **How Causey builds on Mission Met Center**
 
 In regards to the software, let us be clear:
 

@@ -54,7 +54,7 @@ Daffy is a platform that allows donors to give to any charity in the US. It help
 
 You should be using calendars to plan fundraising campaigns strategically around key dates throughout the year. By aligning campaigns with significant events, holidays, or awareness months, you can capitalize on heightened engagement and donor generosity. A well-structured calendar enables you to map out timelines, allocate resources efficiently, and execute targeted outreach initiatives that resonate with your audience.
 
-If hosting your strategic plan in Causey, you can access [Timeline View](https://help.causey.app/articles/89-timeline-view/), a feature that allows organizations to view aspects of their plan in a specific time frame on a calendar. This visual representation of the work before you can be beneficial for multiple reasons, including better prioritization, deadline management, and resource allocation.
+If hosting your strategic plan in Causey, you can access [Timeline View](https://help.causey.app/article/89-timeline-view), a feature that allows organizations to view aspects of their plan in a specific time frame on a calendar. This visual representation of the work before you can be beneficial for multiple reasons, including better prioritization, deadline management, and resource allocation.
 
 The webinar provided invaluable insights into streamlining nonprofit donation processes. From strategic planning and goal tracking to embracing diverse donation types and leveraging technology tools, you have a variety of strategies at your disposal to enhance fundraising outcomes and drive social impact.
 

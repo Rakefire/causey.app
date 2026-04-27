@@ -126,4 +126,4 @@ Alignment isn’t a one-time exercise. It’s what makes strategy work over time
 
 &nbsp;
 
-**Looking to turn your strategic plan into something your team actually uses? Learn how** [**Causey**](causey.app) **helps organizations stay aligned and focused on what matters most.**
+**Looking to turn your strategic plan into something your team actually uses? Learn how** [**Causey**](https://www.causey.app/) **helps organizations stay aligned and focused on what matters most.**

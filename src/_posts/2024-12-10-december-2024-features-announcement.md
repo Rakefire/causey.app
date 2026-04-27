@@ -33,7 +33,7 @@ You asked, we delivered! In addition to pre-defined reporting options like “Th
 
 ![Flexible reporting options in Causey](/uploads/912024.png)
 
-[Learn more about Reports.](https://help.causey.app/articles/175-reports/){: target=”\_blank” rel=”noopener”}
+[Learn more about Reports.](https://help.causey.app/article/175-reports){: target=”\_blank” rel=”noopener”}
 
 **Why it matters:** Tailor your data to meet your exact needs—whether it’s preparing for a board meeting or reviewing a specific campaign timeline, this flexibility puts you in control.
 
@@ -43,7 +43,7 @@ Need to add a new metric while working on your plan? No problem! Select the “C
 
 ![Quickly add metrics from your plan](/uploads/not-seeing-the-metric-you-re-looking-for-create-one-now-1.png)
 
-[Check out the basics about using Metrics.](https://help.causey.app/articles/156-metrics-basics/){: target=”\_blank” rel=”noopener”}
+[Check out the basics about using Metrics.](https://help.causey.app/article/156-metrics-basics){: target=”\_blank” rel=”noopener”}
 
 **Why it matters:** Keep your momentum going by adding metrics on the fly without breaking your workflow.
 
@@ -53,7 +53,7 @@ Updating timelines just got easier. Now you can adjust dates for all goals withi
 
 ![Adjust dates for goals within a Focus Area](/uploads/date-adjuster.png)
 
-[Learn more about how to adjust dates on your plan.](https://help.causey.app/articles/193-adjust-plan-dates/){: target="\_blank" rel="noopener"}
+[Learn more about how to adjust dates on your plan.](https://help.causey.app/article/193-adjust-plan-dates){: target="\_blank" rel="noopener"}
 
 **Why it matters:** Save time by editing multiple goals at once—no more manual updates for each one!
 
@@ -67,7 +67,7 @@ Meet our new **Actions View**—a game-changer for team focus and productivity:
 
 ![Actions View for focused task management](/uploads/dashboard.png)
 
-[Learn more about Actions.](https://help.causey.app/articles/187-action-view?auth=true){: target="\_blank" rel="noopener"}
+[Learn more about Actions.](https://help.causey.app/article/187-action-view?auth=true){: target="\_blank" rel="noopener"}
 
 **Why it matters:** Stay organized, reduce distractions, and ensure accountability across your team.
 
@@ -77,7 +77,7 @@ Excuse our bias, but this is one of our favorite features to date! Collaborate w
 
 ![Adding comments to plan elements in Causey](/uploads/ad-4nxfnars0fndccra4-5s8kb5dnh-ax-b9kvwd6grjisilxl7ljqmvrk4ghroc6bdk4wogndf1pwsmkr259ub-f9h1bqgniei6xngczryh-3ivtrtx37db0oe.gif)
 
-[Learn more about Comments.](https://help.causey.app/articles/192-comments/){: target="\_blank" rel="noopener"}
+[Learn more about Comments.](https://help.causey.app/article/192-comments){: target="\_blank" rel="noopener"}
 
 **Why it matters:** Keep everyone aligned with discussions and feedback all in one place—no more searching through emails or chats.
 

@@ -59,16 +59,21 @@ module Builders
     def build_archive_page(site, category, slug)
       Bridgetown::GeneratedPage.new(site, site.source, "", "category/#{slug}.html").tap do |p|
         p.data["layout"] = "archive"
-        # Preserve the original category name as the page title — jekyll-archives
-        # passes it through verbatim to `page.title`, so casing matters for the
-        # `<title>` tag and any SEO/meta usage in head.html.
-        p.data["title"] = category
+        # Title-case the category for the rendered <title>, breadcrumb, and any
+        # SEO usage. "thought-leadership" → "Thought Leadership". The archive
+        # layout still applies its own visible heading via the original title.
+        p.data["title"] = humanize_category(category)
+        p.data["original_title"] = category
         p.data["permalink"] = "/category/#{slug}/"
         # Match Jekyll-era behavior: archives don't render the page-level
         # bookshop component (only the archive layout content).
         p.data["dont_render_bookshop_components"] = true
         p.content = ""
       end
+    end
+
+    def humanize_category(category)
+      category.to_s.tr("-_", "  ").split(/\s+/).map(&:capitalize).join(" ")
     end
 
     def generate_redirects(site)

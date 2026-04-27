@@ -15,7 +15,7 @@
 		<div class="{{c}}__categories">
 			{% for category in include.post.categories %}
 				<span class="{{c}}__category">
-					<a href="/category/{{ category | slugify }}">{{ category | capitalize }}</a>
+					<a href="/category/{{ category | slugify }}/">{{ category | capitalize }}</a>
 				</span>
 			{% endfor %}
 		</div>

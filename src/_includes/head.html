@@ -1,5 +1,6 @@
 <head>
-    {% assign seo_description = page.SEO_options.description | default: page.blurb | default: site.data.general_settings.website_description_text %}
+    {% assign seo_description_raw = page.SEO_options.description | default: page.blurb | default: site.data.general_settings.website_description_text %}
+    {% assign seo_description = seo_description_raw | strip_html | strip_newlines | normalize_whitespace | truncate: 160 %}
     {% assign seo_image = page.SEO_options.image | default: site.data.general_settings.social_media_share_image %}
     {% assign seo_image_absolute = seo_image | prepend: site.data.general_settings.live_domain_url %}
     {% if page.SEO_options.title %}
