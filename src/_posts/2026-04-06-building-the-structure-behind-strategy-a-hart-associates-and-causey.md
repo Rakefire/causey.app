@@ -7,7 +7,7 @@ author_staff_member: cfcf24d9-efd0-4146-9779-34573db33e4e
 date: 2026-04-06 00:00:00
 content_blocks:
 SEO_options:
-  title:
+  title: 'A. Hart Associates and Causey: Structure Behind Strategy'
   description:
   image:
   prevent_indexing: false

@@ -62,9 +62,17 @@ module Builders
         # Title-case the category for the rendered <title>, breadcrumb, and any
         # SEO usage. "thought-leadership" → "Thought Leadership". The archive
         # layout still applies its own visible heading via the original title.
-        p.data["title"] = humanize_category(category)
+        humanized = humanize_category(category)
+        p.data["title"] = humanized
         p.data["original_title"] = category
         p.data["permalink"] = "/category/#{slug}/"
+        # Single-word category titles ("Why", "News") render as <title>"Why
+        # — Causey"</title>, which Ahrefs flags as too short. Set a more
+        # descriptive SEO title without changing the visible page heading or
+        # the breadcrumb/tag UI that uses page.title.
+        p.data["SEO_options"] = {
+          "title" => "#{humanized} — Strategic Planning Articles from Causey"
+        }
         # Match Jekyll-era behavior: archives don't render the page-level
         # bookshop component (only the archive layout content).
         p.data["dont_render_bookshop_components"] = true

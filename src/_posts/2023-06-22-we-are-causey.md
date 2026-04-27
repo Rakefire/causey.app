@@ -7,7 +7,7 @@ author_staff_member: cfcf24d9-efd0-4146-9779-34573db33e4e
 date: 2023-06-22 09:00:00
 content_blocks:
 SEO_options:
-  title: We are Causey
+  title: 'We are Causey: Mission Met Center''s Rebrand and What Changed'
   description: >-
     Learn about the rebrand from Mission Met Center to Causey, including the
     new name, software changes, pricing updates, and timing.
