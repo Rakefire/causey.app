@@ -1,45 +1,31 @@
 # Causey Website
 
 Bridgetown + Bookshop component-based site for causey.app. Migrated from
-Jekyll in April 2026 — see `verification/` for the pixel-perfect parity
-harness used during cutover.
+Jekyll in April 2026; the legacy `site/` tree was removed once production
+parity was confirmed against `https://www.causey.app`.
 
 ## Development
 
 - `npm start` runs the Bridgetown dev server (port 6061) plus `bookshop-browser`
-- Bridgetown source: `bridgetown/src/`
-- Bookshop component library: `component-library/components/` (unchanged from
-  the Jekyll era — the migration ports the build, not the components)
-- SCSS follows BEM naming, uses CSS variables for theming
-  (`bridgetown/src/_data/themes.yml`, currently a symlink to `site/_data/`)
+- Source lives at the repo root: `src/_layouts/`, `src/_includes/`, `src/_posts/`, `src/_pages/`, etc.
+- Bookshop component library: `component-library/components/`
+- SCSS follows BEM naming, uses CSS variables for theming (`src/_data/themes.yml`)
+- Build with `BRIDGETOWN_ENV=production bundle exec bridgetown build` → `output/`
 
-## Migration status
+## Custom Bridgetown plugins
 
-The Bridgetown port lives in `bridgetown/`. The legacy Jekyll source still
-exists in `site/`; content collections (`_pages`, `_posts`, `_drafts`,
-`_staff_members`) and `_data`/`images`/`uploads` are accessed via symlinks
-from `bridgetown/src/` so both builds see the same content. The final
-file consolidation (move content out of `site/`, delete the legacy tree) is
-still pending and intentionally left as a manual step.
+Ported during the Jekyll migration to fill gaps Bridgetown doesn't ship:
 
-Custom plugins ported during the migration:
-
-- `bridgetown/plugins/builders/bridgetown_bookshop.rb` — `{% bookshop %}`,
-  `{% bookshop_include %}`, `{% bookshop_scss %}` Liquid tags
-- `bridgetown/plugins/builders/jekyll_compat.rb` — Jekyll-style
-  `{% include %}`, Jekyll-flavored `find` filter, drop shims for
-  `site.<collection>`, `page.url`, `post.next`/`post.previous`
-- `bridgetown/plugins/builders/archives_and_redirects.rb` — replaces
-  `jekyll-archives` and `jekyll-redirect-from`
-- `bridgetown/plugins/scss_converter.rb` — sass-embedded converter +
-  postcss-fluidvars equivalent (synthesizes `--s-N-M` clamp() vars)
-
-## Verification
-
-`verification/scripts/` runs Playwright + Pixelmatch against both builds.
-`node capture.js --baseline` and `node capture.js --bridgetown` capture
-PNGs at three viewports; `node diff.js` compares with a 0.1% per-page
-threshold. Current parity: 199/201 pages and 52/52 redirects matching.
+- `plugins/builders/bridgetown_bookshop.rb` — `{% bookshop %}`,
+  `{% bookshop_include %}`, `{% bookshop_scss %}` Liquid tags (re-implements
+  jekyll-bookshop, since no Bridgetown engine exists)
+- `plugins/builders/jekyll_compat.rb` — Jekyll-style `{% include %}`,
+  Jekyll-flavored `find` filter, drop shims for `site.<collection>`,
+  `page.url`, swapped `post.next`/`post.previous` semantics
+- `plugins/builders/archives_and_redirects.rb` — replaces `jekyll-archives`
+  and `jekyll-redirect-from`
+- `plugins/scss_converter.rb` — sass-embedded converter plus a
+  postcss-fluidvars equivalent that synthesizes `--s-N-M` clamp() vars
 
 ## Brand Guidelines
 

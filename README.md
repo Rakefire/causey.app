@@ -1,94 +1,69 @@
-# Hydra
+# Bridgetown Website README
 
-Hydra is a Marketing site template for Jekyll. Browse through a [live demo](https://generous-guide.cloudvent.net/).
-Increase the web presence of your brand with this configurable theme.
+Welcome to your new Bridgetown website! You can update this README file to provide additional context and setup information for yourself or other contributors.
 
-![Hydra template screenshot](site/images/_screenshot.png)
+## Table of Contents
 
-Hydra was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jekyll and Hugo.
-The component library is built and maintained for use with [Bookshop](https://github.com/cloudcannon/bookshop/)
+- [Prerequisites](#prerequisites)
+- [Install](#install)
+- [Development](#development)
+- [Commands](#commands)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
 
-Find more templates, themes and step-by-step Jekyll tutorials at [CloudCannon Community](https://cloudcannon.com/community/).
+## Prerequisites
 
-[![Deploy to CloudCannon](https://buttons.cloudcannon.com/deploy.svg)](https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/hydra-jekyll-bookshop-template)
+- [GCC](https://gcc.gnu.org/install/)
+- [Make](https://www.gnu.org/software/make/)
+- [Ruby](https://www.ruby-lang.org/en/downloads/)
+  - `>= 3.1`
+- [Bridgetown Gem](https://rubygems.org/gems/bridgetown)
+  - `gem install bridgetown -N`
+- [Node](https://nodejs.org)
+  - `>= 20`
 
-## Features
+## Install
 
-* Easy theme switching
-* Customisable themes
-* Live editing with [CloudCannon](http://cloudcannon.com/)
-* Component library for website building
-* Dark mode
-* Fully configurable Website
-* Pre-built pages
-* Pre-styled components
-* Blog
-* Post category pages
-* Staff and author system
-* Optimised for editing in [CloudCannon](http://cloudcannon.com/)
-* RSS/Atom feed
-* Search engine optimisation
+```sh
+cd bridgetown-site-folder
+bundle install && npm install
+```
+> Learn more: [Bridgetown Getting Started Documentation](https://www.bridgetownrb.com/docs/).
 
-## Setup
+## Development
 
-1. Open *Website Settings > General Settings*
-2. Add your website name and live domain URL
-3. Add an author to the Staff Members collection
-4. Build and adjust your website locally, or with live visual editing on [CloudCannon](https://app.cloudcannon.com/)
-5. Add any remaining options to *Website Settings > General Settings* if required
+To start your site in development mode, run `bin/bridgetown start` and navigate to [localhost:4000](https://localhost:4000/)!
 
-## Develop
+Use a [theme](https://github.com/topics/bridgetown-theme) or add some [plugins](https://www.bridgetownrb.com/plugins/) to get started quickly.
 
-Hydra was built with [Jekyll](http://jekyllrb.com/) version 4.2.0, but should support newer versions as well.
+### Commands
 
-Install the dependencies for Bookshop:
+```sh
+# running locally
+bin/bridgetown start
 
-~~~bash
-$ npm install
-~~~
+# build & deploy to production
+bin/bridgetown deploy
 
-Install the Jekyll dependencies with [Bundler](http://bundler.io/):
+# load the site up within a Ruby console (IRB)
+bin/bridgetown console
+```
 
-~~~bash
-$ cd site
-$ bundle install
-~~~
+> Learn more: [Bridgetown CLI Documentation](https://www.bridgetownrb.com/docs/command-line-usage)
 
-Run the website:
+## Deployment
 
-~~~bash
-$ cd ../
-$ npm start
-~~~
+You can deploy Bridgetown sites on hosts like Render or Vercel as well as traditional web servers by simply building and copying the output folder to your HTML root.
 
-## Editing
+> Read the [Bridgetown Deployment Documentation](https://www.bridgetownrb.com/docs/deployment) for more information.
 
-Hydra is already optimised for adding, updating and removing pages, and components in CloudCannon.
+## Contributing
 
-### Posts
+If repo is on GitHub:
 
-* Add, update or remove a post in the *Posts* collection.
-* The **Staff Author** field links to members in the **Staff Members** collection.
-* Change the defaults when new posts are created in `_posts/_defaults.md`.
-
-## Collections
-* When adding or removing collections, update the Explore View options within the `_config.yml` file. For more information see CloudCannon's documentation on [Explore Groups](https://cloudcannon.com/documentation/edit/interfaces/explore/#keyword:_explore).
-
-### Contact Forms
-
-* Preconfigured to work with CloudCannon, but easily changed to another provider (e.g. [FormSpree](https://formspree.io/)).
-* Sends email to the address defined within the component.
-
-### Staff
-
-* Reused around the site to save multiple editing locations.
-
-### Navigation
-
-* Managed as a data file to give clients better access.
-* Set in the *Website Settings > Navigation* section.
-
-### Footer
-
-* Managed as a data file to give clients better access.
-* Set in the *Website Settings > Footer* section.
+1. Fork it
+2. Clone the fork using `git clone` to your local development machine.
+3. Create your feature branch (`git checkout -b my-new-feature`)
+4. Commit your changes (`git commit -am 'Add some feature'`)
+5. Push to the branch (`git push origin my-new-feature`)
+6. Create a new Pull Request

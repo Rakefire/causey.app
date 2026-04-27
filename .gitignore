@@ -1,26 +1,39 @@
-_site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
+# Bridgetown build output
+output
+.bridgetown-cache
+.bridgetown-metadata
+.routes.json
+/tmp/*
+!/tmp/.keep
+/tmp/pids/*
+!/tmp/pids/
+!/tmp/pids/.keep
+
+# Dependency folders
 node_modules
-bookshop
-bookshop-dev.js
-assets/js/site.js
-__BOOKSHOP_VENDOR__
+.npm
+.pnp/
+.pnp.js
+.yarn-integrity
+
+# Bundler
+/.bundle
+.byebug_history
+
+# Caches
+.sass-cache
+.node_repl_history
+
+# Logs
+yarn-error.log
+yarn-debug.log*
+
+# Environment
+.env
+
+# OS
 .DS_Store
 
-site/.bundle
-.bundle/
-Procfile.dev
-
-# Bridgetown
-bridgetown/.bundle/
-bridgetown/output/
-bridgetown/tmp/
-bridgetown/node_modules/
-bridgetown/.bridgetown-cache/
-
-# Playwright MCP
+# Project-specific
 .playwright-mcp/
 .screenshots/
