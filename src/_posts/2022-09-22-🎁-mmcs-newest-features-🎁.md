@@ -28,7 +28,7 @@ Over the years, users have provided feedback or asked questions about best pract
 
 Simply select Presentation View in the top tab navigation of your plan to get started.&nbsp;
 
-Read more about&nbsp;[Presentation View](https://help.causey.app/article/154-presentation-view?auth=true){: target="\_blank"}.
+Read more about&nbsp;[Presentation View](https://help.causey.app/article/154-presentation-view){: target="\_blank"}.
 
 ### Timeline View
 

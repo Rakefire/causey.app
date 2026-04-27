@@ -24,13 +24,13 @@ Mission Met Center (MMC), your strategic planning software, has some new feature
 
 With these updated forms, we’re happy to announce that you can receive strategic planning guidance built into the software while you work on your plan. Need help with picking focus areas or crafting the perfect mission statement? The suggestions menus list the most commonly used areas of a strategic plan and provide even more guidance in a longer article. Of course you can continue to add your own text and custom elements to your plan. Your time is valuable and this feature offers immediate support while you are working on your plan.&nbsp;
 
-[Learn more about the suggestions menu.](https://help.causey.app/article/8-populate-the-compass?auth=true){: target="\_blank"}
+[Learn more about the suggestions menu.](https://help.causey.app/article/8-populate-the-compass){: target="\_blank"}
 
 **Add Notes to Goals**Along with the new look, the action item section in a focus area has been redesigned. The new design mirrors the Documents app and allows you to add notes, links, or attachments to your goals. Now you can embed important documents directly into the plan to easily reference later.&nbsp;
 
 We’ve also expanded the ability to rearrange and sort these documents simply by dragging and dropping by selecting the up-down arrow. In the Documents application, arrange the categories and documents as needed.
 
-[Learn more about adding documents to your goals.](https://help.causey.app/article/16-populate-the-action-plan?auth=true){: target="\_blank"}
+[Learn more about adding documents to your goals.](https://help.causey.app/article/16-populate-the-action-plan){: target="\_blank"}
 
 **Translations**
 
@@ -50,6 +50,6 @@ As we expand user account settings and preferences, we recognize that you might 
 
 All companies have paperwork and administrative tasks and we’re no exception! Read our updated [privacy policy](https://www.causey.app/privacy/){: target="\_blank"} and view our [terms of service](https://www.causey.app/terms/){: target="\_blank"}.
 
-[Learn more about how we secure your data.](https://help.causey.app/article/109-how-secure-and-safe-is-my-data?auth=true){: target="\_blank"}
+[Learn more about how we secure your data.](https://help.causey.app/article/109-how-secure-and-safe-is-my-data){: target="\_blank"}
 
 Have feedback? Want to tell us about how we’re helping your organization develop and execute your strategic plans? Just hit reply and let us know.

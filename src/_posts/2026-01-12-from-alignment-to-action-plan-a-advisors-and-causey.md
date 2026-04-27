@@ -49,7 +49,7 @@ Curiosity also plays a central role in Plan A’s consulting philosophy:
 
 ## **Using Causey to Turn Plans Into Progress**
 
-For Plan A Advisors, strategy only matters if it leads to action. That’s where [**Causey**](https://causey.app/) becomes a critical part of their consulting toolkit.
+For Plan A Advisors, strategy only matters if it leads to action. That’s where [**Causey**](https://www.causey.app/) becomes a critical part of their consulting toolkit.
 
 Causey provides the structure needed to translate high-level strategy into concrete execution—clearly defining responsibilities, timelines, and accountability.
 

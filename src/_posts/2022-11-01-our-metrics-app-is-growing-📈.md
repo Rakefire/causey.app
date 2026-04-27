@@ -75,8 +75,8 @@ No need to delete and start again. Simply select the Edit Measurement button and
 
 You can download all of your metrics (or just individual ones) to a csv file which includes the metric, unit, measurement, date of measurement, status and notes. You can also import a file with measurements for a metric to be included in your metrics list.
 
-[Read more about exporting and importing metrics](https://help.causey.app/article/160-import-export-metrics?auth=true){: target="\_blank"}&nbsp;
+[Read more about exporting and importing metrics](https://help.causey.app/article/160-import-export-metrics){: target="\_blank"}&nbsp;
 
-The expanded [Metrics](https://help.causey.app/article/86-metrics?auth=true){: target="\_blank"} app offers something for all kinds of nonprofits – a simple way to track and measure progress for beginners, and advanced options for data experts.&nbsp;
+The expanded [Metrics](https://help.causey.app/article/86-metrics){: target="\_blank"} app offers something for all kinds of nonprofits – a simple way to track and measure progress for beginners, and advanced options for data experts.&nbsp;
 
 And remember, if you’re just starting out with data reporting, don’t worry about whether your metrics are spot on. Work toward creating a regular process of measuring, reporting, and analyzing them. Over time you can revise your metrics so that they better reflect your organization’s impact.&nbsp;

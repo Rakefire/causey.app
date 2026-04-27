@@ -20,7 +20,7 @@ We’ve all seen it: that shiny new strategic plan sitting on the shelf, collect
 
 We use spreadsheets and documents for collaboration just like your organization. Sure, they work for the basics, but when it comes to strategic planning, they just don’t cut it. My guess is you also have a strategy tracking spreadsheet taking up storage space on your computer, just like a strategic plan on a bookshelf.
 
-That’s why we created [Causey](http://causey.app)—a strategic planning platform built for nonprofits. Spreadsheets and other generic tools just aren’t built for strategic planning. Causey is! It’s packed with features designed to not only help you create a plan but also make sure you actually execute it like a pro. Keep reading to find out how Causey can take your strategic planning from meh to marvelous.
+That’s why we created [Causey](https://www.causey.app/)—a strategic planning platform built for nonprofits. Spreadsheets and other generic tools just aren’t built for strategic planning. Causey is! It’s packed with features designed to not only help you create a plan but also make sure you actually execute it like a pro. Keep reading to find out how Causey can take your strategic planning from meh to marvelous.
 
 ### **Why Causey is a Total Game-Changer**
 
@@ -46,6 +46,6 @@ Causey isn’t just another tool from big tech for corporations—it was created
 
 Don’t stop at making a plan—keep going to make those plans happen. Causey bridges the gap between strategy and execution, boosts collaboration, and keeps everyone accountable, so your team can focus on what they do best: achieving your mission.
 
-Ready to simplify your planning? Start your free trial at[<u>www.causey.app</u>](http://www.causey.app) and see how Causey can help you turn your plans into action.
+Ready to simplify your planning? Start your free trial at [<u>www.causey.app</u>](https://www.causey.app/) and see how Causey can help you turn your plans into action.
 
 &nbsp;

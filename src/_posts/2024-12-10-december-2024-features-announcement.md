@@ -67,7 +67,7 @@ Meet our new **Actions View**—a game-changer for team focus and productivity:
 
 ![Actions View for focused task management](/uploads/dashboard.png)
 
-[Learn more about Actions.](https://help.causey.app/article/187-action-view?auth=true){: target="\_blank" rel="noopener"}
+[Learn more about Actions.](https://help.causey.app/article/187-action-view){: target="\_blank" rel="noopener"}
 
 **Why it matters:** Stay organized, reduce distractions, and ensure accountability across your team.
 
