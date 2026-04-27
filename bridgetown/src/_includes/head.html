@@ -1,0 +1,85 @@
+<head>
+    {% assign seo_description = page.SEO_options.description | default: page.blurb | default: site.data.general_settings.website_description_text %}
+    {% assign seo_image = page.SEO_options.image | default: site.data.general_settings.social_media_share_image %}
+    {% assign seo_image_absolute = seo_image | prepend: site.data.general_settings.live_domain_url %}
+    {% if page.SEO_options.title %}
+      {% assign seo_title = page.SEO_options.title %}
+      {% assign page_title = page.SEO_options.title %}
+    {% elsif page.title %}
+      {% assign seo_title = page.title %}
+      {% assign page_title = page.title | append: " — " | append: site.data.general_settings.website_name %}
+    {% else %}
+      {% assign seo_title = site.data.general_settings.website_name %}
+      {% assign page_title = site.data.general_settings.website_name %}
+    {% endif %}
+
+    <title>{{ page_title }}</title>
+    <meta name="description" content="{{ seo_description }}">
+    {% if page.SEO_options.prevent_indexing %}
+      <meta name="robots" content="noindex,nofollow">
+    {% endif %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+    <meta property="og:title" content="{{ seo_title }}">
+    <meta property="og:description" content="{{ seo_description }}">
+    <meta property="og:image" content="{{ seo_image_absolute }}">
+    <meta property="og:url" content="{{ site.data.general_settings.live_domain_url }}{{ page.url }}">
+    <meta property="og:site_name" content="{{ site.data.general_settings.website_name }}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ seo_title }}">
+    <meta name="twitter:description" content="{{ seo_description }}">
+    <meta name="twitter:image" content="{{ seo_image_absolute }}">
+    <meta name="twitter:image:alt" content="{{ seo_title }}">
+    <meta name="twitter:site" content="{{ site.data.general_settings.twitter_handle }}">
+    {% if page.SEO_options.canonical %}
+      <link rel="canonical" href="{{ site.data.general_settings.live_domain_url }}/{{ page.SEO_options.canonical }}">
+    {% else %}
+      <link rel="canonical" href="{{ site.data.general_settings.live_domain_url }}{{ page.url }}">
+    {% endif %}
+
+    <link rel="stylesheet" href="/assets/main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/icons/favicon-16x16.png">
+    <link rel="manifest" href="/images/icons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HHFV5EVKNF"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-HHFV5EVKNF');
+    </script>
+
+    <script defer data-domain="causey.app" src="https://plausible.io/js/script.js"></script>
+
+    {% if theme_data.headings_font or theme_data.body_font %}
+        {% assign heading_font_url = theme_data.headings_font | replace: ' ', '+' %}
+        {% assign body_font_url = theme_data.body_font | replace: ' ', '+' %}
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet"
+              href="https://fonts.googleapis.com/css2?family={{ heading_font_url }}:ital,wght@0,400;0,500;0,600;0,700;1,400;1,700&family={{ body_font_url }}:ital,wght@0,400;0,500;0,600;0,700;1,400;1,700&display=swap">
+    {% endif %}
+</head>

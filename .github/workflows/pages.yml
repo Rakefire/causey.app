@@ -24,31 +24,24 @@ jobs:
 
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.2.0"
+          ruby-version: "3.4.4"
           bundler-cache: true
-        env:
-          BUNDLE_GEMFILE: site/Gemfile
-
-      - uses: actions/setup-node@v4
-        with:
-          node-version: "20"
-          cache: "npm"
-
-      - name: Install npm dependencies
-        run: npm ci
+          working-directory: bridgetown
 
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
 
-      - name: Build with Jekyll
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}" --source site
+      - name: Build with Bridgetown
+        run: bundle exec bridgetown build
+        working-directory: bridgetown
         env:
-          JEKYLL_ENV: production
-          BUNDLE_GEMFILE: site/Gemfile
+          BRIDGETOWN_ENV: production
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: bridgetown/output
 
   deploy:
     environment:

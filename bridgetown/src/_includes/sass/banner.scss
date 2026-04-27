@@ -1,0 +1,21 @@
+.c-banner {
+  $c: &;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  a,
+  p {
+    font-size: 1.2em;
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 400;
+  }
+
+  p {
+    line-height: 100%;
+    margin-bottom: 10px;
+  }
+}

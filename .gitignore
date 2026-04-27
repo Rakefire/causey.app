@@ -11,7 +11,15 @@ __BOOKSHOP_VENDOR__
 .DS_Store
 
 site/.bundle
+.bundle/
 Procfile.dev
+
+# Bridgetown
+bridgetown/.bundle/
+bridgetown/output/
+bridgetown/tmp/
+bridgetown/node_modules/
+bridgetown/.bridgetown-cache/
 
 # Playwright MCP
 .playwright-mcp/

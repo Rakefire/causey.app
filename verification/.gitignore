@@ -1,0 +1,9 @@
+scripts/node_modules/
+scripts/.bridgetown-cache/
+baseline/mobile/
+baseline/tablet/
+baseline/desktop/
+bridgetown/mobile/
+bridgetown/tablet/
+bridgetown/desktop/
+diff/

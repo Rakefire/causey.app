@@ -1,3 +1,8 @@
+# SSG: Bridgetown (migrated from Jekyll). Build runs via the root Procfile,
+# which delegates to `bundle exec bridgetown build` in the bridgetown/ subdir.
+ssg: bridgetown
+source: bridgetown/src
+
 _inputs:
   _id:
     type: disabled

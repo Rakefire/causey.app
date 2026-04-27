@@ -1,31 +1,19 @@
 {
-  "name": "hydra-jekyll-bookshop",
+  "name": "causey-website",
   "private": true,
-  "description": "A website template built by CloudCannon",
+  "description": "Bridgetown + Bookshop site for causey.app",
   "scripts": {
     "bookshop": "bookshop-browser",
-    "jekyll": "BUNDLE_GEMFILE=site/Gemfile bundle exec jekyll serve --port 6060 --trace --unpublished --source site",
-    "start": "run-p bookshop jekyll",
-    "postinstall": "mkdir -p site/node_modules/.bin/ && ln -sf ../../../node_modules/.bin/postcss site/node_modules/.bin/postcss"
+    "bridgetown": "cd bridgetown && bundle exec bridgetown serve --port 6061 --unpublished",
+    "start": "run-p bookshop bridgetown",
+    "build": "cd bridgetown && bundle exec bridgetown build --unpublished"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CloudCannon/hydra-jekyll-bookshop-template.git"
-  },
-  "author": "",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/CloudCannon/hydra-jekyll-bookshop-template/issues"
-  },
-  "homepage": "https://github.com/CloudCannon/hydra-jekyll-bookshop-template#readme",
   "devDependencies": {
     "@bookshop/browser": "3.3.0",
     "@bookshop/jekyll-engine": "3.3.0",
     "@bookshop/live": "3.3.0",
     "@bookshop/generate": "3.3.0",
-    "npm-run-all": "^4.1.5",
-    "postcss": "^8.3.5",
-    "postcss-cli": "^8.3.1",
-    "postcss-fluidvars": "^1.1.1"
+    "npm-run-all": "^4.1.5"
   }
 }
