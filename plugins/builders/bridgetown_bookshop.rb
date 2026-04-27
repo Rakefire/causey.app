@@ -175,27 +175,30 @@ module Builders
     end
 
     # {% bookshop_scss %}
+    #
+    # Inlines every component-library SCSS file inside one
+    # `@media all, bookshop { ... }` block. Concatenating the file contents
+    # directly (rather than emitting `@import "..."` statements) avoids
+    # Dart Sass's @import deprecation, which will become an error in Sass
+    # 3.0.0. None of the component SCSS uses url() or nested @import, so
+    # the inlined output is byte-for-byte equivalent to the @import-based
+    # bundle.
     class StyleTag < Liquid::Tag
       def render(context)
         site = context.registers[:site]
         base_locations = site.config["bookshop_base_locations"] || []
-        files = []
+        entries = []
         base_locations.each do |location|
           loc = Pathname.new("#{location}/").cleanpath.to_s
           Dir.glob("#{loc}/**/*.scss").sort.each do |scss|
-            files << scss.sub("#{loc}/", "").sub(/\.scss\z/, "")
+            rel = scss.sub("#{loc}/", "").sub(/\.scss\z/, "")
+            entries << [scss, rel]
           end
         end
-        imports = files.sort do |a, b|
-          a_shared = a.start_with?("shared/")
-          b_shared = b.start_with?("shared/")
-          if a_shared && !b_shared then -1
-          elsif !a_shared && b_shared then 1
-          else a <=> b
-          end
-        end.map { |f| %(@import "#{f}";) }.join
+        sorted = entries.sort_by { |_abs, rel| [rel.start_with?("shared/") ? 0 : 1, rel] }
+        body = sorted.map { |abs, rel| "/* #{rel} */\n#{File.read(abs)}" }.join("\n")
 
-        "@media all, bookshop {#{imports}}"
+        "@media all, bookshop {\n#{body}\n}"
       end
     end
 

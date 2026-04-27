@@ -19,7 +19,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 # If you need to upgrade/switch Bridgetown versions, change the line below
 # and then run `bundle update bridgetown`
-gem "bridgetown", "~> 1.3"
+gem "bridgetown", "~> 2.1"
 
 # Puma is the Rack-compatible web server used by Bridgetown
 gem "puma", "< 7"
