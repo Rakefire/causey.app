@@ -5,6 +5,9 @@
   "private": true,
   "description": "Bridgetown + Bookshop site for causey.app",
   "license": "MIT",
+  "engines": {
+    "node": ">=24"
+  },
   "scripts": {
     "bookshop": "bookshop-browser",
     "bridgetown": "bundle exec bridgetown serve --port 6061 --unpublished",
