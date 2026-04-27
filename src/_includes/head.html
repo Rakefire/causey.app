@@ -40,6 +40,11 @@
       <link rel="canonical" href="{{ site.data.general_settings.live_domain_url }}{{ page.url }}">
     {% endif %}
 
+    {% assign url_last_char = page.url | slice: -1, 1 %}
+    {% if url_last_char == "/" %}
+      <link rel="alternate" type="text/markdown" href="{{ page.url | append: 'index.md' }}">
+    {% endif %}
+
     <link rel="stylesheet" href="/assets/main.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 

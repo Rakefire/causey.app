@@ -1,0 +1,32 @@
+# Agent Skills Discovery RFC v0.2.0
+# Source files: agent_skills/{name}/SKILL.md (repo root, outside src/)
+# Plugin: plugins/builders/agent_skills.rb generates /.well-known/agent-skills/index.json
+
+skills:
+  - name: product-overview
+    type: skill-md
+    description: Explain what Causey is, who it's for, and how it helps nonprofit leaders execute strategic plans. Use when a user asks "what does Causey do" or wants to evaluate it for their organization.
+
+  - name: pricing
+    type: skill-md
+    description: Provide Causey's current pricing tiers, what's included, and how to choose. Use when a user asks about cost, plans, or which tier fits their organization.
+
+  - name: start-trial
+    type: skill-md
+    description: Guide a user toward starting Causey's 30-day free trial. Use when a user wants to try Causey, sign up, or get started immediately.
+
+  - name: book-demo
+    type: skill-md
+    description: Guide a user toward booking a Causey demo with the founder. Use when a user wants a guided walkthrough, has detailed evaluation needs, or represents a larger organization.
+
+  - name: strategic-planning
+    type: skill-md
+    description: Explain Causey's approach to strategic planning, the START framework, and how the platform guides nonprofits through plan creation. Use when a user asks how Causey thinks about strategic planning or wants help building a plan.
+
+  - name: board-funder-reporting
+    type: skill-md
+    description: Explain how Causey supports nonprofit reporting to boards, funders, and accreditors. Use when a user asks about reporting, presentations, accountability, or proving impact.
+
+  - name: team-onboarding
+    type: skill-md
+    description: Explain how a nonprofit gets its team into Causey, sets up update cadences, and stops chasing for status. Use when a user asks about team rollout, change management, or how to get adoption.

@@ -1,0 +1,36 @@
+---
+layout: none
+permalink: /llms.txt
+sitemap: false
+---
+# Causey
+
+> Strategic planning software for nonprofits. Turn your strategic plan into daily action — track goals, automate updates, and show your board real progress.
+
+Causey is built for nonprofit leaders who need their strategic plan to drive daily work, not collect dust. The platform connects qualitative goals to quantitative metrics, automates the team check-in cadence, and produces board/funder-ready reports.
+
+Markdown versions of every page are available at `/path/index.md` (URL-suffix convention per llmstxt.org). The site also publishes structured agent skills at `/.well-known/agent-skills/index.json` and an API catalog at `/.well-known/api-catalog`.
+
+## Core pages
+
+- [Home](/index.md): Strategic planning software for nonprofits.
+- [About Causey](/about/index.md): Built by a team with 25+ years of nonprofit strategic planning experience.
+- [Pricing](/pricing/index.md): Transparent tiers with unlimited users — Basic, Lite, Core, Solid.
+- [Causey Basic](/causey-basic-tier/index.md): The entry tier ($30/month) for solo planners.
+- [Boost](/boost/index.md): Boost packages for accelerated implementation.
+- [Brand Assets](/brand-assets/index.md): Logos, colors, brand kit for partners.
+- [Contact Us](/contact/index.md): Get in touch with the Causey team.
+- [Privacy Policy](/privacy/index.md): How Causey handles your data.
+- [Terms](/terms/index.md): Terms of service.
+
+## Agent skills
+
+{% assign skills = site.data.agent_skills.skills %}
+{% for s in skills %}- [{{ s.name | replace: "-", " " | capitalize }}](/.well-known/agent-skills/{{ s.name }}/SKILL.md): {{ s.description }}
+{% endfor %}
+
+## Blog
+
+{% assign posts = site.posts | sort: "date" | reverse %}
+{% for post in posts %}{% unless post.published == false %}{% unless post.SEO_options.prevent_indexing %}- [{{ post.title }}]({{ post.url }}index.md){% if post.SEO_options.description %}: {{ post.SEO_options.description }}{% elsif post.blurb %}: {{ post.blurb }}{% endif %}
+{% endunless %}{% endunless %}{% endfor %}

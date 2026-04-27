@@ -31,9 +31,9 @@ gem "bridgetown-sitemap", "~> 3.0"
 # Sass compilation for assets/main.scss (replaces jekyll-sass-converter)
 gem "sass-embedded", "~> 1.99"
 
-# Uncomment to use the Inspectors API to manipulate the output
-# of your HTML or XML resources:
-# gem "nokogiri", "~> 1.13"
+# HTML parsing + markdown conversion for the markdown_for_agents builder.
+gem "nokogiri", "~> 1.13"
+gem "reverse_markdown", "~> 3.0"
 
 # Or for faster parsing of HTML-only resources via Inspectors, use Nokolexbor:
 # gem "nokolexbor", "~> 0.5"
