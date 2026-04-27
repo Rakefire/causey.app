@@ -6,4 +6,6 @@ sitemap: false
 User-agent: *
 Allow: /
 
+Content-Signal: ai-train=yes, search=yes, ai-input=yes
+
 Sitemap: {{ site.url }}/sitemap.xml
