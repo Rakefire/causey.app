@@ -19,7 +19,7 @@
 				</span>
 			{% endfor %}
 		</div>
-		<span class="{{c}}__date">{{ include.post.date | date_to_long_string }}</span>
+		<span class="{{c}}__date">{{ include.post.date | date: "%B %-d, %Y" }}</span>
 	</div>
 	{% assign author = site.staff_members | find: "_id", include.post.author_staff_member %}
 	<div class="{{c}}__author">
