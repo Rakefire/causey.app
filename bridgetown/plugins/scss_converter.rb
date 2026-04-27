@@ -48,7 +48,12 @@ class ScssConverter < Bridgetown::Converter
     block = declarations.join("\n  ")
     if css =~ /(:root\s*\{)([^}]*)\}/
       pre, vars = Regexp.last_match(1), Regexp.last_match(2)
-      replacement = "#{pre}#{vars.rstrip}\n  #{block}\n}"
+      # Sass's compressed output drops the trailing `;` before `}`, but our
+      # injected vars need one between them and the prior declaration —
+      # without it, the previous declaration consumes our first `--s-N-M`
+      # and the parser drops it as invalid.
+      sep = vars.rstrip.end_with?(";") ? "" : ";"
+      replacement = "#{pre}#{vars.rstrip}#{sep}\n  #{block}\n}"
       css.sub(/:root\s*\{[^}]*\}/, replacement)
     else
       ":root {\n  #{block}\n}\n#{css}"
