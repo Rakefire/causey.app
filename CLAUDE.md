@@ -1,12 +1,45 @@
 # Causey Website
 
-Jekyll + Bookshop component-based site for causey.app.
+Bridgetown + Bookshop component-based site for causey.app. Migrated from
+Jekyll in April 2026 — see `verification/` for the pixel-perfect parity
+harness used during cutover.
 
 ## Development
 
-- `npm start` runs the dev server on localhost:4000 (port may vary, check output)
-- Site source is in `site/`, components in `component-library/components/`
-- SCSS follows BEM naming, uses CSS variables for theming (see `site/_data/themes.yml`)
+- `npm start` runs the Bridgetown dev server (port 6061) plus `bookshop-browser`
+- Bridgetown source: `bridgetown/src/`
+- Bookshop component library: `component-library/components/` (unchanged from
+  the Jekyll era — the migration ports the build, not the components)
+- SCSS follows BEM naming, uses CSS variables for theming
+  (`bridgetown/src/_data/themes.yml`, currently a symlink to `site/_data/`)
+
+## Migration status
+
+The Bridgetown port lives in `bridgetown/`. The legacy Jekyll source still
+exists in `site/`; content collections (`_pages`, `_posts`, `_drafts`,
+`_staff_members`) and `_data`/`images`/`uploads` are accessed via symlinks
+from `bridgetown/src/` so both builds see the same content. The final
+file consolidation (move content out of `site/`, delete the legacy tree) is
+still pending and intentionally left as a manual step.
+
+Custom plugins ported during the migration:
+
+- `bridgetown/plugins/builders/bridgetown_bookshop.rb` — `{% bookshop %}`,
+  `{% bookshop_include %}`, `{% bookshop_scss %}` Liquid tags
+- `bridgetown/plugins/builders/jekyll_compat.rb` — Jekyll-style
+  `{% include %}`, Jekyll-flavored `find` filter, drop shims for
+  `site.<collection>`, `page.url`, `post.next`/`post.previous`
+- `bridgetown/plugins/builders/archives_and_redirects.rb` — replaces
+  `jekyll-archives` and `jekyll-redirect-from`
+- `bridgetown/plugins/scss_converter.rb` — sass-embedded converter +
+  postcss-fluidvars equivalent (synthesizes `--s-N-M` clamp() vars)
+
+## Verification
+
+`verification/scripts/` runs Playwright + Pixelmatch against both builds.
+`node capture.js --baseline` and `node capture.js --bridgetown` capture
+PNGs at three viewports; `node diff.js` compares with a 0.1% per-page
+threshold. Current parity: 199/201 pages and 52/52 redirects matching.
 
 ## Brand Guidelines
 
