@@ -27,15 +27,6 @@ Ported during the Jekyll migration to fill gaps Bridgetown doesn't ship:
 - `plugins/scss_converter.rb` — sass-embedded converter plus a
   postcss-fluidvars equivalent that synthesizes `--s-N-M` clamp() vars
 
-## Verification
-
-`verification/scripts/` runs Playwright + Pixelmatch against any reference
-URL (production or another local build). `node capture.js --bridgetown` and
-`node capture.js --baseline --base-url=https://www.causey.app` capture PNGs
-at three viewports; `node diff.js` compares with a 0.1% per-page threshold.
-Last full run: 196/201 pages + 52/52 redirects + 65/66 SEO meta + 68/68
-sitemap entries vs. production.
-
 ## Brand Guidelines
 
 Brand guide PDF: `Causey - Brand Standards or Guidelines.pdf` (in repo root)

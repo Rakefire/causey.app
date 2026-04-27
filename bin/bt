@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# Short alias for bin/bridgetown. Bridgetown 1.3.4 ships only the `bridgetown`
+# executable; the `bt` alias was added in 2.x. This shim keeps the muscle memory
+# working until we upgrade.
+
+exec File.expand_path("bridgetown", __dir__), *ARGV
