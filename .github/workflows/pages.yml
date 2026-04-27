@@ -26,7 +26,6 @@ jobs:
         with:
           ruby-version: "3.4.4"
           bundler-cache: true
-          working-directory: bridgetown
 
       - name: Setup Pages
         id: pages
@@ -34,14 +33,13 @@ jobs:
 
       - name: Build with Bridgetown
         run: bundle exec bridgetown build
-        working-directory: bridgetown
         env:
           BRIDGETOWN_ENV: production
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: bridgetown/output
+          path: output
 
   deploy:
     environment:

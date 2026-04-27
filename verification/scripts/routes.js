@@ -54,7 +54,7 @@ export function routeToFilename(route) {
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {
-  const siteRoot = path.resolve(__dirname, '../../site/_site');
+  const siteRoot = path.resolve(__dirname, '../../output');
   const routes = discoverRoutes(siteRoot);
   const pages = routes.filter(r => r.kind === 'page');
   const redirects = routes.filter(r => r.kind === 'redirect');

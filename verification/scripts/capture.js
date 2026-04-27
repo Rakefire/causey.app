@@ -17,9 +17,10 @@ const baseUrl = (baseUrlArg ? baseUrlArg.split('=')[1] : 'http://127.0.0.1:6060'
 const concurrencyArg = args.find(a => a.startsWith('--concurrency='));
 const CONCURRENCY = concurrencyArg ? parseInt(concurrencyArg.split('=')[1], 10) : 4;
 
-const siteRoot = target === 'baseline'
-  ? path.resolve(__dirname, '../../site/_site')
-  : path.resolve(__dirname, '../../bridgetown/output');
+// Both targets discover routes from the same Bridgetown build output —
+// the legacy Jekyll _site/ tree is gone, and `--baseline` is now used for
+// production captures (e.g. https://www.causey.app), not a local Jekyll.
+const siteRoot = path.resolve(__dirname, '../../output');
 const allRoutes = discoverRoutes(siteRoot);
 const pageRoutes = allRoutes.filter(r => r.kind === 'page');
 const redirectRoutes = allRoutes.filter(r => r.kind === 'redirect');

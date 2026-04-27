@@ -1,20 +1,23 @@
 # Pixel-perfect verification harness
 
-Used during the Jekyll → Bridgetown migration to ensure rendered output stays identical.
+Originally used during the Jekyll → Bridgetown migration; kept around so
+new changes can be re-checked against production at any time.
 
 ## Workflow
 
-1. Serve the **baseline** (Jekyll) build:
+1. Build the **candidate** (current branch) and static-serve `output/`:
    ```sh
-   cd site/_site && python3 -m http.server 6060
+   BRIDGETOWN_ENV=production bundle exec bridgetown build
+   cd output && python3 -m http.server 6062
    ```
-2. Capture baselines:
+2. Capture the candidate:
    ```sh
-   cd verification/scripts && node capture.js --baseline
+   cd verification/scripts
+   node capture.js --bridgetown --base-url=http://127.0.0.1:6062
    ```
-3. Build and serve the **candidate** (Bridgetown) build, then:
+3. Capture **baseline** from production (or any reference URL):
    ```sh
-   node capture.js --bridgetown --base-url=http://127.0.0.1:6061
+   node capture.js --baseline --base-url=https://www.causey.app
    ```
 4. Compare:
    ```sh
@@ -25,10 +28,10 @@ Used during the Jekyll → Bridgetown migration to ensure rendered output stays 
 ## Layout
 
 ```
-baseline/<viewport>/<route>.png    # Jekyll outputs (gitignored)
-bridgetown/<viewport>/<route>.png  # Bridgetown outputs (gitignored)
-diff/<viewport>/<route>.png        # Pixel diffs for failed routes (gitignored)
-scripts/                           # Capture and diff scripts (committed)
+baseline/<viewport>/<route>.png    # reference build (gitignored)
+bridgetown/<viewport>/<route>.png  # candidate build (gitignored)
+diff/<viewport>/<route>.png        # pixel diffs for failed routes (gitignored)
+scripts/                           # capture and diff scripts (committed)
 ```
 
 ## Acceptance
