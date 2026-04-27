@@ -12,9 +12,9 @@ Bridgetown.configure do |config|
   slugify_mode "default"
 
   # The component-library Bookshop directory is read by our custom plugin.
-  # Paths are resolved relative to the source directory (src/), so go up two
-  # levels to reach the repo root, then into component-library.
-  config.bookshop_locations = ["../../component-library"]
+  # Paths are resolved relative to the source directory (src/), so go up one
+  # level to reach the repo root, then into component-library.
+  config.bookshop_locations = ["../component-library"]
 
   # Keep Jekyll's exclude semantics
   config.exclude = (config.exclude || []) + ["postcss.config.js", "node_modules"]
