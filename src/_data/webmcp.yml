@@ -1,0 +1,77 @@
+# Data for WebMCP tools — baked into /javascript/webmcp.js at build time.
+# See src/_pages/webmcp.erb for the actual tool registrations.
+
+pricing:
+  basic:
+    name: Basic
+    monthly_usd: 30
+    annual_usd: 300
+    advocates_max: null
+    active_metrics: 1
+    storage_mb: 256
+    description: For solo planners or 1-2 people managing the plan. Plan stays a reference, not actively updated by the whole team.
+    sign_up_url: https://www.causey.app/causey-basic-tier/
+  lite:
+    name: Lite
+    monthly_usd: 90
+    annual_usd: 900
+    active_metrics: 4
+    storage_mb: 500
+    description: For small to mid-size nonprofits where the whole team should own their part of the plan.
+    sign_up_monthly: https://my.causey.app/sign_ups/new?product_names=v2_lite_month
+    sign_up_annual: https://my.causey.app/sign_ups/new?product_names=v2_lite_year
+  core:
+    name: Core
+    monthly_usd: 130
+    annual_usd: 1300
+    active_metrics: 15
+    storage_mb: 1024
+    description: For mid-size nonprofits actively scaling their strategic execution; multiple programs, multiple owners.
+    sign_up_monthly: https://my.causey.app/sign_ups/new?product_names=v2_core_month
+    sign_up_annual: https://my.causey.app/sign_ups/new?product_names=v2_core_year
+  solid:
+    name: Solid
+    monthly_usd: 275
+    annual_usd: 2750
+    active_metrics: null
+    storage_mb: 5120
+    description: For larger nonprofits with multiple stakeholder groups (board, funders, accreditors), complex strategic priorities. Includes Guided Setup Call.
+    sign_up_monthly: https://my.causey.app/sign_ups/new?product_names=v2_solid_month,causey-premium-onboarding
+    sign_up_annual: https://my.causey.app/sign_ups/new?product_names=v2_solid_year,causey-premium-onboarding
+  annual_discount_percent: 16
+  unlimited_users_all_tiers: true
+  free_trial_days: 30
+  trial_url: https://my.causey.app/sign_ups/new
+
+features:
+  planning:
+    title: Strategic plan structure
+    description: Goals, strategies, action items, and metrics — with owners and timelines on each. Plan, Presentation, and Timeline views.
+  metrics:
+    title: Goal & metric tracking
+    description: Connect qualitative goals to quantitative measures. Charts and reports trend metrics over time.
+  reminders:
+    title: Automated email reminders
+    description: Causey emails the right people on the right schedule asking for status updates. Owners update directly in the platform.
+  comments:
+    title: Comments on goals and items
+    description: Team discussion happens directly on goals, strategies, and action items — preserving an audit trail.
+  reporting:
+    title: Board & funder reporting
+    description: PDF export, Presentation Mode, dashboard widgets, and filterable views for board reports, funder updates, and accreditor evidence.
+  guidance:
+    title: Strategic planning guidance
+    description: START Lite course, templates, and inline guidance — included in every tier, not sold as add-ons.
+  unlimited_users:
+    title: Unlimited users on every tier
+    description: No per-seat charges. Bring your whole team in without paying per head.
+
+links:
+  homepage: https://www.causey.app
+  pricing: https://www.causey.app/pricing/
+  about: https://www.causey.app/about/
+  blog: https://www.causey.app/blog/
+  contact: https://www.causey.app/contact/
+  trial: https://my.causey.app/sign_ups/new
+  demo: https://calendly.com/ricky-causey/demo
+  app_login: https://my.causey.app
