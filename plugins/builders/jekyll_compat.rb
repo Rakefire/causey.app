@@ -73,7 +73,9 @@ module JekyllCompat
   # `name` may be: bare identifier with slashes/dots/hyphens (e.g. svg/foo.svg),
   # a quoted string, or a `{{ var }}` reference.
   class IncludeTag < Liquid::Tag
-    SYNTAX = %r/\A\s*([\w\.\-\/]+|"[^"]*"|'[^']*'|\{\{[^}]+\}\})\s*(.*?)\s*\z/m
+    # Bridgetown's dev-server reload re-evaluates this file, so guard the
+    # constants to silence "already initialized" warnings on the second pass.
+    SYNTAX = %r/\A\s*([\w\.\-\/]+|"[^"]*"|'[^']*'|\{\{[^}]+\}\})\s*(.*?)\s*\z/m unless defined?(SYNTAX)
 
     ATTR_RE = /
       (\w[\w\-]*)
@@ -82,7 +84,7 @@ module JekyllCompat
         "[^"]*" | '[^']*' |
         [\w\.\-]+
       )
-    /x
+    /x unless defined?(ATTR_RE)
 
     def initialize(tag_name, markup, options)
       super
