@@ -10,7 +10,7 @@
   },
   "scripts": {
     "bookshop": "bookshop-browser",
-    "bridgetown": "bundle exec bridgetown serve --port 6061 --unpublished",
+    "bridgetown": "bundle exec bridgetown start --port 6061 --unpublished --skip-frontend",
     "build": "bundle exec bridgetown build --unpublished",
     "start": "run-p bookshop bridgetown"
   },
