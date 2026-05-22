@@ -1,0 +1,8 @@
+name: www-causey-app
+icon: siteicon.png
+
+processes:
+  Bridgetown:
+    command: bin/bridgetown start --port 6061 --unpublished --skip-frontend
+    auto_start: true
+    auto_restart: true
