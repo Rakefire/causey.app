@@ -30,7 +30,7 @@ With these updated forms, we’re happy to announce that you can receive strateg
 
 We’ve also expanded the ability to rearrange and sort these documents simply by dragging and dropping by selecting the up-down arrow. In the Documents application, arrange the categories and documents as needed.
 
-[Learn more about adding documents to your goals.](https://help.causey.app/article/16-populate-the-action-plan){: target="\_blank"}
+[Learn more about adding documents to your goals.](https://help.causey.app/article/16-create-manage-action-items){: target="\_blank"}
 
 **Translations**
 

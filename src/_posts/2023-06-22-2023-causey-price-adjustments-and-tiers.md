@@ -23,7 +23,7 @@ Today, we made a significant change in our business by rebranding Mission Met Ce
 
 As part of this change, are implementing new pricing tiers for the first time since launching in 2015. The change in pricing is intended to better align our business with the success of our customers.
 
-Learn more&nbsp;[about our rebranding](https://www.causey.app/why/features/2023/06/22/we-are-causey/).
+Learn more&nbsp;[about our rebranding](https://www.causey.app/we-are-causey/).
 
 ## **We're changing our pricing**
 

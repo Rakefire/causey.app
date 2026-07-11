@@ -81,7 +81,7 @@ This vision for the product brings together all aspects of the strategic plannin
 - Automated measurement reminder emails
 - Ability to edit measurements instead of deleting and adding
 - Export/import measurements and metrics
-- If you missed it, check out the most recent [features announcement](https://www.causey.app/features/2023/04/25/mission-met-center-s-newest-features/)
+- If you missed it, check out the most recent [features announcement](https://www.causey.app/mission-met-centers-newest-features/)
 
 So much of our vision is already in the product now and ready to put to use! We’re also excited to continue developing even more features for you. Our most recent features to introduce today are super focus mode and tagging.&nbsp;
 

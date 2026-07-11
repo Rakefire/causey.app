@@ -30,7 +30,7 @@ Want to sync your Google or iCal calendars with your plan's goal and action item
 
 We've added the popular goal progress tracker to action items! Now when you add or edit an action item, you can track the progress toward completion with the % slider and note if the task is completed or not with the status checkbox.
 
-[Learn how to track your action item progress in this help article](https://help.causey.app/article/16-populate-the-action-plan){: target="\_blank"}
+[Learn how to track your action item progress in this help article](https://help.causey.app/article/16-create-manage-action-items){: target="\_blank"}
 
 **Weekly Look-ahead Email**
 

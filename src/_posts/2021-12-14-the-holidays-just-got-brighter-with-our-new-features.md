@@ -29,12 +29,12 @@ You can now include some personalization to your plan by adding your organizatio
 
 Using the guidance from Mission Met’s strategic planning method,&nbsp;[CAPE](https://www.missionmet.com/the-executive-director/the-cape-cycle){: target="\_blank"}, you likely have been selecting more than one champion for the overall plan, focus areas, and goals. Now, depending on how your team works, you can add more than one action item owner.&nbsp;&nbsp;
 
-[Learn more about how to add an action item owner.&nbsp;](https://help.causey.app/article/16-populate-the-action-plan){: target="\_blank"}
+[Learn more about how to add an action item owner.&nbsp;](https://help.causey.app/article/16-create-manage-action-items){: target="\_blank"}
 
 ## **Add Metrics to Focus Areas and Goals**
 
 Your options are expanding for displaying metrics on your organization’s plan. In addition to adding key metrics to your Compass, now you can add metrics to a focus area and a goal. This will help you&nbsp;[categorize metrics](https://www.missionmet.com/the-executive-director/an-overview-of-metrics-on-your-strategic-plan){: target="\_blank"}&nbsp;and display them directly with the section of your plan to which they relate.&nbsp;
 
-[Learn more about adding focus area metrics and goal metrics.&nbsp;](https://help.causey.app/article/128-add-focus-area-metrics-and-goal-metrics){: target="\_blank"}
+[Learn more about adding focus area metrics and goal metrics.&nbsp;](https://help.causey.app/article/128-how-to-add-from-strategy-app){: target="\_blank"}
 
 Reply to this message if there is something you'd like to see as a feature in the software. Thank you for the work you do and happy holidays!
