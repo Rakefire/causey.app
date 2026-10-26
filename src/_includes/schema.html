@@ -1,0 +1,55 @@
+{% assign base_url = site.data.general_settings.live_domain_url %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "{{ base_url }}/#organization",
+  "name": {{ site.data.general_settings.website_name | jsonify }},
+  "url": "{{ base_url }}/",
+  "logo": "{{ base_url }}/images/icons/android-icon-192x192.png",
+  "description": {{ site.data.general_settings.website_description_text | jsonify }},
+  "sameAs": ["https://www.linkedin.com/showcase/causeystrategy/", "https://twitter.com/causeystrat"]
+}
+</script>
+{% if page.layout == "post" %}
+{% assign author = site.staff_members | find: "_id", page.author_staff_member %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ page.title | jsonify }},
+  "description": {{ seo_description | jsonify }},
+  "image": "{{ seo_image_absolute }}",
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "url": "{{ base_url }}{{ page.url }}",
+  "mainEntityOfPage": "{{ base_url }}{{ page.url }}",
+  {% if author %}"author": {"@type": "Person", "name": {{ author.name | jsonify }}},{% else %}"author": {"@id": "{{ base_url }}/#organization"},{% endif %}
+  "publisher": {"@id": "{{ base_url }}/#organization"}
+}
+</script>
+{% else %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "{% if page.url == '/blog/' or page.url contains '/category/' %}CollectionPage{% else %}WebPage{% endif %}",
+  "name": {{ seo_title | jsonify }},
+  "description": {{ seo_description | jsonify }},
+  "url": "{{ base_url }}{{ page.url }}",
+  "publisher": {"@id": "{{ base_url }}/#organization"}
+}
+</script>
+{% endif %}
+{% assign faq_block = page.content_blocks | where: "_bookshop_name", "frequently-asked-questions" | first %}
+{% if faq_block %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for item in faq_block.questions %}
+    {"@type": "Question", "name": {{ item.question_text | jsonify }}, "acceptedAnswer": {"@type": "Answer", "text": {{ item.answer_text | jsonify }}}}{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endif %}
