@@ -56,4 +56,4 @@ When you switch someone to Contributor, the Members page warns you if they are n
 
 Clear ownership is one of the most important parts of strategy execution. When each person can update their own part of the plan, the plan stays current without one person having to collect updates from everyone else. Your leadership team also keeps the structure they agreed on.
 
-The Contributor role is available on Core and Solid plans. Administrators can assign it from the Members page in Settings. To learn more, see our guide on [using the Contributor role](https://help.causey.app/).
+The Contributor role is available on Core and Solid plans. Administrators can assign it from the Members page in Settings. To learn more, see our guide on [using the Contributor role](https://help.causey.app/article/203-overview-contributor).
