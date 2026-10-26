@@ -4,7 +4,7 @@ categories:
   - Strategy Execution
   - features
 author_staff_member: 171c91e1-2e04-443c-8c5c-ea8c68a3f596
-date: 2026-10-21 00:00:00
+date: 2026-10-26 12:00:00
 content_blocks:
 SEO_options:
   title: Causey's Contributor Role for Strategic Plan Owners
