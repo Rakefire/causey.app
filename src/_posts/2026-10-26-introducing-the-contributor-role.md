@@ -9,15 +9,15 @@ content_blocks:
 SEO_options:
   title: Causey's Contributor Role for Strategic Plan Owners
   description: >-
-    The Contributor role lets staff add and update the goals, actions, and
-    tasks they own in your strategic plan, while the rest of the plan stays
-    view-only to them.
+    The Contributor role lets staff work on anything they champion or are on
+    the team of in your strategic plan, and everything beneath it, while the
+    rest of the plan stays view-only to them.
   image:
   prevent_indexing: false
 blurb: >-
-  Contributors can add goals and keep their own work up to date, while the
-  structure of your plan stays protected. It is a new access level between
-  Editor and Viewer.
+  Contributors can work on anything they champion or are on the team of, and
+  everything beneath it, while the rest of your plan stays protected. It is
+  a new access level between Editor and Viewer.
 ---
 A strategic plan works best when the people doing the work keep it up to date. The staff member leading a goal knows when an action is done, when a target has moved, and what the latest number is.
 
@@ -27,26 +27,32 @@ We heard this most clearly from the [Community Food Bank of Southern Arizona](ht
 
 ## **What a Contributor Can Do**
 
-Contributors can add goals anywhere in the plan, and can edit, score, and add items inside the goals, actions, and tasks they are a champion or team member of. Everything else in the plan is view-only to them.
+A Contributor can take action on anything they are a champion or team member of, and on everything beneath it. Everything else in the plan is view-only to them.
 
-In practice, that means a Contributor can:
+A Contributor who champions a pillar can work on everything inside it. One who is on the team of a single goal can work on that goal and its actions and tasks, while the objective and pillar above it stay view-only.
+
+On anything they champion or are on the team of, and everything beneath it, a Contributor can:
+
+- Edit it, score it, and add items inside it
+- Add metrics, post progress updates, and record measurements
+- Attach documents, notes, and links
+
+Anywhere in the plan, a Contributor can also:
 
 - Add a new goal under any objective
-- Update the goals, actions, and tasks they are assigned to
-- Post progress updates and record measurements on their metrics
-- Comment anywhere in the plan
+- Comment
 
 And a Contributor cannot:
 
-- Change your pillars or objectives
-- Edit or delete anyone else's work
+- Edit anything they are not a champion or team member of, including the items above their work
+- Delete a pillar or objective, even one they champion
 - Reorder the plan
 
 When a Contributor adds a goal, Causey lists them as its champion automatically, so they can keep working on it.
 
-## **You Decide How Far Down They Can Edit**
+## **You Decide by Who You Assign**
 
-Every organization divides responsibility a little differently. In your organization settings, you can choose whether Contributors may edit goals and everything below them, only actions and tasks, or only tasks. Your custom labels appear here too, so the options use the same names your team already uses.
+There is no separate setting to manage. What a Contributor can change follows the champions and team members you already set in your plan. Make someone the champion of a pillar and they can keep that whole pillar up to date. Add them to one goal's team and their access stays within that goal.
 
 ## **Seeing Who Can Edit What**
 
