@@ -16,6 +16,7 @@ pricing:
     monthly_usd: 90
     annual_usd: 900
     active_metrics: 4
+    extra_metric_annual_usd: 45
     storage_mb: 500
     description: For small to mid-size nonprofits where the whole team should own their part of the plan.
     sign_up_monthly: https://my.causey.app/sign_ups/new?product_names=v2_lite_month
