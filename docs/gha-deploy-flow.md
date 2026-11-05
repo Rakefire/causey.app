@@ -46,7 +46,7 @@ deploy (ubuntu-latest, needs: build)
 ## `build` job — environment setup
 
 1. `actions/checkout@v4`
-2. `ruby/setup-ruby@v1` — Ruby `4.0.3`, `bundler-cache: true`
+2. `ruby/setup-ruby@v1` — Ruby `4.0.9`, `bundler-cache: true`
 3. `actions/configure-pages@v5`
 
 **No Node setup, no `npm ci`** — the esbuild scaffolding was removed
