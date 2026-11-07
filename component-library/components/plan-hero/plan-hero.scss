@@ -1,0 +1,233 @@
+.c-plan-hero {
+	--ph-navy: #243746;
+	--ph-on-track: #46b978;
+	--ph-slow: #faa21b;
+	--ph-off-track: #cb3727;
+	--ph-complete: #1d988c;
+	--ph-not-started: #b9b4ad;
+	background: var(--ph-navy);
+
+	&__inner-wrapper {
+		padding-top: clamp(48px, 8vw, 96px);
+		padding-bottom: clamp(48px, 7vw, 88px);
+	}
+
+	&__intro {
+		max-width: 80rem;
+
+		h1 {
+			color: #fff;
+			font-size: clamp(4rem, 6.4vw, 7.2rem);
+			font-weight: 750;
+			line-height: 1;
+			letter-spacing: -0.03em;
+			margin-bottom: 2.4rem;
+			text-wrap: balance;
+		}
+
+		p {
+			color: #d5dde3;
+			font-size: clamp(1.8rem, 1.9vw, 2.1rem);
+			line-height: 1.5;
+			max-width: 58rem;
+
+			a {
+				color: #fff;
+				text-decoration: underline;
+				text-decoration-color: var(--ph-slow);
+				text-underline-offset: 0.2em;
+			}
+		}
+	}
+
+	&__actions {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 1.6rem 2.8rem;
+		margin-top: 3.2rem;
+	}
+
+	&__secondary {
+		color: #fff;
+		font-size: 1.7rem;
+		font-weight: 600;
+		text-decoration: underline;
+		text-decoration-color: var(--ph-slow);
+		text-decoration-thickness: 2px;
+		text-underline-offset: 0.3em;
+
+		&:hover { color: var(--ph-slow); }
+	}
+
+	// A real app screenshot, framed like the plan sheet.
+	&__shot {
+		margin: clamp(40px, 6vw, 72px) 0 0;
+
+		img {
+			display: block;
+			width: 100%;
+			height: auto;
+			border-radius: 10px;
+			// The app bar is navy too; the outline keeps the top edge visible.
+			outline: 1px solid rgb(255 255 255 / 0.2);
+			box-shadow: 0 24px 60px -24px rgb(0 0 0 / 0.5);
+		}
+	}
+
+	// The plan sheet: the one memorable thing on the page.
+	&__plan {
+		margin: clamp(40px, 6vw, 72px) 0 0;
+		background: #fff;
+		color: var(--ph-navy);
+		border-radius: 10px;
+		box-shadow: 0 24px 60px -24px rgb(0 0 0 / 0.5);
+		overflow: hidden;
+	}
+
+	&__plan-head {
+		padding: 2.4rem clamp(2rem, 3vw, 3.6rem);
+		border-bottom: 1px solid #e3e7ea;
+	}
+
+	&__org {
+		margin: 0 0 0.4rem !important;
+		font-size: 1.4rem !important;
+		font-weight: 600 !important;
+		color: #6a7680 !important;
+	}
+
+	&__mission {
+		margin: 0 !important;
+		font-family: var(--headings-fonts);
+		font-size: clamp(2rem, 2.4vw, 2.6rem) !important;
+		font-weight: 600 !important;
+		line-height: 1.25 !important;
+		color: var(--ph-navy) !important;
+	}
+
+	&__pillars {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+
+		@media (max-width: 1000px) { grid-template-columns: repeat(2, 1fr); }
+		@media (max-width: 560px) { grid-template-columns: 1fr; }
+	}
+
+	&__pillar {
+		padding: 2rem clamp(2rem, 2.4vw, 2.8rem) 2.4rem;
+		border-right: 1px solid #e3e7ea;
+		border-bottom: 1px solid #e3e7ea;
+
+		&:last-child { border-right: 0; }
+	}
+
+	h3.c-plan-hero__pillar-name {
+		margin: 0 0 1.6rem;
+		font-size: 1.6rem;
+		font-weight: 700;
+		color: var(--ph-navy);
+	}
+
+	&__goals {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		display: grid;
+		gap: 1.6rem;
+	}
+
+	&__goal {
+		--c: var(--ph-not-started);
+		display: grid;
+		grid-template-columns: 1fr auto;
+		gap: 0.6rem 1rem;
+		font-size: 1.45rem !important;
+		line-height: 1.35;
+
+		&--on-track { --c: var(--ph-on-track); }
+		&--slow { --c: var(--ph-slow); }
+		&--off-track { --c: var(--ph-off-track); }
+		&--complete { --c: var(--ph-complete); }
+	}
+
+	&__goal-title { grid-column: 1 / -1; }
+
+	// ponytail: phones get two goals per focus area so the hero stays short.
+	@media (max-width: 560px) {
+		&__goal:nth-child(n + 3) { display: none; }
+	}
+
+	&__bar {
+		align-self: center;
+		height: 6px;
+		border-radius: 3px;
+		background: linear-gradient(var(--c), var(--c)) no-repeat left / var(--p) 100%, #edf0f2;
+	}
+
+	&__status {
+		font-size: 1.2rem;
+		font-weight: 600;
+		color: #5b6670;
+		white-space: nowrap;
+
+		&::before {
+			content: "";
+			display: inline-block;
+			width: 0.8em;
+			height: 0.8em;
+			margin-right: 0.4em;
+			border-radius: 50%;
+			background: var(--c);
+			vertical-align: -0.05em;
+		}
+	}
+
+	&__legend {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.8rem 2rem;
+		padding: 1.4rem clamp(2rem, 3vw, 3.6rem);
+		background: #f6f8f9;
+		font-size: 1.3rem;
+		color: #5b6670;
+	}
+
+	&__key {
+		--c: var(--ph-not-started);
+		&.c-plan-hero__goal--on-track { --c: var(--ph-on-track); }
+		&.c-plan-hero__goal--slow { --c: var(--ph-slow); }
+		&.c-plan-hero__goal--off-track { --c: var(--ph-off-track); }
+		&.c-plan-hero__goal--complete { --c: var(--ph-complete); }
+
+		&::before {
+			content: "";
+			display: inline-block;
+			width: 0.8em;
+			height: 0.8em;
+			margin-right: 0.5em;
+			border-radius: 50%;
+			background: var(--c);
+		}
+	}
+
+	// One orchestrated load: each pillar's progress fills in, left to right.
+	@media (prefers-reduced-motion: no-preference) {
+		&__bar {
+			animation: ph-fill 900ms cubic-bezier(.2, .7, .2, 1) both;
+			animation-delay: calc(300ms + var(--i, 0) * 180ms + var(--j, 0) * 90ms);
+		}
+		&__status::before {
+			animation: ph-dot 400ms ease-out both;
+			animation-delay: calc(900ms + var(--i, 0) * 180ms + var(--j, 0) * 90ms);
+		}
+	}
+}
+
+@keyframes ph-fill {
+	from { background-size: 0 100%, auto; }
+}
+
+@keyframes ph-dot {
+	from { background: var(--ph-not-started); transform: scale(0.6); }
+}

@@ -1,69 +1,70 @@
 .c-quote { $c: &;
 	&__inner-wrapper {
 		display: flex;
-		flex-flow: row wrap;
-		align-items: center;
-		justify-content: center;
+		align-items: flex-start;
+		gap: clamp(20px, 3vw, 40px);
 		margin: 0 auto;
-		padding: var(--component-padding) 0;
-		max-width: 800px;
+		padding-top: clamp(48px, 6vw, 80px);
+		padding-bottom: clamp(48px, 6vw, 80px);
 
 		@media (max-width: 650px) {
 			flex-direction: column;
-
-			#{$c}__content-wrapper {
-				padding: 18px 0;
-			}
 		}
 	}
 
 	&__image-wrapper {
-		flex: 1 150px;
-		max-width: 150px;
-		height: 150px;
+		flex: 0 0 auto;
+		width: clamp(88px, 10vw, 128px);
+		aspect-ratio: 1;
 
 		img {
-			margin: 0 auto;
+			display: block;
 			width: 100%;
 			height: 100%;
-			border-radius: 100%;
+			border-radius: 50%;
 			object-fit: cover;
-			object-position: center center;
-			box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 		}
 	}
 
 	&__content-wrapper {
-		flex: 1;
-		margin: 0;
-		padding: 18px 25px;
-		max-width: 650px;
-		quotes: "“" "”" "‘" "’";
+		max-width: 76rem;
 	}
 
-	&__quote {
+	// Overrides the site-wide boxed <blockquote> style.
+	blockquote#{$c}__quote {
 		margin: 0;
-		font-style: italic;
+		padding: 0 0 0 2.4rem;
+		border-left: 3px solid var(--headings-color);
+		background: none;
 
-		&:before {
-			color: rgba(255,255,255,0.3);
-			content: open-quote;
-			font-size: 4em;
-			line-height: 0.1em;
-			margin-right: 0.25em;
-			vertical-align: -0.4em;
+		p {
+			margin: 0;
+			color: var(--headings-color);
+			font-size: clamp(1.9rem, 2vw, 2.2rem);
+			font-style: normal;
+			line-height: 1.5;
 		}
 	}
 
 	&__quote-details {
-		margin: 10px 0 0 0;
-		font-weight: bold;
-		font-size: 1.5em;
-		opacity: 0.85;
-		font-style: normal;
-
-		&--alternate {
-			display: none;
-		}
+		display: flex;
+		flex-direction: column;
+		gap: 0.2rem;
+		margin: 1.6rem 0 0 2.7rem;
+		font-size: 1.5rem;
+		line-height: 1.4;
 	}
+
+	&__name {
+		color: var(--headings-color);
+		font-weight: 600;
+	}
+
+	&__role {
+		color: #686158;
+	}
+}
+
+.dark .c-quote__role {
+	color: #b9b4ad;
 }

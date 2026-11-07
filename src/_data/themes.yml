@@ -2,39 +2,39 @@ hydra:
   light_theme_settings:
     page_color: "#ffffff"
     light_component_color: "#ffffff"
-    dark_component_color: "#f8f0e1"
+    dark_component_color: "#eef2f4"
     brand_color: "#cb3727"
     headings_color: "#243746"
-    text_color: "#666666"
+    text_color: "#4a5864"
     light_text_color: "#ffffff"
-    link_color: "#1d988c"
+    link_color: "#17786e"
     button_fill_color: "#cb3727"
     button_fill_text_color: "#ffffff"
     tag_color: '#f8f0e1'
-    border_color: '#e5e0da'
+    border_color: '#d9e0e5'
     shadows_color: '#f7f7f7'
     navigation_color: '#cb3727'
-    footer_color: '#faa21b'
-    footer_link_color: '#243746'
+    footer_color: '#243746'
+    footer_link_color: '#d5dde3'
     footer_link_hover_color: '#ffffff'
   dark_theme_settings:
-    page_color: "#131313"
-    light_component_color: "#292929"
-    dark_component_color: "#1a1a1a"
-    brand_color: "#202020"
+    page_color: "#16222c"
+    light_component_color: "#16222c"
+    dark_component_color: "#1d2c38"
+    brand_color: "#cb3727"
     headings_color: "#ffffff"
-    text_color: "#c4c4c4"
+    text_color: "#c3ccd3"
     light_text_color: "#ffffff"
-    link_color: "#ffffff"
-    button_fill_color: "#737373"
+    link_color: "#6fd0c4"
+    button_fill_color: "#cb3727"
     button_fill_text_color: "#ffffff"
-    tag_color: '#444444'
-    border_color: '#686868'
-    shadows_color: '#181818'
-    navigation_color: '#202020'
-    footer_color: '#000000'
-    footer_link_color: '#999999'
+    tag_color: '#2a3b48'
+    border_color: '#34495a'
+    shadows_color: '#101a22'
+    navigation_color: '#cb3727'
+    footer_color: '#0f1820'
+    footer_link_color: '#d5dde3'
     footer_link_hover_color: '#ffffff'
-  headings_font: 'Inter'
-  body_font: 'Inter'
+  headings_font: 'Bricolage Grotesque'
+  body_font: 'Public Sans'
   content_font_size_number: 2.2

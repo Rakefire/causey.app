@@ -11,7 +11,7 @@
 	 {% endif %}>
 	<div class="{{c}}__inner-wrapper">
 		{% if nav.logo_image %}
-			<a href="/">
+			<a class="{{c}}__logo" href="/">
 				<img src="{{ nav.logo_image }}" alt="{{ site.data.general_settings.website_name }}" />
 			</a>
 		{% endif %}
@@ -34,8 +34,12 @@
 				<a id="js-mobile-toggle"
 				   class="{{c}}__item
 						  {{c}}__item--mobile-toggle"
-				   href="#">
-				   <span class="{{c}}__label">☰</span>
+				   href="#"
+				   role="button"
+				   aria-controls="js-nav"
+				   aria-expanded="false"
+				   aria-label="Menu">
+				   <span class="{{c}}__label" aria-hidden="true">☰</span>
 				</a>
 			</li>
 		</ul>
@@ -46,8 +50,10 @@
 	const navToggle = document.getElementById('js-mobile-toggle');
 	const nav = document.getElementById('js-nav');
 	
-	function toggleNav() {
-		nav.classList.toggle('c-navigation--open');
+	function toggleNav(event) {
+		event.preventDefault();
+		const open = nav.classList.toggle('c-navigation--open');
+		navToggle.setAttribute('aria-expanded', open);
 	}
 
 	navToggle.addEventListener('click', toggleNav);

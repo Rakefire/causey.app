@@ -26,24 +26,24 @@
 				   name="botcheck"
 				   style="display: none;">
 
-			<label for="name">Full Name</label>
+			<label for="name">Full name</label>
 			<input type="text" 
 				   name="name" id="name" 
-				   placeholder="Enter your name..." />
+				   />
 
-			<label for="email">Email Address</label>
+			<label for="email">Email address</label>
 			<input type="email" 
 				   name="email" 
 				   id="email" 
-				   placeholder="Enter your email..." 
+				   
 				   required />
 
 			<label for="message">Message</label>
 			<textarea name="message" 
 				   id="message" 
-				   placeholder="Enter your message..."></textarea>
+				   ></textarea>
 			{% bookshop button 
-						label='Send Message'
+						label='Send message'
 						variant='Filled'
 						submit=true %}
 		</form>
@@ -59,7 +59,7 @@
 
 			{% assign postal = include.company_details.postal_address | size %}
 			{% if postal > 4 %}
-				<h3 class="{{c}}__heading">Postal Address</h3>
+				<h3 class="{{c}}__heading">Postal address</h3>
 				<address class="{{c}}__detail">
 					<a target="_blank" 
 					   href="https://www.google.com/maps/place/{{ include.company_details.postal_address | url_encode }}">{{ include.company_details.postal_address | replace: ", ", ", <br>" }}</a>
@@ -68,7 +68,7 @@
 
 			{% assign email = include.company_details.email | size %}
 			{% if email > 4 %}
-				<h3 class="{{c}}__heading">Email Address</h3>
+				<h3 class="{{c}}__heading">Email</h3>
 				<p class="{{c}}__detail {{c}}__detail--no-margin">
 					<a href="mailto:{{ include.company_details.email }}">{{ include.company_details.email }}</a>
 				</p>
@@ -76,7 +76,7 @@
 
 			{% assign phone = include.company_details.phone | size %}
 			{% if phone > 4 %}
-				<h3 class="{{c}}__heading">Phone Number</h3>
+				<h3 class="{{c}}__heading">Phone</h3>
 				<p class="{{c}}__detail {{c}}__detail--no-margin">
 					<a href="tel:{{ include.company_details.phone }}">{{ include.company_details.phone }}</a>
 				</p>

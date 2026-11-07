@@ -1,0 +1,40 @@
+spec:
+  structures:
+    - content_blocks
+  label: Columns
+  description: Heading, intro and a grid of items, optionally numbered or with example goals
+  icon: view_column
+  tags:
+    - Content
+
+blueprint:
+  component_theme: ""
+  heading_html: ""
+  intro_html: ""
+  columns: 3
+  numbered: false
+  items:
+    - heading: ""
+      logo: "" # optional; shown instead of the heading text
+      text: ""
+      examples: []
+  button_label: ""
+  button_link_url: ""
+
+preview:
+  component_theme: Light
+  heading_html: <h2>The four focus areas most plans share</h2>
+  columns: 2
+  items:
+    - heading: Funding
+      examples:
+        - Launch a recurring donor program
+      text: Track dollars raised against goal.
+    - heading: Programs
+      text: Tie each goal to a metric.
+
+_inputs:
+  columns:
+    type: select
+    options:
+      values: [2, 3, 4]

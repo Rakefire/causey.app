@@ -1,19 +1,25 @@
 {% assign n = 'n-post-preview' %}
-<div class="{{n}}__inner-wrapper">
-	<div class="{{n}}__top">
-		{% if include.post.SEO_options.image %}<img class="{{n}}__preview-image" src="{{ include.post.SEO_options.image }}" alt="{{ include.post.title }} image" />{% endif %}
-		{% bookshop post-header
-			nested=true
-			post=include.post %}
+{% assign author = site.staff_members | find: "_id", include.post.author_staff_member %}
+{% assign thumb = include.post.SEO_options.image %}
+<article class="{{n}}__inner-wrapper{% if thumb %} {{n}}__inner-wrapper--image{% endif %}">
+	<div class="{{n}}__meta">
+		<time class="{{n}}__date" datetime="{{ include.post.date | date: '%Y-%m-%d' }}">{{ include.post.date | date: "%B %-d, %Y" }}</time>
+		{% if include.post.categories.size > 0 %}
+		<ul class="{{n}}__categories" aria-label="Categories">
+			{% for category in include.post.categories %}
+				<li><a href="/category/{{ category | slugify }}/">{{ category | capitalize }}</a></li>
+			{% endfor %}
+		</ul>
+		{% endif %}
+		{% if author %}
+		<p class="{{n}}__author"><img src="{{ author.image }}" alt="" width="32" height="32" loading="lazy"> {{ author.name }}</p>
+		{% endif %}
 	</div>
-	<div class="{{n}}__content">
-		<p>
-			{{ include.post.blurb }}
-		</p>
+	<div class="{{n}}__body">
+		<h2 class="{{n}}__title"><a href="{{ include.post.url }}">{{ include.post.title }}</a></h2>
+		{% if include.post.blurb %}<p class="{{n}}__blurb">{{ include.post.blurb }}</p>{% endif %}
 	</div>
-
-	{% bookshop button
-				label="Read More"
-				variant="Filled"
-				link_url=include.post.url %}
-</div>
+	{% if thumb %}
+	<a class="{{n}}__image" href="{{ include.post.url }}" tabindex="-1" aria-hidden="true"><img src="{{ thumb }}" alt="" loading="lazy"></a>
+	{% endif %}
+</article>

@@ -1,23 +1,30 @@
 .c-posts-list {
-
 	&__inner-wrapper {
-		position: relative;  // Required for the Urban theme
-		z-index: 5;  // Required for the Urban theme
-		margin: 0 auto;
-		padding: var(--component-padding) 25px;
-		max-width: 800px;
+		padding-top: clamp(40px, 6vw, 72px);
+		padding-bottom: clamp(56px, 8vw, 104px);
 	}
 
-	&__heading, &__content {
-		text-align: center;
+	&__heading {
+		max-width: 68rem;
 	}
 
 	&__content {
-		margin-bottom: var(--component-padding);
+		max-width: 68rem;
+		margin-bottom: 4rem;
 	}
 
-	.n-post-preview__inner-wrapper:last-child {
-		padding-bottom: 0;
+	&__list {
+		max-width: 96rem;
 	}
 }
 
+.c-posts-list__more {
+	display: inline-block;
+	margin-top: 3.2rem;
+	font-weight: 600;
+	color: var(--headings-color);
+	text-decoration: underline;
+	text-decoration-color: #1d988c;
+	text-decoration-thickness: 2px;
+	text-underline-offset: 0.2em;
+}

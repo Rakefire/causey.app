@@ -1,103 +1,105 @@
 .c-contact-form {
 	&__inner-wrapper {
-		display: flex;
-		flex-flow: row wrap;
-		justify-content: center;
-		align-items: flex-start;
-		margin: 0 auto;
-		padding: var(--component-padding) 0;
-		max-width: 750px;
+		padding-top: clamp(56px, 8vw, 104px);
+		padding-bottom: clamp(56px, 8vw, 104px);
 	}
 
-	&__main-heading {
+	&__main-heading { max-width: 68rem; }
 
-	}
-
-	&__lower-text {
-
-	}
+	&__lower-text { max-width: 68rem; font-size: 1.9rem; }
 
 	&__form-wrapper {
 		display: grid;
-		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-		grid-gap: 60px;
-		justify-items: center;
-		width: 100%;
-		max-width: 950px;
+		grid-template-columns: minmax(0, 64rem) minmax(0, 1fr);
+		gap: clamp(40px, 6vw, 96px);
+
+		@media (max-width: 800px) { grid-template-columns: 1fr; }
 	}
 
 	&__form {
-		width: 100%;
-
 		label {
 			display: block;
-			margin: 20px 0 5px 0;
-			font-size: 1.6em;
+			margin: 2.4rem 0 0.8rem;
+			font-size: 1.6rem;
+			font-weight: 600;
+			color: var(--headings-color);
+
+			&:first-of-type { margin-top: 0; }
 		}
 
 		input, textarea {
 			display: block;
-			padding: 10px;
 			width: 100%;
-			box-sizing: border-box;
-			outline: none;
-			border: 1px solid var(--border-color);
-			font-size: 1.6em;
-			background-color: transparent;
-			color: inherit;
-			border-radius: 4px;
-		}
+			padding: 1.2rem 1.4rem;
+			border: 1px solid #8a959e;
+			border-radius: 6px;
+			background-color: var(--page-color);
+			color: var(--headings-color);
+			font-family: var(--font);
+			font-size: 1.6rem;
+			line-height: 1.4;
 
-		input {
-
+			&:focus-visible {
+				outline: 3px solid #1d988c;
+				outline-offset: 2px;
+				border-color: var(--headings-color);
+			}
 		}
 
 		textarea {
+			min-height: 16rem;
 			resize: vertical;
-			height: 150px;
-			font-family: var(--font);
+		}
+	}
+
+	// Red submit, same as the site's primary buttons.
+	.n-button {
+		margin-top: 2.4rem;
+		padding: 0;
+		background-color: #cb3727;
+		border: 0;
+		box-shadow: none;
+
+		&:hover { transform: none; box-shadow: none; background-color: #b02f21; }
+
+		&:focus-within {
+			outline: 3px solid #243746;
+			outline-offset: 3px;
 		}
 
 		input.n-button__label {
-			padding: 16px 50px;
-			background-color: transparent;
-			border: none;
-			outline: none;
+			padding: 1.4rem 3.2rem;
+			border: 0;
+			background: transparent;
+			color: #fff;
+			font-size: 1.7rem;
+			font-weight: 600;
 			cursor: pointer;
+
+			&:focus-visible { outline: none; }
 		}
 	}
 
 	&__details {
-		width: 100%;
+		padding-top: 2rem;
+		border-top: 2px solid var(--headings-color);
+		align-self: start;
 	}
 
-	&__heading {
-		display: block;
-		margin: 20px 0 5px 0;
-		font-size: 1.6em;
-		font-weight: bold;
+	h3.c-contact-form__heading {
+		margin: 2.4rem 0 0.6rem;
+		font-size: 1.6rem;
+		font-weight: 700;
+
+		&:first-child { margin-top: 0; }
 	}
 
 	&__detail {
-		font-size: 2.0em;
+		font-size: 1.9rem;
+		font-style: normal;
 
-		&--no-margin {
-			margin: 0;
-		}
+		&--no-margin { margin: 0; }
 
-		a {
-
-		}
-	}
-
-	.n-button {
-		margin: 20px 0 5px 0;
-		padding: 0;
-		width: 100%;
-		font-size: 10px;
-
-		input.n-button__label {
-			font-size: 1.8em;
-		}
+		a { color: var(--link-color); }
 	}
 }

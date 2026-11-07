@@ -1,71 +1,123 @@
 .c-content {
-
     &__inner-wrapper {
-        padding: var(--component-padding) var(--s-30-50);
-        
+        padding-top: clamp(48px, 7vw, 88px);
+        padding-bottom: clamp(48px, 7vw, 88px);
     }
 
+    // Document typography: one readable measure, left-aligned like the rest of the site.
     &__content-wrapper {
-        margin: 0 auto;
-        max-width: 1024px;
+        max-width: 72rem;
 
-        & >:first-child {
-            margin-top: 0;
+        & > :first-child { margin-top: 0; }
+        & > :last-child { margin-bottom: 0; }
+
+        h1 {
+            margin: 0 0 2.4rem;
+            font-size: clamp(3.6rem, 5vw, 5.6rem);
+            font-weight: 750;
+            line-height: 1.05;
+            letter-spacing: -0.03em;
+            text-wrap: balance;
         }
-        
-        & >:last-child {
-            margin-bottom: 0;
+
+        h2 {
+            margin: 5.6rem 0 1.6rem;
+            font-size: clamp(2.6rem, 3vw, 3.2rem);
+            font-weight: 700;
+            line-height: 1.15;
+            text-wrap: balance;
+        }
+
+        h3 {
+            margin: 4rem 0 1.2rem;
+            font-size: 2.1rem;
+            font-weight: 700;
+            line-height: 1.25;
+        }
+
+        h4 {
+            margin: 3.2rem 0 1rem;
+            font-size: 1.8rem;
+            font-weight: 700;
+        }
+
+        h1, h2, h3, h4 {
+            strong { font-weight: inherit; }
+        }
+
+        p, li {
+            font-size: 1.8rem;
+            line-height: 1.7;
+        }
+
+        p { margin: 0 0 1.6rem; }
+
+        ul, ol {
+            margin: 0 0 2rem;
+            padding-left: 2.4rem;
+        }
+
+        li {
+            margin-bottom: 0.8rem;
+            color: var(--text-color);
+
+            > p { margin: 0; font-size: inherit; }
+            > ul, > ol { margin: 0.8rem 0 0; }
+        }
+
+        strong { color: var(--headings-color); }
+
+        a {
+            color: var(--link-color);
+            text-decoration: underline;
+            text-underline-offset: 0.2em;
+            overflow-wrap: anywhere;
+
+            &:hover { color: var(--headings-color); }
+        }
+
+        a.anchor-link {
+            margin-left: 0.4em;
+            color: #8a847c;
+            text-decoration: none;
         }
 
         .basic-comparison-table {
             width: 100%;
             border-collapse: collapse;
-            border-radius: 12px;
-            border: 1px solid var(--border-color);
-            box-shadow: 0 2px 12px var(--shadows-color);
-            margin: 30px 0;
+            margin: 3.2rem 0;
+            font-size: 1.6rem;
 
-            thead th {
-                padding: 20px 16px;
-                font-size: 1.15em;
-                font-weight: 700;
+            th, td {
+                padding: 1.2rem 1.6rem;
                 text-align: center;
-                border-bottom: 2px solid var(--border-color);
-                background: var(--page-color);
+                border-bottom: 1px solid var(--border-color);
+                color: var(--text-color);
+                font-size: 1.6rem;
 
                 &:first-child {
                     text-align: left;
                     width: 40%;
-                }
-            }
-
-            tbody td {
-                padding: 14px 16px;
-                border-bottom: 1px solid rgba(0, 0, 0, 0.06);
-                text-align: center;
-                color: var(--text-color);
-
-                &:first-child {
-                    text-align: left;
                     color: var(--headings-color);
                 }
             }
 
-            tbody tr:hover td {
-                background-color: rgba(0, 0, 0, 0.02);
-            }
-
-            tbody tr:last-child td {
-                border-bottom: none;
+            thead th {
+                padding-top: 0;
+                font-family: var(--headings-fonts);
+                font-size: 1.8rem;
+                font-weight: 700;
+                color: var(--headings-color);
+                border-bottom: 2px solid var(--headings-color);
             }
 
             .category-row td {
-                padding: 18px 16px 12px;
+                padding-top: 3.2rem;
+                font-family: var(--headings-fonts);
+                font-size: 1.9rem;
                 font-weight: 700;
-                font-size: 1.1em;
                 color: var(--headings-color);
-                border-bottom: 2px solid var(--border-color);
-                background: rgba(0, 0, 0, 0.02);
+                border-bottom: 2px solid var(--headings-color);
             }
         }
 
@@ -74,6 +126,8 @@
                 display: block;
                 overflow-x: auto;
                 -webkit-overflow-scrolling: touch;
+
+                th, td { padding: 1rem 0.8rem; }
             }
         }
 

@@ -1,6 +1,6 @@
 <div class="{{c}}__inner-wrapper component">
-  <h1 class="{{c}}__heading">{{ include.heading }}</h1>
-  <p class="{{c}}__subheading">{{ include.subheading }}</p>
+  {% if include.heading %}<h1 class="{{c}}__heading">{{ include.heading }}</h1>{% endif %}
+  {% if include.subheading %}<p class="{{c}}__subheading">{{ include.subheading }}</p>{% endif %}
 
   {% if include.subheading_2 %}
     <p class="{{c}}__no-per-user">{{ include.subheading_2 }}</p>
@@ -15,10 +15,10 @@
 
     <div class="{{c}}__cards">
       {% for plan in include.plans %}
-        <div class="{{c}}__card">
-          <div class="{{c}}__card-header" style="background-color: {{ plan.card_color }}">
-            {% if plan.title == "Core" %}<span class="{{c}}__badge">Most Popular</span>{% endif %}
+        <div class="{{c}}__card{% if plan.title == "Core" %} {{c}}__card--featured{% endif %}" style="--tier: {{ plan.card_color }}">
+          <div class="{{c}}__card-header">
             <h3 class="{{c}}__card-title">{{ plan.title }}</h3>
+            {% if plan.title == "Core" %}<span class="{{c}}__badge">Most popular</span>{% endif %}
           </div>
           <div class="{{c}}__card-body">
             <div class="{{c}}__card-price">
@@ -47,15 +47,13 @@
           <div class="{{c}}__card-footer">
             <div data-show-hide-target="on">
               <a class="{{c}}__card-button"
-                 href="{{ plan.price.month.button_url }}"
-                 style="background-color: {{ plan.card_color }}">
+                 href="{{ plan.price.month.button_url }}">
                 Start your 30-day trial
               </a>
             </div>
             <div data-show-hide-target="off">
               <a class="{{c}}__card-button"
-                 href="{{ plan.price.year.button_url }}"
-                 style="background-color: {{ plan.card_color }}">
+                 href="{{ plan.price.year.button_url }}">
                 Start your 30-day trial
               </a>
             </div>
@@ -82,7 +80,7 @@
               <th></th>
               {% for plan in include.plans %}
                 <th>
-                  <span style="color: {{ plan.card_color }}">{{ plan.title }}</span>
+                  <span class="{{c}}__table-tier" style="--tier: {{ plan.card_color }}">{{ plan.title }}</span>
                 </th>
               {% endfor %}
             </tr>

@@ -1,0 +1,54 @@
+spec:
+  structures:
+    - content_blocks
+  label: Plan hero
+  description: Page header with an example strategic plan showing goal statuses
+  icon: dashboard
+  tags:
+    - Header
+
+blueprint:
+  heading_html: ""
+  subheading_html: ""
+  button_label: ""
+  button_link_url: ""
+  secondary_label: ""
+  secondary_link_url: ""
+  screenshot: ""
+  screenshot_mobile: ""
+  screenshot_alt: ""
+  plan:
+    org: ""
+    mission: ""
+    pillars:
+      - name: ""
+        goals:
+          - title: ""
+            status: Not started # On track, Slow, Off track, Complete, Not started
+            progress: 0
+
+preview:
+  heading_html: <h1>Put your strategic plan to work</h1>
+  subheading_html: <p>Track every goal in one place.</p>
+  button_label: Start a free trial
+  button_link_url: "#"
+  plan:
+    org: Example Org
+    mission: Every family has enough healthy food, every week.
+    pillars:
+      - name: Programs
+        goals:
+          - title: Open two school pantries
+            status: On track
+            progress: 60
+      - name: Funding
+        goals:
+          - title: Secure five sponsors
+            status: Complete
+            progress: 100
+
+_inputs:
+  status:
+    type: select
+    options:
+      values: [On track, Slow, Off track, Complete, Not started]

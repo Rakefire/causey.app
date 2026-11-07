@@ -1,0 +1,55 @@
+<div class="{{c}}__inner-wrapper component">
+	<div class="{{c}}__intro">
+		{{ include.heading_html }}
+		{{ include.subheading_html }}
+		<div class="{{c}}__actions">
+			{% if include.button_label %}
+				{% bookshop button label=include.button_label link_url=include.button_link_url variant="Filled" %}
+			{% endif %}
+			{% if include.secondary_label %}
+				<a class="{{c}}__secondary" href="{{ include.secondary_link_url }}">{{ include.secondary_label }}</a>
+			{% endif %}
+		</div>
+	</div>
+
+	{% assign plan = include.plan %}
+	{% if plan.pillars %}
+	<figure class="{{c}}__plan" aria-label="Example strategic plan in Causey">
+		<div class="{{c}}__plan-head">
+			<p class="{{c}}__org">{{ plan.org }}</p>
+			<p class="{{c}}__mission">{{ plan.mission }}</p>
+		</div>
+		<div class="{{c}}__pillars">
+			{% for pillar in plan.pillars %}
+				<section class="{{c}}__pillar" style="--i: {{ forloop.index0 }}">
+					<h3 class="{{c}}__pillar-name">{{ pillar.name }}</h3>
+					<ul class="{{c}}__goals">
+						{% for goal in pillar.goals %}
+							<li class="{{c}}__goal {{c}}__goal--{{ goal.status | slugify }}" style="--p: {{ goal.progress | default: 0 }}%; --j: {{ forloop.index0 }}">
+								<span class="{{c}}__goal-title">{{ goal.title }}</span>
+								<span class="{{c}}__bar" aria-hidden="true"></span>
+								<span class="{{c}}__status">{{ goal.status }}</span>
+							</li>
+						{% endfor %}
+					</ul>
+				</section>
+			{% endfor %}
+		</div>
+		<figcaption class="{{c}}__legend">
+			{% assign statuses = "On track,Slow,Off track,Complete,Not started" | split: "," %}
+			{% for s in statuses %}
+				<span class="{{c}}__key {{c}}__goal--{{ s | slugify }}">{{ s }}</span>
+			{% endfor %}
+		</figcaption>
+	</figure>
+	{% endif %}
+
+	{% if include.screenshot %}
+	<figure class="{{c}}__shot">
+		<picture>
+			{% if include.screenshot_mobile %}<source media="(max-width: 560px)" srcset="{{ include.screenshot_mobile }}">{% endif %}
+			<img src="{{ include.screenshot }}" alt="{{ include.screenshot_alt }}">
+		</picture>
+	</figure>
+	{% endif %}
+</div>

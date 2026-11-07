@@ -17,10 +17,10 @@
     {% include footer.html %}
 
     <div class="dark-mode-toggle">
-        <a id="js-dark-mode"
-            class="n-button">
-            {% include svg/darklightmode.svg %} <span id="js-mode-label">Dark Mode</span>
-        </a>
+        <button type="button" id="js-dark-mode"
+            class="n-button dark-mode-toggle__button">
+            {% include svg/darklightmode.svg %} <span id="js-mode-label">Dark mode</span>
+        </button>
     </div>
     <script type="text/javascript" src="/assets/js/dark-mode.js"></script>
     <script type="text/javascript" src="/assets/js/async-form.js"></script>
