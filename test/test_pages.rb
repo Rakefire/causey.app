@@ -76,4 +76,13 @@ class TestPages < Bridgetown::Test
       expect(css.scan(%r{url\(/fonts/[^)]+\)}).all? { _1.include?("?v=") }).must_equal true
     end
   end
+
+  describe "markdown twins" do
+    it "contain the page content without the site nav or footer" do
+      md = File.read(File.expand_path("../output/pricing/index.md", __dir__))
+      expect(md).must_match(/\A# /)
+      expect(md).wont_include "nav-logo.svg"
+      expect(md).wont_include "Sign up for our newsletter"
+    end
+  end
 end

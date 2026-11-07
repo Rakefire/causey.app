@@ -13,12 +13,14 @@
     {% include banner.html %}
     {% include navigation.html %}
 
+    <main>
     {% unless page.dont_render_bookshop_components %}
     <div data-bookshop-live="page" data-bookshop-props="page">
       {% bookshop page content_blocks=page.content_blocks page_theme=page.page_theme %}
     </div>
     {% endunless %}
     {{ content }}
+    </main>
 
     {% include footer.html %}
 
