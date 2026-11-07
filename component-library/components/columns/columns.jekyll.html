@@ -7,7 +7,7 @@
 		class="{{c}}__items {{c}}__items--{{ include.columns | default: 3 }}{% if include.numbered %} {{c}}__items--numbered{% endif %}">
 		{% for item in include.items %}
 			<li class="{{c}}__item">
-				<h3 class="{{c}}__item-heading">{{ item.heading }}</h3>
+				<h3 class="{{c}}__item-heading">{% if item.logo %}<img class="{{c}}__logo" src="{{ item.logo }}" alt="{{ item.heading }}" loading="lazy">{% else %}{{ item.heading }}{% endif %}</h3>
 				{% if item.examples %}
 					<ul class="{{c}}__examples">
 						{% for ex in item.examples %}<li>{{ ex }}</li>{% endfor %}

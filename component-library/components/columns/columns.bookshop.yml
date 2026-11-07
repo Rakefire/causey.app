@@ -15,6 +15,7 @@ blueprint:
   numbered: false
   items:
     - heading: ""
+      logo: "" # optional; shown instead of the heading text
       text: ""
       examples: []
   button_label: ""

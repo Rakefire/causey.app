@@ -95,3 +95,34 @@
 
 	&__footer { margin-top: clamp(32px, 5vw, 56px); }
 }
+
+// Logo grid (e.g. consulting partners): blue-gray at rest, full color on hover.
+.c-columns__items:has(.c-columns__logo) .c-columns__item-heading {
+	display: flex;
+	align-items: center;
+	min-height: 7.2rem;
+}
+
+.c-columns__logo {
+	display: block;
+	max-width: min(100%, 22rem);
+	max-height: 7.2rem;
+	filter: grayscale(1) sepia(0.6) hue-rotate(170deg) saturate(2) brightness(0.8) contrast(1.2);
+	opacity: 0.85;
+	transition: filter 0.25s ease, opacity 0.25s ease;
+
+	.c-columns__item:hover &,
+	.c-columns__item:focus-within & {
+		filter: none;
+		opacity: 1;
+	}
+
+	@media (prefers-reduced-motion: reduce) { transition: none; }
+}
+
+// Dark wordmarks vanish on navy; give logos a white chip in dark mode.
+body.dark .c-columns__logo {
+	padding: 0.8rem 1.2rem;
+	border-radius: 6px;
+	background: #fff;
+}
