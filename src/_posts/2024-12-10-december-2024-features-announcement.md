@@ -75,7 +75,7 @@ Meet our new **Actions View**—a game-changer for team focus and productivity:
 
 Excuse our bias, but this is one of our favorite features to date! Collaborate with your team directly in the Strategy application by adding comments to compass elements, focus areas, goals, and action items.
 
-![Adding comments to plan elements in Causey](/uploads/ad-4nxfnars0fndccra4-5s8kb5dnh-ax-b9kvwd6grjisilxl7ljqmvrk4ghroc6bdk4wogndf1pwsmkr259ub-f9h1bqgniei6xngczryh-3ivtrtx37db0oe.gif)
+![Adding comments to plan elements in Causey](/uploads/ad-4nxfnars0fndccra4-5s8kb5dnh-ax-b9kvwd6grjisilxl7ljqmvrk4ghroc6bdk4wogndf1pwsmkr259ub-f9h1bqgniei6xngczryh-3ivtrtx37db0oe.webp)
 
 [Learn more about Comments.](https://help.causey.app/article/192-comments){: target="\_blank" rel="noopener"}
 

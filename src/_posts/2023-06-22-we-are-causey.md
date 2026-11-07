@@ -99,7 +99,7 @@ We must continue to evolve to meet the needs of our customers and their strategi
 
 The tiered plans offer variety so you can pick the one that best fits your strategic planning needs for your team.&nbsp;
 
-![Causey pricing tiers summary](/uploads/causey-pricing-summary-1.png){: width="1280" height="800"}
+![Causey pricing tiers summary](/uploads/causey-pricing-summary-1.jpg){: width="1280" height="800"}
 
 Your organization will be automatically enrolled in the tier that best aligns with your current subscription and needs. If you’re a billing contact for your organization(s), you can switch your tier anytime before August 31, 2023.&nbsp;
 

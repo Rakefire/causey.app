@@ -71,7 +71,8 @@ module Builders
         # descriptive SEO title without changing the visible page heading or
         # the breadcrumb/tag UI that uses page.title.
         p.data["SEO_options"] = {
-          "title" => "#{humanized} — Strategic Planning Articles from Causey"
+          "title" => "#{humanized} — Strategic Planning Articles from Causey",
+          "description" => "Causey blog posts about #{humanized.downcase}: strategic planning in practice for nonprofits, consultants, and the teams who run their plans."
         }
         # Match Jekyll-era behavior: archives don't render the page-level
         # bookshop component (only the archive layout content).

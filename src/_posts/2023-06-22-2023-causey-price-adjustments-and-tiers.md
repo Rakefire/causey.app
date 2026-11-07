@@ -29,7 +29,7 @@ Learn more&nbsp;[about our rebranding](https://www.causey.app/we-are-causey/).
 
 Today we're announcing three new pricing tier options to provide your organization with options on what you need for your strategic planning efforts.
 
-![Causey pricing tiers summary](/uploads/causey-pricing-summary-1-1.png){: width="1280" height="800"}
+![Causey pricing tiers summary](/uploads/causey-pricing-summary-1-1.jpg){: width="1280" height="800"}
 
 ### The Lite tier is a great starting point for any organization’s strategic plan. &nbsp;
 

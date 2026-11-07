@@ -6,12 +6,12 @@
     <p class="{{c}}__no-per-user">{{ include.subheading_2 }}</p>
   {% endif %}
 
-  <div data-controller="show-hide">
-    <div class="{{c}}__toggle">
+  <div class="{{c}}__plans">
+    <label class="{{c}}__toggle">
       <span class="{{c}}__toggle-label">Yearly</span>
-      <sl-switch checked style="--width: 80px; --height: 40px; --thumb-size: 36px;" data-action="sl-change->show-hide#toggle"></sl-switch>
+      <input class="{{c}}__switch" type="checkbox" role="switch" checked aria-label="Show monthly prices">
       <span class="{{c}}__toggle-label">Monthly</span>
-    </div>
+    </label>
 
     <div class="{{c}}__cards">
       {% for plan in include.plans %}
@@ -22,14 +22,14 @@
           </div>
           <div class="{{c}}__card-body">
             <div class="{{c}}__card-price">
-              <div data-show-hide-target="on">
+              <div data-period="month">
                 <span class="{{c}}__price-amount">{{ plan.price.month.price }}</span>
                 <span class="{{c}}__price-period">/mo</span>
                 {% if plan.price.month.extra_text %}
                   <div class="{{c}}__price-extra">{{ plan.price.month.extra_text }}</div>
                 {% endif %}
               </div>
-              <div data-show-hide-target="off">
+              <div data-period="year">
                 <span class="{{c}}__price-amount">{{ plan.price.year.price }}</span>
                 <span class="{{c}}__price-period">/yr</span>
                 {% if plan.price.year.extra_text %}
@@ -45,13 +45,13 @@
             </ul>
           </div>
           <div class="{{c}}__card-footer">
-            <div data-show-hide-target="on">
+            <div data-period="month">
               <a class="{{c}}__card-button"
                  href="{{ plan.price.month.button_url }}">
                 Start your 30-day trial
               </a>
             </div>
-            <div data-show-hide-target="off">
+            <div data-period="year">
               <a class="{{c}}__card-button"
                  href="{{ plan.price.year.button_url }}">
                 Start your 30-day trial

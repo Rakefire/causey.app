@@ -12,7 +12,8 @@
     "bookshop": "bookshop-browser",
     "bridgetown": "bundle exec bridgetown start --port 6061 --unpublished --skip-frontend",
     "build": "bundle exec bridgetown build --unpublished",
-    "start": "run-p bookshop bridgetown"
+    "start": "run-p bookshop bridgetown",
+    "test": "bundle exec rake test"
   },
   "devDependencies": {
     "@bookshop/browser": "^3.18.2",

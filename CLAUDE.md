@@ -35,6 +35,19 @@ parity was confirmed against `https://www.causey.app`.
   triggers `plugins/builders/indexnow.rb`, which submits every sitemap URL to
   IndexNow. Production builds are for deploys only.
 
+## Tests
+
+- `bundle exec rake test` (or `npm test`) builds the site in the `test`
+  environment, then runs Minitest in `test/` using Bridgetown's
+  `Bridgetown::Test` (Rack::Test against the Roda server + Nokolexbor).
+- `test/test_site.rb` checks every indexable page: title (≤70 chars) and meta
+  description, unique titles/descriptions, absolute canonical, one `h1`, image
+  `alt` + width/height + file exists, no broken internal links, sitemap/feed.
+- `test/test_pages.rb` covers key page behavior (hero screenshot, blog
+  pagination, pricing switch, partner logos).
+- The GitHub Pages workflow runs the tests before building; a failure stops
+  the deploy. Pull requests run the tests only.
+
 ## Custom Bridgetown plugins
 
 Ported during the Jekyll migration to fill gaps Bridgetown doesn't ship:
@@ -52,6 +65,10 @@ Ported during the Jekyll migration to fill gaps Bridgetown doesn't ship:
 
 Post-build output (run after the site is written):
 
+- `plugins/builders/image_attributes.rb` — adds real `width`/`height` and
+  `loading="lazy" decoding="async"` to local raster images. Mark
+  above-the-fold images `loading="eager"` (the hero also sets
+  `fetchpriority="high"`)
 - `plugins/builders/html_minifier.rb` — compresses HTML (skipped in watch mode)
 - `plugins/builders/markdown_for_agents.rb` — writes a `.md` twin of each page
   for Cloudflare's `Accept: text/markdown` rewrite

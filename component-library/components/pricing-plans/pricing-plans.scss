@@ -23,6 +23,44 @@
     padding: 0 0 3.2rem;
   }
 
+  // Native switch; CSS swaps monthly/yearly prices (no JS).
+  &__switch {
+    appearance: none;
+    position: relative;
+    width: 6.4rem;
+    height: 3.4rem;
+    margin: 0;
+    border-radius: 999px;
+    background: #8a8379;
+    cursor: pointer;
+    transition: background 0.2s ease;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0.3rem;
+      left: 0.3rem;
+      width: 2.8rem;
+      height: 2.8rem;
+      border-radius: 50%;
+      background: #fff;
+      transition: transform 0.2s ease;
+    }
+
+    &:checked { background: #17786e; }
+    &:checked::before { transform: translateX(3rem); }
+    &:focus-visible { outline: 3px solid #faa21b; outline-offset: 2px; }
+
+    @media (prefers-reduced-motion: reduce) {
+      &, &::before { transition: none; }
+    }
+  }
+
+  &__plans:has(&__switch:checked) [data-period="year"],
+  &__plans:has(&__switch:not(:checked)) [data-period="month"] {
+    display: none;
+  }
+
   &__toggle-label {
     font-size: 1.7rem;
     font-weight: 600;
