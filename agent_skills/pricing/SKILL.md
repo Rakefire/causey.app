@@ -21,10 +21,11 @@ Every tier includes **unlimited users**. No per-seat charges. Annual billing sav
 
 ### Lite — $90/month or $900/year
 - Up to 4 active metrics
-- 500 MB storage
+- 512 MB storage
 - **Automated email reminders** for team status updates
 - **Comments** on goals/strategies/action items
 - **Goal charts, metric reports, dashboard widgets**
+- **Dashboard and Actions views**
 - Basic Focus Mode
 - Email support
 
