@@ -6,6 +6,14 @@ link_columns:
         link_url: /pricing/
         icon_image:
         open_in_new_tab: false
+      - link_label: For SBDCs
+        link_url: /sbdc/
+        icon_image:
+        open_in_new_tab: false
+      - link_label: For cohorts and consultants
+        link_url: /cohorts/
+        icon_image:
+        open_in_new_tab: false
       - link_label: Blog
         link_url: /blog/
         icon_image:

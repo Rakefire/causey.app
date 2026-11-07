@@ -13,6 +13,7 @@
 	</div>
 
 	{% assign plan = include.plan %}
+	{% if plan.pillars %}
 	<figure class="{{c}}__plan" aria-label="Example strategic plan in Causey">
 		<div class="{{c}}__plan-head">
 			<p class="{{c}}__org">{{ plan.org }}</p>
@@ -41,4 +42,5 @@
 			{% endfor %}
 		</figcaption>
 	</figure>
+	{% endif %}
 </div>
