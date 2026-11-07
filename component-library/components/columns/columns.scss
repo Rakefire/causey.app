@@ -96,7 +96,7 @@
 	&__footer { margin-top: clamp(32px, 5vw, 56px); }
 }
 
-// Logo grid (e.g. consulting partners): blue-gray at rest, full color on hover.
+// Logo grid (e.g. consulting partners): grayscale at rest, full color on hover.
 .c-columns__items:has(.c-columns__logo) .c-columns__item-heading {
 	display: flex;
 	align-items: center;
@@ -107,7 +107,7 @@
 	display: block;
 	max-width: min(100%, 22rem);
 	max-height: 7.2rem;
-	filter: grayscale(1) sepia(0.6) hue-rotate(170deg) saturate(2) brightness(0.8) contrast(1.2);
+	filter: grayscale(1);
 	opacity: 0.85;
 	transition: filter 0.25s ease, opacity 0.25s ease;
 
