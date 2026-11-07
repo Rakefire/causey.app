@@ -1,55 +1,63 @@
+// Top-rule items, same rhythm as columns.
 .c-contact-cards {
 	&__inner-wrapper {
-		padding: var(--component-padding) 0;
+		padding-top: clamp(56px, 8vw, 104px);
+		padding-bottom: clamp(56px, 8vw, 104px);
 	}
-	
+
 	&__content {
+		max-width: 68rem;
+		margin-bottom: clamp(32px, 5vw, 56px);
+
+		h2 { margin-bottom: 1.6rem; text-wrap: balance; }
+		p { margin: 0; font-size: 1.9rem; line-height: 1.55; }
 	}
 
 	&__cards {
 		display: grid;
-		grid-template-columns: repeat(2, 1fr);
 		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-		grid-gap: 40px;
+		gap: clamp(32px, 4vw, 48px) clamp(24px, 3.5vw, 48px);
 	}
 
 	&__card {
-		display: flex;
-		flex-direction: column;
-		background-color: var(--dark-component-color);
-		box-shadow: 1px 1px 5px 0 rgba(100, 100, 100, 0.2);
-		padding: 20px;
-		border-radius: 2px;
+		padding-top: 2rem;
+		border-top: 2px solid var(--headings-color);
 	}
 
 	&__details-wrapper {
 		display: flex;
+		align-items: center;
+		gap: 1.6rem;
 
 		img {
-			margin-right: 20px;
-			width: 120px;
-			height: 120px;
+			width: 72px;
+			height: 72px;
+			border-radius: 50%;
+			object-fit: cover;
 		}
 	}
 
-	&__name {
+	h3.c-contact-cards__name {
 		margin: 0;
+		font-size: 2.1rem;
+		font-weight: 700;
+		line-height: 1.2;
 	}
 
-	&__role {
-		margin: 8px 0;
-		opacity: 0.6;
-		font-size: 1.7em;
+	p.c-contact-cards__role {
+		margin: 0.4rem 0;
+		font-size: 1.5rem;
+		color: #686158;
 	}
 
-	&__number {
+	p.c-contact-cards__number {
 		margin: 0;
-		a {
-
-		}
+		font-size: 1.6rem;
 	}
 
-	&__description {
-
+	p.c-contact-cards__description {
+		margin: 1.6rem 0 0;
+		font-size: 1.7rem;
+		line-height: 1.55;
 	}
 }

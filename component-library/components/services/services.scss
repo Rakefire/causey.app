@@ -1,34 +1,53 @@
+// Top-rule items, same rhythm as columns.
 .c-services {
 	&__inner-wrapper {
-		padding: var(--component-padding) 0;
+		padding-top: clamp(56px, 8vw, 104px);
+		padding-bottom: clamp(56px, 8vw, 104px);
 	}
 
-	&__heading {
-
+	h2.c-services__heading {
+		max-width: 68rem;
+		margin-bottom: 1.6rem;
+		text-wrap: balance;
 	}
 
-	&__description {
-
+	p.c-services__description {
+		max-width: 68rem;
+		margin: 0 0 clamp(32px, 5vw, 56px);
+		font-size: 1.9rem;
+		line-height: 1.55;
 	}
 
 	&__services {
-
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+		gap: clamp(32px, 4vw, 48px) clamp(24px, 3.5vw, 48px);
 	}
 
 	&__service {
-		margin-top: 60px;
+		display: flex;
+		flex-direction: column;
+		padding-top: 2rem;
+		border-top: 2px solid var(--headings-color);
 
 		img {
-
+			order: -1;
+			width: 100%;
+			margin-bottom: 2rem;
+			border-radius: 10px;
 		}
 	}
 
-	&__title {
-		margin-top: 60px;
-
+	h3.c-services__title {
+		margin: 0 0 1rem;
+		font-size: 2.1rem;
+		font-weight: 700;
+		line-height: 1.2;
 	}
 
-	&__content {
-
+	&__content p {
+		margin: 0 0 1rem;
+		font-size: 1.7rem;
+		line-height: 1.55;
 	}
 }

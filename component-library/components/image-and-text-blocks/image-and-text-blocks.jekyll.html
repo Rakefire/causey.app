@@ -17,7 +17,7 @@
 					{% endif %}
 				</div>
 			</div>
-			<div class="{{c}}__image-wrapper">
+			<div class="{{c}}__image-wrapper{% if block.component_theme %} {{c}}__image-wrapper--{{ block.component_theme | slugify }}{% endif %}">
 				<img src="{{ block.image }}" alt="{{ block.heading_html | strip_html }}" />
 			</div>
 		</div>
