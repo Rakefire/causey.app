@@ -8,16 +8,47 @@
 			<p class="{{c}}__content">{{ include.content_text }}</p>
 		{% endif %}
 
-		{% unless include.tag %}
-			{% assign posts = site.posts %}
-		{% else %}
+		{% if include.tag %}
 			{% assign posts = site.posts | where_exp:"post", "post.categories contains include.tag" %}
-		{% endunless %}
+		{% elsif paginator %}
+			{% assign posts = paginator.resources %}
+		{% else %}
+			{% assign posts = site.posts %}
+		{% endif %}
 
-		<div class="{{c}}__list">
+		<div class="{{c}}__list" aria-live="polite">
 			{% for post in posts %}
 				{% bookshop post-preview post=post %}
 			{% endfor %}
 		</div>
+
+		{% if paginator.next_page_path and include.tag == nil %}
+			<a class="{{c}}__more" href="{{ paginator.next_page_path }}" data-posts-more>Older posts</a>
+			<script>
+				// Infinite scroll: fetch the next paginated page and append its posts.
+				// Without JS (or on error) the link still goes to the next page.
+				(function () {
+					var more = document.querySelector('[data-posts-more]');
+					var list = document.querySelector('.{{c}}__list');
+					if (!more || !list || !('IntersectionObserver' in window)) return;
+					var busy = false;
+					var io = new IntersectionObserver(function (entries) {
+						if (!entries[0].isIntersecting || busy) return;
+						busy = true;
+						fetch(more.getAttribute('href'))
+							.then(function (r) { if (!r.ok) throw r; return r.text(); })
+							.then(function (html) {
+								var doc = new DOMParser().parseFromString(html, 'text/html');
+								list.append.apply(list, doc.querySelector('.{{c}}__list').children);
+								var next = doc.querySelector('[data-posts-more]');
+								if (next) { more.setAttribute('href', next.getAttribute('href')); busy = false; }
+								else { io.disconnect(); more.remove(); }
+							})
+							.catch(function () { io.disconnect(); });
+					}, { rootMargin: '800px 0px' });
+					io.observe(more);
+				})();
+			</script>
+		{% endif %}
 	</div>
 {% endif %}

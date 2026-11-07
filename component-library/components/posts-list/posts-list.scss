@@ -17,3 +17,14 @@
 		max-width: 96rem;
 	}
 }
+
+.c-posts-list__more {
+	display: inline-block;
+	margin-top: 3.2rem;
+	font-weight: 600;
+	color: var(--headings-color);
+	text-decoration: underline;
+	text-decoration-color: #1d988c;
+	text-decoration-thickness: 2px;
+	text-underline-offset: 0.2em;
+}

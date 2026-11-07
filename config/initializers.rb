@@ -21,6 +21,10 @@ Bridgetown.configure do |config|
 
   # Plugin equivalents for jekyll-feed, jekyll-sitemap. Archives, redirects,
   # and bookshop are implemented in plugins/builders/.
+  pagination do
+    enabled true
+  end
+
   init :"bridgetown-feed"
   init :"bridgetown-sitemap"
 
