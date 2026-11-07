@@ -81,6 +81,13 @@ class TestSite < Bridgetown::Test
     end)
   end
 
+  it "self-hosts fonts and preloads files that exist" do
+    assert_none(failures_for do |doc|
+      bad = doc.css('link[href*="fonts.googleapis"], link[href*="fonts.gstatic"]').map { "external font: #{_1["href"]}" }
+      bad + doc.css('link[rel="preload"]').filter_map { "missing preload: #{_1["href"]}" unless self.class.local_file?(_1["href"]) }
+    end)
+  end
+
   it "publishes a sitemap and feed, without noindex pages" do
     sitemap = File.read(File.join(OUTPUT, "sitemap.xml"))
     expect(sitemap).must_include "#{LIVE}/pricing/"

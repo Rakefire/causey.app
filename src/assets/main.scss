@@ -3,6 +3,7 @@ permalink: /assets/main.css
 layout: none
 sitemap: false
 ---
+{% include sass/fonts.scss %}
 {%- include theme.html -%}
 // Variables
 
