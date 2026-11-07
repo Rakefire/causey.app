@@ -1,6 +1,8 @@
 var modeButton = document.getElementById('js-dark-mode');
 var modeLabel = document.getElementById('js-mode-label');
-var mode = localStorage.getItem('mode');
+// No saved choice: follow the system setting. The toggle saves an override.
+var mode = localStorage.getItem('mode') ||
+  (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
 
 function changeMode() {
   document.body.classList.toggle('dark');
