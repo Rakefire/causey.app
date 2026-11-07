@@ -14,8 +14,8 @@ hydra:
     border_color: '#d9e0e5'
     shadows_color: '#f7f7f7'
     navigation_color: '#cb3727'
-    footer_color: '#faa21b'
-    footer_link_color: '#243746'
+    footer_color: '#243746'
+    footer_link_color: '#d5dde3'
     footer_link_hover_color: '#ffffff'
   dark_theme_settings:
     page_color: "#16222c"

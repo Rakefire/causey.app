@@ -1,9 +1,8 @@
 // Navy footer: matches the navy hero and keeps red/yellow for the logo,
-// primary buttons and plan statuses. Colors are set here rather than in
-// themes.yml so light mode stays navy; dark-styles.scss swaps the background.
+// primary buttons and plan statuses. Background comes from themes.yml footer_color.
 .c-footer {
   $c: &;
-  --footer-bg: #243746;
+  --footer-bg: var(--footer-color);
   --footer-text: #d5dde3;
   --footer-rule: rgba(255, 255, 255, 0.16);
   position: relative;
