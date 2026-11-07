@@ -6,19 +6,19 @@ GEM
     amazing_print (1.8.1)
     base64 (0.3.0)
     bigdecimal (4.1.2)
-    bridgetown (2.2.0)
-      bridgetown-builder (= 2.2.0)
-      bridgetown-core (= 2.2.0)
-      bridgetown-foundation (= 2.2.0)
-      bridgetown-paginate (= 2.2.0)
-    bridgetown-builder (2.2.0)
-      bridgetown-core (= 2.2.0)
-    bridgetown-core (2.2.0)
+    bridgetown (2.2.2)
+      bridgetown-builder (= 2.2.2)
+      bridgetown-core (= 2.2.2)
+      bridgetown-foundation (= 2.2.2)
+      bridgetown-paginate (= 2.2.2)
+    bridgetown-builder (2.2.2)
+      bridgetown-core (= 2.2.2)
+    bridgetown-core (2.2.2)
       addressable (~> 2.4)
       amazing_print (~> 1.2)
       base64 (>= 0.3)
       bigdecimal (>= 3.2)
-      bridgetown-foundation (= 2.2.0)
+      bridgetown-foundation (= 2.2.2)
       csv (~> 3.2)
       erubi (~> 1.9)
       faraday (~> 2.0)
@@ -35,7 +35,7 @@ GEM
       rake (>= 13.0)
       roda (~> 3.46)
       rouge (>= 3.0, < 5.0)
-      samovar (>= 2.4)
+      samovar (= 2.4.1)
       securerandom (~> 0.4)
       serbea (>= 2.4.1)
       signalize (~> 1.3)
@@ -44,13 +44,13 @@ GEM
       zeitwerk (>= 2.7.3)
     bridgetown-feed (4.0.0)
       bridgetown (>= 1.2.0)
-    bridgetown-foundation (2.2.0)
+    bridgetown-foundation (2.2.2)
       dry-inflector (>= 1.0)
       hash_with_dot_access (~> 2.0)
       inclusive (~> 1.0)
       zeitwerk (~> 2.5)
-    bridgetown-paginate (2.2.0)
-      bridgetown-core (= 2.2.0)
+    bridgetown-paginate (2.2.2)
+      bridgetown-core (= 2.2.2)
     bridgetown-sitemap (3.0.3)
       bridgetown (>= 1.3.0, < 3.0)
     concurrent-ruby (1.3.6)
@@ -241,7 +241,7 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
-  bridgetown (~> 2.1)
+  bridgetown (~> 2.2)
   bridgetown-feed (~> 4.0)
   bridgetown-sitemap (~> 3.0)
   htmlcompressor (~> 0.4)
@@ -255,12 +255,12 @@ CHECKSUMS
   amazing_print (1.8.1) sha256=f53b4e1881f53f9663cb222840c7a027d0e61d46cc908366965739559c0d6d68
   base64 (0.3.0) sha256=27337aeabad6ffae05c265c450490628ef3ebd4b67be58257393227588f5a97b
   bigdecimal (4.1.2) sha256=53d217666027eab4280346fba98e7d5b66baaae1b9c3c1c0ffe89d48188a3fbd
-  bridgetown (2.2.0) sha256=87f7f7f0ee8c2d286b6fd921e5dc132036fc49cf26b9aad4d56007b981efb55b
-  bridgetown-builder (2.2.0) sha256=3d91c25107e9b76fcdfaf79731452823a06298bc4d7d345361c4b3859158aadc
-  bridgetown-core (2.2.0) sha256=799b3d4d915d78f540f7ffe7f0c38c03123c46714fc0f145017dd8ffe31e8d1b
+  bridgetown (2.2.2) sha256=3240782f693c34087ee387cfb5d11036a4ddd4c9bfbfc090e6122d51f50e8a1f
+  bridgetown-builder (2.2.2) sha256=dd07b3d3da84888e34747fefaf3869e7c23689ac5ace33c1ec17e145007b41ae
+  bridgetown-core (2.2.2) sha256=0997587871c7e06a979fd7530fc93f852eededb25cb6ee117e5107acda49ff7d
   bridgetown-feed (4.0.0) sha256=bd41d17f34a8bbaac8db66fe89a91b3959e797a24551ab695e899a89994ae6bb
-  bridgetown-foundation (2.2.0) sha256=bfb55ce0c13df63d73655ed7936d101b3e3756f30de44ae19d01442b77bf3f56
-  bridgetown-paginate (2.2.0) sha256=a9b18d2c187755584b607e914d3409a8483dc180edb852d10e34f8326ac4c477
+  bridgetown-foundation (2.2.2) sha256=7275e87f4d36a09e51bb7c9f7d3b92eac4539b606fb722975edcb4853074df65
+  bridgetown-paginate (2.2.2) sha256=0aa8dffa779b5f53db4a9d7e36c27d7cf2d7c0f9845a1ee2c004296814e8f4fb
   bridgetown-sitemap (3.0.3) sha256=f6abfa501cab5f12690f818a4f7a82def1ce353d4b3581226821f5c1fa5ffbc8
   concurrent-ruby (1.3.6) sha256=6b56837e1e7e5292f9864f34b69c5a2cbc75c0cf5338f1ce9903d10fa762d5ab
   console (1.35.1) sha256=6d2bfdd0bc7e57830540a6c0ce3bc83fff471844db44be89a38aef9f95df296a
