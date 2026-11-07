@@ -3,6 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main, master]
+  pull_request:
   schedule:
     - cron: '0 6 * * *'
   workflow_dispatch:
@@ -13,7 +14,8 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
+  # PRs only run tests; keep deploys in a single queue.
+  group: ${{ github.event_name == 'pull_request' && format('test-{0}', github.ref) || 'pages' }}
   cancel-in-progress: false
 
 jobs:
@@ -27,21 +29,30 @@ jobs:
           ruby-version: "4.0.9"
           bundler-cache: true
 
+      # Builds the site in the test environment and runs test/. A failure
+      # stops here, so nothing is deployed.
+      - name: Run tests
+        run: bundle exec rake test
+
       - name: Setup Pages
+        if: github.event_name != 'pull_request'
         id: pages
         uses: actions/configure-pages@v5
 
       - name: Build site
+        if: github.event_name != 'pull_request'
         run: bundle exec rake deploy
         env:
           BRIDGETOWN_ENV: production
 
       - name: Upload artifact
+        if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v5
         with:
           path: output
 
   deploy:
+    if: github.event_name != 'pull_request'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
