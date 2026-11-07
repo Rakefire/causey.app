@@ -3,6 +3,12 @@
 {%- include theme.html -%}
 {% include head.html %}
 <body>
+  <script>
+    // Apply dark mode before first paint; dark-mode.js wires up the toggle.
+    try {
+      if ((localStorage.getItem('mode') || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')) === 'dark') document.body.classList.add('dark');
+    } catch (e) {}
+  </script>
   <div class="body-wrapper">
     {% include banner.html %}
     {% include navigation.html %}

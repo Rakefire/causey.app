@@ -94,5 +94,5 @@ sitemap: false
 
 {% include sass/dark-styles.scss %}
 
-@import "cms-styles.css";
+{% include sass/cms-styles.scss %}
 
