@@ -18,12 +18,49 @@ body {
     --footer-link-color: var(--dark-footer-link-color);
     --footer-link-hover-color: var(--dark-footer-link-hover-color);
 
-    .c-footer__column h4 {
-      border-bottom-color: rgba(255,255,255,0.15);
+    color-scheme: dark;
+    background-color: var(--page-color);
+
+    .c-footer {
+      --footer-bg: var(--footer-color);
     }
 
-    .c-footer__lower-text {
-      border-top-color: rgba(255,255,255,0.1);
+    // hydra.scss tints this teal in dark mode; keep it a white button.
+    .n-button--transparent {
+      color: #243746;
     }
+  }
+}
+
+// Dark-mode toggle (markup in _layouts/default.liquid). Sits in the
+// bottom-right corner of the navy footer in both modes.
+.dark-mode-toggle .dark-mode-toggle__button {
+  position: absolute;
+  bottom: 24px;
+  right: var(--s-30-50, 20px);
+  gap: 8px;
+  padding: 8px 12px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 500;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+  }
+
+  &:focus-visible {
+    box-shadow: none;
+    outline: 2px solid #fff;
+    outline-offset: 2px;
+  }
+
+  svg {
+    width: 16px;
+    height: 16px;
+    padding: 0;
+    fill: currentColor;
   }
 }
