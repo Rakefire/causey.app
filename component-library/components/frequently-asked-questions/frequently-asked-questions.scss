@@ -34,6 +34,15 @@
       font-size: 1.6rem;
       line-height: 1.55;
       color: var(--text-color);
+
+      // Teal is under 4.5:1 at this size; use heading color with a teal underline
+      a {
+        color: var(--headings-color);
+        text-decoration: underline;
+        text-decoration-color: #1d988c;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 0.2em;
+      }
     }
 
     &:hover .c-frequently-asked-questions__anchor-link,
