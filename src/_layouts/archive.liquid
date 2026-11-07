@@ -1,16 +1,24 @@
 ---
 layout: default
 ---
-{% assign l = "archive-layout" %}
 {% assign archive_filter_tag = page.original_title | default: page.title %}
-<div class="{{l}}">
-	<h1 class="{{l}}__heading">Blog</h1>
-
-	<div class="{{l}}__tags">
-		<span class="{{l}}__tag"><a href="/blog/">{{ page.title }} &#215;</a></span>
+{% assign topic = page.title | capitalize %}
+{% assign heading = "<h1>" | append: topic | append: "</h1>" %}
+{% assign subheading = "<p>Posts from the Causey blog filed under “" | append: topic | append: "”.</p>" %}
+<div class="archive-layout">
+	{% assign c = "c-plan-hero" %}
+	<div class="{{c}} component-wrapper component-wrapper--navy">
+		{% bookshop plan-hero
+			heading_html=heading
+			subheading_html=subheading
+			secondary_label="See all posts"
+			secondary_link_url="/blog/" %}
 	</div>
 
-	{% bookshop posts-list
-		show_posts=true
-		tag=archive_filter_tag %}
+	{% assign c = "c-posts-list" %}
+	<div class="{{c}} component-wrapper component-wrapper--light">
+		{% bookshop posts-list
+			show_posts=true
+			tag=archive_filter_tag %}
+	</div>
 </div>

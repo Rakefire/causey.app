@@ -1,85 +1,75 @@
-.c-post-header,
-.n-post-header {
-  &__heading {
-    margin-bottom: 8px;
-    font-size: 2.4em;
+.c-post-header {
+  &__inner-wrapper {
+    margin-bottom: 4rem;
+    padding-bottom: 2.4rem;
+    border-bottom: 1px solid var(--border-color);
+  }
 
-    &--title {
-      margin-bottom: 16px;
-      text-align: left;
-      font-size: 4.2em;
-      font-weight: 500;
-      line-height: 1.15;
-      letter-spacing: -0.01em;
-    }
-
-    a {
-      color: var(--headings-color);
-
-      &:hover {
-        text-decoration: none;
-      }
-    }
+  @at-root h1.c-post-header__heading {
+    margin: 0 0 2.8rem;
+    font-size: clamp(3.4rem, 5vw, 5.2rem);
+    font-weight: 750;
+    line-height: 1.05;
+    letter-spacing: -0.03em;
+    text-wrap: balance;
   }
 
   &__post-info {
     display: flex;
-    justify-content: flex-start;
+    flex-wrap: wrap;
     align-items: center;
-    gap: 16px;
-    padding-bottom: 16px;
-    border-bottom: 2px solid var(--border-color);
-  }
-
-  &__categories {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-  }
-
-  &__category {
-    display: flex;
-    padding: 4px 10px;
-    border-radius: 4px;
-    background: var(--tag-color);
-
-    a {
-      font-size: 1.2em;
-      font-weight: 500;
-      color: var(--text-color);
-
-      &:hover {
-        text-decoration: none;
-        color: var(--headings-color);
-      }
-    }
-  }
-
-  &__date {
-    font-size: 1.4em;
-    color: #999;
+    gap: 1.2rem 2.4rem;
+    font-size: 1.5rem;
   }
 
   &__author {
     display: flex;
     align-items: center;
-    padding-top: 16px;
+    gap: 1rem;
+    font-weight: 600;
+    color: var(--headings-color);
 
     img {
-      margin: 0 10px 0 0;
-      padding: 0;
-      width: 36px;
-      height: 36px;
-      border-radius: 100%;
+      margin: 0;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
       object-fit: cover;
     }
+  }
 
-    span {
-      font-size: 1.5em;
-      font-weight: 500;
+  &__date {
+    color: var(--text-color);
+  }
+
+  &__categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  @at-root li.c-post-header__category {
+    margin: 0;
+    font-size: 1.4rem;
+
+    a {
+      display: inline-block;
+      padding: 0.3rem 1rem;
+      border-radius: 6px;
+      background: #eef2f4;
       color: var(--headings-color);
+      text-decoration: none;
+
+      &:hover {
+        background: #dfe6ea;
+      }
     }
   }
+}
+
+body.dark li.c-post-header__category a {
+  background: var(--tag-color);
 }

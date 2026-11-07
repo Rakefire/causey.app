@@ -1,8 +1,8 @@
 {% assign c = "c-posts-list" %}
 {% if include.show_posts %}
-	<div class="{{c}}__inner-wrapper">
+	<div class="{{c}}__inner-wrapper component">
 		{% if include.heading %}
-			<h1 class="{{c}}__heading">{{ include.heading }}</h1>
+			<h2 class="{{c}}__heading">{{ include.heading }}</h2>
 		{% endif %}
 		{% if include.content_text %}
 			<p class="{{c}}__content">{{ include.content_text }}</p>
@@ -14,8 +14,10 @@
 			{% assign posts = site.posts | where_exp:"post", "post.categories contains include.tag" %}
 		{% endunless %}
 
-		{% for post in posts %}
-			{% bookshop post-preview post=post %}
-		{% endfor %}
+		<div class="{{c}}__list">
+			{% for post in posts %}
+				{% bookshop post-preview post=post %}
+			{% endfor %}
+		</div>
 	</div>
 {% endif %}
