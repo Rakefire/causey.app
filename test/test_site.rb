@@ -68,7 +68,7 @@ class TestSite < Bridgetown::Test
         next "img without alt: #{src}" unless img.key?("alt")
         next unless src.start_with?("/") && !src.start_with?("//")
         next "missing image file: #{src}" unless self.class.local_file?(src)
-        "no width/height: #{src}" if src.match?(/\.(png|jpe?g|gif|webp)\z/i) && !(img["width"] && img["height"])
+        "no width/height: #{src}" if src.match?(/\.(png|jpe?g|gif|webp)(\?|\z)/i) && !(img["width"] && img["height"])
       end
     end)
   end

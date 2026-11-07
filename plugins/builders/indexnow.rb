@@ -5,7 +5,7 @@ require "rexml/document"
 
 class Builders::Indexnow < SiteBuilder
   INDEXNOW_KEY = "2df97b9b-a29d-43a6-9963-4f9f5121c603"
-  INDEXNOW_API = "https://api.indexnow.org/indexnow"
+  INDEXNOW_API = "https://yandex.com/indexnow" # api.indexnow.org (Bing) returns 403; IndexNow shares submissions with Bing
   SITE_HOST = "https://www.causey.app"
 
   def build
