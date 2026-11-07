@@ -1,16 +1,39 @@
 # Causey Website
 
-Bridgetown + Bookshop component-based site for causey.app. Migrated from
+Bridgetown 2.2 + Bookshop component-based site for causey.app. Migrated from
 Jekyll in April 2026; the legacy `site/` tree was removed once production
 parity was confirmed against `https://www.causey.app`.
+
+## Bridgetown setup
+
+- Templates are **Liquid** (`template_engine "liquid"`), not ERB, so the
+  Jekyll-era templates and Bookshop components keep working.
+- Config lives in `config/initializers.rb` (there is no `bridgetown.config.yml`):
+  URL, `/:slug/` permalinks, Jekyll-style `slugify_mode`, collections
+  (`posts`, `pages`, `clients` output; `staff_members` data only), front-matter
+  defaults, `bridgetown-feed`, `bridgetown-sitemap`, and pagination.
+- Pagination is Bridgetown's built-in paginator. `/blog/` sets
+  `paginate: { collection: posts, per_page: 10 }`; the `posts-list` component
+  reads `paginator.resources` and infinite-scrolls `/blog/page/N/`.
+- Changes to `config/initializers.rb` need a dev server restart.
+- Upgrade with `bundle update bridgetown --conservative`, then diff `output/`
+  against a pre-upgrade build (only `feed.xml`/`sitemap.xml` timestamps and the
+  generator version should change).
 
 ## Development
 
 - `npm start` runs the Bridgetown dev server (port 6061) plus `bookshop-browser`
-- Source lives at the repo root: `src/_layouts/`, `src/_includes/`, `src/_posts/`, `src/_pages/`, etc.
-- Bookshop component library: `component-library/components/`
-- SCSS follows BEM naming, uses CSS variables for theming (`src/_data/themes.yml`)
-- Build with `BRIDGETOWN_ENV=production bundle exec bridgetown build` → `output/`
+- Source lives under `src/`: `_layouts/`, `_includes/`, `_posts/`, `_pages/`,
+  `_staff_members/`, `_data/`, `uploads/`
+- Bookshop component library: `component-library/components/<name>/` with
+  `<name>.jekyll.html`, `<name>.scss`, `<name>.bookshop.yml`. Pages are mostly
+  `content_blocks` front matter that render these components.
+- SCSS follows BEM naming, uses CSS variables for theming (`src/_data/themes.yml`).
+  Root font-size is 10px, so `1.6rem` = 16px.
+- Local build: `bundle exec bridgetown build` → `output/`
+- **Don't run a production build locally.** `BRIDGETOWN_ENV=production`
+  triggers `plugins/builders/indexnow.rb`, which submits every sitemap URL to
+  IndexNow. Production builds are for deploys only.
 
 ## Custom Bridgetown plugins
 
@@ -26,6 +49,17 @@ Ported during the Jekyll migration to fill gaps Bridgetown doesn't ship:
   and `jekyll-redirect-from`
 - `plugins/scss_converter.rb` — sass-embedded converter plus a
   postcss-fluidvars equivalent that synthesizes `--s-N-M` clamp() vars
+
+Post-build output (run after the site is written):
+
+- `plugins/builders/html_minifier.rb` — compresses HTML (skipped in watch mode)
+- `plugins/builders/markdown_for_agents.rb` — writes a `.md` twin of each page
+  for Cloudflare's `Accept: text/markdown` rewrite
+- `plugins/builders/agent_skills.rb` — `/.well-known/agent-skills/` from
+  `src/_data/agent_skills.yml`
+- `plugins/builders/api_catalog.rb` — `/.well-known/api-catalog`
+- `plugins/builders/indexnow.rb` — pings IndexNow, production or
+  `INDEXNOW=true` only (see above)
 
 ## Brand Guidelines
 
