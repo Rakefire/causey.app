@@ -7,7 +7,7 @@ hydra:
     headings_color: "#243746"
     text_color: "#4a5864"
     light_text_color: "#ffffff"
-    link_color: "#1d988c"
+    link_color: "#17786e"
     button_fill_color: "#cb3727"
     button_fill_text_color: "#ffffff"
     tag_color: '#f8f0e1'
