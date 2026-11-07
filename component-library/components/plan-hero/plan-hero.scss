@@ -30,6 +30,13 @@
 			font-size: clamp(1.8rem, 1.9vw, 2.1rem);
 			line-height: 1.5;
 			max-width: 58rem;
+
+			a {
+				color: #fff;
+				text-decoration: underline;
+				text-decoration-color: var(--ph-slow);
+				text-underline-offset: 0.2em;
+			}
 		}
 	}
 
