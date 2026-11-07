@@ -60,6 +60,21 @@
 		&:hover { color: var(--ph-slow); }
 	}
 
+	// A real app screenshot, framed like the plan sheet.
+	&__shot {
+		margin: clamp(40px, 6vw, 72px) 0 0;
+
+		img {
+			display: block;
+			width: 100%;
+			height: auto;
+			border-radius: 10px;
+			// The app bar is navy too; the outline keeps the top edge visible.
+			outline: 1px solid rgb(255 255 255 / 0.2);
+			box-shadow: 0 24px 60px -24px rgb(0 0 0 / 0.5);
+		}
+	}
+
 	// The plan sheet: the one memorable thing on the page.
 	&__plan {
 		margin: clamp(40px, 6vw, 72px) 0 0;

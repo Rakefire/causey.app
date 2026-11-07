@@ -14,6 +14,9 @@ blueprint:
   button_link_url: ""
   secondary_label: ""
   secondary_link_url: ""
+  screenshot: ""
+  screenshot_mobile: ""
+  screenshot_alt: ""
   plan:
     org: ""
     mission: ""

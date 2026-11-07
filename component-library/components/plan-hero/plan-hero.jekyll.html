@@ -43,4 +43,13 @@
 		</figcaption>
 	</figure>
 	{% endif %}
+
+	{% if include.screenshot %}
+	<figure class="{{c}}__shot">
+		<picture>
+			{% if include.screenshot_mobile %}<source media="(max-width: 560px)" srcset="{{ include.screenshot_mobile }}">{% endif %}
+			<img src="{{ include.screenshot }}" alt="{{ include.screenshot_alt }}">
+		</picture>
+	</figure>
+	{% endif %}
 </div>
