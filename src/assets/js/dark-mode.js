@@ -8,11 +8,11 @@ function changeMode() {
   if (document.body.classList.contains('dark')) {
     modeLabel.innerText = 'Light mode'
     localStorage.setItem('mode', 'dark')
-    document.html.classList.remove("sl-theme-dark")
+    document.documentElement.classList.add("sl-theme-dark")
   } else {
     modeLabel.innerText = 'Dark mode'
     localStorage.setItem('mode', 'light')
-    document.html.classList.add("sl-theme-dark")
+    document.documentElement.classList.remove("sl-theme-dark")
   }
 }
 
@@ -20,6 +20,7 @@ function checkMode() {
   if (mode) {
     if (mode == 'dark') {
       document.body.classList.add('dark');
+      document.documentElement.classList.add('sl-theme-dark');
       modeLabel.innerText = 'Light mode';
     } else {
       document.body.classList.remove('dark');
