@@ -69,13 +69,17 @@ Post-build output (run after the site is written):
   `loading="lazy" decoding="async"` to local raster images. Mark
   above-the-fold images `loading="eager"` (the hero also sets
   `fetchpriority="high"`)
+- `plugins/builders/asset_versions.rb` — appends `?v=<content hash>` to local
+  CSS/JS/font/image URLs in HTML and CSS. Cloudflare caches `?v=` URLs for a
+  year, so a changed file must keep going through this (no hard-coded `?v=`)
 - `plugins/builders/html_minifier.rb` — compresses HTML (skipped in watch mode)
 - `plugins/builders/markdown_for_agents.rb` — writes a `.md` twin of each page
   for Cloudflare's `Accept: text/markdown` rewrite
 - `plugins/builders/agent_skills.rb` — `/.well-known/agent-skills/` from
   `src/_data/agent_skills.yml`
 - `plugins/builders/api_catalog.rb` — `/.well-known/api-catalog`
-- `plugins/builders/indexnow.rb` — pings IndexNow, production or
+- `plugins/builders/indexnow.rb` — pings IndexNow (via Yandex; Bing's endpoint
+  returns 403 and gets the URLs through IndexNow sharing), production or
   `INDEXNOW=true` only (see above)
 
 ## Brand Guidelines

@@ -10,7 +10,7 @@ class Builders::ImageAttributes < SiteBuilder
       Dir.glob(File.join(site.dest, "**", "*.html")).each do |file|
         html = File.read(file)
         out = html.gsub(/<img\b[^>]*>/) do |tag|
-          src = tag[/\ssrc="(\/[^"?#]+\.(?:png|jpe?g|gif|webp))"/i, 1]
+          src = tag[/\ssrc="(\/[^"?#]+\.(?:png|jpe?g|gif|webp))(?:\?[^"]*)?"/i, 1]
           next tag unless src
 
           path = File.join(site.dest, URI::RFC2396_PARSER.unescape(src))
