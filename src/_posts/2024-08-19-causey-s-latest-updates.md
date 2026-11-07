@@ -28,7 +28,7 @@ More and more Causey users are turning to [Action Items](https://url4586.causey.
 
 Tired of scrolling through tons of text? We think this option will help. Simply select "Fully Display" when adding or editing a Compass element to truncate the text of this section so you can get to your Focus Areas quickly.
 
-![Compass element with Fully Display toggle to truncate text](/uploads/screenshot-2024-07-11-at-10-38-20-am.png)
+![Compass element with Fully Display toggle to truncate text](/uploads/screenshot-2024-07-11-at-10-38-20-am.jpg)
 
 **New Filtering Options**
 
