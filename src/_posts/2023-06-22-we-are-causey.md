@@ -11,7 +11,7 @@ SEO_options:
   description: >-
     Learn about the rebrand from Mission Met Center to Causey, including the
     new name, software changes, pricing updates, and timing.
-  image: /uploads/causey-tagline.png
+  image: /uploads/causey-logo.png
   prevent_indexing: false
 blurb: Mission Met Center is now Causey, a rebrand reflecting our differentiation from consulting services and our evolution into a robust strategic planning software platform. While retaining all previous features, Causey adds enhancements, introduces new pricing tiers, and transitions to a new URL. We remain committed to serving you and look forward to an exciting future of product development.
 redirect_from:
@@ -24,7 +24,7 @@ We've got some exciting news to share with you…
 
 Mission Met Center has changed its name to Causey.
 
-![Causey logo with tagline](/uploads/causey-tagline.png){: width="4000" height="1090"}
+![Causey logo](/uploads/causey-logo.png){: width="4000" height="974"}
 
 ## **Here’s the rest of the story…**
 
