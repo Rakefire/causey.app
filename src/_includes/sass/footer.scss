@@ -1,39 +1,54 @@
+// Navy footer: matches the navy hero and keeps red/yellow for the logo,
+// primary buttons and plan statuses. Background comes from themes.yml footer_color.
 .c-footer {
   $c: &;
+  --footer-bg: var(--footer-color);
+  --footer-text: #d5dde3;
+  --footer-rule: rgba(255, 255, 255, 0.16);
   position: relative;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 60px var(--s-30-50) 30px;
-  background-color: var(--footer-color);
+  padding: clamp(56px, 7vw, 88px) var(--s-30-50) 32px;
+  background-color: var(--footer-bg);
+  color: var(--footer-text);
+
+  a:focus-visible {
+    outline: 2px solid #fff;
+    outline-offset: 3px;
+    border-radius: 3px;
+  }
 
   &__logo {
-    text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: clamp(32px, 4vw, 48px);
     width: 100%;
+    max-width: var(--breakpoint-max);
 
     img {
-      max-width: 140px;
+      display: block;
+      max-width: 150px;
     }
   }
 
   &__columns {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 40px;
+    gap: 40px clamp(24px, 3.5vw, 48px);
     width: 100%;
     max-width: var(--breakpoint-max);
   }
 
   &__column {
     h4 {
-      font-size: 1.7em;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.06em;
-      padding-bottom: 12px;
-      border-bottom: 2px solid rgba(0,0,0,0.1);
+      margin: 0 0 16px;
+      padding-top: 16px;
+      border-top: 2px solid var(--footer-rule);
+      color: #fff;
+      font-family: var(--headings-fonts);
+      font-size: 1.9rem;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      text-transform: none;
     }
 
     ul {
@@ -42,52 +57,56 @@
       list-style: none;
     }
 
-    @media (max-width: 599px) {
-      margin: 10px 0;
-    }
-
     li {
-      margin: 10px 0;
-      font-size: 1.65em;
-
-      @media (max-width: 599px) {
-        margin: 10px 0;
-      }
+      margin: 0 0 10px;
+      font-size: 1.6rem;
+      line-height: 1.4;
     }
 
-    a {
-      transition: color 0.2s ease;
-
-      &:hover {
-        color: var(--footer-link-hover-color);
-      }
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 1.5rem;
     }
 
     input[type=text], input[type=email] {
-      font-size: var(--content-font-size);
-      border: 1px solid var(--border-color);
-      border-radius: 6px;
-      padding: 0.5em;
       width: 100%;
-      box-sizing: border-box;
+      padding: 12px 14px;
+      border: 1px solid transparent;
+      border-radius: 6px;
+      background: #fff;
+      color: #243746;
+      font-family: var(--font);
+      font-size: 1.6rem;
+
+      &::placeholder { color: #686158; }
+
+      &:focus-visible {
+        outline: 2px solid #fff;
+        outline-offset: 2px;
+      }
     }
 
     input[type=submit] {
       display: block;
-      background-color: var(--headings-color);
-      border: none;
-      color: white;
-      font-size: calc(var(--content-font-size) * 0.8);
-      padding: 0.6em 1em;
-      margin-top: 0.5em;
       width: 100%;
+      margin-top: 10px;
+      padding: 12px 16px;
+      border: 0;
       border-radius: 6px;
+      background-color: #cb3727;
+      color: #fff;
+      font-family: var(--font);
+      font-size: 1.6rem;
       font-weight: 600;
       cursor: pointer;
-      transition: opacity 0.2s ease;
+      transition: background-color 0.15s ease;
 
-      &:hover {
-        opacity: 0.9;
+      &:hover { background-color: #b02e20; }
+
+      &:focus-visible {
+        outline: 2px solid #fff;
+        outline-offset: 2px;
       }
     }
   }
@@ -96,44 +115,56 @@
     position: relative;
     display: inline-flex;
     align-items: center;
-    justify-content: flex-start;
-    text-decoration: none;
-    color: var(--footer-link-color);
+    color: var(--footer-text);
     font-weight: 500;
-    transition: color 0.2s ease;
+    text-decoration: none;
+    text-underline-offset: 0.3em;
+    transition: color 0.15s ease;
   }
 
-  &__link-label {}
+  a#{$c}__link:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
 
   &__icon {
     display: inline-flex;
-    margin-right: 8px;
-    max-width: 32px;
-    max-height: 32px;
+    margin-right: 10px;
+    width: 18px;
+    height: 18px;
+
+    svg, img {
+      width: 100%;
+      height: 100%;
+      fill: currentColor;
+    }
   }
 
   &__lower-text {
-    margin-top: 30px;
+    margin-top: clamp(40px, 5vw, 64px);
     padding-top: 20px;
-    border-top: 1px solid rgba(0,0,0,0.1);
+    border-top: 1px solid var(--footer-rule);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 32px;
     width: 100%;
     max-width: var(--breakpoint-max);
-    text-align: center;
 
     p {
-      color: var(--footer-link-color);
-      font-size: 1.5em;
-      font-weight: 400;
+      display: flex;
+      gap: 20px;
+      margin: 0;
+      color: var(--footer-text);
+      font-size: 1.4rem;
 
       a {
-        color: var(--footer-link-color);
-        text-decoration: none;
+        color: #fff;
         font-weight: 600;
-        transition: color 0.2s ease;
+        text-decoration: underline;
+        text-decoration-color: rgba(255, 255, 255, 0.4);
+        text-underline-offset: 0.25em;
 
-        &:hover {
-          color: var(--footer-link-hover-color);
-        }
+        &:hover { text-decoration-color: #fff; }
       }
     }
   }

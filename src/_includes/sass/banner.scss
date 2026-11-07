@@ -1,21 +1,29 @@
+// Optional announcement bar above the navigation (text in _data/banner.yml).
 .c-banner {
-  $c: &;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  padding: 10px var(--s-30-50, 20px);
+  background-color: #243746;
+  text-align: center;
 
-  a,
   p {
-    font-size: 1.2em;
-    color: var(--text-color);
-    text-decoration: none;
-    font-weight: 400;
+    margin: 0;
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 1.4;
   }
 
-  p {
-    line-height: 100%;
-    margin-bottom: 10px;
+  a {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: #faa21b;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.25em;
+
+    &:hover { color: #fdd671; }
+
+    &:focus-visible {
+      outline: 2px solid #fff;
+      outline-offset: 2px;
+    }
   }
 }

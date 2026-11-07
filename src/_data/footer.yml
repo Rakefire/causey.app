@@ -58,7 +58,7 @@ link_columns:
         icon_image:
         open_in_new_tab: false
   - label: Newsletter
-    heading: Sign up for our Newsletter
+    heading: Sign up for our newsletter
     forms:
       - submit: Sign Up
         async: true

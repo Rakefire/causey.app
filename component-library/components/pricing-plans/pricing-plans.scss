@@ -197,6 +197,14 @@
         width: 40%;
         color: var(--headings-color);
       }
+
+      a {
+        color: var(--headings-color);
+        text-decoration: underline;
+        text-decoration-color: #1d988c;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 0.2em;
+      }
     }
 
     thead th {
@@ -205,6 +213,15 @@
       background: var(--page-color);
       border-bottom: 2px solid var(--headings-color);
       padding-top: 0;
+    }
+
+    // Fit all three tiers on phones instead of hiding two behind a scroll
+    @media (max-width: 600px) {
+      min-width: 0;
+      font-size: 1.3rem;
+
+      th, td { padding: 0.9rem 0.4rem; }
+      th:first-child, td:first-child { width: 34%; padding-left: 0; }
     }
   }
 
@@ -216,6 +233,8 @@
     font-size: 2rem;
     font-weight: 700;
     color: var(--headings-color);
+
+    @media (max-width: 600px) { font-size: 1.6rem; }
   }
 
   tr.c-pricing-plans__category-row td {
