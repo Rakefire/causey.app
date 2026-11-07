@@ -2,34 +2,44 @@
   &__inner-wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 80px 0;
+    align-items: flex-start;
+    padding-top: clamp(56px, 8vw, 104px);
+    padding-bottom: clamp(56px, 8vw, 104px);
   }
 
   &__content {
-    max-width: 650px;
-    text-align: center;
-
-    h2 {
-      font-size: 3.2em;
-      font-weight: 500;
-    }
+    max-width: 68rem;
 
     h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    p,
-    li,
-    a {
+    h2 {
       margin: 0;
-      color: var(--light-text-color);
+      font-size: clamp(3.2rem, 4.6vw, 4.8rem);
+      font-weight: 700;
+      line-height: 1.05;
+      letter-spacing: -0.025em;
+      text-wrap: balance;
+    }
+
+    p {
+      margin: 0;
+      font-size: 1.9rem;
+      line-height: 1.55;
+    }
+
+    h1 + p,
+    h2 + p {
+      margin-top: 1.6rem;
     }
   }
 
   .n-button {
-    margin-top: 30px;
+    margin-top: 3.2rem;
+  }
+
+  // Red band: everything goes white.
+  &.component-wrapper--branded .c-call-to-action__content {
+    h1, h2, h3, h4, h5, p, li, a {
+      color: #fff;
+    }
   }
 }

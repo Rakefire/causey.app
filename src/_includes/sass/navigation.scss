@@ -6,21 +6,28 @@
   top: 0;
   z-index: 100;
   left: 0;
-  padding: 23px 20px;
+  padding: 0 var(--s-30-50, 20px);
   width: 100%;
   height: 76px;
   max-height: 76px;
   background-color: var(--navigation-color);
 
+  a:focus-visible {
+    outline: 2px solid #fff;
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+
   &--open {
     @media (max-width: 700px) {
       position: relative;
-      margin-top: -76px;
+      padding-top: 18px;
+      padding-bottom: 12px;
       height: auto;
       max-height: 1200px;
 
       #{$c}__nav-items {
-        padding-top: 10px;
+        padding-top: 16px;
       }
 
       #{$c}__item-wrapper {
@@ -42,27 +49,30 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 24px;
     margin: 0 auto;
     width: 100%;
-    max-width: 1140px;
+    max-width: var(--breakpoint-max);
 
     @media (max-width: 700px) {
       flex-direction: column;
       align-items: flex-start;
+      gap: 0;
     }
   }
 
   &__nav-items {
     display: flex;
     align-items: center;
+    gap: 4px;
     margin: 0;
     padding: 0;
     list-style: none;
 
-
     @media (max-width: 700px) {
       flex-direction: column;
-      align-items: flex-start;
+      align-items: stretch;
+      gap: 0;
       padding-top: 0;
       width: 100%;
     }
@@ -70,98 +80,100 @@
 
   &__item-wrapper {
     display: flex;
-    font-size: 10px;
 
     @media (max-width: 700px) {
       width: 100%;
       height: 0;
       overflow: hidden;
     }
-
-    &--mobile {}
   }
 
   &__item {
-    margin: 0 3px;
-    padding: 10px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0);
-    color: rgba(255, 255, 255, 0.8);
-    transition: all 0.2s ease;
-    text-decoration: none;
-    font-size: 1.55em;
+    padding: 8px 12px;
+    color: #fff;
+    font-family: var(--font);
+    font-size: 1.6rem;
     font-weight: 500;
-    letter-spacing: 0.01em;
+    line-height: 1.2;
+    text-decoration: none;
+    text-underline-offset: 0.35em;
+    text-decoration-thickness: 2px;
+    transition: background-color 0.15s ease, color 0.15s ease;
 
     @media (max-width: 700px) {
-      margin: 0 3px;
-      padding: 20px 10px;
+      padding: 16px 4px;
       width: 100%;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      font-size: 1.8rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.2);
       opacity: 0;
       pointer-events: none;
     }
 
     &:hover {
-      border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-      text-decoration: none;
+      color: #fff;
+      text-decoration: underline;
+      text-decoration-color: rgba(255, 255, 255, 0.6);
     }
 
     &--active {
-      color: var(--light-text-color);
+      text-decoration: underline;
+      text-decoration-color: #fff;
     }
 
     &--button {
-      display: flex;
-      border: 1.5px rgba(255,255,255,0.7) solid;
+      margin-left: 12px;
+      padding: 10px 18px;
+      background: #fff;
       border-radius: 6px;
+      color: #243746;
       font-weight: 600;
 
-      @media (max-width: 700px) {
-        border: none;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-        border-radius: 0;
+      &:hover {
+        background: #eef2f4;
+        color: #243746;
+        text-decoration: none;
       }
 
-      &:hover {
-        background: #fff;
-        color: var(--brand-color);
-
-        @media (max-width: 700px) {
-
-          background: unset;
-          color: rgba(255, 255, 255, 0.8);
-        }
+      @media (max-width: 700px) {
+        justify-content: center;
+        margin: 12px 0 4px;
+        padding: 14px 18px;
+        border-top: 0;
+        text-align: center;
       }
     }
 
     &--mobile-toggle {
       display: none;
-      margin-top: -6px;
-      font-size: 2.8em;
-      width: auto;
+      padding: 6px 10px;
+      font-size: 2.6rem;
+      line-height: 1;
       opacity: 1;
       pointer-events: all;
 
       @media (max-width: 700px) {
         display: block;
         position: absolute;
-        top: 0;
-        right: 0;
-        border: 1px solid transparent;
+        top: 18px;
+        right: var(--s-30-50, 20px);
+        width: auto;
+        border-top: 0;
       }
 
       &:hover {
-        border-bottom: 1px solid transparent;
+        text-decoration: none;
       }
     }
   }
 
-  &__label {
-  }
-
   img {
+    display: block;
     width: 100%;
-    max-width: 195px;
+    max-width: 180px;
     object-fit: contain;
+
+    @media (max-width: 700px) {
+      max-width: 150px;
+    }
   }
 }
