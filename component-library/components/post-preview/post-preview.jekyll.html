@@ -1,19 +1,17 @@
 {% assign n = 'n-post-preview' %}
-<div class="{{n}}__inner-wrapper">
-	<div class="{{n}}__top">
-		{% if include.post.SEO_options.image %}<img class="{{n}}__preview-image" src="{{ include.post.SEO_options.image }}" alt="{{ include.post.title }} image" />{% endif %}
-		{% bookshop post-header
-			nested=true
-			post=include.post %}
+<article class="{{n}}__inner-wrapper">
+	<div class="{{n}}__meta">
+		<time class="{{n}}__date" datetime="{{ include.post.date | date: '%Y-%m-%d' }}">{{ include.post.date | date: "%B %-d, %Y" }}</time>
+		{% if include.post.categories.size > 0 %}
+		<ul class="{{n}}__categories" aria-label="Categories">
+			{% for category in include.post.categories %}
+				<li><a href="/category/{{ category | slugify }}/">{{ category | capitalize }}</a></li>
+			{% endfor %}
+		</ul>
+		{% endif %}
 	</div>
-	<div class="{{n}}__content">
-		<p>
-			{{ include.post.blurb }}
-		</p>
+	<div class="{{n}}__body">
+		<h2 class="{{n}}__title"><a href="{{ include.post.url }}">{{ include.post.title }}</a></h2>
+		{% if include.post.blurb %}<p class="{{n}}__blurb">{{ include.post.blurb }}</p>{% endif %}
 	</div>
-
-	{% bookshop button
-				label="Read More"
-				variant="Filled"
-				link_url=include.post.url %}
-</div>
+</article>
