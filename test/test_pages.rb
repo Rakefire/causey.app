@@ -60,7 +60,7 @@ class TestPages < Bridgetown::Test
     it "lists consulting partners with logos" do
       page "/about/"
       logos = document.css(".c-columns__logo")
-      expect(logos.size).must_be :>=, 7
+      expect(logos.size).must_be :>=, 8
       logos.each { expect(_1["alt"].to_s).wont_be_empty }
     end
   end
