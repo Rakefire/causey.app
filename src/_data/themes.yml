@@ -2,16 +2,16 @@ hydra:
   light_theme_settings:
     page_color: "#ffffff"
     light_component_color: "#ffffff"
-    dark_component_color: "#f8f0e1"
+    dark_component_color: "#eef2f4"
     brand_color: "#cb3727"
     headings_color: "#243746"
-    text_color: "#666666"
+    text_color: "#4a5864"
     light_text_color: "#ffffff"
     link_color: "#1d988c"
     button_fill_color: "#cb3727"
     button_fill_text_color: "#ffffff"
     tag_color: '#f8f0e1'
-    border_color: '#e5e0da'
+    border_color: '#d9e0e5'
     shadows_color: '#f7f7f7'
     navigation_color: '#cb3727'
     footer_color: '#faa21b'
@@ -35,6 +35,6 @@ hydra:
     footer_color: '#000000'
     footer_link_color: '#999999'
     footer_link_hover_color: '#ffffff'
-  headings_font: 'Inter'
-  body_font: 'Inter'
+  headings_font: 'Bricolage Grotesque'
+  body_font: 'Public Sans'
   content_font_size_number: 2.2
