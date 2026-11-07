@@ -16,7 +16,7 @@ navigation_items:
   - label: Login
     link_url: https://my.causey.app/sign_in
     link_type: Text
-  - label: Schedule a Demo
+  - label: Schedule a demo
     link_url: https://calendly.com/ricky-causey/demo
     link_type: Button
   # - label: Sign up

@@ -64,3 +64,17 @@ body {
     fill: currentColor;
   }
 }
+// Warm gray (#686158) is too dark on the dark-mode navy surfaces.
+body.dark {
+  p.c-staff-list__position,
+  .c-frequently-asked-questions__anchor-link {
+    color: var(--text-color);
+  }
+}
+
+// On phones the copyright row runs the full width; drop the toggle below it.
+@media (max-width: 600px) {
+  .c-footer__lower-text {
+    padding-bottom: 56px;
+  }
+}

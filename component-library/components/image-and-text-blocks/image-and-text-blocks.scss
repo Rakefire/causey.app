@@ -60,5 +60,11 @@
 			padding: 2.4rem;
 			background: #243746;
 		}
+
+		// Black artwork needs a light ground in dark mode.
+		body.dark &:not(&--branded):not(&--navy) {
+			padding: 2.4rem;
+			background: #fff;
+		}
 	}
 }

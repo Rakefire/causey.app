@@ -68,7 +68,7 @@
         strong { color: var(--headings-color); }
 
         a {
-            color: #17786e;
+            color: var(--link-color);
             text-decoration: underline;
             text-underline-offset: 0.2em;
             overflow-wrap: anywhere;
@@ -78,7 +78,7 @@
 
         a.anchor-link {
             margin-left: 0.4em;
-            color: #b9b4ad;
+            color: #8a847c;
             text-decoration: none;
         }
 
