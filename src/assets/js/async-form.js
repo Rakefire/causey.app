@@ -41,3 +41,9 @@ const setupAsyncForms = () => {
 }
 
 document.addEventListener("DOMContentLoaded", setupAsyncForms)
+// Prefill the message from ?message= (e.g. the About page's "Become a partner" link).
+document.addEventListener("DOMContentLoaded", () => {
+  const message = new URLSearchParams(location.search).get("message")
+  const field = document.querySelector("form textarea[name='message']")
+  if (message && field && !field.value) field.value = message
+})
