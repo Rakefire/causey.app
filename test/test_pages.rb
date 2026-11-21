@@ -9,7 +9,7 @@ class TestPages < Bridgetown::Test
   end
 
   describe "core pages" do
-    %w[/ /pricing/ /about/ /contact/ /blog/ /sbdc/ /cohorts/ /terms/ /privacy/].each do |path|
+    %w[/ /pricing/ /about/ /contact/ /blog/ /sbdc/ /cohorts/ /terms/ /privacy/ /security/].each do |path|
       it "serves #{path} with one h1" do
         page path
         expect(document.css("h1").size) == 1
