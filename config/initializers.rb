@@ -16,8 +16,14 @@ Bridgetown.configure do |config|
   # level to reach the repo root, then into component-library.
   config.bookshop_locations = ["../component-library"]
 
-  # Keep Jekyll's exclude semantics
-  config.exclude = (config.exclude || []) + ["postcss.config.js", "node_modules"]
+  # Keep Jekyll's exclude semantics.
+  #
+  # src/_posts/CLAUDE.md is the blog writing guide for agents. Having no front
+  # matter, it would otherwise be copied out as a static file at /CLAUDE.md.
+  # Bridgetown 2.2 matches collection files against `exclude` relative to src/
+  # rather than src/_posts/, so the bare name is the pattern that works today;
+  # "_posts/CLAUDE.md" covers a future fix of that.
+  config.exclude = (config.exclude || []) + ["postcss.config.js", "node_modules", "CLAUDE.md", "_posts/CLAUDE.md"]
 
   # Plugin equivalents for jekyll-feed, jekyll-sitemap. Archives, redirects,
   # and bookshop are implemented in plugins/builders/.
