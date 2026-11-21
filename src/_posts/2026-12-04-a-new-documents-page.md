@@ -47,7 +47,7 @@ To file a document, drag it onto a folder. To move it up a level, drag it onto a
 
 ## **Easier to Scan**
 
-Each document is now a single line: an icon tinted by type, then the name, when it was added and updated, and its size. PDFs are red, Word files blue, PowerPoint orange, spreadsheets green, links teal, notes gray and folders brown, so you can spot the file you want before you read a word.
+Each document now gets one row: an icon tinted by type, then the name, when it was added and updated, and its size. Notes also show their first line under the name. PDFs are red, Word files blue, PowerPoint orange, spreadsheets green, links teal, notes gray and folders brown, so you can spot the file you want before you read a word.
 
 ![A folder open in the Documents panel, with its breadcrumb and one-line rows whose icons are tinted by file type](/uploads/documents-folder-breadcrumb.jpg){: width="1400" height="720"}
 

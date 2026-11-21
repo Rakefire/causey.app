@@ -31,13 +31,13 @@ As of this month, 87 organizations pay for Causey. Here's how long they've been 
 - 22, about one in four, have been with us for five years or more.
 - 15 have been with us for ten years or more, since long before we were called Causey.
 
-Our longest-standing customer is Good Shepherd Gracenter, which started with us in April 2015, about eleven and a half years ago. Migrant Clinicians Network reaches ten years next week, on December 1.
+Our longest-standing customer started with us in April 2015, about eleven and a half years ago. Another reaches ten years next week, on December 1.
 
-Most of our ten-year group are Small Business Development Centers that joined in 2016: North Texas SBDC that March, Central California SBDC in April, and then, over the rest of that year, the CSU Bakersfield, Cal Poly CIE, Central Coast, Valley Sierra, Valley Community, La Verne, LA Regional Network, EDC-Ventura County, Long Beach City College, El Camino College and PCR Business Finance SBDCs. Community Food Initiatives joined that same April.
+Most of that ten-year group are Small Business Development Centers, who have been with us since 2016. Today we work with eight SBDC networks in five states, which together run about 80 service centers helping small businesses start and grow.
 
 And some newer relationships have grown in ways I'm proud of. Thrive Alliance has been with us since 2021, and now leads one of the [two nonprofit cohorts we welcomed in October](/welcome-to-causey-celebrating-two-new-nonprofit-cohorts/).
 
-Each of those years meant choosing Causey again. I don't take that for granted. Thank you for trusting us with your plans, for telling us when something wasn't working, and for the patience you've shown while we improved it.
+Staying with a tool that long is a choice, and I don't take it for granted. Thank you for trusting us with your plans, for telling us when something wasn't working, and for the patience you've shown while we improved it.
 
 ## **A Season to Slow Down**
 

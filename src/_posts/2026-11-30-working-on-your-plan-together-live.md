@@ -11,7 +11,7 @@ SEO_options:
   description: >-
     Causey now shows who else has a page of your plan open, and updates plan
     and metrics pages in place when a teammate makes a change.
-  image: /uploads/live-presence-tooltip.jpg
+  image:
   prevent_indexing: false
 blurb: >-
   Causey now shows who else is on the page with you, and your plan and metrics
