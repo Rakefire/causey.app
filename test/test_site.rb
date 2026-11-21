@@ -95,3 +95,13 @@ class TestSite < Bridgetown::Test
     expect(File.file?(File.join(OUTPUT, "feed.xml"))).must_equal true
   end
 end
+
+# Expires must stay in the future (RFC 9116); renew with the app repo's copy.
+class TestSecurityTxt < Bridgetown::Test
+  it "is built into .well-known and not yet close to expiry" do
+    get "/.well-known/security.txt"
+    expect(last_response.status) == 200
+    expires = last_response.body[/^Expires: (.+)$/, 1]
+    expect(Time.parse(expires)).must_be :>, Time.now + 60 * 86_400
+  end
+end
