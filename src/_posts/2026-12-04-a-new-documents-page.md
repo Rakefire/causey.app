@@ -12,7 +12,7 @@ SEO_options:
     Causey's redesigned Documents page lists categories beside one panel,
     gives every folder a link you can share, and lets you drag files to move
     or upload them.
-  image:
+  image: /uploads/documents-categories.jpg
   prevent_indexing: false
 blurb: >-
   The Documents page has a new layout: categories on the left, one panel on
@@ -29,7 +29,7 @@ So we rebuilt it.
 
 Your categories are now listed down the left side, each with how many documents it holds. Click one and it fills a single panel on the right, with its name, a plain count like "4 documents, 1 folder," and its tags.
 
-<!-- SCREENSHOT: Documents page with the category list on the left and one category open, 1400x900 -->
+![The Documents page, with categories listed on the left and Board Packets open in the panel beside them](/uploads/documents-categories.jpg){: width="1400" height="600"}
 
 Everything you can do to a category is in two menus at the top of that panel. "Add" creates an attachment, a note or a link. The ⋯ menu edits the category, adds a folder or deletes it. You can drag categories in the list to put them in the order you want, and the tag filter narrows the list to the categories you care about.
 
@@ -49,7 +49,7 @@ To file a document, drag it onto a folder. To move it up a level, drag it onto a
 
 Each document is now a single line: an icon tinted by type, then the name, when it was added and updated, and its size. PDFs are red, Word files blue, PowerPoint orange, spreadsheets green, links teal, notes gray and folders brown, so you can spot the file you want before you read a word.
 
-<!-- SCREENSHOT: A folder open with breadcrumb and one-line document rows with tinted icons, 1400x900 -->
+![A folder open in the Documents panel, with its breadcrumb and one-line rows whose icons are tinted by file type](/uploads/documents-folder-breadcrumb.jpg){: width="1400" height="720"}
 
 The same rows appear in the Documents sections inside your plan, under focus areas, goals and action items, and those sections now use the same "Add" menu.
 

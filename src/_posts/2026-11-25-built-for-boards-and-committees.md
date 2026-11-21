@@ -11,7 +11,7 @@ SEO_options:
   description: >-
     Causey now lets a committee own a goal, sorts members into groups, and
     lets people sign in with an emailed link instead of a password.
-  image:
+  image: /uploads/boards-members-roles.jpg
   prevent_indexing: false
 blurb: >-
   A committee can now champion a goal without an inbox of its own, members can
@@ -30,7 +30,7 @@ A role stands in for a committee, a staff position or a partner organization. It
 
 To add one, go to Settings, open Members, and choose "Add a Role." All it needs is a name. Putting the person who holds it in the name helps, as in "Finance Committee (Chair: Hannah)." When the chair changes, you rename the role, and every goal it champions stays exactly where it was.
 
-<!-- SCREENSHOT: Settings > Members, showing a role row beside people, 1400x900 -->
+![The Members page in Settings, with a Finance Committee role listed among the people and group filters along the top](/uploads/boards-members-roles.jpg){: width="1400" height="832"}
 
 Roles show up in the champion and team pickers with a square avatar and the word "Role" under the name, so nobody mistakes them for a person. You can give a role a logo, too.
 
@@ -52,7 +52,7 @@ Groups are labels for your own organizing. They don't change what anyone can see
 
 The sign-in page now has an "Email me a sign-in link" button. Enter your email address and Causey sends a link that signs you in. Each link works once and expires after 15 minutes. Passwords still work for anyone who prefers them.
 
-<!-- SCREENSHOT: The redesigned sign-in page with "Email me a sign-in link", 1400x900 -->
+![The sign-in page, with the Email me a sign-in link button above the password option](/uploads/boards-sign-in-link.jpg){: width="1400" height="786"}
 
 A few related changes came with it:
 

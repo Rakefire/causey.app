@@ -11,7 +11,7 @@ SEO_options:
   description: >-
     Causey now shows who else has a page of your plan open, and updates plan
     and metrics pages in place when a teammate makes a change.
-  image:
+  image: /uploads/live-presence-tooltip.jpg
   prevent_indexing: false
 blurb: >-
   Causey now shows who else is on the page with you, and your plan and metrics
@@ -28,7 +28,7 @@ When someone else has the same page open, their photo or initials appear in a sm
 
 If they have an edit form open, a ring appears around their circle and the tooltip tells you what they're working on, such as "with Edit Goal open." That's a helpful nudge before two people start rewriting the same goal.
 
-<!-- SCREENSHOT: Plan view header with three presence circles, one ringed, tooltip "... is also on this page, with Edit Goal open", 1400x900 -->
+![Three teammates’ circles at the top of the Plan view, with the tooltip Maria Delgado is also on this page, with Edit Goal open](/uploads/live-presence-tooltip.jpg){: width="1400" height="257"}
 
 When a lot of people are on one page, Causey shows the first few and folds the rest into a "+3" style chip, and hovering over it lists everyone.
 
@@ -44,7 +44,7 @@ Just as important, you keep your place: the page stays where you scrolled it, th
 
 Causey won't refresh a page while you're typing on it. Instead, you'll see a notice that says "Someone else updated this plan" (or "these metrics") with a "Show latest" button, and you can click it when you're done.
 
-<!-- SCREENSHOT: The "Someone else updated this plan" notice with the Show latest button, 1400x900 -->
+![The Someone else updated this plan notice with its Show latest button, at the top of the Plan view](/uploads/live-plan-updated-notice.jpg){: width="1400" height="257"}
 
 If you're working in a pop-up form, like editing a goal, the form stays open with everything you've typed while the page behind it updates.
 

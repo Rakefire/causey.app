@@ -11,7 +11,7 @@ SEO_options:
   description: >-
     Causey's Change History shows administrators who changed what in your
     plan, and when. If something was deleted by mistake, we can bring it back.
-  image:
+  image: /uploads/change-history-entry.jpg
   prevent_indexing: false
 blurb: >-
   A new Change History page in Settings shows administrators who changed what
@@ -30,7 +30,7 @@ In Settings, choose "Change history" from the menu on the left. You'll see the c
 
 One action often touches several things at once. Deleting a goal also deletes its action items, for example. Causey groups those into a single entry named after the main item, and you can open it to see each change, with the value before and after.
 
-<!-- SCREENSHOT: Settings > Change history, one grouped entry expanded to show before and after values, 1400x900 -->
+![The Change History page in Settings, with one entry opened to show a goal’s due date and wording before and after a teammate’s edit](/uploads/change-history-entry.jpg){: width="1400" height="810"}
 
 The history covers:
 

@@ -11,7 +11,7 @@ SEO_options:
   description: >-
     The Overview tab shows your whole strategic plan on one page, and metrics
     now read as plain progress toward a target, with a chart style for each.
-  image:
+  image: /uploads/overview-tab.jpg
   prevent_indexing: false
 blurb: >-
   The Overview tab puts your whole plan on one page, metrics now read like a
@@ -28,7 +28,7 @@ I mentioned the Overview tab briefly when we [refreshed Causey's look](/a-fresh-
 
 Overview is the first tab in Strategy. It shows your whole plan on one page: your organization's name, the plan's name and your mission at the top, then one column for each focus area. Under each focus area is every goal, with a progress bar, its status (On Track, Slow Progress, Off Track, Completed or Not Started) and its percent complete. If you use strategies, goals are grouped under them.
 
-<!-- SCREENSHOT: Overview tab for a sample food-bank plan, four focus-area columns, 1400x900 -->
+![The Overview tab for a sample food bank’s plan, with a column for each of its four focus areas](/uploads/overview-tab.jpg){: width="1400" height="740"}
 
 It's read-only and there's nothing to set up. It's the page I'd put on the screen at a board meeting. On a phone, the columns stack so you can scroll through them. Overview is on every Causey plan.
 
@@ -38,7 +38,7 @@ On the Metrics tab, each metric's progress now reads as one phrase, like "289 to
 
 Every row also lines up now. The current value, the target, the trend line and the reporting schedule sit in the same place from one metric to the next, so you can scan down the page and compare.
 
-<!-- SCREENSHOT: Metrics tab, three aligned rows with target bars, 1400x900 -->
+![The Metrics tab, with each metric’s current value, target, percent and a bar toward the target lined up row by row](/uploads/metrics-target-bars.jpg){: width="1400" height="790"}
 
 When you expand a metric to see its measurements, a new "Change since previous" column shows an up or down arrow, how much the number moved and the percent change. You no longer have to do the subtraction in your head.
 
@@ -48,7 +48,7 @@ Not every number should be drawn the same way. A monthly count of meals served m
 
 Each metric now has a "Chart Style" setting, under Advanced on the metric form, with four choices: Bars, Line, Area and Steps. Bars is the default and is how every chart looked before, so nothing changes until you pick something else.
 
-<!-- SCREENSHOT: Chart tab showing one metric as Line and one as Area, with target lines, 1400x900 -->
+![The Chart tab, with Households Served drawn as a line and Volunteer Hours as an area, each with its target and baseline lines](/uploads/metrics-chart-styles.jpg){: width="1400" height="1605"}
 
 The style follows the metric everywhere its full chart appears: the Chart tab, your dashboards, presentation slides and the "Download Chart" button. Target and baseline lines look the same in every style, and cloning a metric keeps its style.
 
