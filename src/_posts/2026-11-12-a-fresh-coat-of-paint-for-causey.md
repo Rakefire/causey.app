@@ -50,7 +50,7 @@ Nothing about how Causey works has changed. What changed is how it feels to use.
 
 **A clearer sense of what matters.** On every page, the most important thing should be the first thing you see. Titles, numbers, and status now lead, and the supporting details step back.
 
-![The Metrics page, with current values, targets, and trends](/uploads/causey-refresh-metrics.jpg){: width="1400" height="900"}
+![The Metrics page, with current values, targets, and trends](/uploads/causey-refresh-metrics-2.jpg){: width="1400" height="700"}
 
 ## **It Should Feel Like Home**
 
