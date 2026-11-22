@@ -25,6 +25,8 @@ parity was confirmed against `https://www.causey.app`.
 - `npm start` runs the Bridgetown dev server (port 6061) plus `bookshop-browser`
 - Source lives under `src/`: `_layouts/`, `_includes/`, `_posts/`, `_pages/`,
   `_staff_members/`, `_data/`, `uploads/`
+- Blog posts: writing, fact-checking or scheduling one, read
+  `src/_posts/CLAUDE.md` first (voice, front matter, publish dates, site tests)
 - Bookshop component library: `component-library/components/<name>/` with
   `<name>.jekyll.html`, `<name>.scss`, `<name>.bookshop.yml`. Pages are mostly
   `content_blocks` front matter that render these components.
