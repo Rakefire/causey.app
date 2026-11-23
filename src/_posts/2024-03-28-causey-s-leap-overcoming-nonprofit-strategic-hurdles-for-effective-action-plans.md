@@ -22,7 +22,7 @@ blurb: >-
   challenges and how Causey tackles them.
 ---
 
-Ted Bilich, a seasoned colleague and expert in nonprofit risk assessment, recently penned an insightful [article on the hurdles faced during the implementation of nonprofit strategic plans](https://tedbilich.applikuapp.com/insight-exchange/the-implementation-illusion-why-your-nonprofits-strategic-plan-might-fail-and-how-to-fix-it/){: target="\_blank" rel="noopener"}. We found his analysis to be not only accurate but also profoundly resonant with the challenges we aim to tackle head-on with our innovative software, [Causey](http://www.causey.app).
+Ted Bilich, a seasoned colleague and expert in nonprofit risk assessment, recently penned an insightful [article on the hurdles faced during the implementation of nonprofit strategic plans](https://tedbilich.applikuapp.com/insight-exchange/the-implementation-illusion-why-your-nonprofits-strategic-plan-might-fail-and-how-to-fix-it/){: target="_blank" rel="noopener"}. We found his analysis to be not only accurate but also profoundly resonant with the challenges we aim to tackle head-on with our innovative software, [Causey](http://www.causey.app).
 
 This article uses Ted’s framework that he laid out to address each of the challenges and how Causey seeks to address them.
 

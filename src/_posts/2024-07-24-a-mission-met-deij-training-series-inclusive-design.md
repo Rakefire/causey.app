@@ -20,7 +20,7 @@ blurb: >-
   inclusive digital spaces.
 ---
 
-At Mission Met, we are committed to promoting [diversity, equity, inclusion, and justice (DEIJ)](https://www.missionmet.com/deij){: target="\_blank" rel="noopener"} through internal workshops focused on integrating these principles into our work. Our latest workshop centered on accessibility—particularly web accessibility—and its importance in creating inclusive digital spaces.
+At Mission Met, we are committed to promoting [diversity, equity, inclusion, and justice (DEIJ)](https://www.missionmet.com/deij){: target="_blank" rel="noopener"} through internal workshops focused on integrating these principles into our work. Our latest workshop centered on accessibility—particularly web accessibility—and its importance in creating inclusive digital spaces.
 
 A software developer at Mission Met and Causey led a discussion sharing insights from his personal and professional experiences with accessibility. His presentation emphasized the need to design web products that are perceivable, operable, understandable, and robust, aligning with the Web Content Accessibility Guidelines (WCAG). The workshop also included practical exercises that helped our team better understand the challenges faced by individuals with disabilities, such as screen reader issues, visual impairments, and the complexities of keyboard navigation.
 
@@ -28,4 +28,4 @@ We explored best practices, including involving users with disabilities in the d
 
 As we move forward, we are dedicated to integrating these accessibility principles across all aspects of our work, ensuring that our digital environments are inclusive and user-friendly for people of all abilities.
 
-Read the full article [here](https://www.missionmet.com/blog/inclusive-design-a-mission-met-deij-training-series){: target="\_blank" rel="noopener"}.
+Read the full article [here](https://www.missionmet.com/blog/inclusive-design-a-mission-met-deij-training-series){: target="_blank" rel="noopener"}.
