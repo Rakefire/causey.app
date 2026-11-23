@@ -47,6 +47,10 @@ parity was confirmed against `https://www.causey.app`.
   `alt` + width/height + file exists, no broken internal links, sitemap/feed.
 - `test/test_pages.rb` covers key page behavior (hero screenshot, blog
   pagination, pricing switch, partner logos).
+- `test/test_build.rb` covers build artifacts: scheduled posts publish on
+  their date and not before, redirect targets exist, category archives, OG/
+  Twitter tags, JSON-LD parses, no unrendered Liquid, feed, sitemap, robots,
+  llms.txt, agent-skills digests, api-catalog.
 - The GitHub Pages workflow runs the tests before building; a failure stops
   the deploy. Pull requests run the tests only.
 
