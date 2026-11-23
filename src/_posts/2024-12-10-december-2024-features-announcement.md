@@ -13,78 +13,78 @@ SEO_options:
   image:
   prevent_indexing: false
 blurb: >-
-  We’re thrilled to unveil the latest enhancements to Causey, crafted to
-  streamline your strategic planning and empower your team. Here’s what’s new.
+  December 2024 updates to Causey: custom date ranges in Reports, a quicker way
+  to add metrics, bulk date changes, the new Actions view and comments.
 ---
 
-We’re thrilled to announce the latest updates to [Causey](https://www.causey.app/) including:
+Here's what's new in [Causey](https://www.causey.app/) this month:
 
 - Select custom date ranges in Reports
 - Quickly add Metrics directly from your plan
 - Adjust groups of dates on your plan
-- Actions view will help you focus on assignments for you and your team
+- Use the Actions view to focus on assignments for you and your team
 - Add comments to most elements on your plan
 
-Read on to learn more about how these features are designed to save you time, streamline your work, and enhance team collaboration.
+Read on for more about each one and how it can save you time and help your team work together.
 
 **1\. Flexible Reporting Options**
 
-You asked, we delivered! In addition to pre-defined reporting options like “This Month” or “Last Year,” you can now generate reports across any set of dates and on any plan for your organization, not just the active plan.
+You asked for this one. Reports already had preset ranges like "This Month" and "Last Year." Now you can also run a report for any dates you pick, on any plan in your organization, not just the active plan.
 
 ![Flexible reporting options in Causey](/uploads/912024.png)
 
-[Learn more about Reports.](https://help.causey.app/article/175-reports){: target=”\_blank” rel=”noopener”}
+[Learn more about Reports.](https://help.causey.app/article/175-reports){: target="_blank" rel="noopener"}
 
-**Why it matters:** Tailor your data to meet your exact needs—whether it’s preparing for a board meeting or reviewing a specific campaign timeline, this flexibility puts you in control.
+**Why it matters:** You get the numbers for the exact period you need. That might be the months before a board meeting, or the dates of one campaign.
 
 **2\. Quickly Add Metrics**
 
-Need to add a new metric while working on your plan? No problem! Select the “Create one now” link on add or edit forms to jump straight to the Add Metric page.
+Need a new metric while you're working on your plan? Select the "Create one now" link on add or edit forms. It takes you straight to the Add Metric page.
 
 ![Quickly add metrics from your plan](/uploads/not-seeing-the-metric-you-re-looking-for-create-one-now-1.png)
 
-[Check out the basics about using Metrics.](https://help.causey.app/article/156-metrics-basics){: target=”\_blank” rel=”noopener”}
+[Check out the basics about using Metrics.](https://help.causey.app/article/156-metrics-basics){: target="_blank" rel="noopener"}
 
-**Why it matters:** Keep your momentum going by adding metrics on the fly without breaking your workflow.
+**Why it matters:** You can add a metric the moment you think of it, without leaving what you were doing.
 
 **3\. Adjust Dates with Ease**
 
-Updating timelines just got easier. Now you can adjust dates for all goals within a Focus Area in one step.
+Timelines shift. Now you can change the dates for all goals in a Focus Area in one step.
 
 ![Adjust dates for goals within a Focus Area](/uploads/date-adjuster.png)
 
-[Learn more about how to adjust dates on your plan.](https://help.causey.app/article/193-adjust-plan-dates){: target="\_blank" rel="noopener"}
+[Learn more about how to adjust dates on your plan.](https://help.causey.app/article/193-adjust-plan-dates){: target="_blank" rel="noopener"}
 
-**Why it matters:** Save time by editing multiple goals at once—no more manual updates for each one!
+**Why it matters:** You move the goals together instead of editing each one by hand.
 
 **4\. Actions View: Focused Task Management**
 
-Meet our new **Actions View**—a game-changer for team focus and productivity:
+The new **Actions View** shows each person the work that's theirs:
 
-- **For team members:** Quickly see only your assigned goals and tasks.
-- **For managers:** Monitor task progress as team members check off completed items.
-- **For contributors:** Score your goals directly from the Actions View without losing focus.
+- **For team members:** See only the goals and tasks assigned to you.
+- **For managers:** Watch the work move along as team members check off completed items.
+- **For contributors:** Score your goals right from the Actions View.
 
 ![Actions View for focused task management](/uploads/dashboard.png)
 
-[Learn more about Actions.](https://help.causey.app/article/187-action-view){: target="\_blank" rel="noopener"}
+[Learn more about Actions.](https://help.causey.app/article/187-action-view){: target="_blank" rel="noopener"}
 
-**Why it matters:** Stay organized, reduce distractions, and ensure accountability across your team.
+**Why it matters:** Each person sees what they're responsible for and nothing else, and it's clear who owns what.
 
-**5\. Comments for Seamless Collaboration**
+**5\. Comments on Your Plan**
 
-Excuse our bias, but this is one of our favorite features to date! Collaborate with your team directly in the Strategy application by adding comments to compass elements, focus areas, goals, and action items.
+We'll admit it: this is one of our favorite features so far. You can now add comments to compass elements, focus areas, goals and action items. Your team can talk things through right in the Strategy application.
 
 ![Adding comments to plan elements in Causey](/uploads/ad-4nxfnars0fndccra4-5s8kb5dnh-ax-b9kvwd6grjisilxl7ljqmvrk4ghroc6bdk4wogndf1pwsmkr259ub-f9h1bqgniei6xngczryh-3ivtrtx37db0oe.webp)
 
-[Learn more about Comments.](https://help.causey.app/article/192-comments){: target="\_blank" rel="noopener"}
+[Learn more about Comments.](https://help.causey.app/article/192-comments){: target="_blank" rel="noopener"}
 
-**Why it matters:** Keep everyone aligned with discussions and feedback all in one place—no more searching through emails or chats.
+**Why it matters:** The conversation stays next to the goal it's about, so you don't have to dig through email or chat to find it.
 
-**Ready to explore these features?**
+**Try them out**
 
-[Log in to Causey](https://my.causey.app/sign_in){: target="\_blank" rel="noopener"} today and start maximizing the impact of your strategic plans.
+[Log in to Causey](https://my.causey.app/sign_in){: target="_blank" rel="noopener"} and give these a try on your own plan.
 
-Thank you for being a valued Causey user. We can’t wait to hear how these new features make your strategic planning process even better!
+Thanks for using Causey. We'd love to hear how these updates work for you and your team.
 
 All the best as we head into a new year,<br>
