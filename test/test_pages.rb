@@ -65,6 +65,20 @@ class TestPages < Bridgetown::Test
     end
   end
 
+  describe "404 page" do
+    # GitHub Pages serves output/404.html at whatever missing URL was asked for.
+    it "is built at /404.html, kept out of search, and works at any depth" do
+      page "/404.html"
+      expect(document.at_css("h1").text).must_match(/can't find/i)
+      expect(document.at_css('meta[name="robots"]')["content"]).must_include "noindex"
+      expect(document.css('a[href="/"]')).wont_be_empty
+      relative = document.css("[href], [src]").map { _1["href"] || _1["src"] }
+        .reject { _1.match?(%r{\A(/|#|[a-z]+:)}) }
+      expect(relative).must_be_empty
+      expect(File.read(File.expand_path("../output/sitemap.xml", __dir__))).wont_include "404"
+    end
+  end
+
   describe "asset versions" do
     it "fingerprints CSS, JS, fonts and images so they can be cached for a year" do
       page "/"

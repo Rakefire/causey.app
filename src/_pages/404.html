@@ -1,0 +1,80 @@
+---
+title: Page not found
+# GitHub Pages serves /404.html for any missing URL, at that URL. Keep every
+# link and asset root-relative so it works at any depth.
+permalink: /404.html
+sitemap: false
+content_blocks:
+  - _bookshop_name: plan-hero
+    component_theme: Navy
+    heading_html: <h1>We can't find that page</h1>
+    subheading_html: >-
+      <p>The link may be old, or the page may have moved. Even good plans
+      hit a snag. Here's how to get back on track.</p>
+    button_label: Go to the homepage
+    button_link_url: /
+    secondary_label: Read the blog
+    secondary_link_url: /blog/
+    plan:
+      org: Your visit to causey.app
+      mission: Every visitor finds what they came for.
+      pillars:
+        - name: This page
+          goals:
+            - title: Find the page you were looking for
+              status: Off track
+              progress: 5
+            - title: Show a helpful error instead
+              status: Complete
+              progress: 100
+        - name: The link
+          goals:
+            - title: Point to a page that exists
+              status: Off track
+              progress: 0
+            - title: Get fixed if it's ours
+              status: Slow
+              progress: 30
+        - name: Next steps
+          goals:
+            - title: Pick a link below
+              status: Not started
+              progress: 0
+            - title: Head back to the homepage
+              status: On track
+              progress: 60
+        - name: Your plan
+          goals:
+            - title: Put your strategic plan to work
+              status: On track
+              progress: 75
+            - title: Start a free 30-day trial
+              status: Not started
+              progress: 0
+  - _bookshop_name: columns
+    component_theme: Light
+    heading_html: <h2>Popular places to start</h2>
+    columns: 4
+    items:
+      - heading: See how Causey works
+        text: >-
+          Strategic planning software that turns your plan into daily work.
+          <a href="/">Take the tour</a>.
+      - heading: Pricing
+        text: >-
+          Unlimited users on every plan, with a 30-day free trial.
+          <a href="/pricing/">Compare plans</a>.
+      - heading: Blog
+        text: >-
+          Product updates and practical advice on strategy execution.
+          <a href="/blog/">Read the latest</a>.
+      - heading: Talk to us
+        text: >-
+          Tell us what you were looking for and we'll point you to it.
+          <a href="/contact/">Contact Causey</a>.
+SEO_options:
+  title: Page not found
+  description: The page you were looking for on causey.app doesn't exist or has moved.
+  image:
+  prevent_indexing: true
+---
